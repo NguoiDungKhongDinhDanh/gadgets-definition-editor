@@ -1,0 +1,3 @@
+* HotCat[ResourceLoader|rights=edit|type=general|dependencies=mediawiki.util]|HotCat.js
+* waybackmachine-archive-search[ResourceLoader|type=general|dependencies=mediawiki.util]|waybackmachine-archive-search.js
+* ProveIt[ResourceLoader|dependencies=ext.wikiEditor]|ProveIt.js

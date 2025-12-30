@@ -1,0 +1,21 @@
+== editing-tools ==
+
+Attivi di default:
+* Edittools[ResourceLoader|default]|Edittools.js
+
+Strumienti:
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+* preload-prp-page-image[ResourceLoader]|preload-prp-page-image.js
+* autoPt[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api,ext.wikiEditor]|autoPt.js
+* robot[ResourceLoader]|robot.js
+* eis[ResourceLoader|dependencies=ext.wikiEditor,jquery.ui,mediawiki.util]|eis.js
+Altri:
+* HotCat[ResourceLoader]|HotCat.js
+
+== interface-tools ==
+
+Attivi di default:
+* purgetab[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+
+Altri:
+* stile-itsource[ResourceLoader]|stile-itsource.css

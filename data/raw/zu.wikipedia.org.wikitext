@@ -1,0 +1,2 @@
+== categories ==
+* Hotcat[ResourceLoader]|HotCat.js

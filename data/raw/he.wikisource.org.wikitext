@@ -1,0 +1,63 @@
+== עריכה ==
+*Checkty[ResourceLoader|dependencies=jquery.ui]|Checkty.js||Checkty.css
+*wikied[ResourceLoader]|wikied.js
+*wikEdDiff[ResourceLoader|dependencies=mediawiki.util]|wikEdDiff.js
+*Summarieslist[ResourceLoader|default|dependencies=mediawiki.util]|Summarieslist.js
+*Revert[ResourceLoader]|Revert.js
+*ReferencesWarn[ResourceLoader|dependencies=mediawiki.util]|ReferencesWarn.js
+*SourceTab[ResourceLoader]|SourceTab.js
+*Summarieslist[ResourceLoader|dependencies=mediawiki.util|default]|Summarieslist.js
+*autocomplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|autocomplete.js
+*TemplateParamWizard[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util|default]|TemplateParamWizard.js|TemplateParamWizard.css
+
+== ניווט ==
+*CustomSideBarLinks[ResourceLoader|dependencies=mediawiki.util]|CustomSideBarLinks.js
+*InterwikiOrder[ResourceLoader]|InterwikiOrder.js
+*Dwim[ResourceLoader|skins=vector|dependencies=jquery.suggestions,mediawiki.user,mediawiki.util|default]|Dwim.js
+*ReferenceTooltips[ResourceLoader|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* PageNumbers[ResourceLoader|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers.js|PageNumbers.css
+
+== עיצוב ==
+*moveVectorMenuToTabs[ResourceLoader|skins=vector]|moveVectorMenuToTabs.js
+*FixedMenu[ResourceLoader|skins=vector]|FixedMenu.css|FixedMenu.js
+*Editprotect[ResourceLoader]|Editprotect.js
+*ExternalLinkIcon[ResourceLoader]|ExternalLinkIcon.css
+*redirect[ResourceLoader]|redirect.css
+*OpenLawBook[ResourceLoader|hidden|default|categories=בוט חוקים]|OpenLawBook.js
+
+== קטגוריות ==
+*HotCat[ResourceLoader]|HotCat.js
+*Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js|Cat-a-lot.css
+*removefromcategory[ResourceLoader]|removefromcategory.js
+
+== רשימת_המעקב ==
+*watchlistMark[ResourceLoader|dependencies=mediawiki.util]|watchlistMark.js
+*Watchlist[ResourceLoader|dependencies=mediawiki.util]|Watchlist.js
+*watchlistWatcher[ResourceLoader|dependencies=mediawiki.util]|watchlistWatcher.js
+
+== ניטור ==
+*Warnings[ResourceLoader|dependencies=mediawiki.util]|Warnings.js
+*DeleteRequest[ResourceLoader|dependencies=mediawiki.util]|DeleteRequest.js
+*RestoreWarnings[ResourceLoader|dependencies=mediawiki.util,mediawiki.user]|RestoreWarnings.js
+*rollBackSummary[ResourceLoader|rights=rollback|dependencies=mediawiki.util]|rollBackSummary.js
+*rclast[ResourceLoader]|rclast.js
+*rcPatrol[ResourceLoader|dependencies=mediawiki.util]|rcPatrol.js
+*patrolAlarm[ResourceLoader|rights=patrol|dependencies=mediawiki.util]|patrolAlarm.js
+* QuickRCDiff[ResourceLoader|dependencies=jquery.spinner,jquery.ui,mediawiki.diff.styles,mediawiki.api|peers=QuickRCDiffStyle]|QuickRCDiff.js
+* QuickRCDiffStyle[hidden]|QuickRCDiff.css
+* RCDesign[ResourceLoader]|RCDesign.css
+* rollbackConfirm[ResourceLoader|dependencies=jquery.confirmable|rights=patrol]|rollbackConfirm.js
+
+== שונות ==
+* Censorbutton[ResourceLoader|default]|Censorbutton.js|Censorbutton.css
+*microblog[ResourceLoader]|microblog.js
+*Revinfo[ResourceLoader|dependencies=mediawiki.util]|Revinfo.js
+*Login-or-not-Login[ResourceLoader|dependencies=mediawiki.util]|Login-or-not-Login.js
+*Vote[ResourceLoader|dependencies=mediawiki.util]|Vote.js
+*MoveToCommons[ResourceLoader|dependencies=mediawiki.util]|MoveToCommons.js
+*wikibugs[ResourceLoader|default|dependencies=mediawiki.util, mediawiki.user, jquery.ui]|wikibugs.js|wikibugs.css
+* convenientDiscussions[ResourceLoader]|convenientDiscussions.js
+*WikidataTab[ResourceLoader]|WikidataTab.js
+*tasks[ResourceLoader|dependencies=mediawiki.util]|tasks.js
+*GlobalWatchlist[ResourceLoader|rights=minoredit|dependencies=mediawiki.util]|GlobalWatchlist.js
+*feedback[ResourceLoader|dependencies=mediawiki.util|type=general|hidden]|feedback.js|feedback.css

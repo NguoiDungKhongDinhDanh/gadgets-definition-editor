@@ -1,0 +1,4 @@
+* CropTool[ResourceLoader|default|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js

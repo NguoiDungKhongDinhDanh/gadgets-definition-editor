@@ -1,0 +1,49 @@
+== interface ==
+* dark-mode-toggle[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden]|dark-mode-toggle-pagestyles.css
+* EsconderCentralnoticeDoMeta[ResourceLoader|actions=view]|EsconderCentralnoticeDoMeta.js|EsconderCentralnoticeDoMeta.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* FeedbackHighlight[ResourceLoader|default|type=general|skins=vector,vector-2022,monobook,timeless,modern]|FeedbackHighlight.js|FeedbackHighlight.css
+* LastContrib[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern|actions=view]|LastContrib.js
+* Topicon[ResourceLoader|default|dependencies=mediawiki.util|actions=view|skins=vector,vector-2022,monobook,timeless,modern]|Topicon.js|Topicon.css
+* TitleRewrite[ResourceLoader|default|hidden]|TitleRewrite.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default]|defaultVisibilityToggles.js|defaultVisibilityToggles.css
+* Carousel[ResourceLoader|default]|Carousel.js|Carousel.css
+* Tabs[ResourceLoader|default|hidden|dependencies=mediawiki.cookie]|Tabs.js|Tabs.css
+* CategoriasVigiadas[ResourceLoader|dependencies=mediawiki.util]|CategoriasVigiadas.js|CategoriasVigiadas.css
+
+== editing ==
+* APC[ResourceLoader|skins=vector,vector-2022,monobook,modern,timeless|actions=edit]|APC.js
+* HotCat[ResourceLoader]|HotCat.js|Hotcatcheck.js
+* rev-e-avisos[ResourceLoader|dependencies=mediawiki.util|skins=vector,vector-2022,monobook,timeless,modern]|diffTools.js|diffTools.css
+* LanguageConverter[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern]|LanguageConverter.js
+* edittop[ResourceLoader|dependencies=mediawiki.util|skins=vector,vector-2022,monobook,timeless,modern]|edittop.js
+* UploadForm[ResourceLoader|dependencies=mediawiki.util|default|rights=upload|type=general|skins=vector,vector-2022,monobook,timeless,modern]|UploadForm.js|UploadForm.css
+* Autoref[ResourceLoader|default|skins=vector,vector-2022,monobook,modern,timeless|actions=edit]|Autoref.js
+
+== navigation ==
+* exlinks[ResourceLoader]|exlinks.js
+* FlecheHaut[ResourceLoader|actions=view]|FlecheHaut.js
+* historicomelhorado[ResourceLoader|skins=vector,vector-2022,monobook,modern,timeless|actions=history]|historicomelhorado.js
+* destacar[ResourceLoader|actions=history]|highlightsUsername.js|highlightsUsername.css
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* Navigation_popups[ResourceLoader|actions=view|skins=vector,vector-2022,minerva]|popups.js|popups.css
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util|skins=vector,vector-2022,monobook,timeless,modern]|rightsfilter.js
+* watchUserContribs[ResourceLoader|dependencies=jquery.ui,mediawiki.util|skins=vector,vector-2022,monobook,timeless,modern]|watchUserContribs.js|watchUserContribs.css
+* removeAccessKeys[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern]|removeAccessKeys.js
+* confirm-logout[ResourceLoader|dependencies=mediawiki.api,oojs-ui-windows|type=general]|confirm-logout.js
+* MenuMinerva[ResourceLoader|skins=minerva|default]|MenuMinerva.js
+* UploadMobile[ResourceLoader|dependencies=mediawiki.util|skins=minerva]|UploadMobile.js
+* CopyrightCheck[ResourceLoader]|CopyrightCheck.js
+
+== sysops ==
+* blocktab[ResourceLoader|dependencies=mediawiki.util|rights=block|skins=vector,vector-2022,monobook,timeless,modern]|blocktab.js
+* userrights[ResourceLoader|dependencies=mediawiki.util|rights=block|skins=vector,vector-2022,monobook,timeless,modern]|userrights.js
+* blockNotificationButton[ResourceLoader|default|dependencies=mediawiki.api,ext.gadget.mediawiki.api.ptwikinews,mediawiki.util,user.options|rights=block|skins=vector,vector-2022,monobook,timeless,modern]|blockNotificationButton.js|blockNotificationButton.css
+* oneclick[ResourceLoader|rights=protect]|oneclick.js
+
+== modules ==
+* mediawiki.api.ptwikinews[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|hidden]|mediawiki.api.ptwikinews.js
+* diffToolsCore[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,user.options,ext.gadget.mediawiki.api.ptwikinews,jquery.ui|hidden]|diffTools.js/core.js
+* dark-mode[ResourceLoader|supportsUrlLoad|skins=vector,vector-2022,monobook,modern,minerva,timeless|hidden]|dark-mode.css

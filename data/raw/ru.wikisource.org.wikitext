@@ -1,0 +1,51 @@
+* registerTool[ResourceLoader|hidden|dependencies=mediawiki.util,user.options]|registerTool.js
+
+== default ==
+* referenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|referenceTooltips.js|referenceTooltips.css
+* OCRincEditNotice[ResourceLoader|default|type=general]|OCRincEditNotice.js
+* extWikiLinksMarker[ResourceLoader|default]|extWikiLinksMarker.js|extWikiLinksMarker.css
+
+== interface ==
+* exlinks[ResourceLoader]|exlinks.js
+* histcomb[ResourceLoader]|histcomb.js
+* watchlist[ResourceLoader|dependencies=mediawiki.util]|watchlist.js
+* roundCorners[ResourceLoader]|roundCorners.css
+* FlaggedRevs[ResourceLoader]|FlaggedRevs.css
+* BKL[ResourceLoader|rights=minoredit]|DisambiguationLinks.css
+* HighlightRedirects[ResourceLoader|dependencies=mediawiki.util]|Highlightredirects.js
+* popups[ResourceLoader]|popups.js
+* HideCentralNotice[ResourceLoader|type=general]|HideCentralNotice.js|HideCentralNotice.css
+* OldOrthographyLinksMarker[ResourceLoader]|OldOrthographyLinksMarker.css
+
+== editing ==
+* preview[ResourceLoader]|preview.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* summary[ResourceLoader]|summary.js
+* urldecoder[ResourceLoader|dependencies=ext.gadget.registerTool]|urldecoder.js
+* wikificator[ResourceLoader|hidden|default|dependencies=ext.gadget.registerTool]|wikificator.js|wikificator.css
+* Deyatificator[ResourceLoader]|Deyatificator.js
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* OftenUsedToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|OftenUsedToolbar.js
+* OCR-toolbar[ResourceLoader]|OCR-toolbar.js
+* convenientDiscussions[ResourceLoader|dependencies=jquery.client,jquery.ui,mediawiki.Title,mediawiki.Uri,mediawiki.api,mediawiki.cookie,mediawiki.interface.helpers.styles,mediawiki.jqueryMsg,mediawiki.notification,mediawiki.storage,mediawiki.user,mediawiki.util,mediawiki.widgets.visibleLengthLimit,oojs,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-alerts,oojs-ui.styles.icons-content,oojs-ui.styles.icons-editing-advanced,oojs-ui.styles.icons-editing-citation,oojs-ui.styles.icons-editing-core,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-movement,user.options]|convenientDiscussions.js
+* Yoficator[ResourceLoader]|Yoficator.js
+
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+
+== tab-gadgets ==
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js
+<!-- * pagenominator[ResourceLoader]|pagenominator.js удалятор, глючен-->
+
+== other-gadgets ==
+* externalLinksEdit[ResourceLoader]|externalLinksEdit.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* Contribsrange[ResourceLoader|dependencies=mediawiki.util]|contribsrange.js
+
+== admin ==
+* autodel[ResourceLoader|dependencies=mediawiki.util]|autodel.js
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+* BlockOptions[ResourceLoader|dependencies=mediawiki.util]|BlockOptions.js

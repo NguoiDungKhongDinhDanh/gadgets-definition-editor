@@ -1,0 +1,61 @@
+<noinclude><div class="mw-content-ltr small" style="overflow: auto;direction: ltr;"></noinclude>
+== hidden ==
+* SettingsManager [ResourceLoader |dependencies=mediawiki.user, user.options, mediawiki.api, mediawiki.util |hidden] |SettingsManager.js
+* libJQuery [ResourceLoader |hidden] |libJQuery-ui.js |libJQuery.css
+* countdown-timer [ResourceLoader |default |hidden |dependencies=mediawiki.language |categories=Gadget-Countdown] |countdown-timer.js
+* DigitalKhatt [ResourceLoader |default |hidden |type=styles |categories=Font-DigitalKhatt] |DigitalKhatt.css |AyaNum.css
+
+== editing-tools ==
+* TemplatePreloader [ResourceLoader |default |action=edit |namespaces=0, 1, 102] |TemplatePreloader.js
+* charinsert [ResourceLoader |actions=edit ] |charinsert.js
+* charinsert-core [ResourceLoader |hidden |dependencies=jquery.textSelection, user, mediawiki.storage] |charinsert-styles.css |charinsert-core.js
+* summaryButtons [ResourceLoader |default |type=general |dependencies=ext.visualEditor.desktopArticleTarget.init, mediawiki.ui.button, mediawiki.util |action=edit] |summaryButtons.js |summaryButtons.css
+* BiDiEditing [ResourceLoader |action=edit |contentModels=text,wikitext,proofread-index,proofread-page] |BiDiEditing.js
+* HotCat [ResourceLoader |contentModels=wikitext] |HotCat.js
+* wikEd [ResourceLoader |dependencies=mediawiki.storage |contentModels=text,wikitext] |wikEd.js
+* BandeauxPortails [ResourceLoader |namespaces=0] |BandeauxPortails.js
+* Cat-a-lot [ResourceLoader |dependencies=mediawiki.util |namespaces=14] |Cat-a-lot.js
+* DotsSyntaxHighlighter [ResourceLoader |dependencies=jquery.client |actions=edit] |DotsSyntaxHighlighter.js
+* archive [ResourceLoader |rights=move |dependencies=mediawiki.util, mediawiki.api |namespaces=3, 4, 5, 7, 9, 11, 13, 15, 101, 829] |Archiver.js
+* autocomplete [ResourceLoader |default |dependencies=jquery.ui, jquery.textSelection |action=edit]  |autocomplete.js
+* QuickEdit [ResourceLoader] |QuickEdit.js |QuickEdit.css
+* decodesummary [ResourceLoader |default |dependences=jquery.lengthLimit| action=edit] |decodesummary.js
+
+== editing-tools-for-Index-namespace ==
+* transclusion-check [ResourceLoader |default |dependencies=mediawiki.util, mediawiki.api |actions=view |namespaces=106] |transclusion-check.js| transclusion-check.css
+* mark-proofread [ResourceLoader |default |type=styles |namespaces=106 |actions=view] |mark-proofread.css
+
+== editing-tools-for-Page-namespace ==
+* GoogleOCR [ResourceLoader |default |action=edit |namespaces=104] |GoogleOCR.js
+* Easy_LST [ResourceLoader |default |hidden |action=edit |namespaces=0,104 ] |Easy_LST.js
+
+== browsing  ==
+* directLinkToCommons [ResourceLoader |default |dependencies=mediawiki.util] |directLinkToCommons.js
+* Popups [ResourceLoader |dependencies=mediawiki.api, mediawiki.user, mediawiki.util, user.options, mediawiki.jqueryMsg |type=general] |Popups.js
+* userinfo [ResourceLoader |targets = desktop |dependencies=mediawiki.util |namespaces=2, 3] |userinfo.js
+* XTools-ArticleInfo [ResourceLoader] |XTools-ArticleInfo.js
+* WikidataTab [ResourceLoader |skins=vector, vector-2022, monobook, timeless] |WikidataTab.js |WikidataTab.css
+* Linkscount [ResourceLoader |namespaces=-1]] |Linkscount.js |Linkscount.css
+== interface ==
+* Site [ResourceLoader |default |hidden |top |dependencies=mediawiki.util |peers=Site-styles] |DisplayFooter.js
+* Site-styles [hidden |type=styles] |Site.css |SiteHeader.css |DisplayFooter.css
+* PageNumbers [ResourceLoader |default |hidden |namespaces=0, 2, 4 |contentModels=wikitext] |PageNumbers.js
+* PageNumbers-core [ResourceLoader |hidden |dependencies=mediawiki.util, user, mediawiki.cookie] |PageNumbers-core.js |PageNumbers-core.css
+* WMP-icons [ResourceLoader |default |type=styles |skins=vector-2022] |WMP-icons.css
+* UTCLiveClock [ResourceLoader | type=general |dependencies=mediawiki.util, mediawiki.api, mediawiki.user |peers=UTCLiveClock-pagestyles] |UTCLiveClock.js |UTCLiveClock.css
+* UTCLiveClock-pagestyles [hidden |skins=vector, monobook] |UTCLiveClock-pagestyles.css
+* Purgetab [ResourceLoader |dependencies=mediawiki.util, mediawiki.api |default |rights=edit, autoconfirmed] |Purgetab.js
+* Check-Fonts [ResourceLoader |dependencies=jquery, mediawiki.storage |hidden |default |contentModels=wikitext] |Check-Fonts.js
+* Font-Amiri [ResourceLoader |default |hidden |type=styles] |Font-Amiri.css
+* interwiki-transclusion [ResourceLoader |default |hidden |dependencies=mediawiki.util, mediawiki.api] |interwiki-transclusion.js
+* dark-mode-toggle [ResourceLoader | dependencies=mediawiki.util, mediawiki.api, mediawiki.storage |peers=dark-mode-toggle-pagestyles] |dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden |skins=vector, vector-2022, minerva, monobook] |dark-mode-toggle-pagestyles.css
+* dark-mode [ResourceLoader |supportsUrlLoad |skins=vector, vector-2022, monobook, modern, minerva, timeless] |dark-mode.css
+* footnote-tip [ResourceLoader |dependencies=jquery |default |contentModels=wikitext] |footnote-tip.js
+* exlinks [ResourceLoader |dependencies=mediawiki.util] |exlinks.js
+* Font-Hafs [ResourceLoader |hidden |supportsUrlLoad |type=styles] |Font-Hafs.css
+* AncreTitres [ResourceLoader |contentModels=wikitext |dependencies=mediawiki.util, mediawiki.user] |AncreTitres.js
+
+== test ==
+* Urgent-fixes [default |type=styles] |Urgent-fixes.css
+<noinclude></div></noinclude>

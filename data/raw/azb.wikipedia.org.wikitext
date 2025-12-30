@@ -1,0 +1,89 @@
+== Extra-Editbuttons ==
+* Edittools[ResourceLoader|default]|Edittools.js|Edittools.css
+* UserMessages[ResourceLoader|dependencies=jquery.ui,mediawiki.util,ext.gadget.morebits]|UserMessages.js|UserMessages.css
+نورمال حالدا چالیشیر
+* dropdown-menus[ResourceLoader]|dropdown-menus.js|dropdown-menus.css
+* Extra-Editbuttons[ResourceLoader|dependencies=mediawiki.util|default|rights=minoredit]|Extra-Editbuttons.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-dictionary.js|Extra-Editbuttons-autoed.js|Extra-Editbuttons-botworks.js
+
+== Discussion-tools ==
+* UserMessages[ResourceLoader|dependencies=mediawiki.util|type=general]|UserMessages.js|UserMessages.css
+
+== mobile ==
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+
+== Interface ==
+* popups[ResourceLoader]|popups.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* asbox[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|asbox.js
+* osm[ResourceLoader]|osm.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* purgetab[ResourceLoader|default|dependencies=mediawiki.util]|purgetab.js
+* YellowDisambig[ResourceLoader]|YellowDisambig.css
+* Wdsearch[ResourceLoader]|Wdsearch.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* GreenRedirect[ResourceLoader]|GreenRedirect.css
+
+== LanguageSupport ==
+* ShortLink[ResourceLoader]|ShortLink.js
+* CheckDictation[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|CheckDictation.js
+* prota[ResourceLoader]|prota.js
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* googletranslator[ResourceLoader]|googletranslator.js
+
+== interface-view ==
+* EasyNewSection[ResourceLoader|default]|EasyNewSection.js
+* personallinks[ResourceLoader|dependencies=mediawiki.util]|personallinks.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+
+==Edit-Interface==
+* CustomizedEditTool[ResourceLoader]|CustomizedEditTool.js
+* wikEd[ResourceLoader]|wikEd.js
+
+== Interface-History ==
+
+==patrol-tools==
+* Twinkle[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|morebits.js|morebits.css|Twinkle.js
+* rollback[ResourceLoader|rights=rollback|dependencies=mediawiki.Uri|mediawiki.api]|rollback.js
+
+== Referencing ==
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* fixRefs[ResourceLoader|dependencies=mediawiki.util]|fixRefs.js
+
+== Categories ==
+*HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|rights=patrol]|Cat-a-lot.css|Cat-a-lot.js
+
+==interwiki==
+* quickwikidata[ResourceLoader]|quickwikidata.js
+* InterwikiTranslate[ResourceLoader]|InterwikiTranslate.js
+
+==statistics ==
+* UserEditCount[ResourceLoader|rights=move|dependencies=mediawiki.util]|UserEditCount.js
+* stru-contavisite[ResourceLoader|dependencies=mediawiki.util]|stru-contavisite.js
+* Contributions-report[ResourceLoader|dependencies=mediawiki.util]|Contributions-report.js
+
+== admin-gadgets ==
+== admin-gadgets ==
+* AfD[ResourceLoader|rights=undelete|default|type=general|dependencies=mediawiki.util]|AfD.js|AfD.css
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* StatLink[ResourceLoader|rights=delete]|StatLink.js
+* UserRights[ResourceLoader|rights=undelete|dependencies=mediawiki.util]|UserRights.js
+* close[ResourceLoader|dependencies=mediawiki.util]|close.js|close.css
+* markblocked[ResourceLoader|default|rights=delete|dependencies=mediawiki.util]|markblocked.js
+* Interaction_Analyser[ResourceLoader|dependencies=mediawiki.util|rights=move]|Interaction_Analyser.js
+* RLtoggle[ResourceLoader|dependencies=mediawiki.util]|RLtoggle.js
+* MediawikiEditSummary[ResourceLoader|rights=undelete|default|type=general]|MediawikiEditSummary.js
+
+== othermod ==
+* TransferToCommons[ResourceLoader|dependencies=mediawiki.util]|TransferToCommons.js
+* CommonsDirect[ResourceLoader|dependencies=mediawiki.util|default]|Direct-link-to-Commons.js
+
+== modules ==
+* Intro[ResourceLoader|hidden]|Intro.js|Intro.css
+* libAPI [ResourceLoader|dependencies=mediawiki.util,mediawiki.user,user.options|hidden]|libAPI.js
+* libWikiDOM [ResourceLoader|hidden]|libWikiDOM.js
+* libUtil [ResourceLoader|dependencies=mediawiki.util|hidden]|libUtil.js
+
+== VisualEditor ==
+
+== beta ==

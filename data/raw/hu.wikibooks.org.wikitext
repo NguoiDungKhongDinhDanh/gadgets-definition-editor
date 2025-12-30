@@ -1,0 +1,14 @@
+Lásd: [[Speciális:Segédeszközök]], [[Speciális:Beállításaim#mw-prefsection-gadgets]]
+* subpages[ResourceLoader|dependencies=mediawiki.util|targets=desktop,mobile]|subpages.js
+* popups[ResourceLoader|targets=desktop,mobile]|popups.js
+* HotCat[ResourceLoader|targets=desktop,mobile]|HotCat.js
+* oldtoolbar-buttons[ResourceLoader|actions=edit|targets=desktop,mobile]|oldtoolbar-buttons.js
+* ora[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|targets=desktop,mobile]|ora.js|ora.css
+* refToolbar[ResourceLoader|dependencies=user.options|actions=edit|targets=desktop,mobile]|refToolbar.js
+* edittools[ResourceLoader|default|peers=edittools.styles|targets=desktop,mobile]|edittools.js
+* edittools.styles[hidden|targets=desktop,mobile]|edittools.css
+* redirect[targets=desktop,mobile]|redirect.css
+* cimerhatarozo[ResourceLoader |default |targets=desktop,mobile |skins=vector-2022,vector,monobook,modern,cologneblue,timeless]|cimerhatarozo.js
+* cimerhatarozo.mutato[ResourceLoader|hidden|targets=desktop,mobile]|cimerhatarozo.mutato.js
+* mediawiki.toolbar[ResourceLoader|hidden|peers=mediawiki.toolbar.styles|targets=desktop,mobile]|mediawiki.toolbar.js
+* mediawiki.toolbar.styles[hidden|targets=desktop,mobile]|mediawiki.toolbar.styles.css

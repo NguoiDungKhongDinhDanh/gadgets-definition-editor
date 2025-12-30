@@ -1,0 +1,19 @@
+These are little pieces of JS that do cool stuff. If there is a problem with any of them, or you want something new, please ask at [[Wikinews:Water cooler/technical]] or find a friendly javascripting admin.
+
+==browsing-gadgets== 
+* popup[ResourceLoader]||navpop.js
+
+
+==diacritice==
+* diacritice-vechi[ResourceLoader]||diacritice-vechi.js
+* diacritice-nemodificate[ResourceLoader]||diacritice-nemodificate.js
+
+==editing-gadgets==
+* HotCat[ResourceLoader]|HotCat.js
+* edittop[ResourceLoader]||edittop.js
+
+
+==interface-gadgets==
+* UTCLiveClock[ResourceLoader]||UTCLiveClock.js
+
+<!-- do alt styles-->

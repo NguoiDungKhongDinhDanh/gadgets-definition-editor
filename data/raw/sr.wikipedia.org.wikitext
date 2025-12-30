@@ -1,0 +1,66 @@
+== pregledanje ==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util]|confirmationRollback-mobile.js
+* removeAccessKeys[ResourceLoader|dependencies=user,mediawiki.util]|removeAccessKeys.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* imagelinks[ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.api,mediawiki.user,mediawiki.util,user.options,mediawiki.jqueryMsg|type=general]|popups.js|navpop.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* PrintOptions[ResourceLoader]|PrintOptions.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== nadgledanje ==
+<!-- право=viewmywatchlist ограничава ове справице као подразумеване само за пријављене кориснике. -->
+
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist|namespaces=-1]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+* WatchlistBase[ResourceLoader|default|rights=viewmywatchlist|skins=vector,vector-2022,monobook,modern|namespaces=-1]|WatchlistBase.css
+* WatchlistGreenIndicators[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=vector,vector-2022|namespaces=-1]|WatchlistGreenIndicators.css
+* WatchlistGreenIndicatorsMono[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=monobook,modern|namespaces=-1]|WatchlistGreenIndicatorsMono.css
+* WatchlistChangesBold[ResourceLoader|peers=WatchlistBase|namespaces=-1]|WatchlistChangesBold.css
+* SubtleUpdatemarker[ResourceLoader|default|rights=viewmywatchlist|skins=vector,vector-2022,monobook,modern]|SubtleUpdatemarker.css
+
+== uredjivanje ==
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* DotsSyntaxHighlighter[ResourceLoader|actions=edit]|DotsSyntaxHighlighter.js
+* HotCat[ResourceLoader|rights=edit,minoredit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* Shortdesc-helper[ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util,ext.gadget.libSettings|skins=vector,vector-2022,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js|Shortdesc-helper.css
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector,vector-2022]|Shortdesc-helper-pagestyles-vector.css
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* charinsert[ResourceLoader|default|actions=edit]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util|actions=edit]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* BrzoBrisanje[ResourceLoader|rights=autopatrol]|BrzoBrisanje.js
+* Poruke[ResourceLoader|dependencies=mediawiki.util]|Poruke.js
+
+== izgled ==
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* UTCLiveClock[ResourceLoader|supportsUrlLoad|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,vector-2022,monobook]|UTCLiveClock-pagestyles.css
+* OldDiff[ResourceLoader]|OldDiff.css
+* widensearch[ResourceLoader|skins=vector,vector-2022]|widensearch.css
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* ToDoList[ResourceLoader]|ToDoList.js
+* RevisionID[ResourceLoader]|RevisionID.js
+* PatrolLog[ResourceLoader]|PatrolLog.js
+* WikiMiniAtlas [ ResourceLoader | default | categories = Странице које користе справицу WikiMiniAtlas] | WikiMiniAtlas.js
+
+== napredno ==
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* RTRC[ResourceLoader]|RTRC.js
+<!-- == administrativno == -->
+
+== test ==
+* mobile-sidebar[ResourceLoader|skins=vector,vector-2022]|mobile-sidebar.js|mobile-sidebar.css
+* StickyTableHeaders[ResourceLoader|type=general]|StickyTableHeaders.js|StickyTableHeaders.css
+* Adiutor[ResourceLoader|package|requiresES6|skins=vector,vector-2022,monobook,modern,timeless,minerva|dependencies=mediawiki.api,mediawiki.user,oojs-ui-core,oojs-ui-windows,oojs-ui-widgets,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-movement,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui-toolbars,oojs-ui.styles.icons-editing-core,oojs-ui.styles.icons-layout,oojs-ui.styles.icons-user,oojs-ui.styles.icons-media,oojs-ui.styles.icons-editing-advanced]|Adiutor.js|Adiutor-AIL.js|Adiutor-AFD.js|Adiutor-AIV.js|Adiutor-BDM.js|Adiutor-CMR.js|Adiutor-COV.js|Adiutor-CSD.js|Adiutor-DAS.js|Adiutor-DEL.js|Adiutor-INF.js|Adiutor-OPT.js|Adiutor-PMR.js|Adiutor-PRD.js|Adiutor-RDR.js|Adiutor-RPP.js|Adiutor-SUM.js|Adiutor-TAG.js|Adiutor-UBM.js|Adiutor-UPW.js|Adiutor-WRN.js|Adiutor.js|Adiutor.css|Adiutor-AFD.json|Adiutor-AIV.json|Adiutor-CMR.json|Adiutor-CSD.json|Adiutor-DAS.json|Adiutor-PMR.json|Adiutor-PRD.json|Adiutor-RDR.json|Adiutor-RPP.json|Adiutor-SUM.json|Adiutor-TAG.json|Adiutor-UBM.json|Adiutor-WRN.json|Adiutor-i18.json
+* summaryButtons[ResourceLoader|type=general|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css

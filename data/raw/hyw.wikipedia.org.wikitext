@@ -1,0 +1,9 @@
+== browsing ==
+* randomNonBotArticle[ResourceLoader]|randomNonBotArticle.js
+* ReferenceTooltips[ResourceLoader|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+
+== appearance ==
+* relatedIcons|relatedIcons.css

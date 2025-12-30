@@ -1,0 +1,3 @@
+== edittools ==
+* HotCat[ResourceLoader]|HotCat.js
+* navigation-popups[ResourceLoader]|navigation-popups.js

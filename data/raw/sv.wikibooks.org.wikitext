@@ -1,0 +1,5 @@
+== Navigering ==
+* subpage[ResourceLoader|dependencies=mediawiki.util]|subpage.js
+
+== Redigering ==
+* HotCat[ResourceLoader]|HotCat.js

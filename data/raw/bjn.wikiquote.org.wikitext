@@ -1,0 +1,168 @@
+== Navigation ==
+* Gallerypreview[ResourceLoader|dependencies=mediawiki.util]|Gallerypreview.js
+* Slideshow[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util|default|type=general]|GallerySlideshow.js|GallerySlideshow.css
+* ZoomViewer[ResourceLoader|dependencies=mediawiki.util|default]|ZoomViewer.js
+* CollapsibleTemplates[ResourceLoader|dependencies=mediawiki.util|default|type=general]|CollapsibleTemplates.js|CollapsibleTemplates.css
+* popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util|type=general]|popups.js|navpop.css
+* fastcci[ResourceLoader|dependencies=mediawiki.util,mediawiki.Title|type=general]|fastcci.js|fastcci.css
+
+== Interface ==
+=== Editing ===
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* OldEdittools [ResourceLoader]|OldEdittools.js
+* NoUploadWizard[ResourceLoader|dependencies=mediawiki.util]|NoUploadWizard.js
+* ImprovedUploadForm[ResourceLoader|dependencies=mediawiki.user,site,user,mediawiki.util|rights=upload|default]|ImprovedUploadForm.js
+* Watchlist-wo-uploads [ResourceLoader]|Watchlist-wo-uploads.js
+* VIAFDataImporter[ResourceLoader|dependencies=mediawiki.util]|VIAFDataImporter.js
+* HidePostEdit[ResourceLoader]|HidePostEdit.css
+* CropTool[ResourceLoader|dependencies=mediawiki.util|rights=upload]|CropTool.js
+* VideoCutTool[ResourceLoader|dependencies=mediawiki.util|rights=upload]|VideoCutTool.js
+* ImageMapEdit[ResourceLoader]|ImageMapEdit.js
+
+=== FilesCategories ===
+* Favorites [ResourceLoader|dependencies=mediawiki.util,mediawiki.Title,mediawiki.user]|Favorites.js
+* RotateLink [ResourceLoader|dependencies=mediawiki.user|rights=upload|default]|RotateLink.js
+* RenameLink [ResourceLoader|dependencies=mediawiki.user,mediawiki.util,ext.gadget.AjaxQuickDelete|rights=upload|default]|RenameLink.js
+* CategoryAboveAll [ResourceLoader]|CategoryAboveAll.js
+* CategoryAboveBelowImage [ResourceLoader]|CategoryAboveBelowImage.js
+* Long-Image-Names-in-Categories [ResourceLoader|default]|Long-Image-Names-in-Categories.css
+* GlobalUsageUI [ResourceLoader|dependencies=ext.gadget.libUtil,ext.gadget.GlobalUsage,ext.gadget.jquery.badge,ext.gadget.tipsyDeprecated|type=general]|GlobalUsageUI.js|GlobalUsageUI.css
+* DisableImageAnnotator [ResourceLoader]|DisableImageAnnotator.js
+* GalleryFilterExtension [ResourceLoader|dependencies=mediawiki.page.ready,mediawiki.Title,mediawiki.api]|GalleryFilterExtension.js
+* LargerGallery [ResourceLoader|dependencies=user]|LargerGallery.js
+* ImageStackPopup[ResourceLoader|hidden|default|categories=Pages using ImageStackPopup]|ImageStackPopup.js|ImageStackPopup.css
+
+=== StructuredData ===
+* ACDC [ResourceLoader]|ACDC.js
+* Hide-Captions [ResourceLoader]|Hide-Captions.css
+* Compact-Captions [ResourceLoader]|Compact-Captions.css
+* Collapse-Captions [ResourceLoader|dependencies=jquery.makeCollapsible]|Collapse-Captions.js|Collapse-Captions.css
+* HideStructuredDataTab [ResourceLoader]|HideStructuredDataTab.css
+
+=== Other ===
+* Stockphoto [ResourceLoader|dependencies=mediawiki.util,mediawiki.user|default|type=general]|Stockphoto.js|Stockphoto.css
+* UTCLiveClock [ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles [hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* LocalLiveClock [ResourceLoader]|LocalLiveClock.js
+* search-new-tab [ResourceLoader]|search-new-tab.js
+* diffGreenBlue [ResourceLoader]|diffGreenBlue.css
+* DiffOldStyle [ResourceLoader]|DiffOldStyle.css
+* PrettyLog [ResourceLoader|dependencies=mediawiki.util]|PrettyLog.js
+* ExtraTabs2 [ResourceLoader|dependencies=mediawiki.util]|ExtraTabs2.js
+* rightsfilter [ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* WatchlistNotice [ResourceLoader|default|type=general]|WatchlistNotice.js|WatchlistNotice.css
+* historyNumbered [ResourceLoader]|historyNumbered.css
+* ThreadedDiscussions [ResourceLoader]|ThreadedDiscussions.css
+* typographyrefreshoverride [ResourceLoader]|typographyrefreshoverride.css
+* markAdmins [ResourceLoader|dependencies=mediawiki.util]|markAdmins-data.js|markAdmins.js
+* Wdsearch[ResourceLoader]|Wdsearch.js
+* advanced-search[ResourceLoader]|advanced-search.js
+* MyGallery[ResourceLoader|dependencies=ext.gadget.libUtil|rights=upload]|MyGallery.js
+* linkscount[ResourceLoader]|linkscount.js
+* scrollUpButton[ResourceLoader]|scrollUpButton.js
+* externalsearch[ResourceLoader|dependencies=mediawiki.language]|externalsearch.js
+* TabularImportExport[ResourceLoader|dependencies=oojs-ui,oojs-ui-core,oojs-ui-widgets,mediawiki.api,jquery.textSelection]|TabularImportExport.js
+* Infobox[ResourceLoader]|Infobox.js
+* MoreMenu-local[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options]|MoreMenu-local.js|MoreMenu.extension.js
+* fuzzyeverywhere[ResourceLoader|dependencies=mediawiki.api]|fuzzyeverywhere.js
+
+== Maintenance ==
+* ThumbnailPurger[ResourceLoader|dependencies=ext.gadget.ExtraTabs2]|ThumbnailPurger.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util, mediawiki.api]|purgetab.js
+* GalleryDetails[ResourceLoader|dependencies=mediawiki.util]|GalleryDetails.js
+* AddInformation[ResourceLoader]|AddInformation.js
+* WhatIsThat[ResourceLoader|dependencies=mediawiki.util]|WhatIsThat.js
+* AjaxQuickDelete[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,ext.gadget.libCommons,ext.gadget.libJQuery,ext.gadget.libUtil|type=general|default]|AjaxQuickDelete.js|AjaxQuickDelete.css
+* QuickDelete[ResourceLoader|dependencies=ext.gadget.AjaxQuickDelete]|QuickDelete.js
+* UserMessages [ResourceLoader]|UserMessages.js
+* GoogleImagesTineye [ResourceLoader|dependencies=mediawiki.util]|GoogleImagesTineye.js
+* GoogleImagesTineyeMobile [ResourceLoader|skins=minerva|dependencies=mediawiki.util]|GoogleImagesTineyeMobile.js
+* RegexMenuFramework [ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+* VisualFileChange [ResourceLoader|dependencies=mediawiki.util,mediawiki.user,user|rights=autopatrol]|VisualFileChange.js|VisualFileChange.css
+* Adiutor[ResourceLoader|skins=vector,vector-2022,monobook,modern,timeless,minerva||dependencies=mediawiki.api,mediawiki.user,oojs-ui-core,oojs-ui-windows,oojs-ui-widgets,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-movement,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui-toolbars,oojs-ui.styles.icons-editing-core,oojs-ui.styles.icons-layout,oojs-ui.styles.icons-user,oojs-ui.styles.icons-media,oojs-ui.styles.icons-editing-advanced]|Adiutor.js|Adiutor.css
+
+== Categories ==
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* HotCat[ResourceLoader|dependencies=mediawiki.user|rights=upload|default|targets=desktop,mobile]|HotCat.js|Hotcatcheck.js
+* Glamorous[ResourceLoader|dependencies=mediawiki.util]|Glamorous.js
+* Searchnotincat[ResourceLoader|dependencies=mediawiki.util]|Searchnotincat.js
+* CatScan2-link[ResourceLoader|dependencies=mediawiki.util]|CatScan2-link.js
+* DeepcatSearch[ResourceLoader|dependencies=mediawiki.util]|DeepcatSearch.js
+
+== Geocoding ==
+* Geocodecattodo[ResourceLoader|dependencies=mediawiki.util]|Geocodecattodo.js
+* WikiMiniAtlas [ResourceLoader|default]|WikiMiniAtlas.js
+* LocatorTool[ResourceLoader|dependencies=mediawiki.util]|LocatorTool.js
+
+== LanguageSupport ==
+* BiDiEditing [ResourceLoader]|BiDiEditing.js
+* ShortLink [ResourceLoader|dependencies=mediawiki.util]|ShortLink.js
+* EoMagicalConversion [ResourceLoader]|EoMagicalConversion.js
+* MyLangNotify [ResourceLoader]|MyLangNotify.js
+* LanguageSelect [ResourceLoader|dependencies=mediawiki.cookie,mediawiki.user,mediawiki.util,site,user|default]|LanguageSelect.js
+
+== SubprojectGadgets ==
+* DeferredDisplay[ResourceLoader]|DeferredDisplay.js
+* QInominator [ResourceLoader]|QInominator.js
+* QICvote[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,oojs-ui]|QICvote.js
+* PictureOfTheYearEnhancements[ResourceLoader|default]|POTYEnhancements.js
+
+== AuthorizedUsers ==
+* DelReqHandler [ResourceLoader|rights=delete|dependencies=ext.gadget.jquery.blockUI,mediawiki.util]|DelReqHandler.js
+* instantDelete [ResourceLoader|dependencies=mediawiki.util|rights=delete]|instantDelete.js
+* autodel [ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,mediawiki.user,ext.gadget.jquery.blockUI,ext.gadget.AjaxQuickDelete,ext.gadget.jquery.in-view|rights=delete]|autodel.js
+* CleanDeleteReasons [ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* LicenseReview [ResourceLoader|rights=patrol]|LicenseReview.js
+* PermissionOTRS [ResourceLoader|dependencies=mediawiki.util|rights=autoconfirmed]|PermissionOTRS.js
+* RTRC [ResourceLoader|dependencies=mediawiki.util|rights=autoconfirmed] |RTRC.js
+* modrollback [ResourceLoader|dependencies=mediawiki.util|rights=rollback]|modrollback.js
+* botRollback [ResourceLoader|dependencies=mediawiki.util|rights=markbotedits]|botRollback.js
+* UdelReqHandler [ResourceLoader|rights=delete|dependencies=mediawiki.util]|UndelReq.js
+* EditRequest [ResourceLoader|rights=templateeditor|dependencies=ext.gadget.libCommons]|EditRequest.js
+* Restore-a-lot[ResourceLoader|dependencies=mediawiki.util,jquery.ui|rights=undelete]|Restore-a-lot.js|Cat-a-lot.css
+* Twinkle [ResourceLoader |dependencies=ext.gadget.morebits, ext.gadget.select2, mediawiki.api, mediawiki.language |rights=autoconfirmed |type=general |peers=Twinkle-pagestyles] |Twinkle.js |Twinkle.css |twinklespeedy.js | |twinkleimage.js |twinklediff.js |twinkleunlink.js |twinklerollback.js |twinklebatchdelete.js |twinklebatchprotect.js |twinklebatchundelete.js |twinkleconfig.js
+* morebits [ResourceLoader |dependencies=mediawiki.user, mediawiki.util, mediawiki.Title, jquery.ui |hidden] |morebits.js |morebits.css
+* Twinkle-pagestyles [hidden |skins=vector, vector-2022] |Twinkle-pagestyles.css
+* select2 [ResourceLoader |hidden] |select2.min.js |select2.min.css
+* userRightsManager[ResourceLoader|rights=delete]|userRightsManager.js
+<!-- hidden gadgets used as modules for other gadgets -->
+
+== modules ==
+* GlobalUsage [ResourceLoader|dependencies=mediawiki.api,ext.gadget.jquery.badge|hidden]|GlobalUsage.js
+* SettingsUI [ResourceLoader|dependencies=jquery.ui,mediawiki.user,ext.gadget.libJQuery|hidden]|SettingsUI.js
+* SettingsManager [ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+* editDropdown [ResourceLoader|dependencies=mediawiki.util,jquery.client,mediawiki.user,user.options|hidden]|editDropdown.js|editDropdown.css
+* JStack [ResourceLoader|hidden]|JStack.js
+* libAPI [ResourceLoader|dependencies=mediawiki.util,mediawiki.user,user.options|hidden]|libAPI.js
+* libUtil [ResourceLoader|dependencies=mediawiki.util|hidden]|libUtil.js
+* libCommons [ResourceLoader|hidden]|libCommons.js
+* libJQuery [ResourceLoader|hidden]|libJQuery-ui.js|libJQuery.css
+* libWikiDOM [ResourceLoader|hidden|dependencies=mediawiki.util]|libWikiDOM.js
+* JStack [ResourceLoader|hidden]|JStack.js
+* libGlobalReplace [ResourceLoader|dependencies=ext.gadget.libWikiDOM,mediawiki.util,ext.gadget.libUtil|hidden]|libGlobalReplace.js
+* libCat [ResourceLoader|dependencies=ext.gadget.libWikiDOM,ext.gadget.libAPI,mediawiki.util|hidden]|libCat.js
+* progressDialog [ResourceLoader|hidden]|progressDialog.js|progressDialog.css
+* jquery.badge [ResourceLoader|hidden|type=general]|jquery.badge.js|jquery.badge.css
+* jquery.blockUI [ResourceLoader|hidden]|jquery.blockUI.js
+* jquery.in-view [ResourceLoader|hidden]|jquery.in-view.js
+* jquery.fullscreen [ResourceLoader|hidden]|jquery.fullscreen.js
+* jquery.mousewheel [ResourceLoader|hidden]|jquery.mousewheel.js
+* jquery.rotate [ResourceLoader|hidden]|jquery.rotate.js
+* ImageStack [ResourceLoader|dependencies=ext.gadget.jquery.mousewheel|hidden]|ImageStack.js
+* CommonsDashboard [ResourceLoader|hidden]|dashboard.AddToFlickrBlacklist.js|dashboard.UndeletionRequester.js
+* WatchlistNotice.core [ResourceLoader|dependencies=mediawiki.util,mediawiki.user,mediawiki.jqueryMsg,user.options,mediawiki.cookie,mediawiki.storage,ext.gadget.SettingsManager|hidden]|WatchlistNotice.core.js|WatchlistNotice.core.css
+* jquery.jqplot [ResourceLoader|hidden]|jquery.jqplot.js|jquery.jqplot.css|jquery.jqplot.dateAxisRenderer.js|jquery.jqplot.canvasTextRenderer.js|jquery.jqplot.canvasAxisLabelRenderer.js|jquery.jqplot.cursor.js|jquery.jqplot.highlighter.js
+* math.seedrandom [ResourceLoader|hidden]|math.seedrandom.js
+* POTYEnhancements.core [ResourceLoader|dependencies=mediawiki.util,site,jquery.ui|hidden]|jStorage.js|POTYEnhancements.core.js|POTYEnhancements.core.css|EnhancedPOTY.js|EnhancedPOTY.css|POTY-font-PlayfairDisplaySC-Regular.css
+* VisualFileChange.core [ResourceLoader|hidden]|VisualFileChange.js/core.js
+* VisualFileChange.ui [ResourceLoader|hidden]|VisualFileChange.js/ui.js
+* VisualFileChange.exec [ResourceLoader|hidden]|VisualFileChange.js/exec.js
+* VisualFileChange.cfg [ResourceLoader|hidden]|VisualFileChange.js/cfg.js
+* AnonymousI18N [ResourceLoader|hidden]|AnonymousI18N.js
+* tipsyDeprecated[ResourceLoader|hidden]|tipsy-deprecated.js
+
+== TemplateGadgets ==
+* AddFileCaption[ResourceLoader|hidden|default|categories=Gadget:AddFileCaption]|AddFileCaption.js
+* AddFileDescription[ResourceLoader|hidden|default|categories=Gadget:AddFileDescription]|AddFileDescription.js

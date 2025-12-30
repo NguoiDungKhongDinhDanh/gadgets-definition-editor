@@ -1,0 +1,25 @@
+== browsing-gadgets ==
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* RTRC[ResourceLoader]|RTRC.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleprod.js|twinklexfd.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinkledeprod.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+
+== editing-gadgets ==
+
+* EditTop[ResourceLoader]|EditTop.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* QuickEdit[ResourceLoader]|QuickEdit.js
+
+== interface-gadgets ==
+
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* AdvancedSiteNotices[ResourceLoader|targets=desktop,mobile|default]|AdvancedSiteNotices.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+
+== toolbox ==
+* Subpages[ResourceLoader|dependencies=mediawiki.util]|Subpages.js
+* CurIDLink[ResourceLoader|default|dependencies=mediawiki.util]|CurIDLink.js

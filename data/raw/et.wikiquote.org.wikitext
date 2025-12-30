@@ -1,0 +1,7 @@
+== kategooriad ==
+* HotCat[ResourceLoader]|HotCat.js
+* vCat[ResourceLoader]|vCat.js
+* CategoryMaster[ResourceLoader|rights=autopatrol|type=general|dependencies=mediawiki.util]|CategoryMaster.js|CategoryMaster.css
+
+== muutmine ==
+* Kriipsud[ResourceLoader|dependencies=mediawiki.util]|Kriipsud.js

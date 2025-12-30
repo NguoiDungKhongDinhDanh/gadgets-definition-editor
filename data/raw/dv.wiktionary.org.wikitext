@@ -1,0 +1,9 @@
+== interface-gadgets ==
+
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* Edittools[ResourceLoader|default]|Edittools.js
+
+
+== editing-gadgets ==
+
+* HotCat[ResourceLoader]|HotCat.js

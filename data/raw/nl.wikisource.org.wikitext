@@ -1,0 +1,12 @@
+== Weergave ==
+* HoogContrast|HoogContrast.css
+* HideFundraiser|HideFundraiser.css
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+
+== Hulpmiddelen ==
+* HotCat[ResourceLoader]|HotCat.js
+* PageCleanUp[ResourceLoader]|PageCleanUp.js
+
+== Onderhoud ==
+* RTRC[ResourceLoader]|RTRC.js

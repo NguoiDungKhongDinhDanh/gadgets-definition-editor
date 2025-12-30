@@ -1,0 +1,19 @@
+==General==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* Purge-tab[ResourceLoader|dependencies=mediawiki.util]|Purge-tab.js
+* CSS-tab[ResourceLoader|dependencies=mediawiki.util]|CSS-tab.js
+* XHTML-tab[ResourceLoader|dependencies=mediawiki.util]|XHTML-tab.js
+==LanguageSupport==
+* UseLangYi[ResourceLoader|dependencies=mediawiki.util]|UseLangYi.js
+* UseLangEn[ResourceLoader|dependencies=mediawiki.util]|UseLangEn.js
+* UseLangHe[ResourceLoader|dependencies=mediawiki.util]|UseLangHe.js
+* UseLangRu[ResourceLoader|dependencies=mediawiki.util]|UseLangRu.js
+* UseLangRo[ResourceLoader|dependencies=mediawiki.util]|UseLangRo.js
+* UseLangPl[ResourceLoader|dependencies=mediawiki.util]|UseLangPl.js
+* UseLangDe[ResourceLoader|dependencies=mediawiki.util]|UseLangDe.js
+* UseLangEs[ResourceLoader|dependencies=mediawiki.util]|UseLangEs.js
+* UseLangFr[ResourceLoader|dependencies=mediawiki.util]|UseLangFr.js
+==TestMode==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* NavigationPopups[ResourceLoader]|NavigationPopups.js|NavigationPopups.css

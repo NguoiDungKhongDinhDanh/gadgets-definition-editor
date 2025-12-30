@@ -1,0 +1,33 @@
+== interface-tools ==
+* IngrandisciCarattere[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|namespaces=0]|IngrandisciCarattere.js|IngrandisciCarattere.css
+* SpostaInfofonte[ResourceLoader|default|namespaces=0]|SpostaInfofonte.js
+* ReferenceTooltips[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+* PurgeButton[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|actions=view|rights=minoredit]|PurgeButton.js
+* corrections[ResourceLoader|default|dependencies=mediawiki.util]|corrections.js
+* SubPages[ResourceLoader|default|dependencies=mediawiki.util|rights=minoredit]|SubPages.js
+* espandiCategoria[ResourceLoader|default|dependencies=mediawiki.api|namespaces=14]|espandiCategoria.js
+* convertiApostrofi[ResourceLoader|default]|convertiApostrofi.js
+* indexPagesStatistics[ResourceLoader|default|actions=view|rights=minoredit|namespaces=104]|indexPagesStatistics.js|indexPagesStatistics.css
+* pontaQua[ResourceLoader|default|namespaces=102]|pontaQua.js
+
+== editing-tools ==
+* robot[ResourceLoader|actions=view]|robot.js
+<!--* EditTools[ResourceLoader]|EditTools.js-->
+* EditFormNs0[ResourceLoader|type=general|default|actions=edit|namespaces=0]|common.js|EditFormNs0.js|EditForm.css
+* centra[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|centra.js
+* adestra[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|adestra.js
+* sc[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|sc.js
+* indentaVersi[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|indentaVersi.js
+* section[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|section.js
+* poem[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|poem.js
+* eliminaRigheVuote[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|eliminaRigheVuote.js
+* removeNewline[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|removeNewline.js
+* postOCR[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit]|postOCR.js
+* soneti[ResourceLoader|dependencies=ext.wikiEditor|actions=edit]|soneti.js
+* strumentiRiletura[ResourceLoader|actions=edit]|strumentiRiletura.js
+* CropTool[ResourceLoader|dependencies=mediawiki.util|rights=upload|default]|CropTool.js
+* bulkEdit[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|actions=edit]|bulkEdit.js|wsDialog.css
+* giustaS[ResourceLoader|dependencies=ext.wikiEditor|actions=edit]|giustaS.js
+
+== wsexport-tools ==
+* check-ws-data[ResourceLoader|actions=view]|check-ws-data.js

@@ -1,0 +1,18 @@
+== editing-gadgets ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* Shortdesc-helper-loader[ResourceLoader|dependencies=mediawiki.api,mediawiki.notify,user.options,mediawiki.util|skins=vector,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector]|Shortdesc-helper-pagestyles-vector.css
+
+== interface-gadgets ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+*AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js
+
+== appearance ==
+* ShortUrl[ResourceLoader|dependencies=user.options]|ShortUrl.css|ShortUrl.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden | skins = vector, monobook] | dark-mode-toggle-pagestyles.css
+
+== modules ==
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css

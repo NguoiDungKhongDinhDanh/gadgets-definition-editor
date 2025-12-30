@@ -1,0 +1,1 @@
+* wikEd[ResourceLoader]|wikEd.js

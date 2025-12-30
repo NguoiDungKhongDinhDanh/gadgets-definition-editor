@@ -1,0 +1,19 @@
+== interface ==
+* Navigation_popups[ResourceLoader]|popups.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* LastContrib[ResourceLoader]|LastContrib.js
+* HotCat[ResourceLoader]|HotCat.js
+* RedirecionamentosVerdes[ResourceLoader]|RedirecionamentosVerdes.js
+* EditarIntroducao[ResourceLoader]|EditarIntroducao.js
+* vectorTabs[ResourceLoader]|vectorTabs.js
+* WiktSidebarTranslation[ResourceLoader]|WiktSidebarTranslation.js
+* WiktPreviewRightTOCs|WiktPreviewRightTOCs.css
+* HideLogo|HideLogo.css
+* FiltrarPEPB[ResourceLoader|dependencies=mediawiki.util]|FiltrarPEPB.js
+* Edittools[ResourceLoader|type=general|dependencies=mediawiki.util|rights=edit|default]|Edittools.js|Edittools.css
+* FeedbackHighlight[ResourceLoader|type=general|default]|FeedbackHighlight.js|FeedbackHighlight.css
+
+===Utilitários ocultos===
+* defaultVisibilityToggles[ResourceLoader|hidden|default|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js

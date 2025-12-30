@@ -1,0 +1,6 @@
+== diverse ==
+* hotcat[ResourceLoader|rights=edit]|hotcat.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|UTCLiveClock.js
+
+== korrektur ==
+* NopInserter[ResourceLoader|dependencies=mediawiki.util|rights=edit]|NopInserter.js

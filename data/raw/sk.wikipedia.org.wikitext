@@ -1,0 +1,25 @@
+== interface-gadgets ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* HotCat[ResourceLoader]|HotCat.js
+* mark-disambigs|mark-disambigs.css
+* HighlightRedirects|HighlightRedirects.css
+* ReferenceTooltips[ResourceLoader|default|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* WikiMiniAtlas[ResourceLoader|default]|WikiMiniAtlas.js
+* ThreadedDiscussions[ResourceLoader]|ThreadedDiscussions.css
+* edithistory [ResourceLoader | dependencies=mediawiki.util] | edithistory.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+
+== editing-gadgets ==
+* defaultsummaries[ResourceLoader]|defaultsummaries.js
+* edit-summaries[ResourceLoader|default|dependencies=mediawiki.util]|edit-summaries.js
+* wikEd[ResourceLoader]|wikEd.js
+* deleteTags[ResourceLoader|rights=edit]|deleteTags.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+* Mark as patrolled[ResourceLoader|dependencies=mediawiki.api|rights=patrol|namespaces=-1]|Mark_as_patrolled.js
+* massPatrol[ResourceLoader|rights=patrol|dependencies=mediawiki.api|namespaces=-1]|massPatrol.js
+* SafeRollback[ResourceLoader]|SafeRollback.js
+* massRollback[ResourceLoader|rights=rollback|dependencies=mediawiki.util]|massRollback.js

@@ -1,0 +1,12 @@
+== browsing ==
+* Navigation popups [ResourceLoader|dependencies=mediawiki.user,mediawiki.util | type = general ] | Popups.js | Popups.css | Popups-strings.js
+* purge [ResourceLoader | dependencies=mediawiki.util] | purge.js
+* iw-links [ResourceLoader | dependencies=mediawiki.util] | iw-links.js
+* edithysteria [ResourceLoader | dependencies=mediawiki.util] | edithysteria.js
+* biplink [ResourceLoader | dependencies=mediawiki.util] | biplink.js
+
+== editing ==
+* HotCat [ResourceLoader] | HotCat.js
+
+== WMPL ==
+* announcer [ResourceLoader] | announcer.js

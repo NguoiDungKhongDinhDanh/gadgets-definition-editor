@@ -1,0 +1,94 @@
+* fix-section-hash [ResourceLoader | dependencies=mediawiki.util | hidden | default | actions=view, edit | namespaces=0] | fix-section-hash.js
+* entry-dom-layout [ResourceLoader | hidden | actions=view | type=general] | entry-dom-layout.js | entry-dom-layout.css
+* langdata [ResourceLoader | package | hidden] | langdata.js | langdata-lang2code.json | langdata-short-langs.json | langdata-aliases.json | langdata-disambigs.json
+* term-num [ResourceLoader | hidden | default | actions=view | namespaces=0] | term-num.js
+* section-links [ResourceLoader | dependencies=ext.gadget.langdata, mediawiki.util | hidden | default | type=general] | section-links.js | section-links.css
+* rtl-category-pages [ResourceLoader | hidden | default | actions=view | type=general | namespaces=14] | rtl-category-pages.js | rtl-category-pages.css
+* lib-toolbar [ResourceLoader | dependencies=mediawiki.user | hidden] | lib-toolbar.js
+* style-summary-buttons [ResourceLoader | hidden] | summary-buttons.css
+* edit-form [ResourceLoader | dependencies=mediawiki.util, mediawiki.storage, mediawiki.user, mediawiki.api, mediawiki.ForeignApi, mediawiki.confirmCloseWindow, jquery.textSelection, jquery.suggestions, ext.gadget.langdata | hidden | type=general] | edit-form-plugins.js | edit-form-constants.js | edit-form-strings.js | edit-form-util.js | edit-form-parser.js | edit-form-printer.js | edit-form-ui.js | edit-form-automator.js | edit-form.js | edit-form.css
+* translation-editor [ResourceLoader | dependencies=mediawiki.api, mediawiki.confirmCloseWindow, mediawiki.diff.styles, mediawiki.jqueryMsg, mediawiki.language.specialCharacters, mediawiki.user, mediawiki.util, mediawiki.storage, mediawiki.String, jquery.suggestions, jquery.textSelection, jquery.ui, ext.gadget.langdata | hidden | type=general] | translation-editor.js | translation-editor.css
+* translation-editor-rc-filter [ResourceLoader | dependencies=mediawiki.api, mediawiki.storage, mediawiki.interface.helpers.styles, mediawiki.special.changeslist, mediawiki.rcfilters.filters.base.styles, oojs-ui-widgets, ext.gadget.langdata, ext.flaggedRevs.basic | hidden] | translation-editor-rc-filter.js
+* examples-check [ResourceLoader | dependencies=mediawiki.util, mediawiki.api, mediawiki.storage, ext.wikiEditor | hidden | type=general] | examples-check.js | examples-check.css
+* olafbot-sk-exclusions [ResourceLoader | dependencies=mediawiki.api | hidden | rights=applychangetags] | olafbot-sk-exclusions.js
+* autonumber [ResourceLoader | hidden | default] | autonumber.css
+* morfeusz-lookup [ResourceLoader | hidden] | morfeusz-lookup.js
+* morfeusz-analyzer [ResourceLoader | hidden | dependencies=ext.gadget.morfeusz-lookup] | morfeusz-analyzer.js
+* morfeusz-linker-special [ResourceLoader | dependencies=oojs-ui-core, oojs-ui.styles.icons-content, oojs-ui.styles.icons-interactions, mediawiki.api, mediawiki.editfont.styles, mediawiki.jqueryMsg, mediawiki.user, mediawiki.util, ext.gadget.morfeusz-analyzer | hidden | type=general] | morfeusz-linker-special.js | morfeusz-linker-special.css
+* inflection-styles [ResourceLoader | hidden | default] | inflection-styles.css
+* wikibugs-styles [ResourceLoader | hidden] | wikibugs.css
+* dark-styles [ResourceLoader | hidden | default | skins=vector-2022, minerva] | dark-styles.css
+
+== browsing ==
+* Navigation popups [ResourceLoader] | Popups-local.js
+* edithysteria [ResourceLoader | dependencies=mediawiki.util] | edithysteria.js
+* quickeditcounter [ResourceLoader | dependencies=mediawiki.util] | quickeditcounter.js
+* enhanced-search [ResourceLoader | default | type=general | namespaces=-1] | enhanced-search.js | enhanced-search.css
+* iw-links [ResourceLoader | dependencies=mediawiki.util | namespaces=-1] | iw-links.js
+* hide-rollback [ResourceLoader | rights=rollback | namespaces=-1] | hide-rollback.css
+* shorts [ResourceLoader | default | dependencies=mediawiki.util, mediawiki.storage | type=general] | shorts.js | shorts.css
+<!--* shorts-mobile [ResourceLoader | dependencies=mobile.references | skins=minerva | hidden] | shorts-mobile.js-->
+* ukryj-baner-donacji | ukryj-baner-donacji.css
+* collapsible [ResourceLoader | default | dependencies=mediawiki.storage | skins=vector,vector-2022,monobook,timeless,modern,cologneblue | type=general] | collapsible.js | collapsible.css
+* collapsible-mobile [ResourceLoader | default | hidden | skins=minerva | type=general] | collapsible-mobile.js | collapsible-mobile.css
+* hide-empty-fields [ResourceLoader | default | skins=vector,vector-2022,monobook,timeless,modern,cologneblue | actions=view | dependencies=mediawiki.util, mediawiki.storage | type=general | namespaces=0] | hide-empty-fields.js | hide-empty-fields.css
+* hide-empty-fields-mobile [ResourceLoader | default | hidden | skins=minerva | actions=view | namespaces=0] | hide-empty-fields-mobile.js
+* false-blue-links [ResourceLoader | actions=view | dependencies=mediawiki.api, ext.gadget.langdata, ext.gadget.section-links | type=general] | false-blue-links.js | false-blue-links.css
+* section-interwiki [ResourceLoader | actions=view, edit | dependencies=mediawiki.util | type=general | namespaces=0] | section-interwiki.js | section-interwiki.css
+* purge-tab [ResourceLoader | dependencies=mediawiki.util | type=general] | purge.js | purge.css
+* keyboard-yiddish [ResourceLoader | default | actions=view | type=general | namespaces=14,104] | keyboard-yiddish.js | keyboard-yiddish.css
+* history-hide-bots [ResourceLoader | type=general | actions=history | dependencies=mediawiki.jqueryMsg, mediawiki.storage, oojs-ui-core] | history-hide-bots.js | history-hide-bots.css
+* watchlist-add-categorymembers [ResourceLoader | namespaces=-1] | watchlist-add-categorymembers.js
+<!--* hovercards-local [ResourceLoader | dependencies=ext.popups, ext.gadget.section-links | type=general] | hovercards-local.js | hovercards-local.css-->
+* frequency-ranking [ResourceLoader | actions=view | dependencies=mediawiki.api | namespaces=0] | frequency-ranking.js
+* multiple-category-boxes [ResourceLoader | default | actions=view | dependencies=mediawiki.user, mediawiki.api, jquery.spinner, ext.gadget.langdata | skins=vector, vector-2022, monobook | type=general | namespaces=0] | multiple-category-boxes.js | multiple-category-boxes.css
+* enhanced-categories [ResourceLoader | actions=view | type=general | namespaces=14] | enhanced-categories.js | enhanced-categories.css
+* browse-categories [ResourceLoader | default | actions=view | dependencies=mediawiki.user, mediawiki.api, jquery.spinner | skins=vector, vector-2022, monobook | type=general | namespaces=0] | browse-categories.js | browse-categories.css
+* increase-non-latin-script-size [ResourceLoader | dependencies=mediawiki.util | type=general] | increase-non-latin-script-size.js | increase-non-latin-script-size.css
+* term-preview [ResourceLoader | default | actions=view | dependencies=ext.gadget.term-num, ext.gadget.section-links | type=general | namespaces=0] | term-preview.js | term-preview.css
+* citation-templates-extracts [ResourceLoader | default | namespaces=14] | citation-templates-extracts.js
+* entry-counter [ResourceLoader | default | actions=view] | entry-counter.js
+
+== editing ==
+* translation-editor-launcher [ResourceLoader | actions=view | dependencies=mediawiki.storage, jquery.spinner, ext.gadget.section-links | rights=applychangetags | default | namespaces=0] | translation-editor-launcher.js
+* edit-form-launcher [ResourceLoader | actions=edit | dependencies=mediawiki.util | namespaces=0] | edit-form-launcher.js
+* wikEd [ResourceLoader] | wikEd.js
+* wt sk [ResourceLoader | actions=edit | dependencies=ext.gadget.lib-toolbar, ext.gadget.langdata, jquery.textSelection] | sk.js
+* searchbox [ResourceLoader | actions=edit | dependencies=ext.gadget.lib-toolbar ] | searchbox.js
+* replylinks [ResourceLoader] | replylinks-local.js
+* extended-toolbar [ResourceLoader | default | actions=edit | dependencies=mediawiki.user | type=general] | extended-toolbar.js | extended-toolbar.css
+* references [ResourceLoader | actions=edit | dependencies=ext.gadget.lib-toolbar, ext.gadget.style-summary-buttons, mediawiki.storage, mediawiki.api, jquery.textSelection | type=general] | references.js | references.css
+* insert-image [ResourceLoader | actions=edit | dependencies=ext.gadget.lib-toolbar, jquery.textSelection] | insert-image.js
+* insert-inflection [ResourceLoader | package | dependencies=ext.gadget.lib-toolbar, mediawiki.confirmCloseWindow, mediawiki.storage, jquery.textSelection | type=general | actions=edit] | insert-inflection.js | insert-inflection.css | insert-inflection-data.json
+* wikibugs [ResourceLoader | default | peers=wikibugs-styles] | wikibugs.js
+* add-word [ResourceLoader | default | actions=edit | dependencies=mediawiki.user, mediawiki.util] | add-word.js
+* specialchars-dropdown [ResourceLoader | default | actions=edit | dependencies=mediawiki.storage] | specialchars-dropdown.js
+* hide-new-article-instructions [ResourceLoader | actions=edit | namespaces=0] | hide-new-article-instructions.css
+* nkjp-lookup [ResourceLoader | actions=edit | dependencies=mediawiki.util, jquery.spinner, ext.gadget.lib-toolbar] | nkjp-lookup.js
+* edit-summaries [ResourceLoader | dependencies=ext.gadget.style-summary-buttons] | edit-summaries.js
+* snippets [ResourceLoader | actions=edit | rights=delete | dependencies=ext.gadget.lib-toolbar, ext.gadget.style-summary-buttons, jquery.textSelection] | snippets.js
+* morfeusz-linker-wikieditor [ResourceLoader | actions=edit | dependencies=ext.gadget.lib-toolbar, ext.gadget.morfeusz-analyzer, jquery.textSelection] | morfeusz-linker-wikieditor.js
+
+== appearance ==
+* colored-nicknames [ResourceLoader | dependencies=mediawiki.util] | colored-nicknames.js
+* colored-discussion [ResourceLoader] | colored-discussion.css
+* colored-new-in-rc [ResourceLoader | type=general | namespaces=-1] | colored-new-in-rc.js | colored-new-in-rc.css
+* disable-animations [ResourceLoader] | disable-animations.js
+* ReferenceTooltips [ResourceLoader | default | dependencies=mediawiki.cookie, jquery.client | skins=vector,vector-2022,monobook,timeless,modern,cologneblue] | ReferenceTooltips-local.js
+* searchsuggest-inflected [ResourceLoader | dependencies=mediawiki.searchSuggest, mediawiki.api | type=general] | searchsuggest-inflected.js | searchsuggest-inflected.css
+<!-- * tooltips [ResourceLoader | default | dependencies=jquery.tipsy, ext.gadget.section-links] | tooltips.js -->
+* show-hidden-categories [ResourceLoader | default | actions=view | dependencies=mediawiki.user | skins=vector, vector-2022, monobook | type=general] | show-hidden-categories.js | show-hidden-categories.css
+* furigana [ResourceLoader | default | actions=view | dependencies=ext.gadget.section-links | type=general | namespaces=0] | furigana.js | furigana.css
+* vector-classic [ResourceLoader | skins=vector] | vector-classic.css
+* translations-columns [ResourceLoader | default | dependencies=ext.gadget.section-links | type=general | namespaces=0] | translations-columns.js | translations-columns.css
+* no-italic [ResourceLoader | dependencies=ext.gadget.section-links ] | no-italic.css
+
+== editor ==
+* diffhistory [ResourceLoader | namespaces=0,6,10,100,102,828] | diffhistory.js
+* oldreviewedpages [ResourceLoader | dependencies=mediawiki.util | namespaces=-1] | oldreviewedpages.js
+* diff-info [ResourceLoader] | diff-info.js
+* summary-preview [ResourceLoader] | summary-preview.js
+
+== admin ==
+* dynamic-ips [ResourceLoader | namespaces=-1,3] | dynamic-ips.js
+* delete [ResourceLoader | dependencies=mediawiki.util, ext.gadget.style-summary-buttons | rights=delete | actions=delete] | delete-local.js

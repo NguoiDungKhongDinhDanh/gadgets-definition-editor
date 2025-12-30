@@ -1,0 +1,23 @@
+== General tool ==
+* SocialMedia[ResourceLoader|default]|SocialMedia.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+* ProtectionIndicators[ResourceLoader|default|type=general]|ProtectionIndicators.js|ProtectionIndicators.css
+* AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js
+* DefaultSummaries[ResourceLoader]|DefaultSummaries.js
+
+== Category ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+
+== editing-tools ==
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+
+==Citation tools==
+* citations[ResourceLoader|dependencies=mediawiki.util]|citations.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== maintenance-tools==
+* markblocked[ResourceLoader]|markblocked.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js
+* MiniTwinkle[ResourceLoader]MiniTwinkle.js

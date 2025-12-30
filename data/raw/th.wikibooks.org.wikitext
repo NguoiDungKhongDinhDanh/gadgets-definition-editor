@@ -1,0 +1,29 @@
+== browsing ==
+
+* Navigation_popups[ResourceLoader]|popups.js
+* imagelinks[default|ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+
+== editing ==
+
+* iScript[ResourceLoader]|iScript.js
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+
+== appearance ==
+
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+* Blackskin|Blackskin.css
+
+== advanced ==
+
+* modrollback [ResourceLoader|dependencies=mediawiki.util|rights=rollback]|modrollback.js
+* botRollback [ResourceLoader|dependencies=mediawiki.util|rights=markbotedits]|botRollback.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js
+
+== test ==
+
+* AdvancedSiteNotices[ResourceLoader]|AdvancedSiteNotices.js

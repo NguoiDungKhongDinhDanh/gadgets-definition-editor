@@ -1,0 +1,13 @@
+<noinclude>'''Changes to this page  MUST first be discussed on [[Wikipedia:Gadget/proposals]] or [[Wikipedia_talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikipedia:Gadget#Currently_installed_gadgets]] to make maintenance easier.
+</noinclude>
+
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+== editing-gadgets ==
+
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js

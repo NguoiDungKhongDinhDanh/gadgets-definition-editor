@@ -1,0 +1,37 @@
+== Browsing ==
+* GoogleTrans [ResourceLoader] |GoogleTrans.js
+* removeAccessKeys [ResourceLoader |dependencies=user, mediawiki.util] |removeAccessKeys.js
+* Prosesize [ResourceLoader |dependencies=mediawiki.api, mediawiki.util] |Prosesize.js |Prosesize.css
+
+== Categories ==
+* HotCat[ResourceLoader|rights=edit, minoredit|default]|HotCat.js
+* ProveIt [ResourceLoader] |ProveIt.js
+
+== Panagway ==
+* purgetab [ResourceLoader |dependencies=mediawiki.util, mediawiki.api|default] |purgetab.js
+* dark-mode-toggle [ResourceLoader |dependencies=mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage |peers=dark-mode-toggle-pagestyles] |dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden |skins=vector, vector-2022, minerva, monobook] |dark-mode-toggle-pagestyles.css
+* addsection-plus [ResourceLoader] |addsection-plus.js
+* wikEd [ResourceLoader |dependencies=jquery.textSelection, user.options] |wikEd.js
+* PrettyLog [ResourceLoader |dependencies=mediawiki.util |type=general] |PrettyLog.js |PrettyLog.css
+* Edittools[ResourceLoader|actions=edit]|Edittools.js
+* SidebarTranslate [ResourceLoader |type=general] |SidebarTranslate.js |SidebarTranslate.css
+* XTools-ArticleInfo [ResourceLoader] |XTools-ArticleInfo.js
+* personalSandbox[ResourceLoader|rights=minoredit|dependencies=mediawiki.user,oojs-ui,mediawiki.util|default]|personalSandbox.js
+* whoisactive[ResourceLoader|dependency=mediawiki.api]|whoisactive.js|whoisactive.css
+* scrollUpButton[ResourceLoader]|scrollUpButton.js
+* logoutConfirm[ResourceLoader]|logoutConfirm.js
+* TodoList[ResourceLoader]|TodoList.js
+* UTCclock [ResourceLoader]|UTCclock.js
+* DetectProtectionLevels [ResourceLoader]|DetectProtectionLevels.js
+* AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js
+
+== Tigdumala ==
+* masstool[ResourceLoader|rights=editinterface]|masstool.js
+* botRollback[ResourceLoader|rights=markbotedits]|botRollback.js
+* CleanDeleteReasons [ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* MarkBlocked[ResourceLoader|rights=editinterface]|markblocked.js
+* ConfirmationRollback[ResourceLoader|rights=rollback]|confirmationRollback.js
+
+== Pagsulay ==
+* DebugMode [ResourceLoader |rights=editinterface|dependencies=mediawiki.util]|DebugMode.js

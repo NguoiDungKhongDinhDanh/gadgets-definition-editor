@@ -1,0 +1,39 @@
+Binêre [[Taybet:Gadgets]] ji bo belgekirina amûrên li jêr.
+
+* LegacyScripts[ResourceLoader|default|dependencies=site,mediawiki.util,mediawiki.cookie,ext.gadget.LegacyScriptsNewNode,ext.gadget.StorageUtils|type=general]|legacy.js
+
+==Rû==
+* LiveClock[ResourceLoader|dependencies=mediawiki.util]|LiveClock.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* LanguagesAndScripts[ResourceLoader|default]|LanguagesAndScripts.css
+* jeder[ResourceLoader|default]|jeder.css|jeder.js
+* CodeLinks[ResourceLoader|default|dependencies=site,mediawiki.util]|CodeLinks.js
+* Tabset[ResourceLoader|default]|Tabset.js|Tabset.css
+
+==AmûrênGuhartinê==
+* wikEd[ResourceLoader]|wikEd.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* translation_editor[ResourceLoader|default|dependencies=mediawiki.notification|type=general]|silent_fail_storage.js|editor.js|translation_editor.js|translation_editor.css
+* QQ[ResourceLoader|dependencies=jquery.ui,mediawiki.util|type=general]|QQ.js|QQ.css
+* WiktAccFormCreation[ResourceLoader|dependencies=mediawiki.util]|WiktAccFormCreation.js
+* AjaxEdit[ResourceLoader|dependencies=mediawiki.util,mediawiki.Uri,mediawiki.user,mediawiki.api]|AjaxEdit.js
+* aWa[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,user.options,mediawiki.Uri,mediawiki.Title|type=general]|aWa.js|aWa.css
+* purgetab[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|purgetab.js
+* start[ResourceLoader|default|dependencies=mediawiki.util,ext.gadget.headers]|start.js|start.css
+* wikt.add-examples[ResourceLoader|dependencies=oojs,oojs-ui|default]|wikt.add-examples.js|wikt.add-examples.css
+
+==Kategorî==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|rights=autoconfirmed]|Cat-a-lot.css|Cat-a-lot.js
+
+==AmûrênVeşartî==
+* headers[ResourceLoader|default|dependences=mediawiki.api]|headers.js
+* LegacyScriptsNewNode[ResourceLoader|hidden|targets=desktop,mobile]|LegacyScriptsNewNode.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* VisibilityToggles[ResourceLoader|hidden|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+* linkify[ResourceLoader|dependencies=mediawiki.util]|linkify.js
+* Site[ResourceLoader|hidden|default]|Site.css
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title|categories=Pages using catfix]|catfix.js
+* Palette[ResourceLoader|hidden|default]|Palette.css

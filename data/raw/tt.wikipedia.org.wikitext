@@ -1,0 +1,13 @@
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util]|markadmins.js
+
+== wikidata ==
+* wikidataInfoboxExport[ResourceLoader|dependencies=mediawiki.api,mediawiki.ForeignApi,mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|wikidataInfoboxExport.js
+
+== wikificator ==
+* wfTyposUpdate[ResourceLoader|hidden|supportsUrlLoad]|wfTyposUpdate.js
+
+__NOTOC__

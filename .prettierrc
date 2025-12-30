@@ -1,0 +1,25 @@
+{
+	"arrowParens": "avoid",
+	"bracketSameLine": false,
+	"objectWrap": "preserve",
+	"bracketSpacing": true,
+	"semi": true,
+	"experimentalOperatorPosition": "end",
+	"experimentalTernaries": false,
+	"singleQuote": true,
+	"jsxSingleQuote": false,
+	"quoteProps": "as-needed",
+	"trailingComma": "none",
+	"singleAttributePerLine": true,
+	"htmlWhitespaceSensitivity": "css",
+	"vueIndentScriptAndStyle": false,
+	"proseWrap": "preserve",
+	"insertPragma": false,
+	"printWidth": 120,
+	"requirePragma": false,
+	"tabWidth": 4,
+	"useTabs": true,
+	"embeddedLanguageFormatting": "auto",
+
+    "plugins": ["@homer0/prettier-plugin-jsdoc"]
+}

@@ -1,0 +1,9 @@
+== التحرير ==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+
+== التصفح ==
+* HideExLinkIcon[default|rights=minoredit]|HideExLinkIcon.css
+* MobileCategories[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|skins=minerva]|MobileCategories.js
+* Popups[ResourceLoader]|Popups.js

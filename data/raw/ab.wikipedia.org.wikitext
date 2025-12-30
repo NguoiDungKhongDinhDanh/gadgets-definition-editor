@@ -1,0 +1,15 @@
+== navigation ==
+
+== reading ==
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing ==
+* HotCat[ResourceLoader|default|rights=minoredit]|HotCat.js
+
+== special-pages ==
+* ProtectionIndicator[ResourceLoader|default]|ProtectionIndicator.js|ProtectionIndicator.css
+
+== external-tools ==
+
+== modules ==

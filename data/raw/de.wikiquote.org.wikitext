@@ -1,0 +1,4 @@
+== Bearbeitungswerkzeuge ==
+* Extra-Editbuttons[ResourceLoader]|Extra-Editbuttons.js
+* HotCat[ResourceLoader]|HotCat.js
+* Personendaten|Personendaten.css

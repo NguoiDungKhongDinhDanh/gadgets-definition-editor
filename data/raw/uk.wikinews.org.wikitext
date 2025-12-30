@@ -1,0 +1,20 @@
+== reading ==
+* editHysteria[ResourceLoader]|editHysteria.js
+* ReferenceTooltips[ResourceLoader|type=general|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* HotCat[ResourceLoader]|HotCat.js
+* HotInterwiki[ResourceLoader]|HotInterwiki.js
+* CatDateIns[ResourceLoader]|CatDateIns.js
+* Wikilinker[ResourceLoader]|wikilinker.js
+* NewsExtraEditButtons[ResourceLoader]|NewsExtraEditButtons.js
+
+== external-tools ==
+* CurIDLink[ResourceLoader|dependencies=mediawiki.util]|CurIDLink.js
+* Statistics[ResourceLoader|dependencies=mediawiki.util]|Statistics.js
+
+== modules ==
+* SettingsUI[ResourceLoader|dependencies=jquery.ui,mediawiki.user,ext.gadget.libJQuery,mediawiki.util|rights=hidden|hidden]|SettingsUI.js
+* SettingsManager [ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api|hidden]|SettingsManager.js
+* libJQuery [ResourceLoader|rights=hidden|hidden]|libJQuery.js|libJQuery.css

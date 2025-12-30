@@ -1,0 +1,100 @@
+== interface ==
+* blackskin[ResourceLoader]|blackskin.css
+* historiconumerado[ResourceLoader]|historiconumerado.css
+* EsconderCentralnoticeDoMeta[ResourceLoader]|EsconderCentralnoticeDoMeta.js|EsconderCentralnoticeDoMeta.css
+* traducaointerwiki[ResourceLoader]|traducaointerwiki.js
+* traductor-google[ResourceLoader]|traductor-google.js
+* LanguageConverter[ResourceLoader]|LanguageConverter.js|LanguageConverter.css
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* Desambiguacoes|desambiguacoes.css
+* highlightRedirects[ResourceLoader]|highlightRedirects.css
+* Topicon[ResourceLoader|default|dependencies=mediawiki.util|type=general|actions=view]|Topicon.js|Topicon.css
+* Metacaixa[ResourceLoader|default|type=general]|Metacaixa.js|Metacaixa.css
+* TitleRewrite[ResourceLoader|default]|TitleRewrite.js
+* ElementosOcultaveis[ResourceLoader|default|type=general]|ElementosOcultaveis.js|ElementosOcultaveis.css
+* FeedbackHighlight[ResourceLoader|default|peers=FeedbackHighlight-base|type=general]|FeedbackHighlight.js
+* FeedbackHighlight-base[ResourceLoader|hidden|type=styles]|FeedbackHighlight.css
+* Compactar refs[ResourceLoader]|Compactar refs.css
+* ocultarrefs[ResourceLoader|dependencies=mediawiki.util|actions=view,purge]|ocultarrefs.js
+* ReferenceTooltips[ResourceLoader|default|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+* addNewSectionLink[ResourceLoader]|addNewSectionLink.js
+* hideRefBrakets[ResourceLoader]|hideRefBrakets.css
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+* TipsForSlangs[ResourceLoader]|TipsForSlangs.js
+* WikidataInfo[ResourceLoader|dependencies=mediawiki.jqueryMsg]|WikidataInfo.js
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,monobook]|dark-mode-toggle-pagestyles.css
+
+== editing ==
+* refToolbar[ResourceLoader|dependencies=user.options|actions=edit]|refToolbar.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader|dependencies=jquery.client]|wikEd.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* btm-actions[ResourceLoader]|btm-actions.js|btm-actions.css
+* fastbuttons[ResourceLoader|dependencies=mediawiki.util|type=general]|fastbuttons.js|fastbuttons.css
+* APC[ResourceLoader|rights=edit]|APC.js
+* rev-e-avisos[ResourceLoader|dependencies=mediawiki.util]|diffTools.js|diffTools.css
+* RTRC[ResourceLoader]|RTRC.js
+* antivandaltool[ResourceLoader|dependencies=mediawiki.util]|antivandaltool.js
+* UploadForm[ResourceLoader|dependencies=mediawiki.util|default|rights=upload|type=general]|UploadForm.js|UploadForm.css
+* NewVillagePump[ResourceLoader|default|type=general]|NewVillagePump.js|NewVillagePump.css
+* wikibugs[ResourceLoader|default|dependencies=mediawiki.util|type=general]|wikibugs.js|wikibugs.css
+* ArtigosParaEliminar[ResourceLoader|dependencies=mediawiki.util|actions=edit]|ArtigosParaEliminar.js
+* urldecoder[ResourceLoader]|urldecoder.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* requestForAdminship[ResourceLoader|default]|requestForAdminship.js
+* contentFeatured[ResourceLoader|dependencies=mediawiki.util,ext.gadget.mediawiki.api.ptwiki,jquery.ui]|contentFeatured.js|contentFeatured.css
+
+== navigation ==
+* afltab[ResourceLoader|dependencies=mediawiki.util]|afltab.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|exlinks.js
+* FlecheHaut[ResourceLoader|dependencies=mediawiki.util]|FlecheHaut.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* historicomelhorado[ResourceLoader|actions=history]|historicomelhorado.js
+* destacar[ResourceLoader|actions=history]|highlightsUsername.js|highlightsUsername.css
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* bottomtabs[ResourceLoader]|bottomtabs.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* hideSidebar[ResourceLoader]|hideSidebar.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* Navigation_popups[ResourceLoader]|popups.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* Pesquisa-por-dominio[ResourceLoader]|Pesquisa-por-dominio.js
+* WikiMiniAtlas[ResourceLoader|default]|WikiMiniAtlas.js
+* show-sysop-activity[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready|actions=view]|show-sysop-activity.css|show-sysop-activity.js
+* PagesForDeletion[ResourceLoader|default|actions=view,purge]|PagesForDeletion.js
+* validateBlockRollbackers[ResourceLoader|default|rights=rollback]|validateBlockRollbackers.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* lastEditUser[ResourceLoader|dependencies=mediawiki.util|actions=view]|lastEditUser.js
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* geonotice[ResourceLoader|default|rights=viewmywatchlist]|geonotice.js
+* categoriesOnTop[ResourceLoader|actions=view]|categoriesOnTop.js
+* watchUserContribs[ResourceLoader|dependencies=jquery.ui,mediawiki.util,mediawiki.ui.button,ext.gadget.TipsyDeprecated]|watchUserContribs.js|watchUserContribs.css
+* dynamicGallery[ResourceLoader]|dynamicGallery.js
+* MapFrame[ResourceLoader]|MapFrame.js
+* switcher[ResourceLoader|default]|switcher.js
+
+== sysops ==
+* blocktab[ResourceLoader|dependencies=mediawiki.util|rights=block]|blocktab.js
+* DeletedContribsTab[ResourceLoader|dependencies=mediawiki.util|rights=deletedtext]|DeletedContribsTab.js
+* SysopSuggestions[ResourceLoader|dependencies=mediawiki.util, jquery.suggestions|rights=delete|default]|SysopSuggestions.js
+* userrights[ResourceLoader|dependencies=mediawiki.util]|userrights.js
+* CleanDeleteReasons[ResourceLoader|rights=delete|actions=delete]|CleanDeleteReasons.js
+* blockNotificationButton[ResourceLoader|default|dependencies=mediawiki.api,ext.gadget.mediawiki.api.ptwiki,mediawiki.util,user.options,mediawiki.ui.button|rights=block]|blockNotificationButton.js|blockNotificationButton.css
+* arquivarPEs[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,jquery.ui]|arquivarPEs.js
+* keepPDU[ResourceLoader|default]|keepPDU.css
+
+== modules ==
+* mediawiki.api.ptwiki[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|hidden]|mediawiki.api.ptwiki.js
+* NewVillagePumpCore[ResourceLoader|dependencies=mediawiki.util,jquery.spinner,ext.gadget.mediawiki.api.ptwiki,mediawiki.confirmCloseWindow|hidden]|NewVillagePump.js/Core.js
+* wikibugsCore[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,jquery.ui,mediawiki.api|hidden]|wikibugs.js/Core.js
+* fastButtonsCore[ResourceLoader|dependencies=mediawiki.api,ext.gadget.mediawiki.api.ptwiki,mediawiki.page.ready,jquery.ui,mediawiki.util|hidden]|fastbuttons.js/core.js
+* diffToolsCore[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,user.options,ext.gadget.mediawiki.api.ptwiki,jquery.ui|hidden]|diffTools.js/core.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection]|charinsert-core.js|charinsert-core.css
+* geonotice-core[ResourceLoader|dependencies=mediawiki.util,mediawiki.storage|hidden]|geonotice-list.js|geonotice-core.js|geonotice-core.css
+* requestForAdminshipCore[ResourceLoader|dependencies=ext.gadget.mediawiki.api.ptwiki,jquery.ui|hidden]|requestForAdminship.js/core.js|requestForAdminship.css
+* dark-mode[ResourceLoader|targets=desktop,mobile|skins=vector,monobook,modern,minerva,timeless|hidden]|dark-mode.css
+* TipsyDeprecated[ResourceLoader|hidden]|tipsyDeprecated.js

@@ -1,0 +1,27 @@
+* libJQuery[ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+* mediawiki.toolbar[ResourceLoader|hidden|dependencies=jquery.textSelection]|mediawiki.toolbar.js
+
+== default ==
+* BKL[ResourceLoader|default|rights=minoredit|dependencies=mediawiki.util]|bkl-check.js
+* collapserefs[ResourceLoader|default|type=general]|collapserefs.js|collapserefs.css
+* directLinkToCommons[ResourceLoader|default|dependencies=mediawiki.util]|directLinkToCommons.js
+* edittop[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.page.ready]|edittop.js
+
+== editing ==
+* LegacyToolbar2006[ResourceLoader]|LegacyToolbar2006.js
+* preview[ResourceLoader|dependencies=mediawiki.util]|preview.js
+* urldecoder[ResourceLoader|dependencies=mediawiki.util]|urldecoder.js
+* HotCat[ResourceLoader]|HotCat.js
+
+== articles ==
+* HighlightRedirects[ResourceLoader|dependencies=mediawiki.util]|Highlightredirects.js
+* popups[ResourceLoader]|popups.js
+* referenceTooltips[ResourceLoader|type=general]|referenceTooltips.js|referenceTooltips.css
+
+== users ==
+* markadmins[ResourceLoader|top|dependencies=mediawiki.page.ready,mediawiki.util]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+
+== interwiki ==
+* relatedIcons|relatedIcons.css

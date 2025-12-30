@@ -1,0 +1,4 @@
+* HotCat[ResourceLoader]|HotCat.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* markadmins[ResourceLoader]|markadmins.js

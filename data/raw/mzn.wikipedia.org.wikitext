@@ -1,0 +1,43 @@
+== Extra-Editbuttons ==
+* Extra-Editbuttons[ResourceLoader]|Extra-Editbuttons.js
+
+== Interface ==
+* popups[ResourceLoader]|popups.js
+
+== browsing ==
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+
+== Interface ==
+* editzero[ResourceLoader|dependencies=mediawiki.util]|editzero.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* asbox[ResourceLoader]|asbox.js
+* GreenRedirect[ResourceLoader|dependencies=mediawiki.util]|GreenRedirect.js
+
+== LanguageSupport ==
+* yekewarning[ResourceLoader|default]|yekewarning.js
+
+==interface-veiw==
+* fixsidebar|fixsidebar.css
+* fixtopbar|fixtopbar.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* OldDiff[ResourceLoader]|OldDiff.css
+
+==patrol-tools==
+* popups[ResourceLoader|rights=patrol]|popups.js
+
+==Edit-Interface==
+* revert-tool[ResourceLoader]|revert-tool.js
+* QPreview[ResourceLoader]|QPreview.js
+
+== Categories ==
+* HotCat[ResourceLoader]|HotCat.js
+
+==interwiki==
+* interwiki[ResourceLoader]|interwiki.js
+
+==statistics ==
+* userinfo[ResourceLoader]|userinfo.js
+
+== othermod ==
+* InterwikiTranslate[ResourceLoader]|InterwikiTranslate.js

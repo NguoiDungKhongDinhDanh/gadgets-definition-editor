@@ -1,0 +1,36 @@
+__NOTOC__
+== browsing ==
+* directLinkToCommons[ResourceLoader|dependencies=mediawiki.util]|directLinkToCommons.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* search-new-tab[ResourceLoader]|search-new-tab.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|ReferenceTooltips.js|ReferenceTooltips.css
+* opacity-edit[ResourceLoader|default]|opacity-edit.js|opacity-edit.css
+* lastdiff [ResourceLoader | dependencies=mediawiki.util] | lastdiff.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* ChangeRedTalkPageLinks[ResourceLoader]|ChangeRedTalkPageLinks.js
+
+== editing ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* massedit[ResourceLoader|rights=edit|dependencies=mediawiki.util]|massedit.js
+* SearchEditLink[ResourceLoader]|SearchEditLink.js
+* wikificator[ResourceLoader|type=general|dependencies=user.options,jquery.textSelection]|wikificator.js|wikificator.css
+
+== appearance ==
+* smaller-font|smaller-font.css
+* edittop[ResourceLoader|default|dependencies=user.options,mediawiki.util]|edittop.js|edittop.css
+* preview[ResourceLoader|dependencies=mediawiki.util]|preview.js
+* Editpage[ResourceLoader|default|rights=edit]|Editpage.js
+* mySandbox|mySandbox.css
+* cleanDiff[ResourceLoader|dependencies=mediawiki.util,mediawiki.Title,mediawiki.Uri]|cleanDiff.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* StickyTableHeaders[ResourceLoader]|StickyTableHeaders.js|StickyTableHeaders.css
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* bkl-check|bkl-check.css
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* switcher[ResourceLoader|default|dependencies=mediawiki.util]|switcher.js
+* wikibugs[ResourceLoader|default|dependencies=mediawiki.util, mediawiki.user, jquery.ui]|JsMwApi.js|wikibugs.js|wikibugs.css

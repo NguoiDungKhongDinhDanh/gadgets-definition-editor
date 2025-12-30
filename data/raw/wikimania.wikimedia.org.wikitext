@@ -1,0 +1,8 @@
+* countdown-refresh [ResourceLoader | hidden | default] | countdown-refresh.js
+
+== browsing-gadgets ==
+* popups[ResourceLoader]|popups.js|navpop.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js

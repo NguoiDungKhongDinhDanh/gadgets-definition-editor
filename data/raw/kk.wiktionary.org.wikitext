@@ -1,0 +1,3 @@
+== edit ==
+* Translit tool[ResourceLoader]|translit.js
+* Entry creation wizard[ResourceLoader]|entry-wizard.js

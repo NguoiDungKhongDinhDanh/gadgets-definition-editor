@@ -1,0 +1,7 @@
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== interface-gadgets ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* ShortUrl[ResourceLoader|default]|ShortUrl.css|ShortUrl.js
+*AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js

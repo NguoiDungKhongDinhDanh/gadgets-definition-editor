@@ -1,0 +1,11 @@
+== sučelje ==
+* navigacijski_prozori[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* diffGreenBlue[ResourceLoader]|diffGreenBlue.css
+* HotCat[ResourceLoader|rights=autoconfirmed|actions=view]|HotCat.js
+
+== ophodnja ==
+* patrollinks[ResourceLoader]|patrollinks.js
+
+== ovlaštenici ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+* botRollback [ResourceLoader|dependencies=mediawiki.util|rights=markbotedits]|botRollback.js

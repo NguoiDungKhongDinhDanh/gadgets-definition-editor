@@ -1,0 +1,119 @@
+== browsing-gadgets ==
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util]|confirmationRollback-mobile.js
+* imagelinks[ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* NavPopups[ResourceLoader|dependencies=mediawiki.user]|NavPopups.js
+* scrollUpButton[ResourceLoader|targets=desktop,mobile]|scrollUpButton.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* responsiveContentBase[ResourceLoader|type=styles|hidden|skins=vector]|responsiveContentBase.css
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleprod.js|twinklexfd.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinkledeprod.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* FoxTools[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user|skins=minerva|rights=autoconfirmed]|FoxTools.js
+* MassRollback[ResourceLoader|rights=rollback]|MassRollback.js
+* TACT[ResourceLoader|rights=ipinfo-view-full]|TACT.js
+
+== admin-gadgets ==
+* SysopFoxTools[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user|skins=minerva|rights=block,delete,protect]|SysopFoxTools.js
+* SysopHelperjs[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user|rights=block,protect]|SysopHelper.js
+* IPSjs[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user|rights=block]|IPS.js
+
+== watchlist ==
+* WatchlistBase[ResourceLoader|top|default|rights=viewmywatchlist|skins=vector,monobook,modern]|WatchlistBase.css
+* watchlist-notice[ResourceLoader|default]|watchlist-notice.js
+* WatchlistGreenIndicators[ResourceLoader|default|type=general|rights=viewmywatchlist|peers=WatchlistBase|skins=vector]|WatchlistGreenIndicators.css
+* geonotice[ResourceLoader|rights=viewmywatchlist]|geonotice.js
+
+== editing-gadgets ==
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* EditTop[ResourceLoader]|EditTop.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* ProveIt-classic[ResourceLoader|type=general|dependencies=jquery.ui,jquery.textSelection,mediawiki.util]|ProveIt-classic.css|ProveIt-classic.js
+* QuickEdit[ResourceLoader]|QuickEdit.js
+* Shortdesc-helper-loader[ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util|skins=vector,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector]|Shortdesc-helper-pagestyles-vector.css
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* legacyToolbar[ResourceLoader]|legacyToolbar.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== interface-gadgets ==
+* autolink[ResourceLoader]|autolink.js
+* EditTop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|EditTop.js|EditTop.css
+* Purge[ResourceLoader|dependencies=mediawiki.util]|Purge.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Coloredlinks|Coloredlinks.css
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* ExtLinks[ResourceLoader]|ExtLinks.js
+* textareasansserif[ResourceLoader]|textareasansserif.css
+* AdvancedSiteNotices[ResourceLoader|targets=desktop,mobile|default]|AdvancedSiteNotices.js
+* quickeditcounter[ResourceLoader|dependencies=mediawiki.util]|quickeditcounter.js
+* SidebarTranslation[ResourceLoader]|SidebarTranslation.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* topalert[ResourceLoader]|topalert.js|topalert.css
+* CollapsibleNav[ResourceLoader|dependencies=mediawiki.cookie|skins=vector]|CollapsibleNav.js|CollapsibleNav.css
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+* Blackskin[ResourceLoader|skins=monobook,vector]|Blackskin.css
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,monobook]|dark-mode-toggle-pagestyles.css
+* responsiveContent[ResourceLoader|type=general|skins=vector|peers=responsiveContentBase]|responsiveContent.js
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* NotifCountTitle[ResourceLoader|dependencies=mediawiki.language]|NotifCountTitle.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* JustifyParagraphs[ResourceLoader]|JustifyParagraphs.css
+* historyNumbered[ResourceLoader]|historyNumbered.css
+* NoAnimations[ResourceLoader]|NoAnimations.js
+* vector-headanchor[ResourceLoader|type=general]|vector-headanchor.js|vector-headanchor.css
+
+== advanced ==
+* RegexMenuFramework[ResourceLoader|hidden]|RegexMenuFramework.js
+* RTRC[ResourceLoader]|RTRC.js
+* DebugMode[ResourceLoader|dependencies=mediawiki.util]|DebugMode.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* STBB[ResourceLoader|default|hidden|mediawiki.util]|STBB.js
+
+== toolbox ==
+* Contributors[ResourceLoader|dependencies=mediawiki.util]|Contributors.js
+* Subpages[ResourceLoader|dependencies=mediawiki.util]|Subpages.js
+* ArticleTraffic[ResourceLoader|dependencies=mediawiki.util]|ArticleTraffic.js
+* Bagikan[ResourceLoader|default|dependencies=mediawiki.util]|Bagikan.js
+* CurIDLink[ResourceLoader|default|dependencies=mediawiki.util]|CurIDLink.js
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+
+== test ==
+* StickyTableHeaders[ResourceLoader|type=general]|StickyTableHeaders.js|StickyTableHeaders.css
+* dark-mode[ResourceLoader|targets=desktop,mobile|skins=vector,monobook,modern,minerva]|dark-mode.css
+* PageDescriptions[ResourceLoader|type=general|dependencies=mediawiki.api|skins=vector,monobook,modern]|Page_descriptions.js
+* MobileCategories[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|skins=minerva]|MobileCategories.js
+* NewImageThumb[ResourceLoader|skins=vector]|NewImageThumb.js|NewImageThumb.css
+* ShowJavascriptErrors[ResourceLoader|type=general|top]|ShowJavascriptErrors.js
+* PageDescriptions[ResourceLoader|type=general|dependencies=mediawiki.api|skins=vector,monobook]|Page_descriptions.js
+* MapFrame[ResourceLoader]|MapFrame.js
+* shortURL[ResourceLoader|dependencies=mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|type=general]|shortURL.js
+* ScrolledReflist[ResourceLoader|type=styles]|ScrolledReflist.css
+* MinervaPatrol[ResourceLoader|dependencies=mediawiki.api|skins=minerva|rights=rollback]|MinervaPatrol.js|MinervaPatrol.css
+
+== template-gadgets ==
+* ImageStackPopup [ ResourceLoader | default | categories = Halaman yang menggunakan perkakas ImageStackPopup ] | ImageStackPopup.js | ImageStackPopup.css
+
+== modules ==
+* libLua [ResourceLoader|dependencies=mediawiki.api|hidden]|libLua.js
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css
+
+== deprecated ==
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+* featured-articles-links[ResourceLoader]|featured-articles-links.js|featured-articles-links.css

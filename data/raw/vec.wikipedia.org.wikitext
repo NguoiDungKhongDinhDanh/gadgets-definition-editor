@@ -1,0 +1,57 @@
+== temi ==
+* dark-mode[ResourceLoader|targets=desktop,mobile|skins=vector,monobook,modern,minerva]|dark-mode.css
+
+==canbi==
+* ProveIt[ResourceLoader]|ProveIt.js
+* tradLink[ResourceLoader|dependencies=mediawiki.util,mediawiki.cookie,mediawiki.ForeignApi]|tradLink.js
+* Hiddencat[ResourceLoader]|Hiddencat.js
+* autocomplete[ResourceLoader]|autocomplete.js
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* oldeditor[ResourceLoader]|oldeditor.js
+* wikEd[ResourceLoader]|wikEd.js|wikEd-vec.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* RollbackSconti[ResourceLoader]|RollbackSconti.js
+* HotCatsMulti[ResourceLoader]|HotCatsMulti.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* AvixiSenpleghi[ResourceLoader]|AvixiSenpleghi.js
+* SmartRollback[ResourceLoader]|SmartRollback.js
+* saveandedit[ResourceLoader]|saveandedit.js
+* TemplateParamWizard[ResourceLoader|dependencies=mediawiki.util,jquery.ui,jquery.textSelection,jquery.ui|rights=minoredit]|TemplateParamWizard.js
+*scribe[ResourceLoader|dependencies=ext.visualEditor.core|mediawiki|mediawiki.api]|scribe.js|scribe.css
+*reFill[ResourceLoader]|reFill.js
+
+== navegasion ==
+* Erori-comuni[ResourceLoader|dependencies=mediawiki.util]|Erori-comuni.js|Erori-comuni.css
+* Notepad[ResourceLoader]| Notepad.js
+* LinganbiForesti[ResourceLoader|dependencies=mediawiki.util] | LinganbiForesti.js
+* CategorieDaMobile[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|skins=minerva]|CategorieDaMobile.js
+* HideCentralNotice[ResourceLoader|targets=desktop,mobile]|HideCentralNotice.js|HideCentralNotice.css
+* WikidataDescriptionStyles[ResourceLoader|hidden]|WikidataDescriptionStyles.css
+* WikidataDescription[ResourceLoader|dependencies=mediawiki.api,mediawiki.ForeignApi,oojs-ui|peers=WikidataDescriptionStyles]|WikidataDescription.js|WikidataDescription.css
+* nav-sandbox[ResourceLoader|dependencies=mediawiki.util]|nav-sandbox.js
+* nav-css[ResourceLoader|dependencies=mediawiki.util]|nav-css.js
+* nav-js[ResourceLoader|dependencies=mediawiki.util]|nav-js.js
+* WikidataTab[ResourceLoader]|WikidataTab.js
+* Multivixion[ResourceLoader]|spellingstyle.js
+* dictionaryLookupHover [ResourceLoader] | dictionaryLookupHover.js
+* Popup[ResourceLoader]|Popup.js
+* ORES[ResourceLoader]|ArticleQuality.js
+* EasyQuery[ResourceLoader|dependencies=oojs-ui]|EasyQuery.js
+* AffMasLiens [ResourceLoader|dependencies=mediawiki.util,oojs-ui-widgets] | AffMasLiens.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* CustomSidebar[ResourceLoader|dependencies=mediawiki.util,oojs-ui.styles.icons-interactions]|CustomSidebar.css|CustomSidebar.js
+
+== gràfega ==
+* ScondiBaraSanca[ResourceLoader|type=general] |ScondiBaraSanca.css |ScondiBaraSanca.js
+* relatedIcons[ResourceLoader]|relatedIcons.css
+* NewImageThumb[ResourceLoader|skins=vector]|NewImageThumb.js|NewImageThumb.css
+* VectorClassic [ResourceLoader] | VectorClassic.css
+* DeluxeHistory [ResourceLoader|type=general|dependencies=user,user.options,mediawiki.api,mediawiki.storage] | DeluxeHistory.js | DeluxeHistory.css
+
+== altro ==
+* wikidataHeaderLink[ResourceLoader]|wikidataHeaderLink.js
+* RTRC[ResourceLoader]|RTRC.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* wikidatainfo[ResourceLoader]|wikidatainfo.js

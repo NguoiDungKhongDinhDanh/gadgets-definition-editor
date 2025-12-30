@@ -1,0 +1,74 @@
+See [[Special:Gadgets]] for documentation of these gadgets, and [[Wiktionary:Gadgets]] for general information about gadgets on Wiktionary. See also [[WT:PREFS]] for other preferences.
+
+* LegacyScripts[ResourceLoader|default|dependencies=site,mediawiki.util,mediawiki.toolbar]|legacy.js|legacy.css
+
+== not yet sorted ==
+ HideSister[ResourceLoader]|HideSister.css
+ HideRankings[ResourceLoader]|HideRankings.css
+ HideLinesBetweenLanguages[ResourceLoader]|HideLinesBetweenLanguages.css
+ HideTranslations[ResourceLoader]|HideTranslations.css
+ BoxedInflections[ResourceLoader]|BoxedInflections.css
+ IndentSeeAlso[ResourceLoader]|IndentSeeAlso.css
+ HideSiteNotice[ResourceLoader]|HideSiteNotice.css
+ HideQualifierParens[ResourceLoader]|HideQualifierParens.css
+ ItalicParens[ResourceLoader]|ItalicParens.css
+ HideTrGlossParens[ResourceLoader]|HideTrGlossParens.css
+ HideAllParens[ResourceLoader]|HideAllParens.css
+ PlainTransliterations[ResourceLoader]|PlainTransliterations.css
+ FloatNavToggleLeft[ResourceLoader]|FloatNavToggleLeft.css
+ PreviewRightTOCs[ResourceLoader]|PreviewRightTOCs.css
+ EditTools[ResourceLoader]|EditTools.css
+ HeadersInline[ResourceLoader]|HeadersInline.css
+
+== appearance ==
+* VectorClassic[ResourceLoader|top|skins=vector]|VectorClassic.css
+* HideLogo[ResourceLoader]|HideLogo.css
+* MonobookSmallerHeadings[ResourceLoader|default|skins=monobook]|MonobookSmallerHeadings.css
+* JavascriptHeadings[ResourceLoader|default|dependencies=site]|JavascriptHeadings.js
+* vectorTabs[ResourceLoader|skins=vector]|vectorTabs.js
+* WiktCountryFlags[ResourceLoader]|WiktCountryFlags.css
+* WiktPreviewRightTOCs[ResourceLoader]|WiktPreviewRightTOCs.css
+* LogoTiles[ResourceLoader]|LogoTiles.css
+* LatnMentionBold[ResourceLoader]|LatnMentionBold.css
+* RoundBullets4Lists[ResourceLoader]|RoundBullets4Lists.css
+* SmallRC[ResourceLoader]|SmallRC.css
+
+== interface-gadgets ==
+
+* purgetab[ResourceLoader|top|dependencies=mediawiki.api,mediawiki.util]|purgetab.js
+* Navigation_popups[ResourceLoader]|popups.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* WiktAddProminentInterwiki[ResourceLoader]|langcode2name.js|WiktAddProminentInterwiki.js
+* WiktSidebarTranslation[ResourceLoader]|langcode2name.js|WiktSidebarTranslation.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* disableTargetedTranslations[ResourceLoader|top]|disableTargetedTranslations.js
+* TabbedLanguages[ResourceLoader|top|dependencies=mediawiki.cookie,mediawiki.util]|TabbedLanguages.js|TabbedLanguages.css
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api]|DocTabs.js|DocTabs.css
+* BlockInfo[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.language.months,mediawiki.util]|BlockInfo.js
+* RevdelInfo[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.Uri,mediawiki.language.months,mediawiki.util]|RevdelInfo.js
+* FastRollback[ResourceLoader|rights=rollback|dependencies=mediawiki.api,mediawiki.Uri]|FastRollback.js
+* OrangeLinks[ResourceLoader|dependencies=site,mediawiki.api,mediawiki.Uri,mediawiki.Title,mediawiki.util]|OrangeLinks.js
+* U2693[ResourceLoader|dependencies=mediawiki.Uri,mediawiki.Title,mediawiki.util]|U2693.js
+* CodeLinks[ResourceLoader|default|dependencies=site,mediawiki.util]|CodeLinks.js
+* MoveNoNSCombo[ResourceLoader]|MoveNoNSCombo.js
+
+== editing-gadgets ==
+
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* WiktAccFormCreation[ResourceLoader]|WiktAccFormCreation.js
+* disableEditorJs[ResourceLoader|top]|disableEditorJs.js
+* disableRhymesEdit[ResourceLoader|top]|disableRhymesEdit.js
+* HotCat[ResourceLoader]|HotCat.js
+* FastRevert[ResourceLoader|dependencies=mediawiki.util]|FastRevert.js
+* PatrollingEnhancements[ResourceLoader|rights=patrol|default]|PatrollingEnhancements.js
+* DefSideBoxes[ResourceLoader|dependencies=mediawiki.util]|DefSideBoxes.js|DefSideBoxes.css
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* DeveloperEditorTweaks[ResourceLoader|dependencies=ext.wikiEditor,mediawiki.util]|DeveloperEditorTweaks.js
+
+== misc-gadgets ==
+* aWa[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,user.options,mediawiki.Uri,mediawiki.Title]|aWa.js|aWa.css
+* QQ[ResourceLoader|dependencies=jquery.ui,mediawiki.util]|QQ.js|QQ.css
+
+== phantom ==
+* AGprefs[ResourceLoader|skins=none|dependencies=mediawiki.util]|AGprefs.js

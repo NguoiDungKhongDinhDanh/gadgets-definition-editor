@@ -1,0 +1,15 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+== editing-gadgets ==
+
+* wikEd[ResourceLoader]|wikEd.js
+
+== interface-gadgets ==
+
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Blackskin|Blackskin.css

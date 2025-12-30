@@ -1,0 +1,16 @@
+== interface-gadgets ==
+
+* HighlightRedirects | HighlightRedirects.css
+* StripedQuotes | StripedQuotes.css
+* HideSectionEditLinks [ ResourceLoader ] | HideSectionEditLinks.css
+* SeparateSpecialCategories [ ResourceLoader | dependencies = mediawiki.Title, mediawiki.Uri, mediawiki.util | default ] | SeparateSpecialCategories.css | SeparateSpecialCategories.js
+* HotCat[ResourceLoader] | HotCat.js
+
+== maintenance-gadgets ==
+
+* NotifyUncategorizedPage [ ResourceLoader | dependencies = mediawiki.util | default ] | NotifyUncategorizedPage.css | NotifyUncategorizedPage.js
+* NotifyUnconnectedLists [ ResourceLoader ] | NotifyUnconnectedLists.css
+
+== admin-gadgets ==
+
+* SafeRollback [ ResourceLoader | rights = rollback ] | SafeRollback.js

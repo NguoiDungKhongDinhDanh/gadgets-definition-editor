@@ -1,0 +1,27 @@
+== Navigation ==
+*toolserver-integration[ResourceLoader]|toolserver-integration.js
+== InformationTools ==
+*PageWatcher[ResourceLoader]|PageWatcher.js
+
+== LearningTools ==
+*MicroButtons[ResourceLoader]|MicroButtons.js
+
+== EditTools ==
+*SemanticTemplatesNew[ResourceLoader]|SemanticTemplatesNew.js
+*SemanticTemplates[ResourceLoader]|SemanticTemplates.js
+*wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+*HotCat[ResourceLoader]|HotCat.js
+
+== UserGroups ==
+*show-usergroup|show-usergroup.css
+*show-usergroup-with-external|show-usergroup-with-external.css
+
+== LayoutTools ==
+*ResizeGalleries[ResourceLoader]|ResizeGalleries.js
+*EnhancedTalkBlue|EnhancedTalkBlue.css
+*EnhancedTalkSand|EnhancedTalkSand.css
+*EnhancedTalkSun|EnhancedTalkSun.css
+*dropdownMenu[ResourceLoader|default|hidden|targets=desktop,mobile|actions=edit,view]|dropdownMenu.css
+
+== Upload ==
+*Upload[ResourceLoader]|Upload.js

@@ -1,0 +1,94 @@
+== navegacion ==
+* removeAccessKeys [ResourceLoader | dependencies=mediawiki.util] | removeAccessKeys.js
+* CorrectorOrtografico [ResourceLoader | dependencies=mediawiki.util] | CorrectorOrtografico.js
+* DetectaDesambiguaciones [ResourceLoader | dependencies=mediawiki.util] | DetectaDesambiguaciones.js
+* edittop [ResourceLoader | dependencies=mediawiki.util] | edittop.js
+* searchFocus [ResourceLoader] | searchFocus.js
+* traductor-google [ResourceLoader] | traductor-google.js
+* Navigation_popups [ResourceLoader] | popups.js | popups-es.js | navpop.css
+* exlinks [ResourceLoader | dependencies=mediawiki.util] | exlinks.js
+* lastdiff [ResourceLoader | dependencies=mediawiki.util] | lastdiff.js
+* enlaceswiki [ResourceLoader] | enlaceswiki.js
+* esbozos-wikificar [ResourceLoader | dependencies=mediawiki.util] | esbozos-wikificar.js
+* revisionjumper [ResourceLoader] | revisionjumper.js
+* ver-subpaginas [ResourceLoader | dependencies=mediawiki.util] | ver-subpaginas.js
+* registro [ResourceLoader | dependencies=mediawiki.util] | registro.js
+* rightsfilter [ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* contribsrange [ResourceLoader] | contribsrange.js
+* diff-enlaces [ResourceLoader] | diff-enlaces.js
+* a-commons-directo [ResourceLoader | dependencies=mediawiki.util | default] | a-commons-directo.js
+* VectorSearchNav [ResourceLoader | skins=vector] | VectorSearchNav.js
+* cambiosrecientes-tabla [ResourceLoader] | cambiosrecientes-tabla.js
+* ultimas-paginas-nuevas [ResourceLoader | skins=monobook] | ultimas-paginas-nuevas.js
+* ultimos-cambios-recientes [ResourceLoader | skins=monobook] | ultimos-cambios-recientes.js
+<!-- * patrollinks [rights=patrol] | patrollinks.js -->
+* reversion [ResourceLoader | dependencies=mediawiki.util | rights=autoconfirmed] | reversion.js
+* watchlistnotifier [ResourceLoader | dependencies=mediawiki.util] | watchlistnotifier.js
+* ReferenceTooltips [ResourceLoader | default] | ReferenceTooltips.js
+* XTools [ResourceLoader] | XTools.js
+* ajaxWatchlist [ResourceLoader|dependencies=mediawiki.util]|ajaxWatchlist.js
+
+== edicion==
+* twinkle-lite [ResourceLoader] | twinkle-lite.js
+* ajaxPreview [ResourceLoader] | ajaxPreview.js
+* botonera [ResourceLoader | dependencies=user.options,ext.wikiEditor] | botonera.js
+* mensajes-predefinidos [ResourceLoader | dependencies=mediawiki.util] | mensajes-predefinidos.js
+* HotCat [ResourceLoader] | HotCat.js
+* refToolbar [ResourceLoader | dependencies=mediawiki.util | default] | refToolbar.js
+* wikEd [ResourceLoader] | wikEd.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* ProveIt [ResourceLoader] | ProveIt.js
+* Tagger [ResourceLoader] | Tagger.js
+* MiniEdit [ResourceLoader|targets=desktop,mobile|actions=view] | MiniEdit.js
+
+== apariencia ==
+* UTCLiveClock [ResourceLoader] | UTCLiveClock.js
+* LocalLiveClock [ResourceLoader] | LocalLiveClock.js
+* boton-purgar [ResourceLoader | dependencies=mediawiki.util] | boton-purgar.js
+* CaracteresOff | CaracteresOff.css
+* OcultarReferencias [ResourceLoader | dependencies=mediawiki.util] | OcultarReferencias.js
+* Cita-requerida-resaltada | Cita-requerida-resaltada.css
+* pestanas-duplicadas-abajo [ResourceLoader] | pestanas-abajo.js | pestanas-abajo.css
+* redirectsenverde [ResourceLoader | dependencies=mediawiki.util] | red-verde.js
+* contrib-numeradas | contrib-numeradas.css
+* deluxe-history [ResourceLoader|dependencies=mediawiki.util,user]|DeluxeHistory.js
+* nocoords | nocoords.css
+* no-sitenotice | nositenotice.css
+* blackskin [skins=monobook]| blackskin.css
+* historialmejorado [ResourceLoader] | historialmejoradobase.js
+* imagenesinfobox [default] | imagenesinfobox.css
+* coloresdiscu [ResourceLoader] | coloresdiscu.js | coloresdiscu.css
+* fondo-color [ResourceLoader] | fondo-color.js | fondo-color.css
+* wikilimpia | wikilimpia.css
+* fichascompactas | fichascompactas.css
+* corchete-refs | corchete-refs.css
+* typographyrefreshoverride [ResourceLoader | skins=vector]|typographyrefreshoverride.css
+* mobile-sidebar[ResourceLoader | skins=vector]|mobile-sidebar.js
+* tab-oculta-atendidas [ResourceLoader]| tab-oculta-atendidas.js
+* switcher [ResourceLoader | default | targets=desktop,mobile] | switcher.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+
+== avanzado ==
+* QuickTest [ResourceLoader | rights=editinterface] | QuickTest.js | QuickTest.css
+* ShowMessageNames [ResourceLoader | dependencies=mediawiki.util] |ShowMessageNames.js
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css
+
+== template-gadgets ==
+* AddAlternativeText [ResourceLoader | hidden | default | categories=Accesorio:AddAlternativeText] | AddAlternativeText.js
+* AddFileCaption [ResourceLoader | hidden | default | categories=Accesorio:AddFileCaption] | AddFileCaption.js
+* AddFileDescription [ResourceLoader | hidden | default | categories=Accesorio:AddFileDescription] | AddFileDescription.js
+* Checkbox [ResourceLoader | hidden | default | categories=Accesorio:Checkbox] | Checkbox.js
+* ExcerptTree [ResourceLoader | hidden | default | categories=Accesorio:ExcerptTree] | ExcerptTree.js
+* Formicarium [ResourceLoader | hidden | default | categories=Accesorio:Formicarium] | Formicarium.js
+* Hola [ResourceLoader | hidden | default | categories=Accesorio:Hola] | Hola.js
+* InlineSearch [ResourceLoader | hidden | default | categories=Accesorio:InlineSearch] | InlineSearch.js
+* LinkedPagesWithTemplates [ResourceLoader | hidden | default | categories=Accesorio:LinkedPagesWithTemplates] | LinkedPagesWithTemplates.js
+* OWIDPopup [ResourceLoader | hidden | categories=Accesorio:OWIDPopup] | OWIDPopup.js
+* PagesToTranslate [ResourceLoader | hidden | default | categories=Accesorio:PagesToTranslate] | PagesToTranslate.js
+* RecentEditors [ResourceLoader | hidden | default | categories=Accesorio:RecentEditors] | RecentEditors.js
+* ShortLinkedPages [ResourceLoader | hidden | default | categories=Accesorio:ShortLinkedPages] | ShortLinkedPages.js
+* TopLinkedPages [ResourceLoader | hidden | default | categories=Accesorio:TopLinkedPages] | TopLinkedPages.js
+* Vivarium [ResourceLoader | hidden | default | categories=Accesorio:Vivarium] | Vivarium.js
+* WikiForm [ResourceLoader | hidden | default | categories=Accesorio:WikiForm] | WikiForm.js
+* WikiSign [ResourceLoader | hidden | default | categories=Accesorio:WikiSign] | WikiSign.js

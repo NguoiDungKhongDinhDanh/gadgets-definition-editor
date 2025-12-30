@@ -1,0 +1,2 @@
+* HotCat[ResourceLoader]|HotCat.js
+* patrollinks[ResourceLoader]|patrollinks.js

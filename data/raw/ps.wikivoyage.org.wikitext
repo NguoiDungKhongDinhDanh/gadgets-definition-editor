@@ -1,0 +1,54 @@
+== Wikivoyage ==
+* ListingEditor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,jquery.ui]|ListingEditor.js|ListingEditor.css
+* ListingToolbar[ResourceLoader|default|dependencies=ext.wikiEditor]|ListingToolbar.js
+* MapFrame[ResourceLoader|default]|MapFrame.js
+* jCarousel[ResourceLoader|default]|jCarousel.js|jCarousel.css
+* RelatedSites[ResourceLoader|default]|RelatedSites.js
+* SearchEngineLinks[ResourceLoader|default|rights=autoconfirmed]|SearchEngineLinks.js
+* Sharer[ResourceLoader|default]|Sharer.js
+* IsPartOfCreateCatLink[ResourceLoader|default]|IsPartOfCreateCatLink.js
+* WikivoyageTools[ResourceLoader|default]|WikivoyageTools.js
+* InterwikiTranslate[ResourceLoader]|InterwikiTranslate.js
+* TranslationHelper[ResourceLoader]|TranslationHelper.js
+* UserisOnlineOrNo[ResourceLoader|default|dependencies=mediawiki.util]|UserisOnlineOrNo.js
+
+== Interface ==
+* EnhancedTalk[ResourceLoader|default]|blank.js|EnhancedTalk.css
+* popups|popups.js
+* purgetab[ResourceLoader|default|rights=purge|dependencies=mediawiki.util]|purgetab.js
+* GreenRedirect[ResourceLoader]|GreenRedirect.css
+* SearchEngines[ResourceLoader]|SearchEngines.js
+* IranianSans[ResourceLoader]|IranianSans.css
+* mySandbox[ResourceLoader|dependencies=mediawiki.util|rights=minoredit]|mySandbox.js
+* PageInfo[ResourceLoader]|PageInfo.js
+
+== Extra-Editbuttons ==
+* Extra-Editbuttons[ResourceLoader|default|dependencies=ext.wikiEditor]|Extra-Editbuttons-dictionary.js|Extra-Editbuttons-autoed.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons.js
+
+== Edit-Interface ==
+* wikEd[ResourceLoader]|wikEd.js
+* RenameWizard[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,user.options]|RenameWizard.js
+* AdvancedSiteNotices|AdvancedSiteNotices.js
+
+== Categories ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader]|Cat-a-lot.css|Cat-a-lot.js
+
+== patrol-tools ==
+* Twinkle[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|morebits.js|morebits.css|Twinkle.js
+* LiveRC|LiveRC.js|LiveRC.css
+* RTRC[ResourceLoader]|RTRC.js
+* patroller[rights=patrol]|patroller.js
+* antivandalism[ResourceLoader|dependencies=mediawiki.util]|antivandalism.js
+* taghighlighter [rights=move]|taghighlighter.css
+* rollbackconfirmable[ResourceLoader|dependencies=mediawiki.util,jquery.confirmable|rights=rollback]|rollbackconfirmable.js
+
+== statistics ==
+* userinfo[ResourceLoader]|userinfo.js
+* sysopdectector[ResourceLoader]|sysopdectector.js
+* UserEditCount[ResourceLoader|rights=move|dependencies=mediawiki.util]|UserEditCount.js
+
+== admin-gadgets ==
+* UserRights[ResourceLoader|rights=delete|dependencies=mediawiki.util]|UserRights.js
+* Cat-a-lot[rights=delete]|Cat-a-lot.css|Cat-a-lot.js
+* patroller[rights=patrol]|patroller.js

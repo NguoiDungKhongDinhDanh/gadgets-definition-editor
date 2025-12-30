@@ -1,0 +1,42 @@
+== Redagavimas ==
+* wikEd|wikEd.js
+* refToolbar|refToolbar.js
+* HotCat[ResourceLoader]|HotCat.js
+* Regex|Regex.js|Regex.css
+* edittop|edittop.js
+* disambigedlinks[ResourceLoader|dependencies=mediawiki.util]|disambigedlinks.js
+
+=== Infolentelės ===
+* asmenybe|addCustomButton.js|asmenybe.js
+* valdovas|addCustomButton.js|valdovas.js
+
+=== Vikifikatorius ===
+* mediawiki.toolbar[ResourceLoader]|mediawiki.toolbar.js
+* wfTypos[ResourceLoader]|wfTypos.js
+* LegacyToolbar2006[ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar]|LegacyToolbar2006.js
+* summaryButtons[ResourceLoader|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css
+
+== Peržiūra ==
+* tables1|tables1.js
+* tables5|tables5.js
+* tables10|tables10.js
+* tables20|tables20.js
+* popups|popups.js|popups.css
+** popupdab|popupdab.js
+* showhidden|showhidden.css
+* relatedpages[ResourceLoader|dependencies=mediawiki.util]|relatedpages.js
+* highlightredirects[ResourceLoader|dependencies=mediawiki.util]|Highlightredirects.js
+* bkl-check|bkl-check.js
+* bkl2-check|bkl2-check.js
+
+== Kitos ==
+
+* quickeditcounter|lib-beau.js|quickeditcounter.js
+* editcounterlinks[ResourceLoader|dependencies=mediawiki.util]|editcounterlinks.js
+* markadmins|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* vikisumeile|vikisumeile.js
+
+== Biblioteka ==
+
+* JSL|JSL.js

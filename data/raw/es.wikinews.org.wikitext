@@ -1,0 +1,37 @@
+== navegacion ==
+* wikidialog[ResourceLoader|default|targets=desktop,mobile|dependencies=mediawiki.util]|wikidialog.js
+* wikidialog-x[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util]|wikidialog-x.js
+* EnlaceCorto [ResourceLoader]| EnlaceCorto.js
+* popup [ResourceLoader]| popup.js | popup.css
+* a-commons-directo [ResourceLoader | dependencies=mediawiki.util | default] | a-commons-directo.js
+* VentExt [ResourceLoader]| VentExt.js
+
+== edicion ==
+
+* HotCat[ResourceLoader] | HotCat.js
+* botonera[ResourceLoader] | botonera.js
+* mensajes-predefinidos[ResourceLoader|dependencies=mediawiki.util]|mensajes-predefinidos.js
+* ProtectColorText[ResourceLoader|rights=editprotected] | ProtectColorText.css
+
+== interfaz ==
+
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css
+* resaltador[ResourceLoader] | resaltador.js
+* relojUTC[ResourceLoader] | relojUTC.js
+* purgar[ResourceLoader|dependencies=mediawiki.util]|purgar.js
+* colorInterwiki[ResourceLoader] | colorInterwiki.css
+* CorrectorOrtografico[ResourceLoader] | CorrectorOrtografico.js
+* deluxe-history[ResourceLoader] | Objects.js | DeluxeHistory.js | DeluxeHistory.css
+* quickeditcounter[ResourceLoader|dependencies=mediawiki.util]|quickeditcounter.js
+* typographyrefreshoverride [ResourceLoader] | typographyrefreshoverride.css
+* sepDiscusiones | sepDiscusiones.css
+* nuevasec-mas[ResourceLoader] | nuevasec-mas.js
+* easyPeerReview[ResourceLoader|default|rights=review|dependencies=mediawiki.util]|easyPeerReview.js
+* charinsert[ResourceLoader] | charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection,user] | charinsert-core.js | charinsert-core.css
+* CommentsInLocalTime[ResourceLoader] | CommentsInLocalTime.js
+* blockNotificationsButton[ResourceLoader|dependencies=mediawiki.api,ext.gadget.mediawiki.api.ptwiki,mediawiki.util,user.options|rights=block]|blockNotificationsButton.js
+
+== comentarios ==
+
+* VigilaComentario[ResourceLoader] | VigilaComentario.js

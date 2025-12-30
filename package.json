@@ -1,0 +1,27 @@
+{
+  "name": "gadgetsdefinitioneditor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && esbuild src/index.ts --bundle --minify --outfile=dist/out.js",
+    "test": "jest",
+    "format": "prettier src -w"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@homer0/prettier-plugin-jsdoc": "^11.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.0",
+    "@types/oojs": "^7.0.7",
+    "@types/oojs-ui": "^0.49.4",
+    "esbuild": "0.25.12",
+    "eslint": "^9.39.1",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "types-mediawiki": "^2.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.4"
+  }
+}

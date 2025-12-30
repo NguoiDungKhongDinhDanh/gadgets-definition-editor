@@ -1,0 +1,11 @@
+== دعم ==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+
+== التصفح ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* Popup[default|ResourceLoader]|Popup.js
+
+== التحرير ==
+* HotCat[ResourceLoader]|HotCat.js
+* MediaWiki:Gadgets-definition

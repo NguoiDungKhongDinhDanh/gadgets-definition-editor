@@ -1,0 +1,4 @@
+* AdvancedSiteNotices[ResourceLoader|targets=desktop,mobile|default]|AdvancedSiteNotices.js
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,monobook]|dark-mode-toggle-pagestyles.css
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css

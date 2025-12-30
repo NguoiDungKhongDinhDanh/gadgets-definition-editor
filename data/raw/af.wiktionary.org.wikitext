@@ -1,0 +1,19 @@
+<noinclude>
+[[en:MediaWiki:Gadgets-definition]]
+[[fr:MediaWiki:Gadgets-definition]]
+[[sv:MediaWiki:Gadgets-definition]]
+</noinclude>
+=== Geriewe ===
+* SommaireDeveloppable[ResourceLoader|default]|SommaireDeveloppable.js
+* TranslationAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data]|TranslationAdder.js
+* HotCat[ResourceLoader]|HotCat.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* charinsert[ResourceLoader|default]|charinsert.js|charinsert.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+
+Versteekte nutsprogramme:
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* LanguageUtils[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.StorageUtils]|LanguageUtils.js
+* LegacyScriptsNewNode[ResourceLoader|hidden]|LegacyScriptsNewNode.js
+* TranslationAdder-Data[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.LanguageUtils]|TranslationAdder-Data.js

@@ -1,0 +1,1 @@
+* LegacyScripts[ResourceLoader|dependencies=site,mediawiki.util,mediawiki.toolbar,mediawiki.cookie]|legacy.js|legacy.css

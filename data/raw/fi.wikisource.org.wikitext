@@ -1,0 +1,7 @@
+* Viite-palstat[ResourceLoader]|Viite-palstat.css|Viite-palstat.js
+* Viite-overflow[ResourceLoader]|Viite-overflow.css|Viite-overflow.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+* Wikiviite[ResourceLoader|dependencies=mediawiki.cookie]|Wikiviite.js|Wikiviite.css
+* HotCat[ResourceLoader]|HotCat.js
+* frwiki_infobox_v3[ResourceLoader|default|hidden]|frwiki_infobox_v3.css
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js

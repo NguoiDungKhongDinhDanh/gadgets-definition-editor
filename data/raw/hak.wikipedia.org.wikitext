@@ -1,0 +1,5 @@
+== edit ==
+*edit0[ResourceLoader|dependencies=user.options,mediawiki.util|default|type=general]|edit0.js|edit0.css
+*HotCat[ResourceLoader|rights=edit]|HotCat.js
+*UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+*Wikiplus[ResourceLoader]|Wikiplus.js

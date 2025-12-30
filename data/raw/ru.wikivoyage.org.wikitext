@@ -1,0 +1,18 @@
+=== general ===
+* ListingEditor[ResourceLoader|default|type=general|skins=vector-2022,vector,timeless,modern,cologneblue,monobook|dependencies=mediawiki.util,jquery.ui]|ListingEditor.js|ListingEditor.css
+* Carousel[ResourceLoader|default|targets=desktop,mobile|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css
+* RTRC[ResourceLoader]|RTRC.js
+* Cat-a-lot[ResourceLoader|type=general|dependencies=mediawiki.util]|Cat-a-lot.js|Cat-a-lot.css
+* HotCat[ResourceLoader|type=general|rights=edit]|HotCat.js
+* Wikilinks[ResourceLoader]|Wikilinks.css
+* CulturalHeritageListingEditor[ResourceLoader|default|type=general|dependencies=mediawiki.util,jquery.ui]|CulturalHeritageListingEditor.js|ListingEditor.css
+* NaturalHeritageListingEditor[ResourceLoader|default|type=general|dependencies=mediawiki.util,jquery.ui]|NaturalHeritageListingEditor.js|ListingEditor.css
+*CulturalHeritageImagesCount[ResourceLoader|default|type=general|dependencies=mediawiki.util,jquery.ui]|CulturalHeritageImagesCount.js
+*ArticleUpdate[ResourceLoader|default|targets=desktop,mobile|type=general|dependencies=mediawiki.util]|ArticleUpdate.js
+* exlinks[ResourceLoader|default|dependencies=mediawiki.util]|exlinks.js
+
+=== experimental ===
+* ErrorHighligter[ResourceLoader]|ErrorHighlighter.css
+* CulturalHeritageHighlightMissingImage[ResourceLoader|type=general|dependencies=mediawiki.util,jquery.ui]|CulturalHeritageHighlightMissingImage.js
+* CulturalHeritageKzListingEditor[ResourceLoader|default|type=general|dependencies=mediawiki.util,jquery.ui]|CulturalHeritageKzListingEditor.js|ListingEditor.css
+* HeritageListings[ResourceLoader|type=general|dependencies=mediawiki.util,jquery.ui]|HeritageListingsV2.js

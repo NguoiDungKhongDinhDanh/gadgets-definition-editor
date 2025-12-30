@@ -1,0 +1,5 @@
+== editing-tools-for-Page-namespace ==
+* old_LST[ResourceLoader]|old_LST.js
+
+== admin-tools ==
+* massdelete[ResourceLoader|rights=delete]|massdelete.js

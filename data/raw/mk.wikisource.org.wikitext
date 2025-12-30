@@ -1,0 +1,40 @@
+<noinclude>'''Промените на оваа страница најдобро е прво да се дискутираат на [[Викиизвор:Додатоци/предлози]] или [[Разговор за Викиизвор:Додатоци]].'''
+
+Додадете информација за секој нов додаток во табелата [[Викиизвор:Додаток#Инсталирани_додатоци]] за полесно следење на промените.
+</noinclude>
+
+== browsing-gadgets ==
+* GoogleTrans[ResourceLoader|dependencies=mediawiki.util]|GoogleTrans.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+== editing-gadgets ==
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* Friendly[ResourceLoader]|Friendly.js
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader]|refToolbar.js
+* Twinkle[ResourceLoader]|Twinkle.js
+* wikEd[ResourceLoader]|wikEd.js
+
+== interface-gadgets ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* ExternalSearch[ResourceLoader]|externalsearch.js
+* edittop[ResourceLoader]|edittop.js
+* dropdown-menus[ResourceLoader]|dropdown-menus.js|dropdown-menus.css
+* modrollback[ResourceLoader]|modrollback.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* LongEditSummaries[ResourceLoader]|LongEditSummaries.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* metadata[ResourceLoader]|metadata.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* textareasansserif|textareasansserif.css
+* lefteditlinks[ResourceLoader]|lefteditlinks.js
+* exlinks[ResourceLoader]|exlinks.js
+* Blackskin|Blackskin.css
+
+== library-gadgets ==
+
+* JSL|JSL.js
+* modernskin-thunks[ResourceLoader]|modernskin-thunks.js
+* DejaVu_Sans||DejaVu_Sans.css

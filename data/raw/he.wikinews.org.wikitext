@@ -1,0 +1,28 @@
+<em>כאן מוגדרת רשימת ה[[{{ns:help}}:גאדג'טים|גאדג'טים]] הזמינים ב[[Special:Preferences#mw-prefsection-gadgets|העדפות]]. ראו גם את [[Special:Gadgets|רשימת התיאורים וההגדרות של הגאדג'טים]] ואת [[Special:GadgetUsage|סטטיסטיקת השימוש בגאדג'טים]].</em>
+<pre class="mw-content-ltr">
+== edit ==
+* EditIntro[ResourceLoader]|EditIntro.js
+* RevertSummary[ResourceLoader|dependencies=mediawiki.util]|RevertSummary.js
+* SummariesList[ResourceLoader|default]|SummariesList.js
+
+== design ==
+* MoveVectorMenuToTabs[ResourceLoader|skins=vector]|MoveVectorMenuToTabs.js
+* FixedTabs[ResourceLoader|skins=vector]|FixedTabs.css
+* FixedSidebar[ResourceLoader|skins=vector]|FixedSidebar.css
+* HideExternalLinkIcon[ResourceLoader|default]|HideExternalLinkIcon.css
+* FoldSidebarMenus[ResourceLoader|dependencies=jquery.jStorage]|FoldSidebarMenus.js|FoldSidebarMenus.css
+* MarkRedirect[ResourceLoader]|MarkRedirect.css
+
+== patrol ==
+* SysopRequests[ResourceLoader|dependencies=mediawiki.util]|SysopRequests.js
+* rcPatrol[ResourceLoader|rights=patrol|dependencies=mediawiki.util]|rcPatrol.js
+* RollbackSummary[ResourceLoader|rights=rollback|dependencies=mediawiki.util]|RollbackSummary.js
+* rcDiff[ResourceLoader|dependencies=jquery.ui,mediawiki.action.history.diff,mediawiki.api]|rcDiff.js|rcDiff.css
+
+== misc ==
+* ExternalLinkNewTab[ResourceLoader]|ExternalLinkNewTab.js
+* HotCat[ResourceLoader]|HotCat.js
+* Watchlist[ResourceLoader|dependencies=mediawiki.util]|Watchlist.js
+* RevInfo[ResourceLoader|dependencies=mediawiki.util]|RevInfo.js
+* LastUserEdit[ResourceLoader|dependencies=mediawiki.util]|LastUserEdit.js
+</pre>

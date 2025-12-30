@@ -1,0 +1,18 @@
+== browsing Gadgets ==
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css
+* imagelinks[ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader|dependencies=mediawiki.util,user]|wikEd.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+
+== appearance ==
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+
+== interface-gadgets ==
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden | skins = vector, monobook] | dark-mode-toggle-pagestyles.css
+
+== modul ==
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css

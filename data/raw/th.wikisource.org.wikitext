@@ -1,0 +1,35 @@
+== browsing ==
+
+* Navigation_popups[ResourceLoader]|popups.js
+* imagelinks[default|ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+
+== editing ==
+
+* iScript[ResourceLoader]|iScript.js
+* wikEd[ResourceLoader]|wikEd.js
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* IndexFormTools[ResourceLoader|default|dependencies=oojs-ui-core]|IndexFormTools.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-core.css
+* HotCat[ResourceLoader]|HotCat.js
+
+== appearance ==
+* Site[ResourceLoader|default|top|dependencies=mediawiki.util|peers=Site-styles]|DisplayFooter.js
+* Site-styles[hidden|type=styles]|Site.css|enwp-boxes.css|enwp-lists.css|enws-tweaks.css
+* MobileSite[ResourceLoader|default|skins=minerva]|MobileDownloadLink.js|site-source-links.js|SiteHeader.css
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css<!--
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js-->
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* edittop[ResourceLoader]|edittop.js
+* exlinks[ResourceLoader]|exlinks.js
+
+== advanced ==
+* modrollback [ResourceLoader|dependencies=mediawiki.util|rights=rollback]|modrollback.js
+* botRollback [ResourceLoader|dependencies=mediawiki.util|rights=markbotedits]|botRollback.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js
+
+== test ==
+* Fill_Index[ResourceLoader]|Fill_Index.js

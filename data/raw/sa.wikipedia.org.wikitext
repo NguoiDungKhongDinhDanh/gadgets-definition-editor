@@ -1,0 +1,11 @@
+
+* HotCat[ResourceLoader]|HotCat.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui|rights=autoconfirmed]|moment.js|morebits.js|morebits.css|Twinkle.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|twinkledelimages.js|friendlytag.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|friendlytalkback.js
+* Microsoft Transliteration Tool[ResourceLoader]|MicrosoftTransliteration.js
+* LocalTime[ResourceLoader]|CommentsInLocalTime.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+* Numeral_converter[ResourceLoader|default|dependencies=mediawiki.util]|Numeral_converter.css|Numeral_converter.js
+* ShortUrl[ResourceLoader|default]|ShortUrl.css|ShortUrl.js
+* MobileCategories[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|skins=minerva]|MobileCategories.js

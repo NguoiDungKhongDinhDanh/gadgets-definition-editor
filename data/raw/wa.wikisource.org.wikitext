@@ -1,0 +1,5 @@
+== Eterface ==
+* PopupTextAlt[ResourceLoader|default]|PopupTextAlt.js|PopupTextAlt.css
+
+== Candjmint ==
+* HotCat[ResourceLoader]|HotCat.js

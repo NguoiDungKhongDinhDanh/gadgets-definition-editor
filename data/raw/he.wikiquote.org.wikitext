@@ -1,0 +1,32 @@
+== עריכה ==
+* editIntro[ResourceLoader]|editIntro.js
+* QPreview[ResourceLoader]|QPreview.js
+* EditReplace[ResourceLoader]|EditReplace.js
+* Checkty[ResourceLoader|dependencies=jquery.ui,mediawiki.util]|Checkty.js||Checkty.css
+* Revert[ResourceLoader|dependencies=mediawiki.util]|Revert.js
+* Summarieslist[ResourceLoader|dependencies=mediawiki.util|default]|Summarieslist.js
+* autocomplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|autocomplete.js
+== ניטור ==
+* Warnings[ResourceLoader|dependencies=mediawiki.util]|Warnings.js
+* rcPatrol[ResourceLoader]|rcPatrol.js
+* patrolAlarm[ResourceLoader|rights=patrol|dependencies=mediawiki.util,user]|patrolAlarm.js
+
+== קטגוריות ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* removefromcategory[ResourceLoader]|removefromcategory.js
+
+== ניווט_וחיפוש ==
+* CustomSideBarLinks[ResourceLoader]|CustomSideBarLinks.js
+* ShortNSSearch[ResourceLoader]|ShortNSSearch.js
+* InterwikiOrder[ResourceLoader]|InterwikiOrder.js
+* OtherWikis[ResourceLoader]|OtherWikis.js
+* WikidataTab[ResourceLoader]|WikidataTab.js
+
+== שונות ==
+* DiffBytes[ResourceLoader]|DiffBytes.js
+* rclast[ResourceLoader]|rclast.js
+* toggleRCOptions[ResourceLoader]|toggleRCOptions.js
+* refStyle[ResourceLoader]|refStyle.js|refStyle.css
+* ExpandedSubcategoryDetails[ResourceLoader]|ExpandedSubcategoryDetails.js
+* GlobalWatchlist[ResourceLoader|rights=minoredit|dependencies=mediawiki.util]|GlobalWatchlist.js

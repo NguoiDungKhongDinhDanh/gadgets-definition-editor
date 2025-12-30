@@ -1,0 +1,6 @@
+== interface-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+* mediawiki.toolbar[ResourceLoader|hidden]|mediawiki.toolbar.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js

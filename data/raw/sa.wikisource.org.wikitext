@@ -1,0 +1,27 @@
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* RegexMenuFramework[ResourceLoader|hidden]|RegexMenuFramework.js
+* HotCat[ResourceLoader]|HotCat.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options,mediawiki.util|type=general]|popups.js|navpop.css
+* LongEditSummaries[ResourceLoader]|LongEditSummaries.js
+* edittop[ResourceLoader]|edittop.js
+* specialchars[ResourceLoader]|specialchars.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+
+== editing-tools-for-Page-namespace ==
+<!--* ocr[default]|ocr.js--> <!--Doesn't do anything right now-->
+* pr_layout[ResourceLoader]|pr_layout.js
+* pr_headers[ResourceLoader]|pr_headers.js
+* ocr[ResourceLoader]|ocr.js
+
+== interface ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* userMessages[ResourceLoader]|UserMessages.js
+
+
+== development ==
+
+== admin tools ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js

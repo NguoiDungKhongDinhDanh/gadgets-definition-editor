@@ -1,0 +1,21 @@
+== Beoawatn ==
+*Einleitung-bearbeiten[ResourceLoader]|Einleitung-bearbeiten.js
+*WBCatHelper[ResourceLoader]|WBCatHelper.js
+*wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+*bkl-check[ResourceLoader]|bkl-check.css
+*navigation-popups[ResourceLoader|dependencies=mediawiki.util,mediawiki.user]|navigation-popups.js
+
+== Obaflechn ==
+*schutzstatus[ResourceLoader]|schutzstatus.js
+*Difflink[ResourceLoader]|diffundpermanentlink.js
+*Rollbackbeobachtungsliste[default]|Rollbackbeobachtungsliste.css
+
+== Rest ==
+* editsection-right[ResourceLoader]|editsection-right.css|editsection-right.js
+*markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+*toolserver-integration[ResourceLoader|dependencies=mediawiki.util]|toolserver-integration.js
+
+
+== Lesehuif ==
+*Screenreader-Optimierung[ResourceLoader]|Screenreader-Optimierung-TOC.js
+*old-diff-style[ResourceLoader]|old-diff-style.css

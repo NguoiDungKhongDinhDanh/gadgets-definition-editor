@@ -1,0 +1,6 @@
+== interface ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* contribsrange[ResourceLoader]|contribsrange.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js

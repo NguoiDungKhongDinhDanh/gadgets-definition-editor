@@ -1,0 +1,12 @@
+== interface ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+* OngletPurge[ResourceLoader]|OngletPurge.js
+* linkclassifier[ResourceLoader|dependencies=mediawiki.util,mediawiki.Title,mediawiki.Uri|rights=createpage,sendemail<!-- para não aparecer para anônimos -->|default]|linkclassifier.js|linkclassifier.css
+== editing ==
+* NewVillagePump[ResourceLoader]|NewVillagePump.js|NewVillagePump.css
+
+== modules ==
+* mediawiki.api.ptwiki[ResourceLoader|dependencies=mediawiki.api|hidden]|mediawiki.api.ptwiki.js
+* NewVillagePumpCore[ResourceLoader|dependencies=mediawiki.util,jquery.spinner,ext.gadget.mediawiki.api.ptwiki|rights=hidden|hidden]|NewVillagePump.js/Core.js

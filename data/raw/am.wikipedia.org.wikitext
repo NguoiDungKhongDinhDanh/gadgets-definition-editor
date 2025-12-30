@@ -1,0 +1,6 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing-gadgets ==
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js

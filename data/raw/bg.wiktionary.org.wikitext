@@ -1,0 +1,21 @@
+# Тази страница служи за дефиниране на етикетите, използвани в [[Special:Gadgets]]
+# Преди да я редактирате, уверете се, че разбирате как фунционира (описание - [[mw:Extension:Gadgets#Usage]])
+# Не променяйте името на вече съществуващите джаджи (това ще ги деактивира за всички потребители)
+# Ако някоя джаджа не работи, тя може да бъде изключена чрез заместване на * с #
+
+== browsing-gadgets ==
+
+* Navigation popups[ResourceLoader]|Navigation popups.js|Navigation popups.css
+* ExpandableTOC[ResourceLoader|default]|ExpandableTOC.js
+
+== editing-gadgets ==
+
+* EditToolbar[ResourceLoader|default]|EditToolbar.js
+* EditToolbar-core[ResourceLoader|hidden|dependencies=mediawiki.util]|EditToolbar-core.js
+
+== interface-gadgets ==
+
+* QuickLinks[ResourceLoader]|QuickLinks.js
+
+== patrol-gadgets ==
+* Quick diff[ResourceLoader]|Quick diff.js

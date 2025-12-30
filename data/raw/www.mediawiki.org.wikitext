@@ -1,0 +1,88 @@
+== interface-gadgets ==
+* Edittop[ResourceLoader]|edittop.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,user|peers=UTCLiveClock-pagestyles]|UTCLiveClockConfigure.js|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* rtrc[ResourceLoader]|rtrc.css|rtrc.js
+* ajaxrecentchanges[ResourceLoader|dependencies=jquery.spinner]|ajaxrecentchanges.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* CodeReview_checkedRevsExport[ResourceLoader]|CodeReview_checkedRevsExport.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* Numerakri[ResourceLoader|dependencies=mediawiki.cookie, mediawiki.util, mediawiki.user]|Numerakri.css|Numerakri.js
+* vector-headanchor[ResourceLoader]|vector-headanchor.js|vector-headanchor.css
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* Coloredlinks|Coloredlinks.css
+* autolink[ResourceLoader]|autolink.js
+* predefined-summaries[ResourceLoader|dependencies=mediawiki.util]|predefined-summaries.js
+* NotifCountTitle[ResourceLoader|dependencies=mediawiki.language]|NotifCountTitle.js
+* responsiveContentBase[ResourceLoader|type=styles|hidden|skins=vector]|responsiveContentBase.css
+* responsiveContent[ResourceLoader|skins=vector|peers=responsiveContentBase]|responsiveContent.js
+* mobileVectorBase[ResourceLoader|type=styles|hidden|skins=vector]|mobileVectorBase.css
+* mobileVector[ResourceLoader|type=general|skins=vector|peers=mobileVectorBase|dependencies=mediawiki.util]|mobileVector.js
+* autonum[ResourceLoader]|autonum.css|autonum.js
+
+== editing-gadgets ==
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client|actions=edit]|DotsSyntaxHighlighter.js
+* Edittools[ResourceLoader|default|actions=edit]|Edittools.js
+* HotCat[ResourceLoader]|HotCat.js
+* TabOverride[ResourceLoader|actions=edit]|TabOverride.js
+* oldeditor[ResourceLoader]|oldeditor.js
+* CharInsertButtons[ResourceLoader|default|actions=edit]|CharInsertButtons.css
+* ProveIt[ResourceLoader|dependencies=mediawiki.api,mediawiki.cookie,jquery.textSelection,jquery.ui|hidden]|ProveIt.js|ProveIt.css
+* TranslateTagger[ResourceLoader]|TranslateTagger.js
+
+== AuthorizedUsers ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* blocktab[ResourceLoader|rights=block|dependencies=mediawiki.util,mediawiki.Title]|blocktab.js
+* botRollback[ResourceLoader|rights=markbotedits]|botRollback.js
+
+== Experimental ==
+* formWizard[ResourceLoader|hidden]|formWizard.js
+* addMe[ResourceLoader|type=general]|addMe.js|addMe.css
+* addMe-beta[ResourceLoader|type=general]|addMe-beta.js|addMe.css
+* chessDemo[ResourceLoader|hidden|type=general]|chessDemo.css|chessDemo.js
+* whoisactive[ResourceLoader|dependencies=mediawiki.api]|whoisactive.js|whoisactive.css
+
+== template-gadgets ==
+* AddAlternativeText[ResourceLoader|hidden|default|categories=Gadget:AddAlternativeText]|AddAlternativeText.js
+* AddFileCaption[ResourceLoader|hidden|default|categories=Gadget:AddFileCaption]|AddFileCaption.js
+* AddFileDescription[ResourceLoader|hidden|default|categories=Gadget:AddFileDescription]|AddFileDescription.js
+* DownloadPDF[ResourceLoader|hidden|default|categories=Gadget:DownloadPDF]|DownloadPDF.js
+* ExcerptTree[ResourceLoader|hidden|default|categories=Gadget:ExcerptTree]|ExcerptTree.js
+* Formicarium[ResourceLoader|hidden|default|categories=Gadget:Formicarium]|Formicarium.js
+* HelloWorld[ResourceLoader|hidden|default|categories=Gadget:HelloWorld]|HelloWorld.js|HelloWorld.css
+* ImageStackPopup[ResourceLoader|hidden|default|categories=Gadget:ImageStackPopup]|ImageStackPopup.js
+* InlineSearch[ResourceLoader|hidden|default|categories=Gadget:InlineSearch]|InlineSearch.js
+* LinkedPagesWithTemplates[ResourceLoader|hidden|default|categories=Gadget:LinkedPagesWithTemplates]|LinkedPagesWithTemplates.js
+* OWIDPopup[ResourceLoader|hidden|default|categories=Gadget:OWIDPopup]|OWIDPopup.js
+* PagesToTranslate[ResourceLoader|hidden|default|categories=Gadget:PagesToTranslate]|PagesToTranslate.js
+* RecentEditors[ResourceLoader|hidden|default|categories=Gadget:RecentEditors]|RecentEditors.js
+* Synchronizer[ResourceLoader|hidden|default|categories=Gadget:Synchronizer]|Synchronizer.js
+* ShortLinkedPages[ResourceLoader|hidden|default|categories=Gadget:ShortLinkedPages]|ShortLinkedPages.js
+* TopLinkedPages[ResourceLoader|hidden|default|categories=Gadget:TopLinkedPages]|TopLinkedPages.js
+* Vivarium[ResourceLoader|hidden|default|categories=Gadget:Vivarium]|Vivarium.js
+* WikiForm[ResourceLoader|hidden|default|categories=Gadget:WikiForm]|WikiForm.js
+* tabbedwindow[ResourceLoader|default|categories=Gadget:TabbedWindow]|tabbedwindow.js
+* Calculator[ResourceLoader|default|categories=Pages using gadget Calculator]|Calculator.js
+
+== global-gadgets ==
+* Global-AddAlternativeText[ResourceLoader|hidden]|Global-AddAlternativeText.js|Global-AddAlternativeText.css
+* Global-AddFileCaption[ResourceLoader|hidden]|Global-AddFileCaption.js|Global-AddFileCaption.css
+* Global-AddFileDescription[ResourceLoader|hidden]|Global-AddFileDescription.js|Global-AddFileDescription.css
+* Global-DownloadPDF[ResourceLoader|hidden]|Global-DownloadPDF.js|Global-DownloadPDF.css
+* Global-ExcerptTree[ResourceLoader|hidden]|Global-ExcerptTree.js
+* Global-Formicarium[ResourceLoader|hidden]|Global-Formicarium.js|Global-Formicarium.css
+* Global-ImageStackPopup[ResourceLoader|hidden]|Global-ImageStackPopup.js|Global-ImageStackPopup.css
+* Global-InlineSearch[ResourceLoader|hidden]|Global-InlineSearch.js
+* Global-LinkedPagesWithTemplates[ResourceLoader|hidden]|Global-LinkedPagesWithTemplates.js
+* Global-MiniEdit[ResourceLoader|hidden]|Global-MiniEdit.js
+* Global-OWIDPopup[ResourceLoader|hidden]|Global-OWIDPopup.js|Global-OWIDPopup.css
+* Global-PagesToTranslate[ResourceLoader|hidden]|Global-PagesToTranslate.js
+* Global-ProveIt[ResourceLoader|hidden]|Global-ProveIt.js|Global-ProveIt.css
+* Global-RecentEditors[ResourceLoader|hidden]|Global-RecentEditors.js
+* Global-ShortLinkedPages[ResourceLoader|hidden]|Global-ShortLinkedPages.js
+* Global-TopLinkedPages[ResourceLoader|hidden]|Global-TopLinkedPages.js
+* Global-Vivarium[ResourceLoader|hidden]|Global-Vivarium.js|Global-Vivarium.css
+* Global-WikiForm[ResourceLoader|hidden]|Global-WikiForm.js
+* Global-WikitextParser[ResourceLoader|hidden]|Global-WikitextParser.js
+* Global-Calculator[ResourceLoader|hidden]|Global-Calculator.css|Global-Calculator.js

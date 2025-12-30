@@ -1,0 +1,18 @@
+== Bilgilendirmeler ==
+* XTools-MaddeBilgisi[ResourceLoader]|XTools-ArticleInfo.js
+* HizliBilgi[ResourceLoader|default]|HizliBilgi.js
+* PratikMenu[ResourceLoader|skins=vector,monobook,modern]|PratikMenu.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* LocalLiveClock [ResourceLoader]|LocalLiveClock.js
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+
+==Kategoriler==
+* HotCat[ResourceLoader|default|rights=minoredit]|HotCat.js
+* Katalitik[ResourceLoader|dependencies=mediawiki.util|type=general]|Katalitik.js
+
+== Görünüm ==
+* ArrowUp[ResourceLoader]|ArrowUp.js
+* HideSandboxLink[ResourceLoader]|HideSandboxLink.css
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|popups.js|popups-tr.js|popups.css
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css

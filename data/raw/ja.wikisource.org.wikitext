@@ -1,0 +1,7 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* char-convert0[ResourceLoader]|char-convert0.js
+* to-old-char0[ResourceLoader]|to-old-char0.js
+* to-numeric-ref1[ResourceLoader]|to-numeric-ref1.js
+* RegexpButton[ResourceLoader]|RegexpButton.js
+* mathjax[ResourceLoader]|mathjax.js

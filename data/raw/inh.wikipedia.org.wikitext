@@ -1,0 +1,10 @@
+== default ==
+* referenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=jquery.client,mediawiki.cookie]|referenceTooltips.js|referenceTooltips.css
+* edittop[ResourceLoader|default|dependencies=site,mediawiki.util]|edittop.js
+
+== others ==
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* HotCat[ResourceLoader]|HotCat.js
+* UTCLiveClock[ResourceLoader|peers=UTCLiveClock-helperStyles|dependencies=mediawiki.util]|UTCLiveClock.js
+
+__NOTOC__

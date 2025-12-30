@@ -1,0 +1,3 @@
+=== general ===
+* ListingEditor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,jquery.ui]|ListingEditor.js|ListingEditor.css
+* HotCat[ResourceLoader]|HotCat.js

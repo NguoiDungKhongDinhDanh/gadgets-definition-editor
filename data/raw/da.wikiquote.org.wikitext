@@ -1,0 +1,2 @@
+== Hjælpeværktøj til kategorier ==
+* hotcat[ResourceLoader]|hotcat.js

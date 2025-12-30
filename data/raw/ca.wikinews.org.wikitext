@@ -1,0 +1,35 @@
+== categoria ==
+* HotCat[ResourceLoader]|HotCat.js|Hotcatcheck.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=autoreview]|Cat-a-lot.js|Cat-a-lot.css
+
+== edicio ==
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js
+* missatges-predefinits[ResourceLoader|dependencies=mediawiki.util]|missatges-predefinits.js
+* wikEd[ResourceLoader]|wikEd.js|wikEd-ca.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+
+== interficie ==
+* purgetab[default|ResourceLoader|dependencies=mediawiki.util,user.options]|purgetab.js
+* HotInterwiki[ResourceLoader]|HotInterwiki.js
+* ela_geminada[ResourceLoader]|ela_geminada.js
+* no-sitenotice|nositenotice.css
+* nuevasec-mas[ResourceLoader]|nuevasec-mas.js
+* SousPages[ResourceLoader|dependencies=mediawiki.util]|SousPages.js
+* Link_carrega_directe[ResourceLoader|dependencies=mediawiki.util]|linkcarrega.js
+* wikicheck[ResourceLoader|dependencies=mediawiki.util]|wikicheck.js
+* righteditlinks|righteditlinks.css
+* contrib-numerades|contrib-numerades.css
+* quickeditcounter[ResourceLoader]|quickeditcounter.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+
+== navegacio ==
+* autolink[ResourceLoader]|autolink.js
+* Navigation_popups[ResourceLoader]|popups.js|popups-ca.js|navpop.css
+* LinkColors|LinkColors.css
+* modrollback[ResourceLoader]|modrollback.js
+* Wdsearch[ResourceLoader]|Wdsearch.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+
+== autoritzats ==
+* botRollback[ResourceLoader]|botRollback.js
+* userrights[ResourceLoader|default|dependencies=mediawiki.util|rights=move-rootuserpages,block]|userrights.js

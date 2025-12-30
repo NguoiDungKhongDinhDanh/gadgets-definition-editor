@@ -1,0 +1,2 @@
+== Redigeringsfinesser ==
+*hotcat[ResourceLoader]|hotcat.js

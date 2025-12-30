@@ -1,0 +1,19 @@
+== Redaktə ==
+* HotCat[ResourceLoader]|HotCat.js
+* CategoryMaster[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util]|CategoryMaster.js
+* codePrettifier[ResourceLoader]|codePrettifier.js
+* wikificator[ResourceLoader|default|hidden|type=general|actions=edit|dependencies=ext.gadget.registerTool,jquery.client]|wikificator.js|wikificator.css
+* registerTool[ResourceLoader|hidden|dependencies=mediawiki.util,user.options]|registerTool.js
+* kirLat[ResourceLoader]|kirLat.js
+
+== Görünüş==
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+
+=== EditToolbar ===
+* EditToolbar_discussion[ResourceLoader|default|dependencies=ext.gadget.EditToolbar-core]|EditToolbar_discussion.js
+
+== İnterfeys ==
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+
+__NOTOC__

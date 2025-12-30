@@ -1,0 +1,30 @@
+==Genel==
+* Site[ResourceLoader|default|type=styles|dependencies=mediawiki.util]|enwp-boxes.css
+* HizliBilgi[ResourceLoader|default]|HizliBilgi.js
+* HotCat[ResourceLoader|rights=minoredit|default]|HotCat.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Cat-a-lot[ResourceLoader|rights=edit|dependencies=mediawiki.util]|Cat-a-lot.js
+* PratikMenu[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,user.options|peers=PratikMenu-pagestyles]|PratikMenu.js
+* PratikMenu-pagestyles[hidden]|PratikMenu-pagestyles.css
+* BosOzet[ResourceLoader|rights=edit]|BosOzet.js|BosOzet.css
+* Kisayol[ResourceLoader]|Kisayol.js
+* GirisDegistirme[ResourceLoader|rights=edit|dependencies=mediawiki.util]|GirisDegistirme.js
+* XTools-MaddeBilgisi[ResourceLoader]|XTools-ArticleInfo.js
+* WikidataInfo [ResourceLoader|dependencies=mediawiki.jqueryMsg] | WikidataInfo.js
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* wikEd[ResourceLoader]|wikEd.js
+* Katalik[ResourceLoader|rights=edit|dependencies=mediawiki.util]|Cat-a-lot.js
+* stockText[ResourceLoader|skin=vector, monobook|default|type=general|dependencies=mediawiki.cookie]|stockText.js|stockText.css
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* charinsert[ResourceLoader]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|popups.js|popups-tr.js|popups.css
+* PageNumbers[ResourceLoader|default|hidden]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+
+== Hizmetliler ==
+* Silme[ResourceLoader|rights=delete]|Silme.js
+* Haklar[ResourceLoader|dependencies=mediawiki.util]|Haklar.js
+* SurumGizleyici[ResourceLoader|rights=deleterevision]|SurumGizleyici.js

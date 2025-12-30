@@ -1,0 +1,45 @@
+==Wikinews==
+* Weather[ResourceLoader|targets=desktop,mobile]|Date.js‏|Weather.js‏‏
+* Sharer[ResourceLoader|targets=desktop,mobile|default]|Sharer.js‏‏
+
+==LanguageSupport==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* prota[ResourceLoader]|prota.js
+
+==Fsat-search-and-edit==
+* popups[ResourceLoader]|popups.js
+
+==fullshow==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+
+==Interface==
+* editzero[ResourceLoader]|editzero.js
+* editzero[ResourceLoader|dependencies=mediawiki.util]|editzero.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* purgetab[ResourceLoader|default|rights=purge|dependencies=mediawiki.util]|purgetab.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* signed[ResourceLoader]|signed.js
+* email-rtl[ResourceLoader]|email-rtl.js
+* diffswitchdir[ResourceLoader]|diffswitchdir.js
+* disableTicker[ResourceLoader]|disableTicker.js
+* userMessages[ResourceLoader]|UserMessages.js
+* dynamicmenus|dynamicmenus.css
+
+==Extra-Editbuttons==
+* Extra-Editbuttons[ResourceLoader|default|rights=minoredit|actions=edit|dependencies=ext.wikiEditor]|Extra-Editbuttons-dictionary.js|Extra-Editbuttons-autoed.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons.js
+
+== Categories ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== patroltools ==
+* LiveRC[ResourceLoader|rights=patrol]|LiveRC.js|LiveRC.css
+
+== reviewer-gadgets ==
+* easyPeerReview[ResourceLoader|rights=review]|easyPeerReview.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+
+==Opinion==
+* AutoWatchAdd[ResourceLoader]|CommentWatch.js

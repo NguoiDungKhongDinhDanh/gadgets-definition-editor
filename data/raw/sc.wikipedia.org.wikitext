@@ -1,0 +1,2 @@
+== Categorias ==
+Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js

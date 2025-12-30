@@ -1,0 +1,13 @@
+== Redaktə ==
+* HotCat[ResourceLoader]|HotCat.js
+* Katalitik[ResourceLoader]|Katalitik.js
+
+== Görünüş ==
+* Codex [hidden |default] |Codex.css
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+
+== Məqalələr ==
+* purgetab[ResourceLoader]|purgetab.js
+
+__NOTOC__

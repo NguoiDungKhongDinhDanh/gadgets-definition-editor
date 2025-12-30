@@ -1,0 +1,51 @@
+Cette page sert à définir les gadgets utilisés dans [[Spécial:Gadgets]]. Avant de la modifier, assurez-vous d’avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]].
+
+Ne changez pas le nom d'un gadget existant (il serait alors désactivé pour tous). Utilisez :
+* <code>*</code> pour activer un gadget ;
+* <code>#</code> pour le désactiver (par exemple s'il pose des problèmes avec de nouvelles fonctionnalités).
+
+== Interface ==
+* LeftPaneSwitch[ResourceLoader]|LeftPaneSwitch.js
+* AncreTitres[ResourceLoader]|AncreTitres.js
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* ResizeGalleries[ResourceLoader]|ResizeGalleries.js
+* ZoomOnThumb[ResourceLoader]|ZoomOnThumb.js
+# CategoryAboveAll[ResourceLoader]|CategoryAboveAll.js
+* Barre_de_luxe[ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar]|Barre_de_luxe.js
+* CoinsArrondis|CoinsArrondis.css
+# MOOC[ResourceLoader|default|targets=desktop,mobile]|MOOC.css|MOOC.js
+
+== Contributions ==
+* recentchangesbox[ResourceLoader|skins=monobook]|recentchangesbox.js
+* OptimizedSuivi[ResourceLoader|skins=monobook]|CommonDom.js|OptimizedSuivi.js
+* DeluxeHistory [ResourceLoader|type=general|dependencies=mediawiki.util,user,user.options] | DeluxeHistory.js | DeluxeHistory.css
+# LastContrib[ResourceLoader]|LastContrib.js
+* ResumeDeluxe[ResourceLoader]|ResumeDeluxe.js
+* EditZeroth [ResourceLoader|dependencies=user,mediawiki.util]|EditZeroth.js
+
+== Liens ==
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* monBrouillon[ResourceLoader|dependencies=mediawiki.util]|monBrouillon.js
+* SisterProjects[ResourceLoader|dependencies=user,mediawiki.util]|SisterProjects.js
+# doublewiki[ResourceLoader]|doublewiki.js
+* OngletGoogle[ResourceLoader]|CommonDom.js|OngletGoogle.js
+* social-networks[ResourceLoader|dependencies=mediawiki.util]|social-networks.js
+* Smart_patrol [ResourceLoader|rights=patrol] | Smart_patrol.js
+
+== Avancé ==
+* HotCats[ResourceLoader]|HotCats.js
+* RenommageCategorie[ResourceLoader|rights=move]|RenommageCategorie.js
+* RevertDiff[ResourceLoader]|RevertDiff.js
+* FastRevert[ResourceLoader]|CommonDom.js|FastRevert.js
+* Accessibility[ResourceLoader]|Accessibility.js|Accessibility.css
+* Popups[ResourceLoader]|Popups.js
+* searchbox[ResourceLoader]|lib-beau.js|searchbox.js
+* JavascriptHeadings[ResourceLoader]|JavascriptHeadings.js
+# IntersectionCategorie[ResourceLoader]|IntersectionCategorie.js
+* LiveRC[ResourceLoader]|LiveRC.js
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+
+== Admin ==
+* RestaurationDeluxe[ResourceLoader]|RestaurationDeluxe.js
+* AdvancedContribs[ResourceLoader]|AdvancedContribs.js

@@ -1,0 +1,20 @@
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+
+== default ==
+* edittop[ResourceLoader|default|dependencies=site,mediawiki.util]|edittop.js
+
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+
+== interface ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* articleStats[ResourceLoader|dependencies=mediawiki.api, mediawiki.util]|articleStats.js
+* referenceTooltips[ResourceLoader]|referenceTooltips.js|referenceTooltips.css
+
+== interwiki ==
+
+__NOTOC__

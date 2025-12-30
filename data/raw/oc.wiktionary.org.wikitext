@@ -1,0 +1,8 @@
+== interface ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+
+== admin-gadgets ==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js
+
+== categorias ==
+* Hotcat[ResourceLoader]|HotCat.js

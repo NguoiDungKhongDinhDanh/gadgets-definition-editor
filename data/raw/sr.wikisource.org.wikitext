@@ -1,0 +1,19 @@
+== uredjivanje ==
+
+* HotCat[ResourceLoader|rights=edit,minoredit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+
+== interfejs ==
+
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* widensearch[ResourceLoader|skins=vector,vector-2022]|widensearch.css
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* UTCLiveClock [ResourceLoader |supportsUrlLoad |type=general |dependencies=mediawiki.util, mediawiki.api |peers=UTCLiveClock-pagestyles] |UTCLiveClock.js |UTCLiveClock.css
+* UTCLiveClock-pagestyles [hidden |skins=vector, vector-2022, monobook] |UTCLiveClock-pagestyles.css
+* charinsert[ResourceLoader|default|actions=edit]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+
+== administratori ==
+
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js

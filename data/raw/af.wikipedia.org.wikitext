@@ -1,0 +1,16 @@
+=== redigering ===
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* charinsert[ResourceLoader|default]|charinsert.js|charinsert.css
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+
+=== lees ===
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* popups[ResourceLoader]|popups.js
+
+=== voorkoms ===
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+
+=== template-gadgets ===
+* Calculator [ResourceLoader | default | categories = Bladsye wat die gerief "Calculator" gebruik ] | calculator.js |calculator.css

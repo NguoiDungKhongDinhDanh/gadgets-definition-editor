@@ -1,0 +1,25 @@
+== تحرير ==
+* AjaxEdit[ResourceLoader|dependencies=mediawiki.util,mediawiki.Uri,mediawiki.user,mediawiki.api]|AjaxEdit.js
+* autocomplete[ResourceLoader|dependencies=mediawiki.util]|autocomplete.js
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* Cat-a-lot[ResourceLoader|rights=patrol|dependencies=mediawiki.util]|Cat-a-lot.js|Cat-a-lot.css
+* HotCat[ResourceLoader]|HotCat.js
+* newsectionbottom[ResourceLoader|skins=vector]|newsectionbottom.js
+* searchlang[ResourceLoader|default|rights=minoredit|skins=vector|dependencies=mediawiki.util]|searchlang.js
+* speed-deletion[ResourceLoader|dependencies=mediawiki.util|rights=rollback]|speed-deletion.js
+* wikEd[ResourceLoader]|wikEd.js
+
+== تصفح ==
+* GreenRedirect[ResourceLoader|default|rights=minoredit]|GreenRedirect.css
+* HideExLinkIcon[default|rights=minoredit]|HideExLinkIcon.css
+* JSL[ResourceLoader]|JSL.js
+* Linkscount[ResourceLoader]|Linkscount.js
+* MobileCategories[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|skins=minerva]|MobileCategories.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* userinfo-without-deletedcontribs[ResourceLoader|dependencies=mediawiki.util]|userinfo-without-deletedcontribs.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* mobile-sidebar[ResourceLoader|skins=vector, vector-2022]|mobile-sidebar.js|mobile-sidebar.css
+* PagePreviews[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|PagePreviews.js
+* XTools-ArticleInfo [ResourceLoader |skins=vector, vector-2022, monobook, timeless] |XTools-ArticleInfo.js
+* Numeral_converter [ResourceLoader |dependencies=mediawiki.cookie, mediawiki.util, mediawiki.user] |Numeral_converter.js
+* Numeral-converter-toggle [ResourceLoader] |Numeral-converter-toggle.js |Numeral-converter-toggle.css

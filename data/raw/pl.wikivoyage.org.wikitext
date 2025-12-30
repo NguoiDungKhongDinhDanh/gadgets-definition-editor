@@ -1,0 +1,13 @@
+== browsing ==
+* maps [ResourceLoader | default] | maps.js
+* MapFrame[ResourceLoader|default]|MapFrame.js
+* purge-tab [ResourceLoader | dependencies=mediawiki.util] | purge.js
+* WikidataInfo [ResourceLoader] | WikidataInfo.js
+* Navigation popups [ResourceLoader] | Popups-local.js
+
+== editing ==
+* HotCat [ResourceLoader] | HotCat.js
+
+== other ==
+* replylinks [ResourceLoader] | replylinks.js
+* heading-icons [ResourceLoader|dependencies=mediawiki.util]|heading-icons.js

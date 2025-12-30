@@ -1,0 +1,20 @@
+# Toś ten bok se wužywa až bychu definěrowali pśidate funkcionalnosći, kótarež su listowane na specialnem boku [[Specialne:Gadgets]]
+# Prjedy hač se redigěrowaś, kontroluj, až ty derje rozmějoš jogo funkcionalnosć, kótaraž se wopišo na boku [[mw:Extension:Gadgets#Usage]]
+# Njezměń mě eksistěrujuceje funkcije (howacej se bychu za wšyknych inaktiwizěrowali)
+# Jolic dopjelnjenka njefunkcioněrujo, pótom se móžo ju wukomentěrować pśez narownanje * z #
+# '''Glědajśo''', až nadpisy njemógu prozne znamješko <!--mjezotu--> měś (pó testowanju wužywarja [[Wužywaŕ:Tlustulimu|Tlustulimu]])
+
+== Wobźěłanje ==
+* Edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js|edittop.css
+* WikEd[ResourceLoader]|WikEd.js
+* HotCats[ResourceLoader]|HotCats.js
+
+==Zwobrazowanje==
+*markadmins[ResourceLoader|dependencies=mediawiki.util]|markadmins.js
+*markblocked[ResourceLoader]|markblocked.js
+*markredirects|markredirects.css
+*UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+*mySandbox[ResourceLoader|dependencies=mediawiki.util]|mySandbox.js
+*niceInfoboxes[default]|niceInfoboxes.css
+*niceTaxoboxes[default]|niceTaxoboxes.css
+*ReferenceTooltips[ResourceLoader]|ReferenceTooltips.js|ReferenceTooltips.css

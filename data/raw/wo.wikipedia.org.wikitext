@@ -1,0 +1,22 @@
+# Cette page sert à définir les gadgets utilisés dans [[Special:Gadgets]]
+# Avant de la modifier, assurez-vous d'avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]]
+# Ne changez pas le nom d'un gadget existant (il serait alors désactivé pour tous)
+# Si un gadget ne fonctionne pas, on peut le commenter en transformant * en #
+
+* AjoutBoutonSource[ResourceLoader]|getVarValue.js|getStrDateToday.js|ajoutBoutonsToolbar.js|AjoutBoutonSource.js
+* DeluxeBar[ResourceLoader]|ajoutBoutonsToolbar.js|DeluxeBar.js
+
+* EditZeroth[ResourceLoader]|EditZeroth.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* OngletGoogle[ResourceLoader]|OngletGoogle.js
+
+* CaracteresHTML[ResourceLoader]|CaracteresHTML.js
+* CaracteresMagic[ResourceLoader]|CaracteresMagic.js
+* CaracteresParser[ResourceLoader]|CaracteresParser.js
+
+* WikEd[ResourceLoader]|WikEd.js
+* Popups[ResourceLoader]|Popups.js
+* HotCats[ResourceLoader]|HotCats.js
+* RevertDiff[ResourceLoader]|RevertDiff.js
+* QPreview[ResourceLoader]|QPreview.js
+* DeluxeHistory[ResourceLoader]|Objects.js|DeluxeHistory.js|DeluxeHistory.css

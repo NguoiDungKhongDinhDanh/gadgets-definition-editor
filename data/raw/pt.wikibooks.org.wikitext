@@ -1,0 +1,43 @@
+== interface ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* HistRes[ResourceLoader]|Histórico resumido.js
+* BookGadgets[ResourceLoader|default|dependencies=mediawiki.util]|Common.js|Book gadgets.js
+* BookGadgetsLinks[ResourceLoader|dependencies=mediawiki.util, ext.gadget.BookGadgets]|Common.js|Links para gadgets dos livros.js
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* HistoryNumDiff[ResourceLoader|actions=history]|HistoryNumDiff.js
+* FeedbackHighlight[ResourceLoader|default]|FeedbackHighlight.js|FeedbackHighlight.css
+
+== editing ==
+* BotExt[ResourceLoader|actions=edit]|Botões extras.js
+* ImprovedEditToolbar[ResourceLoader|default|actions=edit]|ImprovedEditToolbar.js
+* LocSubs[ResourceLoader|actions=edit]|Localizar e substituir.js
+* ajaxPrev[ResourceLoader|rights=edit|actions=edit]|ajaxPreview.js
+* wikEd[ResourceLoader]|wikEd.js
+* Dicas[ResourceLoader|dependencies=mediawiki.util|actions=edit]|Dicas.js|Dicas.css
+* Edittools[ResourceLoader|dependencies=mediawiki.util|rights=edit|default]|Edittools.js|Edittools.css
+* OldEdittools[ResourceLoader|rights=edit|dependencies=ext.gadget.Edittools]|OldEdittools.js
+* rev-e-avisos[ResourceLoader|dependencies=mediawiki.util]|diffTools.js|diffTools.css
+* ForcePreview[ResourceLoader|default]|ForcePreview.js
+* HideWikitextEditButton[ResourceLoader]|HideWikitextEditButton.js
+
+== browsing ==
+* ProgressLevel[ResourceLoader|dependencies=mediawiki.util|actions=view,submit]|ProgressLevel.js
+* BuscAprim[ResourceLoader]|Busca aprimorada.js
+* BuscLivro[ResourceLoader]|Busca nos livros.js
+* Navigation_popups[ResourceLoader]|popups.js
+* TitulosSimples[ResourceLoader|dependencies=mediawiki.util|actions=view]|Títulos simples.js
+* LanguageConverter[ResourceLoader]|LanguageConverter.js|LanguageConverter.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* WikiMiniAtlas[ResourceLoader]|WikiMiniAtlas.js
+* AutoNav[ResourceLoader|dependencies=mediawiki.util|default]|AutoNav.js
+* Correlatos[ResourceLoader|dependencies=mediawiki.util|default]|Correlatos.js|Correlatos.css
+* ExpandAllOnPrint[ResourceLoader|dependencies=mediawiki.page.ready|default]|ExpandAllOnPrint.js
+* Direct-link-to-Commons[ResourceLoader|default|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+
+== extra-rights ==
+* EnhancedSearchCore[ResourceLoader|rights=oculto]|EnhancedSearch.js/Core.js
+* InfoAdicional[ResourceLoader|rights=patrol,rollback,markbotedits,delete]|Informação adicional.js
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* subpages[ResourceLoader|rights=delete|actions=delete]|subpages.js
+* SysopSuggestions[ResourceLoader|dependencies=mediawiki.util, jquery.suggestions|rights=delete|default]|SysopSuggestions.js

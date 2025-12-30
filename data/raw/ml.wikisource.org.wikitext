@@ -1,0 +1,23 @@
+<noinclude>
+
+
+</noinclude>
+
+== browsing-gadgets ==
+
+* Navigation_popups|popups.js|navpop.css
+
+== editing-gadgets ==
+
+* Friendly|Friendly.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar|refToolbar.js
+* wikEd|wikEd.js
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|PurgeTab.js
+
+== library-gadgets ==
+
+* modernskin-thunks|modernskin-thunks.js
+* DejaVu_Sans||DejaVu_Sans.css
+* JSL|JSL.js

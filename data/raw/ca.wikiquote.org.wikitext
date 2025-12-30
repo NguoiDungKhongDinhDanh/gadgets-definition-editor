@@ -1,0 +1,23 @@
+# En aquesta pàgina es defineixen els giny usats a [[Especial:Gadgets]]
+# Abans de fer cap modificació, assegureu-vos que heu entès el funcionament descrit a [[mw:Extension:Gadgets#Usage]]
+# No canvieu el nom de cap giny existent, quedaria desactivat per a tothom.
+# Si un giny no funciona, el podeu anul·lar de la llista reemplaçant * per #
+
+== browsing-gadgets ==
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.css|ReferenceTooltips.js
+
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user|type=general]|charinsert-core.js|charinsert-core.css
+
+== interface-gadgets ==
+* AltresViccionari[ResourceLoader|default|dependencies=mediawiki.util]|AltresViccionari.js
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* quickeditcounter[ResourceLoader]|quickeditcounter.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+# visualeditor-signature[default|ResourceLoader|dependencies=mediawiki.util]|visualeditor-signature.js

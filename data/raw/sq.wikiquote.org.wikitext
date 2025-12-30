@@ -1,0 +1,12 @@
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* WikidataInfo[ResourceLoader|dependencies=mediawiki.jqueryMsg,mediawiki.user]|WikidataInfo.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* lidhjetejashtme[ResourceLoader|dependencies=mediawiki.util|default]|lidhjetejashtme.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Ora[ResourceLoader|dependencies=mediawiki.util]|Ora.js
+* perdoruesibllokuar[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|perdoruesibllokuar.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|popups.js|navpop.css
+* LintHint[ResourceLoader]|LintHint.js
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* dark-mode[ResourceLoader|targets=desktop,mobile|skins=vector,monobook,modern,minerva]|dark-mode.css
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|skins=vector,monobook,modern,minerva]|dark-mode-toggle.js

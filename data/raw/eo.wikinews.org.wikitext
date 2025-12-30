@@ -1,0 +1,7 @@
+== edition ==
+* HotCat[ResourceLoader] | HotCat.js
+* ProtectColorText[ResourceLoader|rights=editprotected] | ProtectColorText.css
+
+== interfaz ==
+* UTCLiveClock[ResourceLoader] | UTCLiveClock.js
+* CleanDeleteReasons[ResourceLoader|default|rights=delete] | CleanDeleteReasons.js

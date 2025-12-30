@@ -1,0 +1,40 @@
+# Ĉi paĝo utilas por difini la aldonaĵojn listigitajn en [[Special:Gadgets]]
+# Antaŭ ol redakti ĝin, kontrolu ke vi bone komprenis ĝian funkciadon priskribitan je [[mw:Extension:Gadgets#Usage]]
+# Ne ŝanĝu nomon de ekzistanta (ĝi estus malaktivigita por ĉiuj)
+# Se aldonaĵo ne funkcias, oni povas forkomenti ĝin anstataŭigante * per #
+
+== Ĝenerala ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* EditTop[ResourceLoader|dependencies=mediawiki.util]|edittop.js|edittop.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js 
+* DisableImageAnnotator[ResourceLoader]|DisableImageAnnotator.js
+* niceInfoboxes[default]|niceInfoboxes.css
+* MarkiAlidirektilojn|MarkiAlidirektilojn.css
+* MarkiApartigilojn|MarkiApartigilojn.css
+* ReferenceTooltips[ResourceLoader]|ReferenceTooltips.js|ReferenceTooltips.css
+* Rekta-ligilo-al-Komunejo[ResourceLoader|dependencies=mediawiki.util,user.options|default]|Rekta-ligilo-al-Komunejo.js
+* MalnovaDiferenco|MalnovaDiferenco.css
+* AldoniSekcion-plus[ResourceLoader]|AldoniSekcion-plus.js
+* ForigiFulmoklavojn[ResourceLoader]|ForigiFulmoklavojn.js
+* VectorClassic[ResourceLoader|skins=vector]|VectorClassic.css
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|type=general]|DocTabs.js|DocTabs.css
+
+== Evoluigata ==
+* WikEd[ResourceLoader|dependencies=mediawiki.util,user]|WikEd.js
+* Popups[ResourceLoader]|Popups.js
+* markadmins[ResourceLoader|dependencies=mediawiki.util]|markadmins.js
+* markblocked[ResourceLoader]|markblocked.js
+* resumbutonoj[ResourceLoader]|resumbutonoj.js|resumbutonoj.css
+* titoloankroj[ResourceLoader|dependencies=user,mediawiki.util]|AncreTitres.js
+* HotCats[ResourceLoader]|HotCat.js
+* VikidatumaLigilo[ResourceLoader]|VikidatumaLigilo.js
+* WikiTrans[ResourceLoader|skins=vector|dependencies=mediawiki.util]|WikiTrans.js|WikiTrans.css
+* ThreadedDiscussions[ResourceLoader]|ThreadedDiscussions.css
+
+== Administraj ==
+* MalplenaForigokialo[ResourceLoader]|MalplenaForigokialo.js
+* SafeRollback[ResourceLoader]|SafeRollback.js
+
+== Kartografiaj ==
+* WhereWikimediansLive [ResourceLoader|targets=desktop,mobile|dependencies=ext.kartographer.box,oojs-ui,mediawiki.api.edit] | WhereWikimediansLive.js

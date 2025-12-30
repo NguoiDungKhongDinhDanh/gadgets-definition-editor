@@ -1,0 +1,7 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|navpop.js|navpop.css
+
+== editing-gadgets ==
+
+* wikEd[ResourceLoader]|wikEd.js
+* URLEncoder[ResourceLoader]|URLencoder.js

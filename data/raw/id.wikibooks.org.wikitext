@@ -1,0 +1,3 @@
+== general ==
+* HotCat[ResourceLoader]|HotCat.js
+* Bagikan[ResourceLoader|dependencies=mediawiki.util|default]|Bagikan.js

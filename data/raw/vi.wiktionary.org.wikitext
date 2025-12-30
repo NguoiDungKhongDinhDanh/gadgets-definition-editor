@@ -1,0 +1,43 @@
+== navigation ==
+* did you mean[ResourceLoader|default|dependencies=mediawiki.util]|did you mean.js
+* TabbedLanguages[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.cookie,mediawiki.util,oojs-ui-core,oojs-ui-widgets]|TabbedLanguages.js
+* navpop[ResourceLoader|dependencies=mediawiki.util]|popups.js|navpop.css
+
+== editing ==
+* AVIM[ResourceLoader|skins=vector,vector-2022,monobook|default]|AVIM.js
+* AVIM_portlet[ResourceLoader|skins=vector,vector-2022,monobook|default|dependencies=ext.gadget.AVIM]|AVIM portlet.js|AVIM portlet.css
+* start[ResourceLoader|default|dependencies=mediawiki.util,ext.gadget.headers]|start.js|start.css
+* hotcat[ResourceLoader]|HotCat.js
+* wiked[ResourceLoader]|wikEd.js
+* tot[ResourceLoader|skins=vector,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,jquery.textSelection,ext.gadget.headers]|tot.js|jquery.wikiEditor.toc.css
+* Edittools[ResourceLoader|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js|Edittools.css
+* AjaxEdit[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,mediawiki.api|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|AjaxEdit.js
+
+== discussions ==
+* CommentsInLocalTime[ResourceLoader|dependencies=mediawiki.util,moment]|CommentsInLocalTime.js
+
+== interface ==
+* main page[ResourceLoader|default]|main page.js|main page.css
+* headers[ResourceLoader|default|dependences=mediawiki.api]|headers.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* UTCLiveClock [ResourceLoader |supportsUrlLoad |type=general |dependencies=mediawiki.util, mediawiki.api |peers=UTCLiveClock-pagestyles] |UTCLiveClock.js |UTCLiveClock.css
+* LanguagesAndScripts[ResourceLoader|default]|LanguagesAndScripts.css
+* DejaVu_Sans|DejaVu_Sans.css
+
+== development ==
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits, ext.gadget.select2, mediawiki.api, mediawiki.language|rights=autoconfirmed|type=general |peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|twinklediff.js|twinkleunlink.js|twinklewelcome.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleprotect.js|twinkleconfig.js|twinklerollback.js
+* morebits [ResourceLoader |dependencies=mediawiki.user, mediawiki.util, mediawiki.Title, jquery.ui |hidden] |morebits.js |morebits.css
+* Twinkle-pagestyles [hidden |skins=vector, vector-2022] |Twinkle-pagestyles.css
+* select2 [ResourceLoader |hidden] |select2.min.js |select2.min.css
+* linkify[ResourceLoader|dependencies=mediawiki.util]|linkify.js
+* AcceleratedFormCreation[ResourceLoader|dependencies=mediawiki.util]|AcceleratedFormCreation.css|AcceleratedFormCreation.js
+
+== miscellaneous ==
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title]|catfix.js
+* VisibilityToggles[ResourceLoader|hidden|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+* UnsupportedTitles[ResourceLoader|hidden|default|package]|UnsupportedTitles.js|UnsupportedTitles.json
+* Palette[ResourceLoader|hidden|default]|Palette.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* zhDialMap[ResourceLoader|default|dependencies=oojs-ui-core]|zhDialMap.js|zhDialMap.css

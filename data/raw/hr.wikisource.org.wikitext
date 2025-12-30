@@ -1,0 +1,8 @@
+== Uređivanje ==
+* dodatnialati[ResourceLoader]|dodatnialati.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* CleanCache[ResourceLoader|dependencies=mediawiki.util]|CleanCache.js
+* wikEd[ResourceLoader]|wikEd.js
+
+== Administratori ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js

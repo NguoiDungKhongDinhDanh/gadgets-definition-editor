@@ -1,0 +1,37 @@
+<noinclude>Links to view and manage the gadget descriptions appear on [[Special:Gadgets]]. See [[Wiktionary:Gadgets]] for general information about gadgets on Wiktionary.</noinclude>
+
+== appearance ==
+
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* Navigation_popups[ResourceLoader]|popups.js
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* CollapsibleTOC [ ResourceLoader | default | dependencies = mediawiki.user, mediawiki.toc | type = general ] | CollapsibleTOC.js | CollapsibleTOC.css
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+* FrenchStyleWiktionary [ResourceLoader|default|type=styles]|StyleArticles.css
+* NavFrame[ResourceLoader|default|type=general]|NavFrame.js
+* IndicTechComShortUrl[ResourceLoader|default|targets=desktop,mobile]|IndicTechComShortUrl.js
+* URLShortener-sidebar[ResourceLoader|dependencies=mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|default|type=general|skins=minerva]|URLShortener-sidebar.js|URLShortener-sidebar.css
+* HorizontalTOC|HorizontalTOC.css
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+
+== editing ==
+
+* TranslationAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data|categories=Entries with translation boxes]|TranslationAdder.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+
+==modules==
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css
+
+==hidden==
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* LanguageUtils[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.StorageUtils]|LanguageUtils.js
+* LegacyScriptsNewNode[ResourceLoader|hidden]|LegacyScriptsNewNode.js
+* TranslationAdder-Data[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.Uri,ext.gadget.LanguageUtils|categories=Entries with translation boxes]|TranslationAdder-Data.js

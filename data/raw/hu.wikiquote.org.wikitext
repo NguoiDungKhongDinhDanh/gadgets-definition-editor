@@ -1,0 +1,17 @@
+== Edit ==
+* hotcat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+* sablonbesav[ResourceLoader]|sablonbesav.js
+
+== General ==
+* wikidata-info[ResourceLoader]|wikidata-info.js|wikidata-info.css
+* latszer[ResourceLoader]|popups.js
+* ora[ResourceLoader|dependencies=mediawiki.util]|ora.js
+* keresesUjFulon[ResourceLoader]|keresesUjFulon.js
+* FejlettDiff[ResourceLoader]|FejlettDiff.js
+* interwikiFordito[ResourceLoader]|interwikiFordito.js
+
+== Style ==
+* redirect|redirect.css
+* vitakiemel|vitakiemel.css
+* jogiVacakKi|SzerkablakFigyelmeztetésKi.css

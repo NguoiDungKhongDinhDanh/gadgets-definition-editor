@@ -1,0 +1,27 @@
+== সম্পাদনা সহায়ক সঁজুলি ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* charinsert[ResourceLoader|default]|charinsert.js|charinsert.css
+* OCS[ResourceLoader]|OCS.js
+* IndicOCR[ResourceLoader]|IndicOCR.js
+* wikEd[ResourceLoader]|wikEd.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* button-center[ResourceLoader|dependencies=ext.wikiEditor|default]|button-center.js
+* button-right[ResourceLoader|dependencies=ext.wikiEditor|default]|button-right.js
+* button-poem[ResourceLoader|dependencies=ext.wikiEditor|default]|button-poem.js
+* FloatableEditingButton[ResourceLoader]|FloatableEditingButton.js
+* ContrastReducer[ResourceLoader]|ContrastReducer.js
+* Cropimage[ResourceLoader|default]|Cropimage.js
+* CropTool[ResourceLoader|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js
+* SwapEditing[ResourceLoader]|swapEditingSpace.js
+
+== পৃষ্ঠা নামস্থানৰ বাবে সম্পাদনা সঁজুলি ==
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+
+== সূচী নামস্থানৰ বাবে সম্পাদনা সঁজুলি ==
+* Fill_Index[ResourceLoader]|Fill_Index.js
+
+== ইণ্টাৰফেইচ ==
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* ShortUrl[ResourceLoader|default]|ShortUrl.css|ShortUrl.js
+* bookreader[ResourceLoader|default]|bookreader.js

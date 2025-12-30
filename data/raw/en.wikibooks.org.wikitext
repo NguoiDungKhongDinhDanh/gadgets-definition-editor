@@ -1,0 +1,50 @@
+== browse-gadgets ==
+* wikidialog[ResourceLoader|default|dependencies=mediawiki.util]|wikidialog.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* sidebartranslate[ResourceLoader]|langcode2name.js|sidebartranslate.js
+* SpecialSearch[ResourceLoader]|SpecialSearch.js
+* rightsfilter[ResourceLoader]|rightsfilter.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* background-awesomeness|background-awesomeness.css
+* subject-pages[ResourceLoader]|subjects.css|subjects.js
+* navpop[ResourceLoader]|navpop.js|navpop.css
+* commons-file[ResourceLoader|default|dependencies=mediawiki.util]|commons-file.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* GetCollection[ResourceLoader|dependencies=mediawiki.util]|collectionparser.js
+
+== edit-gadgets ==
+* wiked[ResourceLoader]|wiked.js
+* DeluxeBar[ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar|rights=edit]|DeluxeBar.js
+* searchbox[ResourceLoader]|lib-beau.js|searchbox.js
+* BookCat[ResourceLoader]|BookCat.js
+* OneClickWelcomer[ResourceLoader|dependencies=site,mediawiki.util]|OneClickWelcomer.js
+== tab-gadgets ==
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js
+* bottomtabs[ResourceLoader]|bottomtabs.css|bottomtabs.js
+* sixtabs[ResourceLoader|skins=monobook|dependencies=mediawiki.util]|sixtabs.js
+
+== admin-gadgets ==
+* subpages[ResourceLoader|rights=delete|dependencies=mediawiki.util]|subpages.js
+* massblock[ResourceLoader|rights=block]|massblock.js|blockoptions.js
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+* markAdmins [ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|markAdmins.js
+
+== broken-gadgets ==
+<!-- edit-gadgets -->
+* Twinklerevert[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|twinkle.js|twinkle.css|twinklefluff.js
+* twinklespeedy[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|twinkle.js|twinkle.css|twinklespeedy.js
+* twinklewarn[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|twinkle.js|twinkle.css|twinklewarn.js
+* Twinkleunlink[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|twinkle.js|twinkle.css|twinkleunlink.js
+* toolboxcompat[ResourceLoader]|toolboxcompat.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* Special_characters[ResourceLoader]|Special_characters.js
+* colorcats|category-colorcode.css
+<!-- book-gadgets -->
+* wkBookCreator[ResourceLoader]|wknightcore.js|wkcategorize.js|wkeditinsert.js|wkdesigner.js|
+<!-- admin-gadgets -->
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* autodel [ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,mediawiki.user,user,jquery.ui|rights=delete]|autodel.js
+* twinkledelimages[ResourceLoader|rights=delete]|twinkle.js|twinkle.css|twinkledelimages.js
+* extlinks[ResourceLoader|dependencies=mediawiki.util]|extlinks.js

@@ -1,0 +1,19 @@
+== default ==
+* PratikMenu[ResourceLoader|skins=vector,monobook,modern]|PratikMenu.js
+* PratikMenu-vector[ResourceLoader|hidden]|PratikMenu-vector.js
+* PratikMenu-digər[ResourceLoader|hidden]|PratikMenu-digər.js|PratikMenu.css
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* autocomplete[ResourceLoader]|autocomplete.js
+
+== articles ==
+
+* popups[ResourceLoader]|popups.js
+
+
+
+__NOTOC__

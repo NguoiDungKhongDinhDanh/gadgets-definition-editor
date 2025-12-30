@@ -1,0 +1,10 @@
+== appearance ==
+* TreeDescs[ResourceLoader|peers=TreeDescs-pagestyles]|TreeDescs.js
+
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+* wikify[ResourceLoader|default|dependencies=mediawiki.util]|wikify.js
+
+== hidden ==
+* TreeDescs-pagestyles[hidden|type=styles]|TreeDescs-pagestyles.css
+* wikibugs[ResourceLoader|default|hidden]|Wikibugs.js

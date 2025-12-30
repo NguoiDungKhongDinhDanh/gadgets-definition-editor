@@ -1,0 +1,17 @@
+== wikidata ==
+* slurpInterwiki[ResourceLoader|dependencies=mediawiki.util,jquery.ui,jquery.spinner]|slurpInterwiki.js
+
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js
+*HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+*Twinkle[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|morebits.js|morebits.css|Twinkle.js
+== interface-gadgets ==
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js

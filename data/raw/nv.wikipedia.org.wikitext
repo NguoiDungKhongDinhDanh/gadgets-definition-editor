@@ -1,0 +1,7 @@
+==gadgets==
+* HotCat[ResourceLoader]|HotCat.js
+* ChChange[ResourceLoader]|ChChange.js
+* OldLogo|OldLogo.css
+* Calibri|Calibri.css
+* ntsxaa|largefont.css
+* altsiisi|smallfont.css

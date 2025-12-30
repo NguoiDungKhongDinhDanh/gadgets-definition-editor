@@ -1,0 +1,76 @@
+<div style='font-family:monospace; word-break:break-all;'>
+== edit ==
+* specialchars[ResourceLoader|actions=edit]|specialchars.js
+* edit0[ResourceLoader|dependencies=user.options,mediawiki.util]|edit0.js
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* ProveIt[ResourceLoader]|ProveIt.js
+* RenommageCategorie[ResourceLoader]|RenommageCategorie.js
+* wikEd[ResourceLoader|actions=edit]|wikEd.js
+* Wordcount[ResourceLoader]|Wordcount.js
+* ProofreadHelper[ResourceLoader|namespaces=104|actions=view]|ProofreadHelper.js
+* WikidataDesc[ResourceLoader]|WikidataDesc.js
+* Navigation_popups[ResourceLoader|type=general|dependencies=ext.gadget.HanAssist]|popups.js|popups.css
+
+== editbutton ==
+* Edittools-vector[ResourceLoader|dependencies=mediawiki.user|actions=edit]|Edittools-vector.js
+* Edittools-vplus[ResourceLoader|dependencies=ext.gadget.Edittools-vector|actions=edit]|Edittools-vplus.js
+* Edittools-vote[ResourceLoader|dependencies=ext.gadget.Edittools-vector|actions=edit]|Edittools-vote.js
+* Edittools-delh[ResourceLoader|dependencies=ext.gadget.Edittools-vector|rights=autoconfirmed|actions=edit]|Edittools-delh.js
+* Edittools-refToolbar[ResourceLoader|dependencies=mediawiki.user|default|actions=edit]|refToolbar.js
+
+== skin ==
+* large-font[ResourceLoader|default|skins=vector,monobook]|large-font.css
+* light-blue-background[ResourceLoader|default|skins=vector]|light-blue-background.css
+* Blackskin|Blackskin.css
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+
+== appearance ==
+* moveEditsectionBack[ResourceLoader]|moveEditsectionBack.css
+* OldDiff|OldDiff.css
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* blinktalk[ResourceLoader]|blinktalk.js|blinktalk.css
+* hantsect|hantsect.css
+* popupUserLanguage[ResourceLoader]|popupUserLanguage.js|popupUserLanguage.css
+* ExternalSearch[ResourceLoader]|externalsearch.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* HideRefLinks[ResourceLoader]|HideRefLinks.js
+* noteTA[ResourceLoader|dependencies=mediawiki.api,ext.gadget.HanAssist,oojs-ui,oojs-ui-windows,jquery.makeCollapsible|default|type=general|actions=view,edit]|noteTA.js|noteTA.css
+* NavFrame[ResourceLoader|dependencies=ext.gadget.HanAssist]|NavFrame.js|NavFrame.css
+* RemoveCustomSigns[ResourceLoader]|RemoveCustomSigns.js
+* HideEditSpecialChars[ResourceLoader|actions=edit]|HideEditSpecialChars.css
+* HideWarnings[ResourceLoader|actions=edit]|HideWarnings.css
+* space_removal[ResourceLoader]|space_removal.js
+* CommentsinLocalTime[ResourceLoader|dependencies=ext.gadget.HanAssist]|CommentsinLocalTime.js
+* tabbedwindow[ResourceLoader|dependencies=oojs-ui,oojs-ui-core|default]|tabbedwindow.js
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* scrollUpButton[ResourceLoader|default]|scrollUpButton.js
+* searchFocus[ResourceLoader|actions=view|namespaces=4]|searchFocus.js
+
+== information ==
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* MarkRights[ResourceLoader|dependencies=mediawiki.api]|MarkRights.js|MarkRights.css
+* NotifCountTitle[ResourceLoader|dependencies=mediawiki.language]|NotifCountTitle.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+
+== utility ==
+* era_note[ResourceLoader]|era_note.js
+* RTRC[ResourceLoader]|RTRC.js
+* OnlineAdmins[ResourceLoader]|OnlineAdmins.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* shareTool[ResourceLoader|dependencies=ext.gadget.site-lib,mediawiki.util]|shareTool.js|shareTool.css
+* confirm-logout[ResourceLoader|dependencies=ext.gadget.ding,ext.gadget.HanAssist,mediawiki.api,mediawiki.util,oojs-ui-windows]|confirm-logout.js
+
+== library ==
+* modernskin-thunks[ResourceLoader]|modernskin-thunks.js
+* site-lib[ResourceLoader|dependencies=mediawiki.util|hidden]|site-lib.js
+* HanAssist[ResourceLoader|package|hidden|dependencies=user.options]|HanAssist.js
+* ding[ResourceLoader|hidden]|ding.js|ding.css
+
+== sysop ==
+* restore[ResourceLoader]|restore.js
+
+== development ==
+* WE-framework WS[ResourceLoader]|WE-framework WS.js
+</div>

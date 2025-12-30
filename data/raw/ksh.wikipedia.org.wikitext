@@ -1,0 +1,30 @@
+==user-tools==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* ShortDiff[ResourceLoader]|ShortDiff.js
+* gotmessages[ResourceLoader]|gotmessages.js
+* hide-search|hide-search.css
+# de * Screenreader-Optimierung[ResourceLoader]|Screenreader-Optimierung-TOC.js
+# de * Rot-Gruen-Sehschwaeche|Rot-Gruen-Sehschwaeche.css
+
+==help-reading==
+* navigation-popups[ResourceLoader]|navigation-popups.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* Piel-huh[ResourceLoader]|Piel-huh.js
+* WikiMiniAtlas[ResourceLoader]|WikiMiniAtlas.js
+* OpenStreetMap[ResourceLoader]|osm.js
+# de * Personendaten|Personendaten.css
+# de * Doppel-s-Schreibung[ResourceLoader]|Doppel-s-Schreibung.js
+# de * Suchfokus-Hauptseite[ResourceLoader]|Suchfokus-Hauptseite.js
+
+==help-editing==
+* Einleidung-ändere[ResourceLoader]|Einleidung-ändere.js
+* Quickedit[ResourceLoader]|quickedit.js
+* bkl-check[ResourceLoader]|bkl-check.js
+* EvilUnicodeConverter[ResourceLoader]|EvilUnicodeConverter.js
+* TexareaFontSelect[ResourceLoader]|TexareaFontSelect.js
+* toolserver-integration[ResourceLoader]|toolserver-integration.js
+* Extra-Editbuttons[ResourceLoader]|Extra-Editbuttons.js
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+# de * Vorlagenmeister[ResourceLoader]|Vorlagenmeister.css|Vorlagenmeister.js

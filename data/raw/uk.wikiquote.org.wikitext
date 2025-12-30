@@ -1,0 +1,21 @@
+== navigation ==
+* SubPages[ResourceLoader|dependencies=mediawiki.util]|SubPages.js
+* CurIDLink[ResourceLoader|dependencies=mediawiki.util]|CurIDLink.js
+
+== reading ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* DisambigHili[type=styles]|DisambigHili.css
+* YellowBackgroundRedirects[type=styles]|YellowBackgroundRedirects.css
+* editHysteria[ResourceLoader]|editHysteria.js
+* ReferenceTooltips[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+* InsertPersonTemplate[ResourceLoader|dependencies=mediawiki.util]|InsertPersonTemplate.js
+
+== external-tools ==
+* Statistics[ResourceLoader|dependencies=mediawiki.util]|Statistics.js
+
+== indevelop ==
+* MarkGender[ResourceLoader|rights=delete]|MarkGender.js
+* AddNoSource[ResourceLoader|rights=delete]|AddNoSource.js

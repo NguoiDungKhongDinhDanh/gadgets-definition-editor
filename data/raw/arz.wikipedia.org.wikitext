@@ -1,0 +1,13 @@
+== languagesupport ==
+* rtl|rtl.css
+
+=== browsing ===
+* MyEditCounter[ResourceLoader|rights=minoredit|dependencies=mediawiki.user]|MyEditCounter.js
+* XTools-ArticleInfo[ResourceLoader|rights=minoredit]|XTools-ArticleInfo.js
+* WikidataTab[ResourceLoader|rights=minoredit]|WikidataTab.js
+* Userinfo[ResourceLoader|rights=minoredit]|Userinfo.js
+* Direct-link-to-Commons[ResourceLoader|default|rights=minoredit|dependencies=mediawiki.util,user.options]|Direct-link-to-Commons.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* GreenRedirect[ResourceLoader|default|rights=minoredit]|GreenRedirect.css
+== editing ==
+*HotCat[ResourceLoader]|HotCat.js

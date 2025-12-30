@@ -1,0 +1,8 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js
+
+== editing-gadgets ==
+== categories ==
+* HotCat[ResourceLoader]|HotCat.js
+== advanced ==
+* massdelete[ResourceLoader|rights=delete]|massdelete.js

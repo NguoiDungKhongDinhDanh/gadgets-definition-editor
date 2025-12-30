@@ -1,0 +1,62 @@
+# Cette page sert à définir les gadgets utilisés dans [[Special:Gadgets]]
+# Avant de la modifier, assurez-vous d'avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]]
+# Ne changez pas le nom d'un gadget existant (il serait alors désactivé pour tous)
+# Si un gadget ne fonctionne pas, on peut le commenter en transformant * en #
+
+== MonnaieDeReference ==
+
+* ReferenceEUR[ResourceLoader|default]|ReferenceEUR.css
+* ReferenceUSD[ResourceLoader]|ReferenceUSD.css
+* ReferenceCAD[ResourceLoader]|ReferenceCAD.css
+* ReferenceCHF[ResourceLoader]|ReferenceCHF.css
+* ReferenceCFA[ResourceLoader]|ReferenceCFA.css
+
+== Modification ==
+=== Navigation ===
+
+* IconeLiensExterne[ResourceLoader|default]|IconeLiensExterne.css
+* InterWikiLinkIcons[ResourceLoader|default]|InterWikiLinkIcons.css
+* exlinks[ResourceLoader]|exlinks.js
+* IndentationColoree[ResourceLoader]|IndentationColoree.css
+* DeluxeHistory[ResourceLoader|dependencies=user,mediawiki.util]|DeluxeHistory.js
+
+=== Editeur ===
+
+* ListingEditor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor.js|ListingEditor.css
+* ResumeDeluxe[ResourceLoader|dependencies=user|default]|ResumeDeluxe.js
+* Purge[ResourceLoader|dependencies=mediawiki.util]|Purge.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+
+=== AjoutRapide ===
+
+* HotCat[ResourceLoader]|HotCat.js‎
+
+=== Debug ===
+
+* RevelateurRedirect[ResourceLoader]|RevelateurRedirect.css
+* RevelateurHomonymie[ResourceLoader]|RevelateurHomonymie.css
+* phoneinfo[ResourceLoader]|phoneinfo.css
+* mailinfo[ResourceLoader]|mailinfo.css
+* imageinfo[ResourceLoader]|imageinfo.css
+
+== Apparence ==
+
+=== Pages ===
+* AncreTitres[ResourceLoader]|AncreTitres.js
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* Popups[ResourceLoader]|Popups.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* monBrouillon[ResourceLoader|dependencies=mediawiki.util]|monBrouillon.js
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden | skins = vector, monobook] | dark-mode-toggle-pagestyles.css
+
+=== MenuDeGauche ===
+* SousPages[ResourceLoader|dependencies=mediawiki.util]|SousPages.js
+
+== Modules ==
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css
+
+== Beta ==
+* ListingEditorVersionTest[ResourceLoader|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditorVersionTest.js|ListingEditorVersionTest.css
+* BootstrapCarousel[|ResourceLoader|type=general|dependencies=mediawiki.util|targets=desktop,mobile]|BootstrapCarousel.js|BootstrapCarousel.css

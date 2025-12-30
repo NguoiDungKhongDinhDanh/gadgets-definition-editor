@@ -1,0 +1,8 @@
+* Purge[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Purge.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* autoFillDatePages[ResourceLoader|dependencies=mediawiki.user]|autoFillDatePages.js
+* autoFillDatePages-autosave[ResourceLoader]|autoFillDatePages-autosave.js
+* pageWarnings[ResourceLoader]|pageWarnings.js
+* SureSureSure[ResourceLoader|rights=delete]|SureSureSure.js
+* pulsantipersonali[ResourceLoader|dependencies=user.options,mediawiki.util]|pulsantipersonali.js
+* pagineprotette|pagineprotette.css

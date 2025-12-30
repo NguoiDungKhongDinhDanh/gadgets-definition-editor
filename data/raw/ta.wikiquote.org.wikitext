@@ -1,0 +1,11 @@
+== browsing-gadgets ==
+
+== editing-gadgets ==
+* tagadder[ResourceLoader|default]|tagadder.js
+* HotCat[ResourceLoader|rights=edit,minoredit|default]|HotCat.js
+== interface-gadgets ==
+* SocialMedia[ResourceLoader|default]|SocialMedia.js
+
+== appearance ==
+
+== admin ==

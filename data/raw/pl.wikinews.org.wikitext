@@ -1,0 +1,46 @@
+* lib-toolbar [ResourceLoader | dependencies=mediawiki.user, user.options | hidden] | lib-toolbar.js
+* style-summary-buttons [ResourceLoader | hidden] | summary-buttons.css
+* libUtil [ResourceLoader | dependencies=mediawiki.util | hidden] | libUtil.js
+* DPL-daty [ResourceLoader | targets=desktop,mobile | default | hidden] | DPL-daty.js
+
+== browsing ==
+* Navigation popups [ResourceLoader|dependencies=mediawiki.user,mediawiki.util | type=general ] | Popups-local.js
+* hideSidebar [ResourceLoader] | hideSidebar.js
+* edithysteria [ResourceLoader | dependencies=mediawiki.util] | edithysteria.js
+* quickeditcounter [ResourceLoader | dependencies=mediawiki.util] | quickeditcounter.js
+* enhanced-search [ResourceLoader | dependencies=mediawiki.util, jquery.textSelection | type=general] | enhanced-search.js | enhanced-search.css
+* iw-links [ResourceLoader | dependencies=mediawiki.util] | iw-links.js
+* hide-rollback  [ResourceLoader | rights=rollback ] | hide-rollback.css
+* purgeCache [ResourceLoader | dependencies=mediawiki.util] | purge.js
+* extLinks [ResourceLoader] | extlinks.js
+* Slideshow [ResourceLoader | dependencies=mediawiki.cookie,jquery.ui,mediawiki.util,ext.gadget.libUtil | default | type=general] | GallerySlideshow.js | GallerySlideshow.css
+* WikidataInfo [ResourceLoader | dependencies=mediawiki.util] | WikidataInfo.js
+* wikipedia-backlinks [ResourceLoader] | wikipedia-backlinks.js
+
+== editing ==
+* HotCat [ResourceLoader] | HotCat.js
+* wikEd [ResourceLoader] | wikEd.js
+* QuickEdit [ResourceLoader] | QuickEdit.js
+* sk [ResourceLoader | dependencies=ext.gadget.lib-toolbar, mediawiki.util ] | sk.js | sk-local.js
+* searchbox [ResourceLoader | dependencies=ext.gadget.lib-toolbar ] | searchbox.js
+* replylinks [ResourceLoader] | replylinks-local.js
+* Wstaw szablon zrodlo [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | toolbar-zrodlo.js
+* Link do Wikipedii [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | toolbar-wikipedia-link.js
+* btm-actions [ResourceLoader | type=general] | btm-actions.js | btm-actions.css
+* webarchive [ResourceLoader] | webarchive-local.js
+* summary-snippets [ResourceLoader | default] | summary-snippets.js
+* AjaxQuickDelete [ResourceLoader | type = general |dependencies=mediawiki.util, jquery.ui]|AjaxQuickDelete.js | AjaxQuickDelete.css
+
+== appearance ==
+* colored-nicknames [ResourceLoader | dependencies=mediawiki.util] | colored-nicknames.js
+* colored-new-in-rc [ResourceLoader] | colored-new-in-rc.js
+* disable-animations [ResourceLoader] | disable-animations.js
+* colored-discussion [ResourceLoader] | colored-discussion.css
+* mark-redirs [ResourceLoader] | mark-redirs.css
+* mark-disambigs [ResourceLoader | dependencies=ext.gadget.mark-disambigs-core] | mark-disambigs.css
+* article-columns [ResourceLoader | default] | article-columns.js | article-columns.css
+* glownaRozszerz [ResourceLoader | default] | glownaRozszerz.css
+
+== admin ==
+* dynamic-ips [ResourceLoader] | dynamic-ips.js
+* delete [ResourceLoader | dependencies=mediawiki.util, ext.gadget.style-summary-buttons | rights=delete] | delete-local.js

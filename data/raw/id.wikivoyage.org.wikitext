@@ -1,0 +1,31 @@
+=== general ===
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css
+* ListingEditor2023[ResourceLoader|default|type=general|dependencies=ext.gadget.ListingEditor2023Styles]|ListingEditor2023.js
+* MapFrame[ResourceLoader|default]|MapFrame.js
+* exlinks[ResourceLoader|default|dependencies=mediawiki.util]|exlinks.js
+* edittop[ResourceLoader|skins=vector-2022,vector,timeless,modern,cologneblue,monobook|dependencies=mediawiki.util]|edittop.js
+* popups[ResourceLoader]|popups.js|popups.css
+* RTRC[ResourceLoader]|RTRC.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* wikEd[ResourceLoader]|wikEd.js
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util]|confirmationRollback-mobile.js
+* Maptool[ResourceLoader|dependencies=mediawiki.Uri|default|skins=vector-2022,vector,timeless,modern,cologneblue,monobook]|Maptool.js
+
+=== experimental ===
+* ErrorHighligter[ResourceLoader]|ErrorHighlighter.css
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* vector-headanchor[ResourceLoader]|vector-headanchor.js|vector-headanchor.css
+* JS toolset[ResourceLoader]|JS_toolset.js
+* ListingEditor2023-Beta[ResourceLoader|type=general|dependencies=ext.gadget.ListingEditor2023Styles]|ListingEditor2023Beta.js
+* mobile-sidebar[ResourceLoader|skins=vector-2022,vector,timeless,modern,cologneblue,monobook]|mobile-sidebar.js
+* BootstrapCarousel[|ResourceLoader|type=general|dependencies=mediawiki.util|targets=desktop,mobile]|BootstrapCarousel.js|BootstrapCarousel.css
+* POISearch[ResourceLoader|skins=vector,vector-2022,monobook,timeless]|POISearch.js
+
+=== hidden ===
+<!-- the following support ListingEditor2023 -->
+* ListingEditor2023Styles[ResourceLoader|default|type=general|hidden]|ListingEditor2023.css
+* ListingEditorConfig[ResourceLoader|package|hidden]|ListingEditorConfig.js|ListingEditor.json
+* ListingEditorMain[ResourceLoader|hidden|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor2023Main.js|ListingEditor.css
+* ListingEditorMainBeta[ResourceLoader|hidden|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor2023MainBeta.js|ListingEditor.css
+* NightMode[ResourceLoader|default|hidden|skins=vector-2022,minerva]|night-mode.css

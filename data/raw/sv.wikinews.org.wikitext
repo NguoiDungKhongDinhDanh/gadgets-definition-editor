@@ -1,0 +1,20 @@
+== Redigeringsfinesser ==
+*WikEd[ResourceLoader]|WikEd.js
+*hotcat[ResourceLoader]|hotcat.js
+*template[ResourceLoader|dependencies=mediawiki.util]|template.js
+*editsection0[ResourceLoader]|editsection0.js
+
+== Utseende ==
+*addsection-plus[ResourceLoader]|addsection-plus.js
+*Interwikisortering[ResourceLoader]|iwsort.js
+*oldeditlinks[ResourceLoader]|oldeditlinks.js
+*minimalRC[ResourceLoader]|minimalRC.js
+*signaturer[ResourceLoader]|signaturer.css
+*UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+
+== Extrafunktioner ==
+*searchenginelinks[ResourceLoader|dependencies=mediawiki.util]|searchenginelinks.js
+*ksamsok[ResourceLoader|dependencies=mediawiki.util]|ksamsok.js
+*IP-whois[ResourceLoader]|IP-whois.js
+*editssincelast[ResourceLoader|dependencies=mediawiki.util]|editssincelast.js
+*wiktLookup[ResourceLoader]|wiktLookup.js

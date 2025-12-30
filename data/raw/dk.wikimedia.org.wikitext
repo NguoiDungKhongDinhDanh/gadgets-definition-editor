@@ -1,0 +1,2 @@
+== Navigering-og-redigering ==
+* HotCat[ResourceLoader|rights=edit|dependencies=mediawiki.util]|hotcat.js

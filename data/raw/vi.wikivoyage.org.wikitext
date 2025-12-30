@@ -1,0 +1,24 @@
+=== general ===
+* AVIM[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|AVIM.js
+* AVIM_portlet[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=ext.gadget.AVIM]|AVIM portlet.js|AVIM portlet.css
+* ListingEditor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=ext.gadget.ListingEditor2023Styles]|ListingEditor2023.js
+* ListingEditor2023Styles[ResourceLoader|default|hidden|type=general]|ListingEditor2023.css
+* ListingEditorConfig[ResourceLoader|package|hidden]|ListingEditorConfig.js|ListingEditor.json
+* ErrorHighlighter[ResourceLoader|dependencies=mediawiki.util]|ErrorHighlighter.css
+* ShowUserInfo[ResourceLoader|dependencies=mediawiki.api,mediawiki.interface.helpers.styles,mediawiki.codex.messagebox.styles|default|type=general|namespaces=-1,2,3]|ShowUserInfo.js|ShowUserInfo.css
+* ScrollButtons[ResourceLoader|dependencies=mediawiki.util|default]|ScrollButtons.js
+* AdvancedSiteNotices[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.cookie,mediawiki.util]|AdvancedSiteNotices.js
+* edittop[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|edittop.js
+* NavigationPopupsLite[ResourceLoader|dependencies=mediawiki.util]|NavigationPopupsLite.js|NavigationPopupsLite.css
+* popups[ResourceLoader|dependencies=mediawiki.util]|popups.js
+* purgetab[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* MiniEdit[ResourceLoader|actions=view]|MiniEdit.js
+* LocalLiveClock[ResourceLoader|dependencies=mediawiki.util]|LocalLiveClock.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection]|wikEd.js
+* WikidataSearchResults[ResourceLoader|dependencies=mediawiki.util|default]|WikidataSearchResults.js
+
+=== hidden ===
+* ListingToolbar[ResourceLoader|default|dependencies=mediawiki.util]|ListingToolbar.js
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css
+* DefaultDarkModeSupport[ResourceLoader|default|skins=vector-2022,minerva]|DefaultDarkModeSupport.css
+* mobileSidebar[ResourceLoader|dependencies=mediawiki.util|skins=minerva|type=general|default|hidden]|mobileSidebar.js|mobileSidebar.css

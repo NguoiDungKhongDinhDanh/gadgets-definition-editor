@@ -1,0 +1,19 @@
+== editing-tools ==
+* HotCat[ResourceLoader]|HotCat.js
+* edittop[ResourceLoader]|edittop.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+
+== interface ==
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* exlinks[ResourceLoader]|exlinks.js
+* EnhancedInterwikis[ResourceLoader|dependencies=mediawiki.util]|EnhancedInterwikis.js
+* newpagesbox[ResourceLoader]|newpagesbox.js
+* recentchangesbox[ResourceLoader]|recentchangesbox.js
+* HighlightAdmins[ResourceLoader]|HighlightAdmins.js
+* sysopdectector[ResourceLoader]|sysopdectector.js
+* userMessages[ResourceLoader]|UserMessages.js
+* hideimages[ResourceLoader]|hideimages.css
+
+== admin ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js

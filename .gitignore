@@ -1,0 +1,9 @@
+node_modules
+dist
+
+data/*
+!data/raw
+!data/retrieve_data.py
+
+.vscode/**
+.ruff_cache/**

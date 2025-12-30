@@ -1,0 +1,9 @@
+== default ==
+* logo[default]|logo.css
+
+== editing ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markadmins.js

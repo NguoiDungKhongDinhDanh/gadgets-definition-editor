@@ -1,0 +1,32 @@
+== Portlet ==
+* nav-sandbox[ResourceLoader|dependencies=mediawiki.util]|nav-sandbox.js
+
+== Navigazione ==
+* Navpopup [ResourceLoader]| Navpopup.js | Navpopup.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== Interfaccia ==
+* RcColor | RcColor.css
+
+== Patrolling ==
+* ScoredRevisions[ResourceLoader]|ScoredRevisions.js
+
+== tabs ==
+* lastedit[ResourceLoader|dependencies=mediawiki.util]|lastedit.js
+* Purge[ResourceLoader|dependencies=mediawiki.util]|Purge.js
+* section0[ResourceLoader|dependencies=mediawiki.util]|section0.js
+
+== Altro ==
+* CatWatch[ResourceLoader|dependencies=mediawiki.util]|CatWatch.js
+* EDTitle[ResourceLoader|dependencies=mediawiki.util]|EDTitle.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Orologio[ResourceLoader|dependencies=mediawiki.util]|Orologio.js
+* RivelatoreDisambigua[ResourceLoader]|RivelatoreDisambigua.css
+* RivelatoreRedirect[ResourceLoader]|RivelatoreRedirect.css
+* Since[ResourceLoader|dependencies=mediawiki.util]|Since.js
+* Spostamento[ResourceLoader|rights=move] | Spostamento.js
+* Toolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|toolbar.js|toolbar.css|toolbar-buttons.js
+* Transclusione[ResourceLoader|default]|Transclusione.js
+* WikEd[ResourceLoader]|WikEd.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* NamespacePreload[ResourceLoader|dependencies=mediawiki.user]|NamespacePreload.js

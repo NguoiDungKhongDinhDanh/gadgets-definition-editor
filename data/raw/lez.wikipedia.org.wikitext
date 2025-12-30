@@ -1,0 +1,42 @@
+* common-action-edit[ResourceLoader|hidden|type=general|dependencies=user.options]|common-action-edit.js|common-action-edit.css
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+
+== default ==
+* directLinkToCommons[ResourceLoader|default|dependencies=mediawiki.util]|directLinkToCommons.js
+* edittop[ResourceLoader|default|dependencies=site,mediawiki.util]|edittop.js
+
+== editing ==
+* wikificator[ResourceLoader|hidden|type=general|dependencies=user.options,jquery.textSelection]|wikificator.js|wikificator.css
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+
+== interface ==
+* OldDiff[ResourceLoader]|OldDiff.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* roundCorners[ResourceLoader]|roundCorners.css
+* articleStats[ResourceLoader|dependencies=mediawiki.api, mediawiki.util]|articleStats.js
+* referenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|referenceTooltips.js|referenceTooltips.css
+
+== wikidata ==
+* wikidataHeaderLink[ResourceLoader]|wikidataHeaderLink.js
+
+== interwiki ==
+* iwhints[ResourceLoader]|iwhints.js
+* iwlocalnames[ResourceLoader]|iwlocalnames.js
+* relatedIcons|relatedIcons.css
+
+=== interwiki-up ===
+* iwen[ResourceLoader]|iwen.js
+* iwde[ResourceLoader]|iwde.js
+* iwfr[ResourceLoader]|iwfr.js
+* iwes[ResourceLoader]|iwes.js
+* iwpt[ResourceLoader]|iwpt.js
+* iwuk[ResourceLoader]|iwuk.js
+* iwrussia[ResourceLoader]|iwrussia.js
+
+__NOTOC__

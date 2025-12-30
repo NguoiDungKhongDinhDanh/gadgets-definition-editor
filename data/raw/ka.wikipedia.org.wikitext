@@ -1,0 +1,37 @@
+== default ==
+* directLinkToCommons[ResourceLoader|default|dependencies=mediawiki.util]|directLinkToCommons.js
+
+== browsing ==
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+
+== editing==
+* Wikilinker[ResourceLoader]|wikilinker.js
+* refmind[ResourceLoader]|refmind.js
+* BetterPanel[ResourceLoader]|BetterPanel.js
+* Hotcat[ResourceLoader|rights=edit]|Hotcat.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.util]|popups.js|navpop.css
+*textareasansserif|textareasansserif.css
+* TemplateParamWizard[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,jquery.ui,mediawiki.util]|TemplateParamWizard.js
+* WikidataTab[ResourceLoader]|WikidataTab.js
+
+== interface ==
+* OldDiff[ResourceLoader]|OldDiff.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* preview[ResourceLoader]|preview.js‎
+* dropdown-menus[ResourceLoader]|dropdown-menus.js|dropdown-menus.css
+* Warnoff|Warnoff.css
+* bkl-check[ResourceLoader|dependencies=mediawiki.util]|bkl-check.js
+* tavi-edit[ResourceLoader]|tavi-edit.js
+* imgToggle[ResourceLoader|type=general]|imgToggle.js|imgToggle.css
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* pgnviewer[ResourceLoader|default|targets=desktop,mobile]|pgnviewer.js|pgnviewer.css
+
+== files ==
+* DisableImageAnnotator[ResourceLoader]|DisableImageAnnotator.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* autodel[ResourceLoader|dependencies=mediawiki.util]|autodel.js
+
+==admin==
+* oneclickdelete[ResourceLoader]|oneclickdelete.js
+* ProveIt[ResourceLoader]|ProveIt.js

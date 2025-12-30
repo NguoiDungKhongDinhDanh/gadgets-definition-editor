@@ -1,0 +1,27 @@
+* common-action-edit[ResourceLoader|hidden|type=general|dependencies=site,mediawiki.util,ext.gadget.mediawiki.toolbar]|common-action-edit.js|common-action-edit.css
+
+* libJQuery[ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+* mediawiki.toolbar[ResourceLoader|hidden|dependencies=jquery.textSelection]|mediawiki.toolbar.js
+
+== default ==
+* editZeroSection[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.page.ready]|editZeroSection.js
+* directLinkToCommons[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|directLinkToCommons.js
+* referenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|referenceTooltips.js|referenceTooltips.css
+* sidebarRelated[ResourceLoader|default|hidden|dependencies=site]|sidebarRelated.js
+* wikificator[ResourceLoader|hidden|type=general|dependencies=user.options,jquery.textSelection]|wikificator.js|wikificator.css
+* summaryButtons[ResourceLoader|hidden|type=general|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css
+
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|refToolbar.js
+
+== others ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* roundCorners[ResourceLoader|skins=monobook]|roundCorners.css
+* articleStats[ResourceLoader|dependencies=mediawiki.api, mediawiki.util]|articleStats.js
+
+__NOTOC__

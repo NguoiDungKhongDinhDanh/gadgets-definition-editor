@@ -1,0 +1,2 @@
+*mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+*LegacyToolbar2006 [ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar] | LegacyToolbar2006.js

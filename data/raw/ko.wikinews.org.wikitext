@@ -1,0 +1,12 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|popups-strings-ko.js|navpop.css
+
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader]|refToolbar.js
+
+== interface-gadgets ==
+* editsummary[ResourceLoader]|editsummary.js|editsummary.css
+* exlinks[ResourceLoader]|exlinks.js
+
+== library-gadgets ==

@@ -1,0 +1,18 @@
+== editing ==
+* preview[ResourceLoader]|preview.js
+== articles ==
+* OpenStreetMap[ResourceLoader]|osm.js
+== users ==
+* markadmins[ResourceLoader]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+== special-pages ==
+* watchlist[ResourceLoader|dependencies=mediawiki.util]|watchlist.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util]|contribsrange.js
+== interface ==
+* FlaggedRevs|FlaggedRevs.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* roundCorners|roundCorners.css
+* HideFundraisingNotice|HideFundraisingNotice.css
+== default ==
+* sidebarRelated[ResourceLoader|default|hidden|dependencies=site]|sidebarRelated.js
+__NOTOC__

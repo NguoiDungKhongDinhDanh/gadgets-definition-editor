@@ -1,0 +1,12 @@
+== interface-gadgets ==
+
+* HideSectionEditLinks [ ResourceLoader ] | HideSectionEditLinks.css
+
+== maintenance-gadgets ==
+
+* HighlightRedirects | HighlightRedirects.css
+
+== admin-gadgets ==
+
+* CleanDeleteReason [ ResourceLoader | rights = delete ] | CleanDeleteReason.js
+* SafeRollback [ ResourceLoader | rights = rollback ] | SafeRollback.js

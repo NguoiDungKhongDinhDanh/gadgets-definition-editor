@@ -1,0 +1,4 @@
+== interface-gadgets ==
+
+* purgetab[ResourceLoader|position=top]|purgetab.js
+* VectorClassic[ResourceLoader|skins=vector]|VectorClassic.css

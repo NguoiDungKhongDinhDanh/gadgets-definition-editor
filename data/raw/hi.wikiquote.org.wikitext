@@ -1,0 +1,18 @@
+== editing-gadgets ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* defaultsummaries[ResourceLoader]|defaultsummaries.js
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* wikEd[ResourceLoader]|wikEd.js
+
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui|rights=autoconfirmed]|moment.js|morebits.js|morebits.css|Twinkle.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|twinkledelimages.js|friendlytag.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|friendlytalkback.js
+
+
+== display-gadgets ==
+
+* searchFocus[ResourceLoader]|searchFocus.js
+* Numeral_converter[ResourceLoader|default|dependencies=mediawiki.util]|Numeral_converter.css|Numeral_converter.js
+
+
+== language-gadgets ==
+* GoogleTrans[ResourceLoader]|GoogleTrans.js

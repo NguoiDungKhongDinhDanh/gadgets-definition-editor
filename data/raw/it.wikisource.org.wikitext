@@ -1,0 +1,133 @@
+* common[ResourceLoader|default|hidden|dependencies=mediawiki.util]|common.js
+* common-style[ResourceLoader|default|hidden|targets=desktop,mobile]|common.css
+
+
+== interface-tools ==
+Attivi di default:
+* checkQualityNs0[ResourceLoader|default|hidden|targets=desktop,mobile|actions=view|rights=minoredit|namespaces=0]|checkQualityNs0.js
+* checkQualityNsPage[ResourceLoader|default|hidden|targets=desktop,mobile|actions=view|rights=minoredit|namespaces=108]|checkQualityNsPage.js
+* purgetab[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|rights=minoredit|actions=view]|purgetab.js
+* barraNavigazione[ResourceLoader|default|targets=desktop,mobile|namespaces=0,4]|barraNavigazione.js|barraNavigazione.css
+* puntanoqui[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util|targets=desktop,mobile|namespaces=108]|puntanoqui.js
+* notaDisambigua[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util|targets=desktop,mobile|actions=view|namespaces=0]|notaDisambigua.js|notaDisambigua.css
+* SubPages[ResourceLoader|default|dependencies=mediawiki.util|rights=minoredit]|SubPages.js
+* autofocus[ResourceLoader|default|actions=view|namespaces=0]|autofocus.js
+* ReferenceTooltips[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+* espandiCategoria[ResourceLoader|dependencies=mediawiki.api|targets=desktop,mobile|default|namespaces=2,4,14]|espandiCategoria.js
+* requestDelete[ResourceLoader|default|rights=minoredit|dependencies=mediawiki.util,mediawiki.api|actions=view]|requestDelete.js
+* indexStatusInCategory[ResourceLoader|default|targets=desktop,mobile|actions=view|rights=minoredit|namespaces=14]|indexStatusInCategory.js
+* riletturaUtils[ResourceLoader|default|targets=desktop,mobile|actions=view|rights=minoredit|namespaces=4,5]|riletturaUtils.js
+* ErroriComuni[ResourceLoader|default|peers=common-style|dependencies=mediawiki.util,mediawiki.api,ext.gadget.common-style|rights=minoredit]|common.js|ErroriComuni.js|ErroriComuni.css
+* corrections[ResourceLoader|default|type=general|peers=common-style|dependencies=mediawiki.util,ext.gadget.common-style|namespaces=0|categories=Testi con errata corrige]|corrections.js|corrections.css
+* autoreEdizioni[ResourceLoader|default|targets=desktop,mobile|namespaces=102,112]|autoreEdizioni.js
+* ErroriOrtografici[ResourceLoader|default|peers=common-style|dependencies=mediawiki.util,mediawiki.api,ext.gadget.common-style|rights=minoredit|actions=view]|ErroriOrtografici.js|ErroriOrtografici.css
+* ErroriOrtograficiPage[ResourceLoader|default|hidden|namespaces=108]|ErroriOrtografici-page.js
+* InfoTemplates[ResourceLoader|peers=common-style|dependencies=mediawiki.api,ext.wikiEditor,ext.gadget.common-style|default|actions=edit|contentModels=wikitext,proofread-page]|common.js|InfoTemplates.js|InfoTemplates.css
+* indexPagesStatistics[ResourceLoader|default|targets=desktop,mobile|actions=view|rights=minoredit|namespaces=110|contentModels=proofread-index]|indexPagesStatistics.js|indexPagesStatistics.css
+
+Altri:
+* showWikiCode[ResourceLoader|actions=view|peers=common-style|dependencies=mediawiki.api|ext.gadget.common-style|rights=minoredit]|showWikiCode.js|showWikiCode.css
+* ErroriLint[ResourceLoader|peers=common-style|dependencies=ext.gadget.common-style|rights=minoredit|actions=view]|ErroriLint.js|ErroriLint.css
+* IngrandisciCarattere[ResourceLoader|namespaces=0]|IngrandisciCarattere.js|IngrandisciCarattere.css
+* invertiColonne[ResourceLoader]|invertiColonne.css
+<!-- funziona solo in vector legacy, ormai non lo usa più nessuno * bloccaTools[ResourceLoader|dependencies=ext.wikiEditor]|bloccaTools.js -->
+* Tools[ResourceLoader|dependencies=mediawiki.util]|common.js|Tools.js
+* bottoniera[ResourceLoader|dependencies=mediawiki.util|namespaces=0,108|actions=edit]|common.js|pulsanti-AC.js|bottoniera.js
+* Creator[ResourceLoader|actions=view|namespaces=110|contentModels=proofread-index]|Creator.js
+* Wikidata1[ResourceLoader]|Wikidata1.js
+<!-- * Click[ResourceLoader]|Click.js -->
+* resize.menu[ResourceLoader]|resize.menu.js|resize.menu.css
+* dictLookup[ResourceLoader]|dictionaryLookupHover.js
+* DPfont[ResourceLoader|dependencies=ext.wikiEditor]|DPfont.js
+* WhatLeavesHere[ResourceLoader]|WhatLeavesHere.js
+
+== editing-tools ==
+Attivi di default:
+* areadati[ResourceLoader|default|hidden|actions=edit|namespaces=0,102]|common.js|common-areadati.js
+* iconeSAL[ResourceLoader|default|hidden|actions=edit|namespaces=0]|iconeSAL.js
+* precarica-ns0[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|hidden|namespaces=0]|common.js|Tools.js|precarica-ns0.js
+* Edittools[ResourceLoader|default|actions=edit|targets=desktop,mobile]|Edittools.js|Edittools.css
+* RegexMenuFramework[ResourceLoader|default|peers=common-style|dependencies=ext.gadget.common-style|actions=edit|rights=minoredit|contentModels=wikitext,proofread-page]|common.js|RegexMenuFramework.js|RegexMenuFramework.css
+* pulsanti-centrato[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-centrato.js
+* pulsanti-ancora[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-ancora.js
+* pulsanti-AC[ResourceLoader|peers=common-style|dependencies=ext.wikiEditor,ext.gadget.common-style|default|actions=edit|namespaces=0,108]|pulsanti-AC.js|pulsanti-AC.css
+* pulsanti-TC[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|namespaces=0,108]|pulsanti-TC.js
+* pulsanti-Sc[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-Sc.js
+* pulsanti-Ct[ResourceLoader|peers=common-style|dependencies=ext.wikiEditor,ext.gadget.common-style|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-Ct.js|pulsanti-Ct.css
+* pulsanti-poem[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-poem.js
+* pulsanti-cite[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-cite.js
+* pulsante-rule[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsante-rule.js
+* bottone-case[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|bottone-case.js
+* indentaVersi[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|common.js|indentaVersi.js
+* bottone-eliminaRigheVuote[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|bottone-eliminaRigheVuote.js
+* pulsante-trattino[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsante-trattino.js
+* pulsanti-diacritici[ResourceLoader|type=general|peers=common-style|dependencies=ext.wikiEditor,ext.gadget.common-style|jquery.ui.draggable|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-diacritici.js|pulsanti-diacritici.css
+* removeNewline[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|removeNewline.js
+* pulsanti-FI[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-FI.js
+* pulsanti-W[ResourceLoader|peers=common-style|dependencies=ext.wikiEditor,ext.gadget.common-style|default|actions=edit|contentModels=wikitext,proofread-page]|common.js|pulsanti-W.js|pulsanti-W.css
+* archiviaBar[ResourceLoader|default|rights=autoconfirmed|actions=view|namespaces=-1,4]|common.js|archiviaBar.js
+
+Altri:
+* HotCat[ResourceLoader|actions=view|contentModels=wikitext]|HotCat.js
+* pulsanti-votazione[ResourceLoader|dependencies=ext.wikiEditor|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-votazione.js
+* pulsanti-versetto[ResourceLoader|dependencies=ext.wikiEditor|actions=edit|contentModels=wikitext,proofread-page]|pulsanti-versetto.js
+* findReplace[ResourceLoader|peers=common-style|dependencies=ext.wikiEditor,ext.gadget.common-style|actions=edit|contentModels=wikitext,proofread-page]|findReplace.js|findReplace.css
+
+== editing-tools-for-Page-namespace ==
+Attivi di default:
+* pulsanti-autoPt[ResourceLoader|dependencies=mediawiki.api,ext.wikiEditor|default|actions=edit|namespaces=108]|pulsanti-autoPt.js
+* section[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|namespaces=108]|section.js
+* CropTool[ResourceLoader|default|dependencies=mediawiki.util|rights=minoredit|namespaces=108]|CropTool.js
+* segnalazioneErrori[ResourceLoader|default|peers=common-style|dependencies=ext.gadget.common-style|namespaces=108]|common.js|segnalazioneErrori.js|segnalazioneErrori.css
+* forzaHeaderFooter[ResourceLoader|default|type=styles|actions=edit|rights=minoredit|namespaces=108]|forzaHeaderFooter.css
+* precarica[ResourceLoader|dependencies=ext.wikiEditor|default|actions=edit|hidden|namespaces=1,10,14,112,828]|precarica.js
+* preload-prp-page-image[ResourceLoader|default|rights=minoredit|namespaces=108]|preload-prp-page-image.js
+
+Altri:
+* fs[ResourceLoader|peers=common-style|dependencies=ext.wikiEditor,ext.gadget.common-style|actions=edit|namespaces=108]|fs.js|fs.css
+* autoSal0[ResourceLoader|actions=edit|rights=minoredit|namespaces=108]|common.js|autoSal0.js
+<!--
+* corners[ResourceLoader|dependencies=mediawiki.util]|common.js|corners.js
+* ocr[ResourceLoader|actions=edit]|ocr.js
+* GoogleOcr[ResourceLoader|actions=edit]|GoogleOcr.js
+* robot[ResourceLoader|actions=view]|robot.js -->
+* memoRegex[ResourceLoader|dependencies=mediawiki.util|actions=edit]|common.js|alertMessage.js|alertMessage.css|memoRegex.js
+
+== editing-tools-for-Index-namespace ==
+Attivi di default:
+* iconeSALIndice[ResourceLoader|default|hidden|actions=edit|namespaces=110|contentModels=proofread-index]|iconeSALIndice.js
+* ModuloDati[ResourceLoader|default|actions=view|rights=minoredit|namespaces=110|contentModels=proofread-index]|common.js|Tools.js|ModuloDati.js
+* compilaSommario[ResourceLoader|default|actions=edit|rights=minoredit|namespaces=110|contentModels=proofread-index]|compilaSommario-main.js
+
+Altri:
+* compilaSommario-code[ResourceLoader|hidden|actions=edit|rights=minoredit|namespaces=110|contentModels=proofread-index]|common.js|compilaSommario.js|compilaSommario.css
+* sommario[ResourceLoader|dependencies=ext.wikiEditor|actions=edit|namespaces=110|contentModels=proofread-index]|sommario.js
+
+== editing-tools-for-Author-namespace ==
+Attivi di default:
+* editFormAutore[ResourceLoader|type=general|default|actions=edit|hidden|namespaces=102]|common.js|editFormAutore.js|editFormAutore.css
+
+Altri:
+* popolaTestiAutore[ResourceLoader|package|dependencies=mediawiki.api|actions=edit|namespaces=102]|popolaTestiAutore-main.js|popolaTestiAutore.js
+
+== user-interface-emulating-tools-and-alpha-tools ==
+Attivi di default:
+* ipt[ResourceLoader|default|type=general|contentModels=wikitext,proofread-page]|ipt.js
+* vis[ResourceLoader|dependencies=jquery.ui, mediawiki.util|default|actions=view|type=general|namespaces=0,108,110]|common.js|vis-main.js
+* vis-code[ResourceLoader|dependencies=jquery.ui, mediawiki.util|hidden|actions=view|type=general|namespaces=0,108,110]|common.js|vis.css|vis.js
+
+Altri:
+* EvidenziatoreSal[ResourceLoader|actions=view|dependencies=mediawiki.Uri,mediawiki.util|namespaces=110]|EvidenziatoreSal.js
+* Fill_Index[ResourceLoader|actions=edit|namespaces=110|contentModels=proofread-index]|Fill_Index.js
+* barbaforcutanew[ResourceLoader|dependencies=mediawiki.util]|barbaforcutanew.js|barbaforcutanew.css|barbaforcutanew_plus.js
+* eis[ResourceLoader|dependencies=ext.wikiEditor,jquery.ui,mediawiki.util|actions=edit|namespaces=108]|common.js|alertMessage.js|alertMessage.css|eis.js
+* eis_test[ResourceLoader|dependencies=ext.wikiEditor,jquery.ui,mediawiki.util|actions=edit|namespaces=108]|common.js|alertMessage.js|alertMessage.css|eis_test.js
+* trovaTitoliSimili[ResourceLoader|peers=common-style|dependencies=mediawiki.api,mediawiki.util,ext.gadget.common-style|actions=view]|trovaTitoliSimili.js|trovaTitoliSimili.css
+* trovaTestiSenzaPages[ResourceLoader|peers=common-style|dependencies=mediawiki.api,mediawiki.util,ext.gadget.common-style|actions=view]|trovaTestiSenzaPages.js|trovaTitoliSimili.css
+* aggregaContributi[ResourceLoader|peers=common-style|dependencies=mediawiki.api,mediawiki.util,ext.gadget.common-style|actions=view|namespaces=-1,2]|aggregaContributi.js|aggregaContributi.css
+* rcSummary[ResourceLoader|peers=common-style|dependencies=mediawiki.api,mediawiki.util,ext.gadget.common-style|actions=view|namespaces=-1]|rcSummary.js|rcSummary.css
+* stickyToolbar[ResourceLoader|actions=edit]|stickyToolbar.js|stickyToolbar.css
+* IngrandisciCarattereTrame[ResourceLoader|namespaces=0]|IngrandisciCarattereTrame.js
+
+== admin-tools ==
+* CancellazioneUltraRapida[ResourceLoader|type=general|rights=delete|dependencies=mediawiki.api|contentModels=wikitext,proofread-page]|CancellazioneUltraRapida.js|CancellazioneUltraRapida.css

@@ -1,0 +1,29 @@
+== default ==
+* ReferenceTooltips[default]|ReferenceTooltips.js|ReferenceTooltips.css
+* directLinkToCommons[ResourceLoader|default|dependencies=mediawiki.util]|directLinkToCommons.js
+
+== browsing ==
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+
+== editing==
+* Wikilinker[ResourceLoader]|wikilinker.js
+* refmin[ResourceLoader]|refmind.js
+* BetterPanel[ResourceLoader]|BetterPanel.js
+* Hotcat[ResourceLoader|rights=edit,purge]|Hotcat.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.util]|popups.js|navpop.css
+*textareasansserif|textareasansserif.css
+* TemplateParamWizard[ResourceLoader|dependencies=jquery.ui,jquery.tipsy,jquery.textSelection,jquery.ui,mediawiki.util]|TemplateParamWizard.js
+
+== interface ==
+* OldDiff[ResourceLoader]|OldDiff.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* preview[ResourceLoader]|preview.js‎
+* dropdown-menus[ResourceLoader]|dropdown-menus.js|dropdown-menus.css
+* Warnoff|Warnoff.css
+* bkl-check[ResourceLoader|dependencies=mediawiki.util]|bkl-check.js
+* tavi-edit[ResourceLoader]|tavi-edit.js
+
+== files ==
+* DisableImageAnnotator[ResourceLoader]|DisableImageAnnotator.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* autodel[ResourceLoader|dependencies=mediawiki.util]|autodel.js

@@ -1,0 +1,4 @@
+* ListingEditor2023[ResourceLoader|default|type=general]|ListingEditor2023.js
+* ListingEditorConfig[ResourceLoader|package|hidden]|ListingEditorConfig.js|ListingEditor.json
+* ListingEditorMain[ResourceLoader|hidden|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor2023Main.js|ListingEditor.css
+* MapFrame[ResourceLoader|default]|MapFrame.js

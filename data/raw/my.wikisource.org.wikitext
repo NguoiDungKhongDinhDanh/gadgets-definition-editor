@@ -1,0 +1,3 @@
+== editing-tools ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+*Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js

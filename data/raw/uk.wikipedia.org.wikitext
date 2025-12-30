@@ -1,0 +1,91 @@
+== navigation ==
+* SubPages[ResourceLoader|dependencies=mediawiki.util]|SubPages.js
+* CurIDLink[ResourceLoader|default|dependencies=mediawiki.util]|CurIDLink.js
+
+== reading ==
+* collapserefs[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.page.ready]|collapserefs.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* TalkColoring|TalkColoring.css
+* TimeSmall[ResourceLoader]|TimeSmall.js
+* Diffs[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|Diffs.js
+* HideSidebar[ResourceLoader]|hideSidebar.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* DisambigHili[ResourceLoader]|DisambigHili.css
+* editHysteria[ResourceLoader|dependencies=mediawiki.api]|editHysteria.js
+* ReferenceTooltips[ResourceLoader|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* directLinkToCommons[ResourceLoader|dependencies=mediawiki.util]|directLinkToCommons.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* showContributorContent[ResourceLoader|default|dependencies=mediawiki.util]|showContributorContent.js
+* UTCLiveClock [ResourceLoader]|UTCLiveClock.js
+* keybLayout[ResourceLoader|dependencies=mediawiki.util]|keybLayout.js|keybLayout.css
+* GetDiff[ResourceLoader|dependencies=mediawiki.util]|GetDiff.js
+* markadmins[ResourceLoader|package]|markadmins.js|markadmins.json
+* switcher [ResourceLoader |default] |switcher.js
+* owidslider [ResourceLoader|default]|owidslider.js|owidslider.css
+* ImageStackPopup[ResourceLoader|default]|ImageStack-popup.js
+
+== editing ==
+* edittop[ResourceLoader|default|dependencies=mediawiki.util]|edittop.js
+* new-section[ResourceLoader|type=general|dependencies=mediawiki.util|default]|new-section.js
+* Qpreview[ResourceLoader]|Qpreview.js
+* QpreviewAtBottom[ResourceLoader]|QpreviewAtBottom.js
+* HotCat[ResourceLoader]|HotCat.js
+* Wikilinker[ResourceLoader]|wikilinker.js
+* QuickRename[ResourceLoader|dependencies=mediawiki.util]|QuickRename.js
+* NominateToDel[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|NominateToDel.js
+* NominateToCorrect[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|NominateToCorrect.js
+* SpeedyDeletion[ResourceLoader|default|dependencies=mediawiki.util|rights=autoconfirmed]|SpeedyDeletion.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* autocomplete[ResourceLoader]|autocomplete.js
+* newTopicOnTop[ResourceLoader|default|hidden|dependencies=jquery.textSelection]|newTopicOnTop.js
+* CleanupMessages[ResourceLoader|package|dependencies=mediawiki.util|rights=autoconfirmed]|CleanupMessages.js|CleanupMessages.json
+* DiscussionToolsWikify[ResourceLoader|dependencies=mediawiki.util]|DiscussionToolsWikify.js
+* UndoRename[ResourceLoader|dependencies=mediawiki.util|rights=rollback]|UndoRename.js
+* EUSpring[ResourceLoader|dependencies=mediawiki.util]|EUSpring.js
+
+== editing-toolbar ==
+* mediawiki.toolbar[ResourceLoader|hidden]|mediawiki.toolbar.js
+* ForceMonobookToolbar[ResourceLoader|actions=edit]|ForceMonobookToolbar.js
+* MonobookToolbar[ResourceLoader|dependencies=user.options|hidden|actions=edit]|MonobookToolbar.js
+* MonobookToolbarStandard[ResourceLoader|dependencies=ext.gadget.MonobookToolbar|default|actions=edit]|MonobookToolbarStandard.js
+* ImprovedEditTools[ResourceLoader|dependencies=mediawiki.util]|ImprovedEditTools.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* ToolbarAtBottom[ResourceLoader]|ToolbarAtBottom.js
+
+== special-pages ==
+* contribsrange[ResourceLoader|dependencies=mediawiki.util]|contribsrange.js
+* ProtectionIndicator[ResourceLoader|default|type=general]|ProtectionIndicator.js|ProtectionIndicator.css
+
+== patrolling ==
+* NewPagePatrol[ResourceLoader]|NewPagePatrol.js
+* GoogleImages[ResourceLoader|dependencies=mediawiki.util]|GoogleImages.js
+* Tineye[ResourceLoader|dependencies=mediawiki.util]|Tineye.js
+* HighlightDeletedPages[ResourceLoader|dependencies=mediawiki.util]|HighlightDeletedPages.js
+* BlockRequest[ResourceLoader|rights=rollback, review|dependencies=oojs-ui-windows,mediawiki.util]|BlockRequest.js
+
+== education-program ==
+* Deck-wiki[ResourceLoader|dependencies=mediawiki.util]|Deck-wiki.js|Deck-wiki.css
+
+== external-tools ==
+* Statistics[ResourceLoader|default|dependencies=mediawiki.util]|Statistics.js
+* CopyvioDetector[ResourceLoader|dependencies=mediawiki.util]|CopyvioDetector.js
+
+== interwiki ==
+* WikidataLink[ResourceLoader]|WikidataLink.js
+* TranslationSuggestions|TranslationSuggestions.css
+* interwiki-langlist [ResourceLoader | default] | interwiki-langlist.js | interwiki-langlist.css
+* wstaw-link-interwiki [ResourceLoader | dependencies=mediawiki.util] | wstaw-link-interwiki.js | wstaw-link-interwiki.css
+* iwrm[ResourceLoader|package|rights=autoreview|dependencies=mediawiki.util] |iwrm.js |iwrm.css |iwrm-exceptions.json
+
+== admin-gadget ==
+* autodel[ResourceLoader|rights=delete|dependencies=mediawiki.util]|autodel.js
+* MergeHistory[ResourceLoader|rights=delete,undelete|dependencies=mediawiki.user,mediawiki.util]|MergeHistory.js
+* MassRollback[ResourceLoader|rights=rollback,markbotedits|dependencies=oojs-ui-windows]|MassRollback.js
+<!-- Технічні приховані додатки, прохання не вилучати. Використовуються іншими скриптами -->
+
+== modules ==
+* libAPI[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,user.options|hidden]|libAPI.js
+* Suggestions[ResourceLoader|dependencies=jquery.suggestions|hidden]|Suggestions.js
+* libWikiDOM [ResourceLoader|hidden|dependencies=mediawiki.util]|libWikiDOM.js
+* libUtil [ResourceLoader|dependencies=mediawiki.util|hidden]|libUtil.js

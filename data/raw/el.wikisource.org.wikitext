@@ -1,0 +1,21 @@
+<noinclude>'''Changes to this page should first be discussed on [[:w:en:Wikipedia:Gadget/proposals]] or [[Wikipedia_talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikipedia:Gadget#Currently_installed_gadgets]] to make maintenance easier.
+</noinclude>
+
+== browsing ==
+
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+==edit==
+
+* edittop[ResourceLoader]|edittop.js 
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* HotCats[ResourceLoader]|HotCats.js
+
+==interface==
+
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* exlinks[ResourceLoader]|exlinks.js
+* roundCorners|roundCorners.css

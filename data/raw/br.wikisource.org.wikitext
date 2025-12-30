@@ -1,0 +1,8 @@
+== Edition ==
+
+* specialchars[ResourceLoader]|specialchars.js
+
+== Tools ==
+* robot[ResourceLoader]|robot.js
+* dictionaryLookupHover[ResourceLoader]|dictionaryLookupHover.js
+* HotCats[ResourceLoader]|HotCats.js

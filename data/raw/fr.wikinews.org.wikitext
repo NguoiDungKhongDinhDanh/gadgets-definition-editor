@@ -1,0 +1,49 @@
+== General ==
+* CoinsArrondis|CoinsArrondis.css
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* LastContrib[ResourceLoader]|LastContrib.js
+* TriInterWiki[ResourceLoader]|sortInterWiki.js
+* SousPages[ResourceLoader|dependencies=mediawiki.util]|SousPages.js
+* enableWiktLookup[ResourceLoader]|enableWiktLookup.js
+* ZoomOnThumb[ResourceLoader]|ZoomOnThumb.js
+
+== Onglets ==
+* EditZeroth[ResourceLoader|dependencies=mediawiki.util]|EditZeroth.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* OngletJournal[ResourceLoader|dependencies=mediawiki.util]|OngletJournal.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+
+== Caracteres ==
+* CaracteresHTML[ResourceLoader]|CaracteresHTML.js
+* CaracteresMagic[ResourceLoader]|CaracteresMagic.js
+* CaracteresParser[ResourceLoader]|CaracteresParser.js
+* CaracteresOff|CaracteresOff.css
+
+== Leftmenu ==
+
+* CustomSidebar [ResourceLoader|dependencies=mediawiki.util,oojs-ui.styles.icons-interactions] | CustomSidebar.css | CustomSidebar.js
+* ShortenURL[ResourceLoader]|ShortenURL.js
+
+== Avance ==
+* CatRename [ResourceLoader|rights=move] | CatRename.js
+* HotCat[ResourceLoader]|HotCat.js|Hotcatcheck.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=bot]|Cat-a-lot.js|Cat-a-lot.css
+* DeluxeHistory[ResourceLoader]|Objects.js|DeluxeHistory.js|DeluxeHistory.css
+* Popups[ResourceLoader]|Popups.js
+* QPreview[ResourceLoader]|QPreview.js
+* BandeauxPages[ResourceLoader]|BandeauxPages.js
+* searchbox[ResourceLoader]|lib-beau.js|searchbox.js
+* easyPeerReview[ResourceLoader]|easyPeerReview.js
+* HotInterwiki[ResourceLoader]|HotInterwiki.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+
+== Autre ==
+* DeluxeBar[ResourceLoader|dependencies=mediawiki.toolbar]|DeluxeBar.js
+* MobileView[ResourceLoader]|CommonDom.js|MobileView.js
+
+== Sport ==
+* Football[ResourceLoader|dependencies=mediawiki.toolbar]|Football.js
+* ScoreFoot[ResourceLoader|dependencies=mediawiki.toolbar]|ScoreFoot.js
+* ClubRugby[ResourceLoader|dependencies=mediawiki.toolbar]|ClubRugby.js
+* CartonJaune[ResourceLoader|dependencies=mediawiki.toolbar]|CartonJaune.js
+* ScoreRugby[ResourceLoader|dependencies=mediawiki.toolbar]|ScoreRugby.js

@@ -1,0 +1,9 @@
+== interface-gadgets ==
+
+* HighlightRedirects | HighlightRedirects.css
+* HideSectionEditLinks [ ResourceLoader ] | HideSectionEditLinks.css
+* SeparateSpecialCategories [ ResourceLoader | dependencies = mediawiki.Title, mediawiki.Uri, mediawiki.util | default ] | SeparateSpecialCategories.css | SeparateSpecialCategories.js
+* SocialBookmarks [ ResourceLoader | dependencies = mediawiki.Uri, mediawiki.util | default ] | SocialBookmarks.css | SocialBookmarks.js
+* HotCat[ResourceLoader]  | HotCat.js
+
+== admin-gadgets ==

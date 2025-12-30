@@ -1,0 +1,33 @@
+<noinclude>See [[Special:Gadgets]] for documentation of these gadgets, and [[Wiktionary:Gadgets]] for general information about gadgets on Wiktionary. See also [[WT:PREFS]] for other preferences.
+</noinclude>
+
+== general ==
+
+* ExtLinks[ResourceLoader]|ExtLinks.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* NavPopups[ResourceLoader]|NavPopups.js
+* WiktSidebarTranslation[ResourceLoader]|WiktSidebarTranslation.js
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed|type=general]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|twinkleblock.js|friendlytalkback.js
+
+== editing ==
+
+* HotCat[ResourceLoader]|HotCat.js 
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* WiktAccFormCreation[ResourceLoader]|WiktAccFormCreation.js
+* disableEditorJs[ResourceLoader]|disableEditorJs.js
+* disableRhymesEdit[ResourceLoader]|disableRhymesEdit.js
+* FastRevert[ResourceLoader]|FastRevert.js
+* PatrollingEnhancements[ResourceLoader|rights=patrol|default]|PatrollingEnhancements.js
+* TabbedLanguages[ResourceLoader|dependencies=mediawiki.util]|TabbedLanguages.js|TabbedLanguages.css
+
+== toolbox ==
+
+* Purge[ResourceLoader|dependencies=mediawiki.util]|Purge.js
+* Contributors[ResourceLoader|dependencies=mediawiki.util]|Contributors.js
+* Subpages[ResourceLoader|dependencies=mediawiki.util]|Subpages.js
+* MindMap[ResourceLoader|dependencies=mediawiki.util]|MindMap.js
+* ArticleTraffic[ResourceLoader|dependencies=mediawiki.util]|ArticleTraffic.js
+* ArticleStatistik[ResourceLoader|dependencies=mediawiki.util]|ArticleStatistik.js
+* Bagikan[ResourceLoader|dependencies=mediawiki.util|default]|Bagikan.js

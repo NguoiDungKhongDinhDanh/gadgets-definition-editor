@@ -1,0 +1,2 @@
+== Rætting ==
+* HotCat[ResourceLoader]|HotCat.js

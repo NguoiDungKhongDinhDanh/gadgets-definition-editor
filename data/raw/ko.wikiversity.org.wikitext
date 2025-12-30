@@ -1,0 +1,3 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|popups-strings-ko.js|navpop.css
+* directcommons[ResourceLoader|dependencies=mediawiki.util|default]|direct-commons.js

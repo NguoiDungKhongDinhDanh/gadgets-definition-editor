@@ -1,0 +1,42 @@
+== Oberfläche ==
+* AktivsteBenutzer[ResourceLoader]|AktivsteBenutzer.js
+* AudioPlayer[ResourceLoader|targets=desktop,mobile]|AudioPlayer.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* LiveClock[ResourceLoader|dependencies=mediawiki.util]|LiveClock.js
+* CatNavi[ResourceLoader|dependencies=mediawiki.util]|CatNavi.js
+* CatWalk[ResourceLoader|dependencies=mediawiki.util,ext.gadget.DeWiktCommon]|CatWalk.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* FixMonospaceFontOnMobileChrome[ResourceLoader]|FixMonospaceFontOnMobileChrome.js
+* IpaDiff[ResourceLoader]|IpaDiff.js
+* markAdmins[ResourceLoader]|markAdmins.js
+* MiniMe[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util]|MiniMe.js
+* MoreLinks[ResourceLoader|targets=desktop,mobile]|MoreLinks.js
+* navigation-popups[ResourceLoader]|navigation-popups.js
+* RC-Filter[ResourceLoader|dependencies=mediawiki.cookie]|RC-Filter.js
+* RhymeToolbox[ResourceLoader]|RhymeToolbox.js
+* SearchPrefix[ResourceLoader]|SearchPrefix.js
+* ShowFlex[ResourceLoader|targets=desktop,mobile]|ShowFlex.js
+* Speech[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.cookie]|Speech.js
+* Touchdown[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util]|Touchdown.js
+* UseNewLogo[ResourceLoader]|UseNewLogo.css
+
+== Admin-Hilfen ==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+
+== Bearbeitungswerkzeuge ==
+*HotCat[ResourceLoader]|HotCat.js
+*CitoidWikitext[ResourceLoader]|CitoidWikitext.js
+*CheckPage[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,ext.gadget.rhymesedit]|CheckPage.js
+*AutoEdit[ResourceLoader]|AutoEdit.js
+*disableEditorJs[ResourceLoader]|disableEditorJs.js
+*disableRhymesEdit[ResourceLoader]|disableRhymesEdit.js
+
+== Default-Gadgets ==
+* DeWiktCommon[ResourceLoader|default|hidden|targets=desktop,mobile]|DeWiktCommon.js
+* editor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.cookie,mediawiki.util,ext.gadget.DeWiktCommon]|editor.js
+* ShowGlosses[ResourceLoader|default|targets=desktop,mobile]|ShowGlosses.js
+* rhymesedit[ResourceLoader|default|dependencies=mediawiki.util,ext.gadget.editor,ext.gadget.DeWiktCommon]|rhymesedit.js
+* TranslationLookahead[ResourceLoader|default|dependencies=mediawiki.ForeignApi,oojs-ui-core|targets=desktop,mobile]|TranslationLookahead.js
+* JsLauncher[ResourceLoader|default]|JsLauncher.js
+* RhymeQuiz[ResourceLoader|default|targets=desktop,mobile]|RhymeQuiz.js

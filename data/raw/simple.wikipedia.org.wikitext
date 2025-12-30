@@ -1,0 +1,45 @@
+== browsing-gadgets ==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* confirmationRollback-mobile[ResourceLoader|rights=rollback|dependencies=mediawiki.util|targets=desktop,mobile]|confirmationRollback-mobile.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* Navigation_popups-API[ResourceLoader]|popups-API.js|navpop.css
+* exlinks[ResourceLoader]|exlinks.js
+* ReferenceTooltips[ResourceLoader|default]|ReferenceTooltips.js|ReferenceTooltips.css
+* Twinkle[ResourceLoader|rights=autoconfirmed|dependencies=mediawiki.util,jquery.ui]|morebits.js|morebits.css|Twinkle.js
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+
+== editing-gadgets ==
+* Edittools|Edittools.css
+* Hotcat[ResourceLoader]|Hotcat.js
+* vandalwarner[ResourceLoader]|vandalwarner.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* RTRC[ResourceLoader]|RTRC.js
+* charinsert[ResourceLoader]|charinsert.css
+
+== interface-gadgets ==
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* editzero[ResourceLoader|dependencies=mediawiki.util]|editzero.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* rightsfilter[ResourceLoader]|rightsfilter.js
+* WatchlistNotifier|WatchlistNotifier.js
+* LiveClock[ResourceLoader]|LiveClock.js
+* HighlightAdmins[ResourceLoader]|HighlightAdmins.js
+* Bracketmatch[ResourceLoader|dependencies=mediawiki.util]|Bracketmatch.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* EnhancedInterwikis[ResourceLoader|dependencies=mediawiki.util]|EnhancedInterwikis.js
+* HighlightRedirect[ResourceLoader|dependencies=mediawiki.util]|HighlightRedirect.js
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+
+== admin-gadgets ==
+* userrights[ResourceLoader|dependencies=mediawiki.util]|userrights.js
+* quickrfdclosure[ResourceLoader|rights=delete]|quickrfdclosure.js
+* QuickRfDclose[ResourceLoader|rights=delete|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|QuickRfDclose.js

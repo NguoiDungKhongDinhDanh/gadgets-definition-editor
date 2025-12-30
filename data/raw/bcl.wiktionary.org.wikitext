@@ -1,0 +1,10 @@
+===== interface =====
+===== browsing-gadgets =====
+* SulatBaybayin[ResourceLoader]|SulatBaybayin.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* addMe[ResourceLoader|type=general|dependencies=ext.gadget.relaxedjson]|addMe.js|addMe.css
+* addMe-WishlistSurvey[ResourceLoader|type=general|dependencies=ext.gadget.relaxedjson]|addMe-WishlistSurvey.js|addMe.css
+* addMe-wrapper[ResourceLoader|hidden]|addMe-wrapper.js
+* formWizard[ResourceLoader|dependencies=ext.gadget.relaxedjson]|formWizard.js|formWizard-core.js|formWizard.css
+* aaq[ResourceLoader|dependencies=mediawiki.api|targets=desktop,mobile]|aaq.js
+* campaignEventPages[ResourceLoader|targets=desktop,mobile]|campaignEventPages.js|cepGadgetsLoader.js

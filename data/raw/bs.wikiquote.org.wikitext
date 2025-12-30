@@ -1,0 +1,9 @@
+== pregledanje ==
+* RedirectLinks[ResourceLoader]|RedirectLinks.css
+
+== uredjivanje ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+
+== napredno ==
+* CleanDeleteReasons [ResourceLoader|rights=delete]|CleanDeleteReasons.js

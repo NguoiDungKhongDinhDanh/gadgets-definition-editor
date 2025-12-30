@@ -1,0 +1,51 @@
+== browsing-gadgets ==
+* popups[ResourceLoader]|popups.js
+
+== LanguageSupport ==
+* BiDiEditing[ResourceLoader|default]|BiDiEditing.js
+* ShortLink[ResourceLoader|default]|ShortLink.js
+* GoogleTranslator[ResourceLoader]|GoogleTranslator.js
+
+== Interface ==
+* ocr[ResourceLoader]|ocr.js
+* editzero[ResourceLoader|dependencies=mediawiki.util]|editzero.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* contribsrange[default]|contribsrange.js
+
+* signit[default]|signit.js
+* diffswitchdir[default]|diffswitchdir.js
+* defaultsummaries[ResourceLoader]|defaultsummaries.js
+
+== Extra-Editbuttons ==
+* Extra-Editbuttons[ResourceLoader|dependencies=mediawiki.util|dependencies=mediawiki.util]|Extra-Editbuttons.js
+* addon-buttonsformove[ResourceLoader]|addon-buttonsformove.js
+* CustomizedEditTool[ResourceLoader]|CustomizedEditTool.js
+* matchsplit[ResourceLoader]|matchsplit.js
+* AHK[ResourceLoader|dependencies=mediawiki.util]|AHK.js
+* intropreload[ResourceLoader]|intropreload.js
+
+* Extra-Editbuttons[ResourceLoader|default|rights=move|dependencies=mediawiki.util]|Extra-Editbuttons.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-dictionary.js|Extra-Editbuttons-autoed.js|Extra-Editbuttons-botworks.js
+* UserMessages[ResourceLoader|dependencies=jquery.ui,mediawiki.util,ext.gadget.morebits|type=general]|UserMessages.js|UserMessages.css
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+* Edittools[ResourceLoader|default|type=general]|Edittools.js|Edittools.css
+* BotTools[ResourceLoader|dependencies=mediawiki.util]|BotTools.js
+
+== VisualEditor ==
+* VeSuperTool[ResourceLoader]|VeSuperTool.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-dictionary.js
+* VeExtendedBar[ResourceLoader|dependencies=ext.visualEditor.desktopArticleTarget.init]|VeExtendedBar.js
+* VeDirectionMarkTool[ResourceLoader|hidden|dependencies=ext.visualEditor.core|type=general]|VeDirectionMarkTool.js|VeDirectionMarkTool.css
+
+
+== Categories ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+
+== othermod ==
+* InterwikiTranslate[ResourceLoader]|InterwikiTranslate.js
+* GreenRedirect[ResourceLoader|dependencies=mediawiki.util]|GreenRedirect.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* yekewarning[ResourceLoader]|yekewarning.js

@@ -1,0 +1,39 @@
+== navigation ==
+* navpop[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|navpop.js
+* externallinks[ResourceLoader|dependencies=mediawiki.util]|externallinks.js
+* goToTop[ResourceLoader|targets=desktop,mobile]|goToTop.js
+
+== editing ==
+* AVIM[ResourceLoader|default]|AVIM.js
+* AVIM_portlet[ResourceLoader|default|dependencies=ext.gadget.AVIM|type=general]|AVIM portlet.js|AVIM portlet.css
+* hotcat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|rights=edit|dependencies=mediawiki.util]|Cat-a-lot.js|Cat-a-lot.css
+* wiked[ResourceLoader]|wiked.js
+* Editsummary[ResourceLoader]|Editsummary.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+
+== interface ==
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* random_book[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|default]|random book.js
+* CommentsInLocalTime[ResourceLoader|dependencies=mediawiki.util,moment]|CommentsInLocalTime.js
+* sidebartranslate[ResourceLoader]|langcode2name.js|sidebartranslate.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js|edittop.css
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+<!-- * Logo[ResourceLoader]|Common.js|Logo.js -->
+* DeluxeHistory[ResourceLoader|dependencies=mediawiki.util]|DeluxeHistory.js|DeluxeHistory.css
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* darkmode[ResourceLoader|type=styles|targets=desktop,mobile|skins=vector-2022,minerva]|darkmode.css
+* darklight-switch[ResourceLoader|default|targets=desktop,mobile|skins=vector-2022,minerva]|darklight-switch.js
+* mobileSidebar[ResourceLoader|dependencies=mediawiki.util|skins=minerva|type=general|default|hidden]|mobileSidebar.js|mobileSidebar.css
+
+== administration ==
+* moveRV[ResourceLoader|dependencies=mediawiki.util]|moveRV.js
+* autodel[ResourceLoader|rights=delete]|autodel.js
+* subpages[ResourceLoader|dependencies=mediawiki.util]|subpages.js
+
+== specialtools ==
+* requestWizard[ResourceLoader|default]|requestWizard.js|requestWizard.css

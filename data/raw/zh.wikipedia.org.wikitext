@@ -1,0 +1,124 @@
+{{Gadgets definition}}
+
+<div style='font-family: monospace; word-break: break-all;'>
+== browsing ==
+* CollapsibleToggle[ResourceLoader|dependencies=jquery.makeCollapsible]|CollapsibleToggle.js|CollapsibleToggle.css
+* CiteUnseen[ResourceLoader]|CiteUnseen.js
+* Difflink[ResourceLoader|default|dependencies=ext.gadget.HanAssist]|Difflink.js
+* ExternalLinkNewWin[ResourceLoader]|ExternalLinkNewWin.js
+* HideRefLinks[ResourceLoader]|HideRefLinks.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* NavFrame[ResourceLoader|default|dependencies=jquery.makeCollapsible]|NavFrame.js|NavFrame.css
+* Navigation_popups[ResourceLoader|dependencies=ext.gadget.HanAssist]|popups.js|popups.css
+* OSMMap[ResourceLoader|dependencies=ext.gadget.HanAssist,ext.gadget.MoveResizeAbsolute]|OSMMap.js
+* ReferenceTooltips[ResourceLoader|dependencies=ext.gadget.HanAssist,mediawiki.util|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+* SimplifyRefNotesTag[ResourceLoader]|SimplifyRefNotesTag.js|SimplifyRefNotesTag.css
+* UnihanTooltips[ResourceLoader|dependencies=ext.gadget.HanAssist,mediawiki.cookie|default]|UnihanTooltips.js|UnihanTooltips.css
+* WikiMiniAtlas[ResourceLoader|default]|WikiMiniAtlas.js
+* hantsect[ResourceLoader]|hantsect.css
+* ilhpp[ResourceLoader|default|package|dependencies=ext.gadget.HanAssist,mediawiki.user,user.options]|ilhpp.js|ilhpp.css
+* ilhpp-settings[ResourceLoader|package|hidden|dependencies=ext.gadget.HanAssist,ext.gadget.ilhpp,vue,@wikimedia/codex]|ilhpp-settings.js|ilhpp-settings.css
+* large-font[ResourceLoader|default|skins=vector,vector-2022,monobook]|large-font.css
+* noteTA[ResourceLoader|dependencies=mediawiki.api,ext.gadget.HanAssist,oojs-ui,oojs-ui-windows,jquery.makeCollapsible|default|type=general|actions=view,edit]|noteTA.js|noteTA.css
+* shareTool[ResourceLoader|dependencies=ext.gadget.HanAssist,mediawiki.util]|shareTool.js|shareTool.css
+
+== editing ==
+* CX-Template_Translated_page[ResourceLoader|dependencies=mediawiki.Title,mediawiki.api]|CX-Template_Translated_page.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util,jquery.ui,user,ext.gadget.SettingsManager,ext.gadget.SettingsUI|rights=edit|namespaces=14]|Cat-a-lot.js|Cat-a-lot.css
+* EditTextboxWrapping[ResourceLoader|dependencies=ext.gadget.HanAssist|actions=edit]|EditTextboxWrapping.js
+* Edittools-vector[ResourceLoader|dependencies=mediawiki.user|actions=edit]|Edittools-vector.js
+* Edittools-vplus[ResourceLoader|dependencies=ext.gadget.HanAssist,ext.gadget.Edittools-vector|actions=edit]|Edittools-vplus.js
+* Edittools-vote[ResourceLoader|dependencies=ext.gadget.Edittools-vector|actions=edit]|Edittools-vote.js
+* Edittools-delh[ResourceLoader|dependencies=ext.gadget.HanAssist,ext.gadget.Edittools-vector|rights=autoconfirmed|actions=edit]|Edittools-delh.js
+* Edittools-refToolbar[ResourceLoader|default|dependencies=ext.gadget.HanAssist,user.options,mediawiki.util|actions=edit]|refToolbar.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* PreviewWithVariant[ResourceLoader|dependencies=ext.gadget.HanAssist,oojs-ui,oojs-ui-core,mediawiki.user|rights=edit]|PreviewWithVariant.js
+* PreviewWithVariant2017[ResourceLoader|dependencies=ext.gadget.HanAssist,oojs-ui,oojs-ui-core|hidden|rights=edit]|PreviewWithVariant2017.js|PreviewWithVariant2017.css
+* ProveIt[ResourceLoader]|ProveIt.js
+* ToolsRedirect[ResourceLoader|dependencies=ext.gadget.HanAssist,jquery.ui|rights=edit]|ToolsRedirect.js|ToolsRedirect.css
+* ToolsRedirect-opt-bolds[ResourceLoader|dependencies=ext.gadget.ToolsRedirect|rights=edit]|ToolsRedirect-opt-bolds.js
+* ToolsRedirect-bio-latin-names[ResourceLoader|dependencies=ext.gadget.ToolsRedirect|rights=edit]|ToolsRedirect-bio-latin-names.js
+* ToolsRedirect-courtesy-and-art-names[ResourceLoader|dependencies=ext.gadget.ToolsRedirect|rights=edit]|ToolsRedirect-courtesy-and-art-names.js
+* WikidataDesc[ResourceLoader]|WikidataDesc.js
+* Wordcount[ResourceLoader]|Wordcount.js
+* dcparticipant[ResourceLoader|dependencies=ext.gadget.HanAssist,jquery.ui,mediawiki.util,oojs-ui-windows|default|rights=autoconfirmed|namespaces=0]|dcparticipant.js
+* dykc-nomination[ResourceLoader|dependencies=mediawiki.util,jquery.ui|rights=autoconfirmed|namespaces=0]|dykc-nomination.js
+* easy-archive[ResourceLoader]|easy-archive.js
+* edit-count[ResourceLoader]|edit-count.js
+* edit0[ResourceLoader|dependencies=mediawiki.util|default]|edit0.js|edit0.css
+* fixlinkstyle[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|fixlinkstyle.js
+* link-ts[ResourceLoader]|link-ts.js
+* specialchars[ResourceLoader|actions=edit]|specialchars.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options|actions=edit]|wikEd.js
+
+== appearance ==
+* AdvancedSiteNotices[ResourceLoader|dependencies=ext.gadget.HanAssist,mediawiki.api,mediawiki.cookie,mediawiki.util,mediawiki.user,ext.centralNotice.geoIP|default]|AdvancedSiteNotices.js|AdvancedSiteNotices.css
+* Blackskin[ResourceLoader|skins=monobook,vector,vector-2022|supportsUrlLoad]|Blackskin.css
+* CollapsibleSidebar[ResourceLoader|default|dependencies=mediawiki.storage|skins=vector]|CollapsibleSidebar.js
+* CommentsinLocalTime[ResourceLoader|dependencies=ext.gadget.HanAssist]|CommentsinLocalTime.js
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* ExternalSearch[ResourceLoader|dependencies=ext.gadget.HanAssist|namespaces=-1]|externalsearch.js
+* HideEditSpecialChars[ResourceLoader|actions=edit]|HideEditSpecialChars.css
+* HideWarnings[ResourceLoader|actions=edit]|HideWarnings.css
+* MarkRights[ResourceLoader|dependencies=mediawiki.api]|MarkRights.js|MarkRights.css
+* MoreMenu-local[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,user.options|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|MoreMenu-local.js
+* NotifCountTitle[ResourceLoader|dependencies=mediawiki.language]|NotifCountTitle.js
+* OldAfD[ResourceLoader|default|actions=view,edit|namespaces=4]|OldAfD.css
+* OldDiff[ResourceLoader]|OldDiff.css
+* RedirectSubTipAtBottom[ResourceLoader]|RedirectSubTipAtBottom.js
+* RemoveCustomSigns[ResourceLoader]|RemoveCustomSigns.js
+* SpecialWikitext[ResourceLoader|default|dependencies=ext.gadget.HanAssist,mediawiki.api]|SpecialWikitext.js
+* UTCLiveClock[ResourceLoader|supportsUrlLoad|dependencies=mediawiki.util,mediawiki.api,user|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[ResourceLoader|hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* VariantAlly[ResourceLoader|package|hidden|default|dependencies=mediawiki.user,user.options]|VariantAlly.js
+* VariantAllyDialog[ResourceLoader|package|hidden|dependencies=vue,ext.gadget.VariantAlly]|VariantAllyDialog.js|VariantAllyDialog.css
+* ViewSourceMode[ResourceLoader|dependencies=mediawiki.util,ext.gadget.HanAssist]|ViewSourceMode.js
+* confirm-logout[ResourceLoader|dependencies=ext.gadget.ding,ext.gadget.HanAssist,mediawiki.api,mediawiki.util,oojs-ui-windows]|confirm-logout.js
+* dark-mode[ResourceLoader|supportsUrlLoad|hidden|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css
+* dark-mode-toggle[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,vector-2022,minerva,monobook]|dark-mode-toggle-pagestyles.css
+* disableAnimationCollapse[ResourceLoader]|disableAnimationCollapse.js
+* fullwidth-search-fix[ResourceLoader|dependencies=mediawiki.util]|fullwidth-search-fix.js
+* hideConversionTab[default|ResourceLoader]|hideConversionTab.js|hideConversionTab.css
+* mainpage-localtime[ResourceLoader|dependencies=mediawiki.util]|mainpage-localtime.js
+* mainpage-wplanlist[ResourceLoader|dependencies=mediawiki.util,ext.gadget.HanAssist|default|skins=vector,monobook,timeless]|mainpage-wplanlist.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* moveEditsectionBack[ResourceLoader]|moveEditsectionBack.css
+* popupUserLanguage[ResourceLoader|dependencies=ext.gadget.HanAssist|skins=monobook]|popupUserLanguage.js|popupUserLanguage.css
+* pseudonamespace-UI[ResourceLoader|default|dependencies=mediawiki.helplink,ext.gadget.HanAssist]|pseudonamespace-UI.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* scrollUpButton[ResourceLoader|default]|scrollUpButton.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* text-spacing[ResourceLoader]|text-spacing.js|text-spacing.css
+
+== maintenance ==
+* CleanDeleteReasons[ResourceLoader|rights=delete|default]|CleanDeleteReasons.js
+* OnlineAdmins[ResourceLoader|dependencies=ext.gadget.HanAssist,mediawiki.api]|OnlineAdmins.js
+* PatrollCount[ResourceLoader|rights=patrol|dependencies=ext.gadget.HanAssist]|PatrollCount.js
+* RCPatrol[ResourceLoader|rights=autoconfirmed|dependencies=mediawiki.api,jquery.i18n,mediawiki.jqueryMsg]|RCPatrol.js|RCPatrol.css
+* RTRC[ResourceLoader]|RTRC.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.HanAssist,ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlytalkback.js|twinklespeedy.js|twinklecopyvio.js|twinklexfd.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklestub.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinklebatchdelete.js|twinklebatchundelete.js|twinkleclose.js|twinkleconfig.js
+* Twinkle-pagestyles[hidden|skins=vector,vector-2022]|Twinkle-pagestyles.css
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner,ext.gadget.HanAssist]|contribsrange.js
+* dyktool[ResourceLoader|dependencies=ext.gadget.HanAssist|rights=delete]|dyktool.js
+* rollback-summary[ResourceLoader|rights=rollback|dependencies=ext.gadget.HanAssist,mediawiki.util]|rollback-summary.js
+
+== test ==
+* switcher[ResourceLoader|default|dependencies=ext.gadget.HanAssist]|switcher.js
+
+== modules ==
+* EditCommon[ResourceLoader|hidden|default|dependencies=ext.gadget.HanAssist,oojs-ui-core|actions=edit]|EditCommon.js
+* EditorAPIs[ResourceLoader|dependencies=mediawiki.util|hidden]|EditorAPIs.js
+* FileUploadWizard[ResourceLoader|supportsUrlLoad|hidden|dependencies=ext.gadget.HanAssist,mediawiki.api]|FileUploadWizard.js|FileUploadWizard.css
+* HanAssist[ResourceLoader|package|hidden|dependencies=user.options]|HanAssist.js
+* MoveResizeAbsolute[ResourceLoader|hidden]|MoveResizeAbsolute.js
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,mediawiki.api|hidden]|SettingsManager.js
+* SettingsUI[ResourceLoader|dependencies=jquery.ui,mediawiki.user,ext.gadget.libJQuery|hidden]|SettingsUI.js
+* collapsibleTables[ResourceLoader|default|dependencies=jquery.makeCollapsible|hidden]|collapsibleTables.js
+* ding[ResourceLoader|hidden]|ding.js|ding.css
+* libJQuery[ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* morebits[ResourceLoader|dependencies=ext.gadget.HanAssist,mediawiki.user,mediawiki.util,jquery.ui|hidden]|morebits.js|morebits.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* site-lib[ResourceLoader|dependencies=mediawiki.util,ext.gadget.HanAssist|hidden]|site-lib.js
+* tipsyDeprecated[ResourceLoader|hidden]|tipsy-deprecated.js
+</div>

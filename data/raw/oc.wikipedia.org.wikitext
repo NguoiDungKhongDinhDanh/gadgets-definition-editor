@@ -1,0 +1,70 @@
+# Aquesta pagina servís a definir los gadgets utilizats dins [[Special:Gadgets]]
+# Abans de la modificar, asseguratz-vos d'aver compres son foncionament descrich sus [[mw:Extension:Gadgets#Usatge]]
+# Cambietz pas lo nom d'un gadget existent (seriá alara desactivat per totes)
+# Se un gadget marcha pas, se pòt lo comentar en transformant * en #
+
+== Aparéncia ==
+
+=== Paginas ===
+
+* AffMasLiens[ResourceLoader|dependencies=mediawiki.util]|AffMasLiens.js
+* AncreTitres[ResourceLoader|dependencies=mediawiki.util,user]|AncreTitres.js
+* dictionaryLookupHover[ResourceLoader]|dictionaryLookupHover.js
+* EbauchesOff[ResourceLoader]|EbauchesOff.css
+* LabelsOff[ResourceLoader]|LabelsOff.css
+* ArchiveLinks[ResourceLoader|default]|ArchiveLinks.js
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* HomonymiesEnCouleur[ResourceLoader]|HomonymiesEnCouleur.css
+* LastContrib[ResourceLoader]|LastContrib.js
+* Popups[ResourceLoader]|Popups.js
+
+=== Onglets ===
+* NavigAdmin[ResourceLoader|dependencies=mediawiki.util]|NavigAdmin.js
+* TriInterWiki[ResourceLoader|dependencies=user]|sortInterWiki.js
+
+== Modificacion ==
+
+=== Editor ===
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* MagnusEditBox[ResourceLoader]|MagnusEditBox.js
+* ResumeDeluxe[ResourceLoader|type=general|dependencies=user]|ResumeDeluxe.js
+* QPreview[ResourceLoader|dependencies=mediawiki.util]|QPreview.js
+* searchbox[ResourceLoader]|lib-beau.js
+* TiretSignature[ResourceLoader]|TiretSignature.js
+* WikEd[ResourceLoader|dependencies=jquery.textSelection]|WikEd.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* ProveIt[ResourceLoader]|ProveIt.js
+
+=== Caractèrs ===
+* CaracteresHTML[ResourceLoader]|CaracteresHTML.js
+* CaracteresMagic[ResourceLoader]|CaracteresMagic.js
+* CaracteresParser[ResourceLoader]|CaracteresParser.js
+* CaracteresOff[ResourceLoader]|CaracteresOff.css
+* specialchars[ResourceLoader]|specialchars.js
+
+=== ApondonRapid ===
+* BandeauxEbauches[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|BandeauxEbauches.js
+
+== Darrièrs cambiaments ==
+
+=== Contribucions ===
+* AdvancedContribs[ResourceLoader]|AdvancedContribs.js
+* contribsrange[ResourceLoader]|contribsrange.js
+
+=== Seguiment ===
+* OptimizedSuivi[ResourceLoader]|OptimizedSuivi.js
+
+=== Anullacion ===
+* RevertDiff[ResourceLoader]|RevertDiff.js
+
+== Recèrca ==
+* AdvancedResearch[ResourceLoader]|AdvancedResearch.js
+
+== Mantenença ==
+* Accessibility[ResourceLoader|dependencies=mediawiki.cookie]|Accessibility.js
+* AvertissementImage[ResourceLoader]|AvertissementImage.js
+* DeleteBot[ResourceLoader|rights=delete]|DeleteBot.js
+* Evaluation[ResourceLoader]|Evaluation.js
+* OptimizedShort[ResourceLoader]|OptimizedShort.js
+* SuppressionDeluxe[ResourceLoader|rights=delete]|SuppressionDeluxe.js
+* AllmessagesDeluxe[ResourceLoader]|AllmessagesDeluxe.js

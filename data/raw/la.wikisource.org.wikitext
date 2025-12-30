@@ -1,0 +1,6 @@
+== Editing tools ==
+* matchsplit[ResourceLoader]|matchsplit.js
+* CropTool[ResourceLoader|dependencies=mediawiki.util]|CropTool.js
+* pulsanti-FI[ResourceLoader|dependencies=ext.wikiEditor|default]|pulsanti-FI.js
+* diacritici[ResourceLoader|dependencies=ext.wikiEditor]|diacritici.js
+* purgetab[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api]|purgetab.js

@@ -1,0 +1,82 @@
+<noinclude>[[위키백과:소도구|소도구]]의 설명은 [[특수:소도구]]에서 보고 고칠 수 있습니다.
+</noinclude>
+
+== browsing ==
+* modrollback [ResourceLoader |rights=rollback] |modrollback.js
+* removeAccessKeys [ResourceLoader |dependencies=mediawiki.util] |removeAccessKeys.js
+* searchFocus [ResourceLoader] |searchFocus.js
+* GoogleTrans [ResourceLoader] |GoogleTrans.js
+* directcommons [ResourceLoader |dependencies=mediawiki.util |default] |direct-commons.js
+* Navigation_popups [ResourceLoader |dependencies=mediawiki.user,mediawiki.util] |popups.js |popups-strings-ko.js |navpop.css
+* exlinks [ResourceLoader |dependencies=mediawiki.util] |exlinks.js
+* search-new-tab [ResourceLoader] |search-new-tab.js
+* ReferenceTooltips [ResourceLoader |skins=vector, vector-2022, monobook, timeless, modern, cologneblue |type=general |dependencies=mediawiki.cookie, jquery.client] |ReferenceTooltips.js |ReferenceTooltips.css
+* Twinkle [ResourceLoader |dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language |rights=autoconfirmed |type=general |peers=Twinkle-pagestyles] |Twinkle.js |Twinkle.css |twinklearv.js |twinklewarn.js |twinkleblock.js |friendlywelcome.js |friendlyshared.js |friendlytalkback.js |twinklespeedy.js |twinkleprod.js |twinklexfd.js |twinkleimage.js |twinkleprotect.js |friendlytag.js |twinklediff.js |twinkleunlink.js |twinklefluff.js |twinkledeprod.js |twinklebatchdelete.js |twinklebatchprotect.js |twinklebatchundelete.js |twinkleconfig.js
+* morebits [ResourceLoader |dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui |hidden] |morebits.js |morebits.css
+* Twinkle-pagestyles [hidden |skins=vector,vector-2022] |Twinkle-pagestyles.css
+* select2[ResourceLoader |hidden] |select2.min.js |select2.min.css
+* Prosesize [ResourceLoader |dependencies=mediawiki.api, mediawiki.util] |Prosesize.js |Prosesize.css
+
+== editing ==
+* DotsSyntaxHighlighter [ResourceLoader] |DotsSyntaxHighlighter.js
+* HotCat [ResourceLoader |rights=edit] |HotCat.js
+* wikEdDiff [ResourceLoader] |wikEdDiff.js
+* ProveIt [ResourceLoader] |ProveIt.js
+* Shortdesc-helper-pagestyles-vector [hidden |skins=vector,vector-2022] |Shortdesc-helper-pagestyles-vector.css
+* Shortdesc-helper-loader [ResourceLoader |dependencies=mediawiki.api,user.options,mediawiki.util |skins=vector,vector-2022,monobook,modern,timeless |peers=Shortdesc-helper-pagestyles-vector] |Shortdesc-helper.js |Shortdesc-helper.css
+* WikiVault [ResourceLoader] | WikiVault.js
+* wikEd [ResourceLoader] |wikEd.js
+* edittools [ResourceLoader |default |dependencies=jquery.textSelection,user,mediawiki.storage] |edittools.js
+* charinsert [ResourceLoader |peers=charinsert-styles] |charinsert.js
+* charinsert-core [ResourceLoader |hidden |dependencies=jquery.textSelection,user,mediawiki.storage] |charinsert-core.js
+* charinsert-styles [ResourceLoader |hidden |type=styles] |charinsert-styles.css
+* refToolbar [ResourceLoader |default |dependencies=user.options,mediawiki.util] |refToolbar.js
+* refToolbarBase [ResourceLoader |hidden] |refToolbarBase.js
+* noSignAlert [ResourceLoader] |noSignAlert.js
+
+== appearance ==
+* siteNotice [ResourceLoader |default |dependencies=mediawiki.api] |siteNotice.js
+* edittop [ResourceLoader |dependencies=user.options] |edittop.js
+* UTCLiveClock [ResourceLoader |supportsUrlLoad |type=general |dependencies=mediawiki.util, mediawiki.api |peers=UTCLiveClock-pagestyles] |UTCLiveClock.js |UTCLiveClock.css
+* UTCLiveClock-pagestyles [hidden |skins=vector, vector-2022, monobook] |UTCLiveClock-pagestyles.css
+* LiveClock [ResourceLoader] |LiveClock.js
+* purgetab [ResourceLoader |dependencies=mediawiki.util,mediawiki.api] |purgetab.js
+* righteditlinks [ResourceLoader |type=styles] |righteditlinks.css
+* CompareLink [ResourceLoader |dependencies=mediawiki.util] |CompareLink.js
+* RollbackComment [ResourceLoader |rights=rollback] |RollbackComment.js
+* quickeditcounter [ResourceLoader |dependencies=mediawiki.util] |quickeditcounter.js
+* XTools-ArticleInfo [ResourceLoader] |XTools-ArticleInfo.js
+* Copyviolink [ResourceLoader |dependencies=mediawiki.util] |copyviolink.js
+* disablesuggestions [ResourceLoader] |disablesuggestions.js
+* dark-mode-toggle [ResourceLoader |dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage |peers=dark-mode-toggle-pagestyles] |dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden |skins=vector,vector-2022,minerva,monobook] |dark-mode-toggle-pagestyles.css
+* font-15px [ResourceLoader |type=styles] |font-15px.css
+* SectionFont [ResourceLoader |skins=vector,vector-2022,minerva |type=styles |default |hidden] |SectionFont.css
+* widensearch [ResourceLoader |skins=vector |type=styles] |widensearch.css
+* DisambiguationLinks [ResourceLoader] |DisambiguationLinks.css
+* markblocked [ResourceLoader |dependencies=mediawiki.util,mediawiki.page.ready] |markblocked.js
+* NoAnimations [ResourceLoader] |NoAnimations.js
+* OldDiff [ResourceLoader |type=styles] |OldDiff.css
+* UrlShortener [ResourceLoader] |UrlShortener.js
+* editsummary [ResourceLoader |dependencies=mediawiki.user] |editsummary.js |editsummary.css
+* scrollUpButton [ResourceLoader |default] |scrollUpButton.js
+* CategoryTop [ResourceLoader] |CategoryTop.js
+* RecentChangesSidebar [ResourceLoader] |RecentChangesSidebar.js
+* strikethroughTOC [ResourceLoader |default] |strikethroughTOC.js
+* switcher [ResourceLoader |default] |switcher.js
+* LangLinksTranslate [ResourceLoader |type=general] |LangLinksTranslate.js
+
+== advanced ==
+* contribsrange [ResourceLoader |dependencies=mediawiki.util,jquery.spinner] |contribsrange.js
+* RTRC [ResourceLoader] |RTRC.js
+
+== test ==
+* ShowJavascriptErrors [ResourceLoader |type=general] |ShowJavascriptErrors.js
+
+== template-gadgets ==
+* WikiMiniAtlas [ ResourceLoader | default ] | WikiMiniAtlas.js
+* Calculator [ResourceLoader | default ] | calculator.js |calculator.css
+* protectionIndicator [ ResourceLoader | default ] | protectionLog.js
+
+== modules ==
+* dark-mode [ResourceLoader |supportsUrlLoad |skins=vector,vector-2022,monobook,modern,minerva,timeless] |dark-mode.css

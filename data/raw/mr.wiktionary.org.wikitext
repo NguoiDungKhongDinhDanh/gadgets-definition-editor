@@ -1,0 +1,92 @@
+See [[Special:Gadgets]] for documentation of these gadgets, and [[Wiktionary:Gadgets]] for general information about gadgets on Wiktionary. See also [[WT:PREFS]] for other preferences.
+
+Try [[User:Erutuon/scripts/gadgets-definition.js]] to add spacing and links to this page.
+
+* LegacyScripts[ResourceLoader|default|dependencies=site,mediawiki.util,mediawiki.cookie,ext.gadget.LegacyScriptsNewNode,ext.gadget.StorageUtils|type=general]|legacy.js
+
+== not yet sorted ==
+ HideSister[ResourceLoader]|HideSister.css
+ HideRankings[ResourceLoader]|HideRankings.css
+ HideLinesBetweenLanguages[ResourceLoader]|HideLinesBetweenLanguages.css
+ HideTranslations[ResourceLoader]|HideTranslations.css
+ BoxedInflections[ResourceLoader]|BoxedInflections.css
+ IndentSeeAlso[ResourceLoader]|IndentSeeAlso.css
+ HideSiteNotice[ResourceLoader]|HideSiteNotice.css
+ HideQualifierParens[ResourceLoader]|HideQualifierParens.css
+ ItalicParens[ResourceLoader]|ItalicParens.css
+ HideTrGlossParens[ResourceLoader]|HideTrGlossParens.css
+ HideAllParens[ResourceLoader]|HideAllParens.css
+ PlainTransliterations[ResourceLoader]|PlainTransliterations.css
+ FloatNavToggleLeft[ResourceLoader]|FloatNavToggleLeft.css
+ PreviewRightTOCs[ResourceLoader]|PreviewRightTOCs.css
+ EditTools[ResourceLoader]|EditTools.css
+ HeadersInline[ResourceLoader]|HeadersInline.css
+
+== appearance ==
+* VectorClassic[ResourceLoader|type=styles|skins=vector]|VectorClassic.css
+* HideLogo[ResourceLoader|type=styles]|HideLogo.css
+* MonobookSmallerHeadings[ResourceLoader|default|skins=monobook]|MonobookSmallerHeadings.css
+* JavascriptHeadings[ResourceLoader|default|dependencies=site]|JavascriptHeadings.js
+* vectorTabs[ResourceLoader|skins=vector|type=styles]|vectorTabs.js|vectorTabs.css
+* WiktCountryFlags[ResourceLoader|type=styles]|WiktCountryFlags.css
+* WiktPreviewRightTOCs[ResourceLoader]|WiktPreviewRightTOCs.css
+* LogoTiles[ResourceLoader|type=styles]|LogoTiles.css
+* LatnMentionBold[ResourceLoader|type=styles]|LatnMentionBold.css
+* RoundBullets4Lists[ResourceLoader|type=styles]|RoundBullets4Lists.css
+* SmallRC[ResourceLoader]|SmallRC.css
+* BC-AD[ResourceLoader]|BC-AD.js
+
+== interface-gadgets ==
+
+* purgetab[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|purgetab.js
+* Navigation_popups[ResourceLoader]|popups.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* WiktSidebarTranslation[ResourceLoader|dependencies=ext.uls.interlanguage]|WiktSidebarTranslation.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* TargetedTranslations[ResourceLoader|default|dependencies=mediawiki.storage,mediawiki.cookie,ext.gadget.StorageUtils]|TargetedTranslations.js|TargetedTranslations.css
+* TabbedLanguages[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,ext.gadget.LegacyScriptsNewNode|type=general]|TabbedLanguages.js|TabbedLanguages.css
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|type=general]|DocTabs.js|DocTabs.css
+* BlockInfo[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.language.months,mediawiki.util]|BlockInfo.js
+* RevdelInfo[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.Uri,mediawiki.language.months,mediawiki.util]|RevdelInfo.js
+* FastRollback[ResourceLoader|rights=rollback|dependencies=mediawiki.api,mediawiki.Uri]|FastRollback.js
+* OrangeLinks[ResourceLoader|dependencies=site,mediawiki.api,mediawiki.Title,mediawiki.Uri,mediawiki.util]|OrangeLinks.js
+* U2693[ResourceLoader|dependencies=mediawiki.Uri,mediawiki.Title,mediawiki.util]|U2693.js
+* CodeLinks[ResourceLoader|default|dependencies=site,mediawiki.util]|CodeLinks.js
+* AggregateInterprojectLinks[ResourceLoader|dependencies=mediawiki.cookie]|AggregateInterprojectLinks.js
+
+== editing-gadgets ==
+
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* AcceleratedFormCreation[ResourceLoader|dependencies=mediawiki.util]|AcceleratedFormCreation.js
+* TranslationAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data]|TranslationAdder.js
+* HotCat[ResourceLoader]|HotCat.js
+* FastRevert[ResourceLoader|dependencies=mediawiki.util]|FastRevert.js
+* PatrollingEnhancements[ResourceLoader|default|rights=patrol|dependencies=ext.gadget.LegacyScriptsNewNode]|PatrollingEnhancements.js
+* DefSideBoxes[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,ext.gadget.DefinitionsAdder,ext.gadget.LegacyScriptsNewNode|type=general]|DefSideBoxes.js|DefSideBoxes.css
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* DeveloperEditorTweaks[ResourceLoader|dependencies=ext.wikiEditor,mediawiki.util]|DeveloperEditorTweaks.js
+* RhymesAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,mediawiki.util,ext.gadget.LanguageUtils,mediawiki.Uri]|RhymesAdder.js
+* AjaxEdit[ResourceLoader|dependencies=mediawiki.util,mediawiki.Uri,mediawiki.user,mediawiki.api]|AjaxEdit.js
+
+== misc-gadgets ==
+* aWa[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,user.options,mediawiki.Uri,mediawiki.Title|type=general]|aWa.js|aWa.css
+* aWa-lang[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,user.options,mediawiki.Uri,mediawiki.Title|type=general]|aWa-lang.js|aWa-lang.css
+* QQ[ResourceLoader|dependencies=jquery.ui,mediawiki.util|type=general]|QQ.js|QQ.css
+* SpecialSearch[ResourceLoader|default]|SpecialSearch.js
+* zhDialMap[ResourceLoader|default|dependencies=oojs-ui-core]|zhDialMap.js|zhDialMap.css
+
+== Hidden gadgets and utils ==
+* AGprefs[ResourceLoader|hidden|dependencies=mediawiki.util]|AGprefs.js
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* LanguageUtils[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.StorageUtils]|LanguageUtils.js
+* LegacyScriptsNewNode[ResourceLoader|hidden|targets=desktop,mobile]|LegacyScriptsNewNode.js
+* DefinitionsAdder[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.util,ext.gadget.Editor]|DefinitionsAdder.js
+* TranslationAdder-Data[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.Uri,ext.gadget.LanguageUtils]|TranslationAdder-Data.js
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title]|catfix.js
+* Edittools[ResourceLoader|hidden|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js|Edittools.css
+* VisibilityToggles[ResourceLoader|hidden|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+* column-hacks[Resourceloader|hidden|default]|column-hacks.css

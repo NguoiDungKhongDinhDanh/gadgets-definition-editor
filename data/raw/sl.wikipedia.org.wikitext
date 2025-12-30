@@ -1,0 +1,67 @@
+<noinclude>'''O spremembah te strani, se prosimo najprej pogovorite [[Wikipedija:Pod lipo|Pod lipo]] oz. na [[Pogovor o MediaWiki:Gadgets-definition|pogovorni strani]].'''
+
+</noinclude>
+
+== browsing ==
+* removeAccessKeys [ResourceLoader |dependencies=user, mediawiki.util] |removeAccessKeys.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util|type=general]|popups.js|navpop.css
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+
+== watchlist ==
+
+== editing ==
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+<noinclude>* Twinkle|Twinkle.js</noinclude>
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* UrejanjeGlavneStrani[ResourceLoader]|UrejanjeGlaveStrani.js
+* ProveIt[ResourceLoader]|proveit.js
+* edittools-velikost[ResourceLoader]|edittools-velikost.js
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|targets=desktop,mobile|skins=vector,vector-2022,minerva,monobook]|dark-mode-toggle-pagestyles.css
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util|actions=edit]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* afchelper[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user,jquery.chosen,jquery.spinner,jquery.ui]|afchelper.js|afchelper.css
+
+== appearance ==
+
+<noinclude>* Dostopnost|Dostopnost.js</noinclude>
+<noinclude>* Tipke|Tipke.js</noinclude>
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+<noinclude>* UTCLiveClock|UTCLiveClock.js</noinclude>
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+<noinclude>* contribsrange|contribsrange.js</noinclude>
+<noinclude>* LongEditSummaries|LongEditSummaries.js</noinclude>
+<noinclude>* addsection-plus|addsection-plus.js</noinclude>
+<noinclude>* CommentsInLocalTime|CommentsInLocalTime.js</noinclude>
+<noinclude>* removeAccessKeys|removeAccessKeys.js</noinclude>
+<noinclude>* metadata|metadata.js</noinclude>
+<noinclude>* searchFocus|searchFocus.js</noinclude>
+* textareasansserif|textareasansserif.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+<noinclude>* Blackskin|Blackskin.css</noinclude>
+* CommonsDirekt[ResourceLoader|dependencies=mediawiki.util,user.options|default]|Direct-link-to-Commons.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* markblocked [ResourceLoader |dependencies=mediawiki.util, mediawiki.page.ready, mediawiki.Title] |markblocked.js
+
+== library-gadgets ==
+
+* modernskin-thunks[ResourceLoader]|modernskin-thunks.js
+* DejaVu_Sans||DejaVu_Sans.css
+* JSL|JSL.js
+
+== advanced ==
+* script-installer[ResourceLoader|dependencies=mediawiki.ui.button]|script-installer.js
+
+== maintenance ==
+
+== test ==
+* mobile-sidebar [ResourceLoader |skins=vector, vector-2022] |mobile-sidebar.js |mobile-sidebar.css
+
+== template-gadgets ==
+* Calculator [ResourceLoader | default | categories = Strani z uporabo pripomočka Kalkulator ] | calculator.js |calculator.css
+
+== modules ==
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css

@@ -1,0 +1,48 @@
+<noinclude>'''Промените на оваа страница треба најпрвин да се продискутираат на [[Википедија:Алатки/предлози]] или [[Разговор_за_Википедија:Алатки]].'''
+
+За секоја нова алатка додајте ставка во [[Википедија:Алатки#Моментално_инсталирани_алатки]] за да се олесни одржувањето.
+</noinclude>
+
+== browsing-gadgets ==
+
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+
+== editing-gadgets ==
+
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Twinkle[ResourceLoader]|Twinkle.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* CategoryMaster[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util]|CategoryMaster.js
+
+== interface-gadgets ==
+
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* ExternalSearch[ResourceLoader]|externalsearch.js
+* mwEmbed[ResourceLoader]|mwEmbed.js
+* <!--dropdown-menus|dropdown-menus.js|dropdown-menus.css--><!-- no longer supported -->
+* modrollback[ResourceLoader]|modrollback.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* CategoryAboveAll[ResourceLoader|skins=monobook]|CategoryAboveAll.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* removeAccessKeys[ResourceLoader|dependencies=user,mediawiki.util]|removeAccessKeys.js
+* metadata[ResourceLoader]|metadata.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* exlinks[ResourceLoader]|exlinks.js
+* Blackskin|Blackskin.css
+* widensearch|widensearch.css
+
+===interface-gadgets-editing===
+* edittop[ResourceLoader]|edittop.js
+* LongEditSummaries[ResourceLoader]|LongEditSummaries.js
+* textareasansserif|textareasansserif.css
+* lefteditlinks[ResourceLoader]|lefteditlinks.js
+
+== library-gadgets ==
+
+* modernskin-thunks[ResourceLoader|skins=modern]|modernskin-thunks.js
+* DejaVu_Sans||DejaVu_Sans.css
+<!--* JSL|JSL.js-->

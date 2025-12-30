@@ -1,0 +1,121 @@
+* common-action-delete[ResourceLoader|hidden|type=general]|common-action-delete.js|common-action-delete.css
+* common-action-edit[ResourceLoader|hidden|type=general|dependencies=site,mediawiki.util]|common-action-edit.js|common-action-edit.css
+* common-action-history[ResourceLoader|default|hidden|rights=minoredit]|common-action-history.js
+* common-namespace-file[ResourceLoader|hidden]|common-namespace-file.js
+* common-special-abusefilter[ResourceLoader|hidden]|common-special-abusefilter.js
+* common-special-block[ResourceLoader|hidden|type=general|dependencies=site]|common-special-block.js|common-special-block.css
+* common-special-log[ResourceLoader|hidden|dependencies=mediawiki.util]|common-special-log.js
+* common-special-movepage[ResourceLoader|hidden]|common-special-movepage.js
+* common-special-newpages[ResourceLoader|hidden|type=general|dependencies=mediawiki.util]|common-special-newpages.js|common-special-newpages.css
+* common-special-search[ResourceLoader|hidden|type=general|dependencies=site]|common-special-search.js|common-special-search.css
+* common-special-statistics[ResourceLoader|hidden]|common-special-statistics.js
+* common-special-upload[ResourceLoader|hidden|type=general|dependencies=mediawiki.util]|common-special-upload.js|common-special-upload.css
+* common-special-watchlist-helperStyles[ResourceLoader|hidden]|common-special-watchlist-helperStyles.css
+* common-special-watchlist[ResourceLoader|default|hidden|rights=minoredit|peers=common-special-watchlist-helperStyles|dependencies=site,mediawiki.cookie]|common-special-watchlist.js
+
+* libJQuery[ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+
+== default ==
+* BKL[ResourceLoader|default|type=styles|rights=minoredit]|disambiguationLinks.css
+* collapserefs[ResourceLoader|default|type=general|dependencies=mediawiki.cookie,mediawiki.util]|collapserefs.js|collapserefs.css
+* directLinkToCommons[ResourceLoader|default|dependencies=mediawiki.util]|directLinkToCommons.js
+* logo[default|type=general]|logo.css
+* edittop[ResourceLoader|default|dependencies=site,mediawiki.util]|edittop.js
+* blpEditNotice[ResourceLoader|default|dependencies=site,ext.visualEditor.desktopArticleTarget.init]|blpEditNotice.js
+* wikibugs[ResourceLoader|default|hidden]|Wikibugs.js
+* sidebarRelated[ResourceLoader|default|hidden|dependencies=site]|sidebarRelated.js
+
+== editing ==
+* preview[ResourceLoader|dependencies=mediawiki.util]|preview.js
+* urldecoder[ResourceLoader]|urldecoder.js
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|refToolbar.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* Wikilinker[ResourceLoader]|wikilinker.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* wikificator[ResourceLoader|hidden|type=general|dependencies=user.options,jquery.textSelection]|wikificator.js|wikificator.css
+* summaryButtons[ResourceLoader|hidden|type=general|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css
+* newTopicOnTop[ResourceLoader|hidden|dependencies=jquery.textSelection]|newTopicOnTop.js
+
+== articles ==
+* HighlightRedirects[ResourceLoader|dependencies=mediawiki.util]|Highlightredirects.js
+* HighlightUnpatrolledLinks[ResourceLoader|rights=review]|HighlightUnpatrolledLinks.js
+* popups[ResourceLoader]|popups.js
+* HideInfobox|HideInfobox.css
+* HideWikimediaNavigation|HideWikimediaNavigation.css
+* HideNavboxes|HideNavboxes.css
+* HideExternalLinks|HideExternalLinks.css
+* OpaqueInfoboxReferences[ResourceLoader]|OpaqueInfoboxReferences.css
+* shiftrefs[ResourceLoader]|shiftrefs.js
+* imgToggle[ResourceLoader|hidden|type=general]|imgToggle.js|imgToggle.css
+* referenceTooltips[ResourceLoader|type=general|dependencies=jquery.client,mediawiki.cookie]|referenceTooltips.js|referenceTooltips.css
+
+== users ==
+* markadmins[ResourceLoader]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+
+== special-pages ==
+* watchlist-helperStyles[ResourceLoader|hidden]|watchlist-helperStyles.css
+* watchlist[ResourceLoader|peers=watchlist-helperStyles|dependencies=mediawiki.util,user.options]|watchlist.js
+* disableUpdatedMarker[ResourceLoader]|disableUpdatedMarker.css
+* contribsrange[ResourceLoader]|contribsrange.js
+
+== interface ==
+* OldDiff[ResourceLoader]|OldDiff.css
+* HideFlaggedRevs[ResourceLoader]|HideFlaggedRevs.css
+* UTCLiveClock-helperStyles[ResourceLoader|hidden]|UTCLiveClock-helperStyles.css
+* UTCLiveClock[ResourceLoader|peers=UTCLiveClock-helperStyles|dependencies=site,mediawiki.util,mediawiki.api]|UTCLiveClock.js
+* roundCorners[ResourceLoader|skins=monobook]|roundCorners.css
+* dropdown-menus[ResourceLoader|type=general|skins=monobook,modern]|dropdown-menus.js|dropdown-menus.css
+* ajaxQuickDelete[ResourceLoader|type=general|dependencies=mediawiki.util]|ajaxQuickDelete.js|ajaxQuickDelete.css
+* DelKeepVis|hideOpinionTemplateImages.css
+* hideSandboxLinkFromPersonalToolbar[ResourceLoader|type=styles]|hideSandboxLinkFromPersonalToolbar.css
+* osm[ResourceLoader|dependencies=mediawiki.util]|osm.js
+* search-extraTooltips[ResourceLoader|skins=vector]|search-extraTooltips.js
+
+== wikificator ==
+* wfTypos[ResourceLoader]|wfTypos.js
+* wfIsbnLite[ResourceLoader]|wfIsbnLite.js
+
+== wikidata ==
+* toReasonator[ResourceLoader|type=general]|toReasonator.js
+* useWD[ResourceLoader|type=general]|useWD.js|useWD.css
+* wikidataInfoboxExport[ResourceLoader|dependencies=mediawiki.api,mediawiki.ForeignApi,mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|wikidataInfoboxExport.js|wikidataInfoboxExport/config.js
+* wefcore[ResourceLoader|type=general|dependencies=jquery.ui,jquery.uls.data,mediawiki.ForeignApi]|wefcore.js
+* wikidataHeaderLink[ResourceLoader]|wikidataHeaderLink.js
+
+== interwiki ==
+* iwcore[ResourceLoader|hidden|type=general]|iwcore.js|iwcore.css
+* iwhints[ResourceLoader|dependencies=ext.gadget.iwcore]|iwhints.js
+* iwlocalnames[ResourceLoader|dependencies=ext.gadget.iwcore]|iwlocalnames.js
+* relatedIcons|relatedIcons.css
+
+=== interwiki-up ===
+* iwen[ResourceLoader|dependencies=ext.gadget.iwcore]|iwen.js
+* iwde[ResourceLoader|dependencies=ext.gadget.iwcore]|iwde.js
+* iwfr[ResourceLoader|dependencies=ext.gadget.iwcore]|iwfr.js
+* iwpl[ResourceLoader|dependencies=ext.gadget.iwcore]|iwpl.js
+* iwit[ResourceLoader|dependencies=ext.gadget.iwcore]|iwit.js
+* iwes[ResourceLoader|dependencies=ext.gadget.iwcore]|iwes.js
+* iwpt[ResourceLoader|dependencies=ext.gadget.iwcore]|iwpt.js
+* iwnl[ResourceLoader|dependencies=ext.gadget.iwcore]|iwnl.js
+* iwhe[ResourceLoader|dependencies=ext.gadget.iwcore]|iwhe.js
+* iwja[ResourceLoader|dependencies=ext.gadget.iwcore]|iwja.js
+* iwzh[ResourceLoader|dependencies=ext.gadget.iwcore]|iwzh.js
+* iwuk[ResourceLoader|dependencies=ext.gadget.iwcore]|iwuk.js
+* iwbe[ResourceLoader|dependencies=ext.gadget.iwcore]|iwbe.js
+* iwrussia[ResourceLoader|dependencies=ext.gadget.iwcore]|iwrussia.js
+
+== projects ==
+* qualityArticles[ResourceLoader|dependencies=jquery.ui]|qualityArticles.js
+* DYK[ResourceLoader]|didYouKnow.js
+* articleStats[ResourceLoader|dependencies=mediawiki.api, mediawiki.util]|articleStats.js
+* iwrm[ResourceLoader|type=general|rights=autoreview]|iwrm.js|iwrm.css
+
+== tests ==
+* yandex-tts[ResourceLoader]|yandex-tts.js
+* yandex-speechrecognition[ResourceLoader]|yandex-speechrecognition.js
+* mobile-sidebar[ResourceLoader|type=general]|mobile-sidebar.js|mobile-sidebar.css
+* GeoBox[ResourceLoader]|GeoBox.js|GeoBox.css

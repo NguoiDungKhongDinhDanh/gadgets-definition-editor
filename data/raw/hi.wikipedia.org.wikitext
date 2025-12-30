@@ -1,0 +1,70 @@
+== editing-gadgets ==
+* ProveIt[ResourceLoader]|ProveIt.js
+* ProveIt-classic[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util]|ProveIt-classic.css|ProveIt-classic.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js|edittop.css
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklewarn.js|twinkleblock.js|twinklespeedy.js|twinklexfd.js|twinkleclosexfd.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* refToolbar [ResourceLoader |default |dependencies=user.options, mediawiki.util |actions=edit] |refToolbar.js
+* refToolbarBase [ResourceLoader |hidden] |refToolbarBase.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* Edittools[ResourceLoader]|Edittools.js
+* DottoPV[ResourceLoader]|DottoPV.js
+* MobileCategories[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|skins=minerva]|MobileCategories.js
+ <!-- charInsert का पूर्ववर्ती होने के कारण इसके ठीक नीचे  -->
+
+== display-gadgets ==
+* Numeral_converter[ResourceLoader|default|dependencies=mediawiki.cookie,mediawiki.util,mediawiki.user]|Numeral_converter.css|Numeral_converter.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* ShortUrlShare[ResourceLoader|default]|ShortUrlShare.css|ShortUrlShare.js
+* ShortUrl[ResourceLoader|]|ShortUrl.css|ShortUrl.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+* searchFocus[ResourceLoader]|searchFocus.js
+* vectorskin-thunks[ResourceLoader]|vectorskin-thunks.js
+* Blackskin[ResourceLoader]|Blackskin.css
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* widensearch[ResourceLoader]|widensearch.css
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* contribsrange[ResourceLoader]|contribsrange.js
+* CategoryAboveAll[ResourceLoader]|CategoryAboveAll.js
+* ExternalSearch[ResourceLoader|default]|externalsearch.js|externalsearch.css
+* recentchangesbox[ResourceLoader|skins=monobook]|recentchangesbox.js
+* RevertDiff[ResourceLoader]|RevertDiff.js
+* Searchbox[ResourceLoader]|lib-beau.js|searchbox.js
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* Prosesize[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util|rights=edit,purge]|Prosesize.js|Prosesize.css
+
+== advanced ==
+* RTRC[ResourceLoader]|RTRC.js
+* XFDcloser[ResourceLoader|dependencies=mediawiki.user|rights=import|type=general]|XFDcloser.js
+* XFDcloser-core[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|XFDcloser-core.js|XFDcloser-core.css
+* XFDcloser-core-beta[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|XFDcloser-core-beta.js|XFDcloser-core-beta.css
+* libExtraUtil[ResourceLoader|hidden]|libExtraUtil.js
+
+== language-gadgets ==
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* OldDevnagritool[ResourceLoader]|OldDevnagritool.js
+
+
+
+<!-- *************     पुराने उपकरण जो वर्तमान में नहीं कार्य कर रहे     ******************** -->
+<!-- * Mayuredittoolsys[ResourceLoader]|Mayuredittoolsys.js -->
+<!-- * MayuredittoolVector[ResourceLoader]|MayuredittoolVector.js -->
+<!--  * autodel[ResourceLoader|rights=sysop|dependencies=mediawiki.util]|autodel.js  -->
+<!-- भाषा उपकरण से  -->
+<!--  * WikiBhasha[ResourceLoader]|WikiBhasha.js -->
+<!-- ------------------------------------------------------------------------------------   -->

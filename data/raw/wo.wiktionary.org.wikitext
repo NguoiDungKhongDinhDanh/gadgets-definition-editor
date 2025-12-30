@@ -1,0 +1,6 @@
+# Cette page sert à définir les gadgets utilisés dans [[Special:Gadgets]]
+# Avant de la modifier, assurez-vous d'avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]]
+# Ne changez pas le nom d'un gadget existant (il serait alors désactivé pour tous)
+# Si un gadget ne fonctionne pas, on peut le commenter en transformant * en #
+
+* HotCats[ResourceLoader]|HotCats.js

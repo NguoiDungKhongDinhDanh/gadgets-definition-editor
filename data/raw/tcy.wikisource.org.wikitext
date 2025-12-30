@@ -1,0 +1,6 @@
+== edittools char insert ==
+* charinsert [ResourceLoader |default |actions=edit] |charinsert.js
+* charinsert-core [ResourceLoader |hidden |dependencies=jquery.textSelection, user, mediawiki.storage] |charinsert-styles.css |charinsert-core.js
+
+== editing tools ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js

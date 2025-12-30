@@ -1,0 +1,163 @@
+<noinclude>
+:''Se även: [[Special:Finesser]]''</noinclude>
+== Editing ==
+*hotcat[ResourceLoader]|hotcat.js
+*editsection0[default|ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util|type=general]|editsection0.js|editsection0.css
+*EdittoolsAboveSummary[default|ResourceLoader|actions=edit]|EdittoolsAboveSummary.js
+*Namespace-sensitiveEdittools[default|ResourceLoader|actions=edit|dependencies=mediawiki.api,jquery.textSelection]|Namespace-sensitiveEdittools.js
+*styleEdittools[default|ResourceLoader|actions=edit]|styleEdittools.css
+*Fullscreen[default|ResourceLoader|actions=edit|skins=vector,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.util]|Fullscreen.js|Fullscreen.css
+*Teckenstorlek[default|ResourceLoader|actions=edit|dependencies=oojs-ui|type=general]|Teckenstorlek.js|Teckenstorlek.css
+*defaultsummaries[ResourceLoader|actions=edit]|defaultsummaries.js
+*AutoSave[ResourceLoader|dependencies=mediawiki.util,oojs-ui,mediawiki.storage|type=general]|AutoSave.js|AutoSave.css
+*PreventAnonEditing[ResourceLoader|hidden|dependencies=mediawiki.user,oojs-ui|type=general]|PreventAnonEditing.js|PreventAnonEditing.css
+*HittaDubbleradeMallargument[ResourceLoader|actions=edit|dependencies=oojs-ui,mediawiki.util]|HittaDubbleradeMallargument.js
+*HittaFelaktigaAartalslaenkar[ResourceLoader|actions=edit|dependencies=oojs-ui,mediawiki.util]|HittaFelaktigaAartalslaenkar.js
+*ValValidering[default|ResourceLoader|actions=edit|namespaces=4|dependencies=oojs-ui,mediawiki.util]|ValValidering.js
+*UserDefinedComments[ResourceLoader|actions=edit|dependencies=oojs-ui|type=general]|UserDefinedComments.js|UserDefinedComments.css
+*ClearComment[ResourceLoader|actions=edit|type=general]|ClearComment.js|ClearComment.css
+*articleQuality[ResourceLoader|type=general]|articleQuality.js|articleQuality.css
+*DisableEnterOnComment[ResourceLoader|actions=edit]|DisableEnterOnComment.js
+
+== Utseende ==
+*oldeditor[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|oldeditor.js|oldeditor.css
+*addsection-plus[ResourceLoader]|addsection-plus.js
+*iwsort[ResourceLoader]|iwsort.js
+*labelfilter[ResourceLoader|namespaces=-1|dependencies=mediawiki.util]|labelfilter.js
+*ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+*FixeradMenyrad[ResourceLoader|skins=vector]|FixeradMenyrad.js|FixeradMenyrad.css
+*ProtectionIndicators[default|ResourceLoader]|ProtectionIndicators.js
+*TruncateIPv6[ResourceLoader]|TruncateIPv6.js
+*GeoboxLocatorMulti[default|ResourceLoader|type=general]|GeoboxLocatorMulti.js|GeoboxLocatorMulti.css
+*Noarticletext[default|ResourceLoader|namespaces=2]|Noarticletext.js
+*InterwikiBadges[default|ResourceLoader]|InterwikiBadges.js
+*collapsibleTables[default|ResourceLoader|dependencies=jquery.makeCollapsible]|collapsibleTables.js
+*MarkGroups[ResourceLoader|dependencies=mediawiki.api]|MarkGroups.js
+*mapframe[ResourceLoader|dependencies=mediawiki.api]|mapframe.js
+*PrettyRefs[ResourceLoader|type=general]|PrettyRefs.js|PrettyRefs.css
+*MarkDeletedPages[ResourceLoader|type=general|dependencies=mediawiki.api|rights=deletedhistory]|MarkDeletedPages.js|MarkDeletedPages.css
+*WikidataLabel[ResourceLoader|dependencies=mediawiki.ForeignApi]|WikidataLabel.js
+*relatedArticles[ResourceLoader|namespaces=0|actions=view]|relatedArticles.js
+
+== Styles ==
+*oldeditlinks[ResourceLoader]|oldeditlinks.css
+*OldDiff[ResourceLoader]|OldDiff.css
+*bkl-check[ResourceLoader]|bkl-check.css
+*markRedirects[ResourceLoader]|markRedirects.css
+*signaturer|signaturer.css
+*mainpage[ResourceLoader|default|namespaces=100|actions=view]|mainpage.css
+*babel[ResourceLoader|default]|babel.css
+*geo[ResourceLoader|default]|geo.css
+*warnings[ResourceLoader|default]|warnings.css
+*tags[ResourceLoader|default]|tags.css
+*error[ResourceLoader|default]|error.css
+*cxcallout[ResourceLoader]|cxcallout.css
+*referenser[default|ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|referenser.css
+*printonly[ResourceLoader|default]|printonly.css
+*tables[default|ResourceLoader]|tables.css
+*toccolours[default|ResourceLoader|skins=vector-2022]|toccolours.css
+*smallTagFontSize[default|ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|smallTagFontSize.css
+*videoPlayButton[default|ResourceLoader]|videoPlayButton.css
+
+== RecentChanges ==
+*minimalRC[ResourceLoader|namespaces=-1]|minimalRC.js
+*RecentChangesAdminNoms[default|ResourceLoader|dependencies=mediawiki.api|namespaces=-1]|RecentChangesAdminNoms.js
+*RecentChangesUnpatrolledPages[default|ResourceLoader|dependencies=mediawiki.api,vue,@wikimedia/codex|rights=patrol|namespaces=-1]|RecentChangesUnpatrolledPages.js
+*RecentChangesSFFR[default|ResourceLoader|dependencies=mediawiki.api|namespaces=-1]|RecentChangesSFFR.js
+*RecentChangesSnabbraderingar[default|ResourceLoader|dependencies=mediawiki.api|namespaces=-1]|RecentChangesSnabbraderingar.js
+*RecentChangesHelp[default|ResourceLoader|dependencies=mediawiki.api|namespaces=-1]|RecentChangesHelp.js
+*RecentChangesProbCat[default|ResourceLoader|dependencies=mediawiki.api|namespaces=-1]|RecentChangesProbCat.js
+*RecentChangesAvblockering[default|ResourceLoader|dependencies=mediawiki.api|namespaces=-1]|RecentChangesAvblockering.js
+*RecentChangesStream[ResourceLoader|dependencies=mediawiki.api,mediawiki.storage,mediawiki.util,oojs-ui|type=general|actions=view|namespaces=4]|RecentChangesStream.js|RecentChangesStream.css
+*DiffDialog[ResourceLoader|dependencies=oojs-ui,mediawiki.api|type=general]|DiffDialog.js|DiffDialog.css
+*EventStreams[ResourceLoader|type=general|dependencies=oojs-ui,mediawiki.util,mediawiki.storage|actions=view|namespaces=4]|EventStreams.js|EventStreams.css
+*rcexcludeuser[ResourceLoader|type=general|dependencies=oojs-ui,mediawiki.storage]|rcexcludeuser.js|rcexcludeuser.css
+
+== Rollback ==
+*RollbackToIP[ResourceLoader|actions=rollback|type=general]|RollbackToIP.js|RollbackToIP.css
+
+== Search ==
+*ExternalSearchEngines[default|ResourceLoader|namespaces=-1|type=general]|ExternalSearchEngines.js|ExternalSearchEngines.css
+*Wdsearch[default|ResourceLoader|namespaces=-1|dependencies=mediawiki.util]|Wdsearch.js
+*SearchEdit[ResourceLoader|namespaces=-1|type=general]|SearchEdit.js|SearchEdit.css
+
+== Contribs ==
+*UppladdningarContentSub[default|ResourceLoader|namespaces=-1]|UppladdningarContentSub.js
+*IP-whois[default|ResourceLoader|dependencies=mediawiki.util|namespaces=-1]|IP-whois.js
+*RevertMoves[ResourceLoader|dependencies=mediawiki.api|rights=suppressredirect|namespaces=-1]|RevertMoves.js
+
+== Hist ==
+*NetDiffSinceLastVisited[ResourceLoader|type=general|dependencies=mediawiki.api]|NetDiffSinceLastVisited.js|NetDiffSinceLastVisitedWL.js|NetDiffSinceLastVisited.css
+*EditsByUser[ResourceLoader|type=general|actions=history|dependencies=oojs-ui,mediawiki.api,mediawiki.util]|EditsByUser.js|EditsByUser.css
+
+== User ==
+*GroupIndicators[default|ResourceLoader|type=general|dependencies=mediawiki.api|namespaces=-1,2,3]|GroupIndicators.js|GroupIndicators.css
+*CommonsUploads[ResourceLoader|dependencies=mediawiki.util|namespaces=-1,2,3]|CommonsUploads.js
+*BlockIndicator[default|ResourceLoader|type=general|dependencies=mediawiki.api|namespaces=-1,2,3]|BlockIndicator.js|BlockIndicator.css
+
+== Talk ==
+*NormaliseraSignatur[ResourceLoader]|NormaliseraSignatur.js
+*NewSection[ResourceLoader|dependencies=mediawiki.util|default|rights=edit]|NewSection.js
+*SignUp[default|ResourceLoader|dependencies=mediawiki.api,mediawiki.ui.button|namespaces=4|actions=view]|SignUp.js|SignUp.css
+*NoHeading[ResourceLoader|actions=edit|dependencies=mediawiki.util,oojs-ui|type=general]|NoHeading.js|NoHeading.css
+
+== Block ==
+*BlockConflict[ResourceLoader|namespaces=-1|dependencies=mediawiki.api,mediawiki.util|rights=block|type=general]|BlockConflict.js|BlockConflict.css
+*Blocked-newusers[ResourceLoader|namespaces=-1|dependencies=mediawiki.api]|blocked-newusers.js
+
+== Watchlist ==
+*Geonotice[default|ResourceLoader|namespaces=-1|rights=viewmywatchlist|type=general|dependencies=mediawiki.cookie,mediawiki.api]|Geonotice.js|Geonotice.css
+
+== Categories ==
+*KategoriTOC[default|ResourceLoader|namespaces=14|dependencies=mediawiki.api]|KategoriTOC.js
+*Redlinks[ResourceLoader|namespaces=14|dependencies=mediawiki.util,mediawiki.api,oojs-ui|type=general]|Redlinks.js|Redlinks.css
+*CategoryCompare[ResourceLoader|namespaces=14|dependencies=mediawiki.util,mediawiki.ForeignApi,vue,@wikimedia/codex|type=general]|CategoryCompare.js|CategoryCompare.css
+*Kategorikarta[ResourceLoader|namespaces=14|dependencies=mediawiki.api,ext.kartographer.linkbox]|kategorikarta.js
+*Redirectcategories[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|redirectcategories.js
+
+== Mobile ==
+*ExpanderaAllaSektioner[ResourceLoader|skins=minerva|type=general]|ExpanderaAllaSektioner.js|ExpanderaAllaSektioner.css
+*desktopMobileToggler[ResourceLoader|dependencies=mediawiki.util]|desktopMobileToggler.js|desktopMobileToggler.css
+*minervaTalkFullPage[default|ResourceLoader|skins=minerva|namespaces=1,3,5,9,11,15,101,829]|minervaTalkFullPage.js
+*helpLinkMinerva[default|ResourceLoader|skins=minerva|dependencies=mediawiki.api,mediawiki.util,oojs-ui.styles.icons-interactions]|helpLinkMinerva.js|helpLinkMinerva.css
+
+== Misc ==
+*searchenginelinks[ResourceLoader|dependencies=mediawiki.util]|searchenginelinks.js
+*ksamsok[ResourceLoader|dependencies=mediawiki.util]|ksamsok.js
+*editssincelast[ResourceLoader|dependencies=mediawiki.util,mediawiki.user]|editssincelast.js
+*stats[ResourceLoader|dependencies=mediawiki.util]|stats.js
+*teahouse[ResourceLoader|default|type=general|namespaces=4]|teahouse.js|teahouse.css
+*DuHarNyaMeddelandenSidfot[ResourceLoader]|DuHarNyaMeddelandenSidfot.js
+*ExkluderaRobotskapadeSidor[default|ResourceLoader]|ExkluderaRobotskapadeSidor.js
+*Katalogreferenser[ResourceLoader|namespaces=0|dependencies=mediawiki.api]|Katalogreferenser.js|Katalogreferenser.css
+*LocalHelpLinks[default|ResourceLoader|type=general|actions=protect]|LocalHelpLinks.js|LocalHelpLinks.css
+*FocusSearch[ResourceLoader]|FocusSearch.js
+*Nearby[default|ResourceLoader|dependencies=mediawiki.util]|Nearby.js
+*NavigationPopups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|NavigationPopups.js|NavigationPopups.css
+*RightsComment[default|ResourceLoader|rights=delete|type=general|namespaces=-1]|RightsComment.js|RightsComment.css
+*InterProjectLinks[default|ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|InterProjectLinks.js|InterProjectLinks.css
+*cgiircbox[default|ResourceLoader]|cgiircbox.js
+*withJS[default|ResourceLoader|dependencies=mediawiki.util]|withJS.js
+*CommonsFileLinks[default|ResourceLoader]|CommonsFileLinks.js
+*tableSorterCollation[default|ResourceLoader]|tableSorterCollation.js
+*InfogaRaderamall[ResourceLoader|dependencies=mediawiki.api,oojs-ui|type=general]|InfogaRaderamall.js|InfogaRaderamall.css
+*PlaySound[ResourceLoader]|PlaySound.js
+*DeletePage[ResourceLoader|rights=delete|dependencies=mediawiki.api]|DeletePage.js
+*JumpToCorrectSection[ResourceLoader]|JumpToCorrectSection.js
+*mwusergetnameorIP[ResourceLoader|hidden|dependencies=mediawiki.user,mediawiki.api]|mwusergetnameorIP.js
+*FaktamallBiografiWD[ResourceLoader|namespaces=0|dependencies=mediawiki.api|type=general]|FaktamallBiografiWD.js|FaktamallBiografiWD.css
+*PatrolAndDelete[default|ResourceLoader|rights=delete|dependencies=mediawiki.api,mediawiki.util]|PatrolAndDelete.js
+*Artikelstorlek[ResourceLoader|dependencies=mediawiki.api]|Artikelstorlek.js
+*Purgelink[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|Purgelink.js
+*ResavePage[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|ResavePage.js|ResavePage.css
+*updateURLOnScroll[ResourceLoader]|updateURLOnScroll.js
+*WikidataDescriptionStyles[ResourceLoader|hidden]|WikidataDescriptionStyles.css
+*WikidataDescription[default|ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,mediawiki.api,mediawiki.ForeignApi,oojs-ui|peers=WikidataDescriptionStyles]|WikidataDescription.js|WikidataDescription.css
+*WikidataCoords[ResourceLoader|dependencies=mediawiki.api,mediawiki.ForeignApi]|WikidataCoords.js
+*todolist[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|todolist.js
+*Diffstorlek[ResourceLoader|dependencies=mediawiki.api,mediawiki.special.changeslist]|Diffstorlek.js
+*ReportProblem[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,oojs-ui]|ReportProblem.js|ReportProblem.css
+*SearchWikidataUnconnected[ResourceLoader|dependencies=mediawiki.util]|SearchWikidataUnconnected.js
+*Wikispeech[ResourceLoader]|Wikispeech.js
+*MoveArticleToUserSubpage[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|namespaces=0]|MoveArticleToUserSubpage.js
+*NewPagesPatrol[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,vue,@wikimedia/codex|rights=patrol|namespaces=-1]|NewPagesPatrol.js

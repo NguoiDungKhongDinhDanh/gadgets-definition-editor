@@ -1,0 +1,20 @@
+== browsing ==
+* Navigation popups[ResourceLoader] | Popups-local.js
+* edithysteria [ResourceLoader | dependencies=mediawiki.util] | edithysteria.js
+* quickeditcounter [ResourceLoader | dependencies=mediawiki.util] | quickeditcounter.js
+
+== editing ==
+* HotCat [ResourceLoader] | HotCat.js
+* searchbox[ResourceLoader] | searchbox.js
+* wikibugs [ResourceLoader | default | dependencies=mediawiki.util, mediawiki.user, jquery.ui] | JsMwApi.js | wikibugs.js | wikibugs.css
+
+== appearance ==
+* colored-discussion [ResourceLoader] | colored-discussion.css
+* mark-redirs [ResourceLoader] | mark-redirs.css
+* colored-nicknames [ResourceLoader | dependencies=mediawiki.util] | colored-nicknames.js
+* disable-animations [ResourceLoader] | disable-animations.js
+* featured-articles-links [ResourceLoader | default] | featured-articles-links.js | featured-articles-links.css
+
+== admin ==
+* dynamic-ips [ResourceLoader] | dynamic-ips.js
+* delete [ResourceLoader | dependencies=mediawiki.util | rights=delete] | delete-local.js | delete.css

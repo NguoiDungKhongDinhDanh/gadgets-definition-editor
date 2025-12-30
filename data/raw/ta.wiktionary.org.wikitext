@@ -1,0 +1,27 @@
+<noinclude>See [[WT:Gadgets]] for documentation of these gadgets. See also [[WT:PREFS]] for other preferences.</noinclude>
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* TranslationAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data]|TranslationAdder.js
+* DefSideBoxes[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,ext.gadget.DefinitionsAdder|type=general]|DefSideBoxes.js|DefSideBoxes.css
+* ProveIt[ResourceLoader]|ProveIt.js
+
+== interface-gadgets ==
+* SocialMedia[ResourceLoader|default]|SocialMedia.js
+* WiktCountryFlags[ResourceLoader|type=styles]|WiktCountryFlags.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* TargetedTranslations[ResourceLoader|default|dependencies=mediawiki.storage,mediawiki.cookie]|TargetedTranslations.js
+* CategoryAboveAll[ResourceLoader]|CategoryAboveAll.js
+* Edittools[ResourceLoader]|Edittools.js
+
+== appearance ==
+* Blackskin[ResourceLoader|skins=monobook,vector]|Blackskin.css
+* HideSidebar[ResourceLoader|skins=vector]|HideSidebar.js
+
+Hidden gadget
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* DefinitionsAdder[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.util,ext.gadget.Editor]|DefinitionsAdder.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* LanguageUtils[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.StorageUtils]|LanguageUtils.js
+* LegacyScriptsNewNode[ResourceLoader|hidden]|LegacyScriptsNewNode.js
+* TranslationAdder-Data[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.LanguageUtils]|TranslationAdder-Data.js

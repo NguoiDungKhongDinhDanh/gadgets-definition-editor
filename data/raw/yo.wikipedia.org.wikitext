@@ -1,0 +1,34 @@
+<noinclude>'''Changes to this page should first be discussed on [[Wikipedia:Village pump (technical)]] or [[Wikipedia_talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikipedia:Gadget#Currently installed gadgets]] to make maintenance easier. You can review and edit the descriptions on [[Special:Gadgets]].
+</noinclude>
+
+== browsing ==
+
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|twinkleblock.js|friendlytalkback.js|Twinkle.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options,mediawiki.util|type=general]|popups.js
+
+== watchlist ==
+
+* WatchlistBase[ResourceLoader|default|rights=viewmywatchlist|skins=vector,monobook,modern]|WatchlistBase.css
+* WatchlistGreenIndicators[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=vector]|WatchlistGreenIndicators.css
+* WatchlistGreenIndicatorsMono[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=monobook,modern]|WatchlistGreenIndicatorsMono.css
+* WatchlistChangesBold[ResourceLoader|peers=WatchlistBase]|WatchlistChangesBold.css
+
+== editing ==
+* citations[ResourceLoader|dependencies=mediawiki.util]|citations.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+
+== appearance ==
+
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* responsiveContent[ResourceLoader|type=general|skins=vector|peers=responsiveContentBase]|responsiveContent.js
+* responsiveContentTimeless[ResourceLoader|type=general|skins=timeless|default|peers=responsiveContentBaseTimeless]|responsiveContentTimeless.js
+
+== advanced ==
+
+* RTRC[ResourceLoader]|RTRC.js

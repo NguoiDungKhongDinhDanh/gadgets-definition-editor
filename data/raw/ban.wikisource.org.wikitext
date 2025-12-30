@@ -1,0 +1,8 @@
+== editing-tools ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* Transcriber[ResourceLoader]|Transcriber.js
+
+== interface ==
+
+== hidden ==

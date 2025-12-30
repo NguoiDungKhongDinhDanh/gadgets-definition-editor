@@ -1,0 +1,21 @@
+== editing-gadgets ==
+* TranslationAdder[ResourceLoader|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,mediawiki.util,ext.gadget.TranslationAdder-Data]|TranslationAdder.js
+* WiktAccFormCreation[ResourceLoader|dependencies=mediawiki.util]|WiktAccFormCreation.css|WiktAccFormCreation.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user|type=general]|charinsert-core.js|charinsert-core.css
+* QQ[ResourceLoader|dependencies=jquery.ui,mediawiki.util,mediawiki.Uri|type=general]|QQ.js|QQ.css
+
+== browsing-gadgets ==
+* purgetab[default|ResourceLoader|dependencies=mediawiki.util,user.options,mediawiki.api]|purgetab.js
+* keysampa2ipa[ResourceLoader]|keysampa2ipa.js
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|type=general]|DocTabs.js|DocTabs.css
+* Wdsearch[ResourceLoader]|Wdsearch.js
+* VisibilityToggles[ResourceLoader|hidden|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+
+== modules ==
+* LegacyScripts[ResourceLoader|default|dependencies=site,mediawiki.util,mediawiki.cookie,ext.gadget.LegacyScriptsNewNode|type=general]|legacy.js
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* LegacyScriptsNewNode[ResourceLoader|hidden]|LegacyScriptsNewNode.js
+* TranslationAdder-Data[ResourceLoader|hidden]|TranslationAdder-Data.js
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title]|catfix.js

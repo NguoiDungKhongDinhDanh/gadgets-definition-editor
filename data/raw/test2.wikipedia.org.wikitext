@@ -1,0 +1,79 @@
+<noinclude>'''See [[Special:Gadgets]] and [[Special:Preferences#mw-prefsection-gadgets]].'''</noinclude>
+
+== browsing ==
+
+* modrollback[ResourceLoader]|modrollback.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util|type=general]|popups.js|navpop.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* search-new-tab[ResourceLoader]|search-new-tab.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* responsiveContentBase[ResourceLoader|type=styles|skins=vector|hidden]|responsiveContentBase.css
+* responsiveContent[ResourceLoader|type=general|skins=vector|peers=responsiveContentBase]|responsiveContent.js
+
+== watchlist ==
+* watchlist-notice[ResourceLoader|default]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+* geonotice[ResourceLoader|default|rights=viewmywatchlist]|geonotice.js
+* geonotice-core[ResourceLoader|dependencies=mediawiki.util,mediawiki.storage|hidden|type=general]|geonotice-list.js‎|geonotice-core.js|geonotice-core.css
+* WatchlistBase[ResourceLoader|type=styles|default|hidden|rights=viewmywatchlist|dependencies=mediawiki.special.changeslist|skins=vector,monobook,modern]|WatchlistBase.css
+* WatchlistGreenIndicators[ResourceLoader|type=styles|default|rights=viewmywatchlist|dependencies=ext.gadget.WatchlistBase|skins=vector]|WatchlistGreenIndicators.css
+* WatchlistGreenIndicatorsMono[ResourceLoader|type=styles|default|rights=viewmywatchlist|dependencies=ext.gadget.WatchlistBase|skins=monobook,modern]|WatchlistGreenIndicatorsMono.css
+* WatchlistChangesBold[ResourceLoader|type=styles|dependencies=ext.gadget.WatchlistBase]|WatchlistChangesBold.css
+
+== editing ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* WikiBayerCatHelper[ResourceLoader|rights=edit]|WBCatHelper.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* ProveIt[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util|type=general]|ProveIt.css|ProveIt.js
+* wikEd[ResourceLoader]|wikEd.js
+
+
+== appearance ==
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js|edittop.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* mySandbox[ResourceLoader|dependencies=mediawiki.util,mediawiki.Title,mediawiki.Uri|rights=createpage]|mySandbox.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* CollapsibleNav[ResourceLoader|dependencies=mediawiki.cookie|skins=vector]|CollapsibleNav.js|CollapsibleNav.css
+* CollapsedSidePanels[ResourceLoader|skins=vector]|CollapsedSidePanels.js|CollapsedSidePanels.css
+* MenuTabsToggle[ResourceLoader|dependencies=mediawiki.cookie|skins=vector]|MenuTabsToggle.js|MenuTabsToggle.css
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* NoAnimations[ResourceLoader]|NoAnimations.js
+* NoSmallFonts[ResourceLoader]|NoSmallFonts.css
+* metadata[ResourceLoader]|metadata.js|metadata.css
+* PrettyLog[ResourceLoader|dependencies=mediawiki.util|type=general]|PrettyLog.js|PrettyLog.css
+* Blackskin[ResourceLoader|skins=monobook]|Blackskin.css
+* widensearch[ResourceLoader|skins=vector]|widensearch.css
+* CleanDeleteReasons[ResourceLoader|default|rights=delete]|CleanDeleteReasons.js
+
+== compatibility ==
+* DejaVu_Sans[ResourceLoader]|DejaVu_Sans.css
+
+== advanced ==
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* AutohidePanel[ResourceLoader|skins=vector]|AutohidePanel.css
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* RTRC[ResourceLoader]|RTRC.js
+
+== test ==
+* MobileMaps[ResourceLoader|skins=minerva,minervaneue|default]|mobilemaps.js
+
+== bnwiki ==
+* URLShortener[ResourceLoader|dependencies=mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|type=general|targets=desktop,mobile]|URLShortener.js|URLShortener.css
+*DC[ResourceLoader|rights=autoconfirmed|dependencies=mediawiki.util, mediawiki.api,mediawiki.Title|type=general]|dc.js|dc.css
+* ListingEditor2023[ResourceLoader|default|type=general]|ListingEditor2023.js
+
+== viwiki ==
+* Twinkle[ResourceLoader|dependencies=ext.gadget.select2,mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|vimorebits.js|morebits.css|viTwinkle.js|vitwinkleprod.js|vitwinkleimage.js|vitwinklebatchundelete.js|vitwinklewarn.js|vitwinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|vitwinkleblock.js|friendlytalkback.js|Twinkle.css
+* Twinkle-pagestyles[hidden|skins=vector|rights=autoconfirmed]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+
+=== hidden ===
+<!-- the following support ListingEditor2023 -->
+
+* ListingEditorConfig[ResourceLoader|package|hidden]|ListingEditorConfig.js|ListingEditor.json
+* ListingEditorMain[ResourceLoader|hidden|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor2023Main.js|ListingEditor.css
+* ListingEditorMainBeta[ResourceLoader|hidden|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor2023MainBeta.js|ListingEditor.css
+* NightMode[ResourceLoader|default|hidden|skins=vector-2022,minerva]|night-mode.css

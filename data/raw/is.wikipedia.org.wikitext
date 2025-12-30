@@ -1,0 +1,22 @@
+==read==
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* InterwikiOrder[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.api]|InterwikiOrder.js
+
+==edit==
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* HotCat[ResourceLoader|action=view|dependencies=mediawiki.user]|HotCat.js
+* graabot[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=styles]|graabot.css
+* refToolbar[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|action=edit|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarPL[ResourceLoader|rights=edit|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|action=edit|dependencies=jquery.textSelection, ext.gadget.lib-toolbar, ext.gadget.lib-sel_t, jquery.makeCollapsible ]|refToolbarPL.js
+* ResumeDeluxe [ResourceLoader|type=general|dependencies=user] | ResumeDeluxe.js | ResumeDeluxe.css
+
+==other==
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* Add-purge[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|Add-purge.js
+* short-pages[ResourceLoader|dependencies=mediawiki.util]|short-pages.js
+* similar-titles[ResourceLoader|dependencies=mediawiki.util]|similar-titles.js
+* luxo-edit-counter[ResourceLoader|dependencies=mediawiki.util]|luxo-edit-counter.js
+* show-bot-activity[ResourceLoader|dependencies=mediawiki.util|type=general]|show-bot-activity.js|show-bot-activity.css
+* show-sysop-activity[ResourceLoader|dependencies=mediawiki.util|type=general]|show-sysop-activity.js|show-sysop-activity.css
+* lib-toolbar [ResourceLoader | dependencies=mediawiki.user, user.options | hidden] | lib-toolbar.js
+* lib-sel_t [ResourceLoader | hidden] | sel t.js

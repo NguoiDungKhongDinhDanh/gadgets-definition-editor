@@ -1,0 +1,10 @@
+== editing-tools ==
+* extratoolbarbuttons[ResourceLoader]|extratoolbarbuttons.js
+* HotCat[ResourceLoader]|HotCat.js
+* edittop[ResourceLoader]|edittop.js
+
+== interface ==
+
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user]|charinsert-core.js|charinsert-core.css

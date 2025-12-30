@@ -1,0 +1,2 @@
+*spellingstyle[ResourceLoader|default]|spellingstyle.js
+* VectorClassic[ResourceLoader|skins=vector]|VectorClassic.css

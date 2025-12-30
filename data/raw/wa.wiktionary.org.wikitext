@@ -1,0 +1,11 @@
+== Afitchaedje ==
+* ReduceToc[ResourceLoader|dependencies=mediawiki.util]|ReduceToc.js
+* Autoredirect[ResourceLoader|default]|Autoredirect.js
+
+== Media ==
+* PopupAudio[ResourceLoader|dependencies=mediawiki.util]|PopupAudio.js
+
+== Candjmint ==
+* HotCat[ResourceLoader]|HotCat.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util, mediawiki.api]|purgetab.js
+* TransQuickChange[ResourceLoader]|TransQuickChange.js|TransQuickChange.css

@@ -1,0 +1,30 @@
+These are little pieces of JS that do cool stuff. If there is a problem with any of them, or you want something new, please ask at [[Wikinews:Water cooler/technical]] or find a friendly javascripting admin.
+
+==browsing-gadgets== 
+* wikidialog[ResourceLoader|default|targets=desktop,mobile|dependencies=mediawiki.util]|wikidialog.js
+* wikidialog-x[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util]|wikidialog-x.js
+* HideCentralNotice [ResourceLoader|type=general] |HideCentralNotice.js |HideCentralNotice.css
+
+==editing-gadgets==
+* HotCat[ResourceLoader|rights=edit|targets=desktop,mobile]|HotCat.js
+* wikEd[ResourceLoader]|wikiEd.js
+
+==review-gadgets==
+* charCount[ResourceLoader|dependencies=mediawiki.util]|articleCharacterCount.js
+* onScreenEdit[ResourceLoader|dependencies=mediawiki.util]|onScreenEdit.js
+
+==interface-gadgets==
+* ExtWindow[ResourceLoader|dependencies=mediawiki.util]|extlinks.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* pseudodelete[ResourceLoader|dependencies=mediawiki.util]|pseudodelete.js
+* showAccessKeys|showAccessKeys.css
+* underlinePedia|underlinePedia.css
+* welcomer[ResourceLoader|dependencies=mediawiki.util]|welcomer.js
+* whighlighter|whighlighter.css
+* hidevotings|hidevotings.css
+* floodstyle[ResourceLoader|dependencies=mediawiki.util]|floodstyle.js
+
+==Opinion==
+* AutoWatchAdd[ResourceLoader]|CommentWatch.js
+* talkHighlighting|talkSeperate.css

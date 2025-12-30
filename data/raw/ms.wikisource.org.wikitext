@@ -1,0 +1,23 @@
+== editing-tools ==
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js|charinsert-core.css
+* RegexMenuFramework[ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* TemplatePreloader[ResourceLoader|actions=edit]|TemplatePreloader.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+
+== editing-tools-for-Index-namespace ==
+* transclusion-check[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|actions=view|namespaces=106]|transclusion-check.js|transclusion-check.css
+
+== editing-tools-for-Page-namespace ==
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+
+== interface ==
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+
+== development ==
+* WE-framework WS[ResourceLoader]|WE-framework WS.js
+* WikidataInfo [ResourceLoader|dependencies=mediawiki.jqueryMsg] | WikidataInfo.js|WikidataInfo.css

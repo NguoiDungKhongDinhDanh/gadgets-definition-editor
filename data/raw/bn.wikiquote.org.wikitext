@@ -1,0 +1,24 @@
+== editing-gadgets ==
+* QuickQuote[ResourceLoader|type=general|targets=desktop,mobile]|QuickQuote.js|QuickQuote.css
+* HotCat[ResourceLoader|rights=edit|targets=desktop,mobile]|HotCat.js
+* sompadonasarangsho[ResourceLoader|default|type=general|dependencies=mediawiki.ui.button,mediawiki.util]|sompadonasarangsho.js|sompadonasarangsho.css
+* edittop[ResourceLoader]|edittop.js
+* DiscussionCloser[ResourceLoader|type=general|rights=autoconfirmed]|DiscussionCloser.js
+*morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+*Twinkle-pagestyles[hidden|skins=vector,vector-2022]|Twinkle-pagestyles.css
+
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.api,mediawiki.user,mediawiki.util,user.options,mediawiki.jqueryMsg|type=general]|popups.js
+* exlinks[ResourceLoader|default|dependencies=mediawiki.util]|exlinks.js
+* toholghor[ResourceLoader|dependencies=mediawiki.util|targets=desktop,mobile]|toholghor.js|toholghor.css
+
+== interface-gadgets ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* LocalLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|LocalLiveClock.js|UTCLiveClock.css
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+
+== development ==
+* URLShortener[ResourceLoader|dependencies=mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|default|type=general|targets=desktop,mobile]|URLShortener.js|URLShortener.css

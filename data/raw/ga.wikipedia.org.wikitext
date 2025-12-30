@@ -1,0 +1,16 @@
+== browsing ==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util|targets=desktop,mobile]|confirmationRollback-mobile.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.api,mediawiki.user,mediawiki.util,user.options,mediawiki.jqueryMsg|type=general]|popups.js|navpop.css
+
+== watchlist ==
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist]|watchlist-notice.js
+
+== appearance ==
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* UTCLiveClock[ResourceLoader|supportsUrlLoad|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,vector-2022,monobook]|UTCLiveClock-pagestyles.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* ExternalSearch[ResourceLoader]|externalsearch.js
+* CollapsibleNav[ResourceLoader|dependencies=jquery.makeCollapsible,mediawiki.storage|skins=vector,vector-2022]|CollapsibleNav.js|CollapsibleNav.css
+* MenuTabsToggle[ResourceLoader|dependencies=mediawiki.cookie|skins=vector,vector-2022|type=general]|MenuTabsToggle.js|MenuTabsToggle.css

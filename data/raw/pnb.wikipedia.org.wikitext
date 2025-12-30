@@ -1,0 +1,112 @@
+{{پنجابی گنتی}}
+
+<noinclude><div class="mw-content-ltr small" style="overflow: auto;"></noinclude>
+__NOTOC__
+
+== Extra-Editbuttons ==
+* Extra-Editbuttons[ResourceLoader|dependencies=mediawiki.util|default|rights=minoredit]|Extra-Editbuttons.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-dictionary.js|Extra-Editbuttons-autoed.js|Extra-Editbuttons-botworks.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+* Edittools[ResourceLoader|default|type=general]|Edittools.js|Edittools.css
+* BotTools[ResourceLoader|rights=move|dependencies=mediawiki.util]|BotTools.js
+* toFawikiAlot[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util]|toFawikiAlot.js
+
+== Discussion-tools ==
+* signit[ResourceLoader|default]|signit.js
+
+== editing ==
+* WikEd[ResourceLoader]|WikEd.js
+* Urdu Keymapper[ResourceLoader]|Urdu Keymapper.js
+* TemplateParamWizard[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,jquery.ui,mediawiki.util|default]|TemplateParamWizard.js
+<!-- * signit[ResourceLoader|default]|signit.js -->
+* userScriptSandbox[ResourceLoader|default]|userScriptSandbox.css|userScriptSandbox.js
+* QPreview[ResourceLoader]|QPreview.js
+* autodel[ResourceLoader|dependencies=mediawiki.util]|autodel.js
+* fist[ResourceLoader|dependencies=mediawiki.util]|fist.js
+<!-- * sign[ResourceLoader]|sign.js -->
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* Summarieslist[ResourceLoader|dependencies=mediawiki.util]|Summarieslist.js
+* OrphanCheck[ResourceLoader|default]|OrphanCheck.js
+* saveandedit[ResourceLoader]|saveandedit.js
+* AddEditLinkToOldVersionLinks[ResourceLoader]|AddEditLinkToOldVersionLinks.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* ProveIt[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util]|ProveIt.css|ProveIt.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection,user]|charinsert-core.js|charinsert-core.css
+* prota[ResourceLoader|default]|prota.js
+* Edittools[ResourceLoader|default]|Edittools.js
+* MufidAlaat[ResourceLoader]|MufidAlaat.js
+== Design ==
+* quickLinker[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|quickLinker.js
+* redirect[ResourceLoader]|redirect.css
+* disambig[ResourceLoader|default|rights=minoredit]|disambig.css
+* updateMarker[ResourceLoader]|updateMarker.css
+* redlinks[ResourceLoader]|redlinks.css
+* OldDiff[ResourceLoader]|OldDiff.css
+* PrettyLog[ResourceLoader|dependencies=mediawiki.util]|PrettyLog.js|PrettyLog.css
+
+== Categories ==
+* HotCatsMulti[ResourceLoader]|HotCatsMulti.js
+* HotCat[ResourceLoader|default|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|rights=rollback]|Cat-a-lot.css|Cat-a-lot.js
+* subcatContentSummary[ResourceLoader]|subcatContentSummary.js
+* CatMaker[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|CatMaker.js|CatMaker.css
+* RenommageCategorie[ResourceLoader|rights=delete|dependencies=mediawiki.util]|RenommageCategorie.js
+*incategory[default|ResourceLoader|dependencies=jquery.ui,mediawiki.api]|incategory.js|incategory.css
+
+== Interwiki ==
+* quickwikidata[ResourceLoader]|quickwikidata.js
+
+== appearance ==
+* ExternalSearch[ResourceLoader|default]|externalsearch.js
+* metadata[ResourceLoader|dependencies=mediawiki.util]|metadata.js
+* foldPortalMenus[ResourceLoader|dependencies=jquery.jStorage]|foldPortalMenus.js|foldPortalMenus.css
+* NavigAdmin[ResourceLoader]|NavigAdmin.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+
+== browsing ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* imagelinks[ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+* WikidataTab[ResourceLoader]|WikidataTab.js
+
+== Interface ==
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* AncreTitres[ResourceLoader]|AncreTitres.js
+
+== fonts ==
+* NotoNastaleeq[ResourceLoader|top|targets=desktop,mobile]|NotoNastaleeq.css
+* NotoNastaleeqMobile[ResourceLoader|top|skins=minerva]|NotoNastaleeqMobile.css
+
+== patrol-tools ==
+
+
+== compatibility ==
+
+
+== advanced ==
+
+* RTRC[ResourceLoader]|RTRC.js
+
+== toolbox ==
+
+* recentchangesbox[ResourceLoader|dependencies=mediawiki.util]|recentchangesbox.js
+
+== statistics ==
+* stru-contavisite[ResourceLoader|dependencies=mediawiki.util]|stru-contavisite.js
+
+== othermod ==
+* TransferToCommons[ResourceLoader|dependencies=mediawiki.util]|TransferToCommons.js
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* FileSiblings[ResourceLoader]|FileSiblings.js
+== beta ==
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+
+== modules ==
+* morebits[ResourceLoader|hidden]|morebits.js|morebits.css
+== test ==
+* SidebarTranslate[ResourceLoader]|SidebarTranslate.js|SidebarTranslate.css
+* RedirectMaker[ResourceLoader|dependencies=jquery.ui,mediawiki.util]|RedirectMaker.js|RedirectMaker.css
+<noinclude></div></noinclude>

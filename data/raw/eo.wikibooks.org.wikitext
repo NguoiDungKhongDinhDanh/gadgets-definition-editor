@@ -1,0 +1,9 @@
+== Ĝenerala ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* PropraProvejo[ResourceLoader|dependencies=mediawiki.util]|PropraProvejo.js
+
+== Redaktado ==
+* VarmaKato[ResourceLoader]|VarmaKato.js
+
+== Administraj ==
+* MalplenaForigokialo[ResourceLoader]|MalplenaForigokialo.js

@@ -1,0 +1,3 @@
+* SurumGizleyici[ResourceLoader|rights=deleterevision]|SurumGizleyici.js
+* HizliBilgi[ResourceLoader|default]|HizliBilgi.js
+* HotCat[ResourceLoader|default|rights=minoredit]|HotCat.js

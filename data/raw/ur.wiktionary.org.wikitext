@@ -1,0 +1,10 @@
+<noinclude><div class="mw-content-ltr small" style="overflow: auto;"></noinclude>
+__NOTOC__
+
+==  patrol-tools ==
+* HotCatsMulti[ResourceLoader]|HotCatsMulti.js
+* Cat-a-lot[ResourceLoader|rights=rollback]|Cat-a-lot.css|Cat-a-lot.js
+*decodesummary[ResourceLoader|default|targets=desktop,mobile]|decodesummary.js
+
+== Creation ==
+* CreerNouveauMot[ResourceLoader|type=general]|CommonWikt.js|CreerNouveauMot.js|CreerNouveauMot.css

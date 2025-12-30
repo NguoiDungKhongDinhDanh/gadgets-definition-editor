@@ -1,0 +1,11 @@
+== interface-gadgets ==
+* UTCLiveClock[ResourceLoader]| UTCLiveClock.js
+* contribsrange[ResourceLoader]| contribsrange.js
+* modrollback[ResourceLoader]| modrollback.js
+* ShortDiff[ResourceLoader]| ShortDiff.js
+* Wikiminiatlas[ResourceLoader]| Wikiminiatlas.js
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+* patrolling[ResourceLoader]|patrolling.js
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]| popups.css | popups.js

@@ -1,0 +1,35 @@
+== ondemand ==
+* ondemand-mainPage[ResourceLoader |default |hidden |categories=Glavna stranica |dependencies=mediawiki.util] |ondemand-mainPage.js
+
+== Administracija ==
+* CleanDeleteReasons [ResourceLoader|default|rights=delete]|CleanDeleteReasons.js
+* Massblock [ResourceLoader|rights=block|dependencies=mediawiki.api]|Massblock.js
+
+== Arhiviranje ==
+* OneClickArchiver[ResourceLoader|rights=edit]|OneClickArchiver.js
+
+== Čitanje ==
+* ReferenceTooltips [ResourceLoader |default |skins=vector, vector-2022, monobook, timeless, modern, cologneblue |type=general |dependencies=mediawiki.cookie, jquery.client] |ReferenceTooltips.js |ReferenceTooltips.css
+* Tabs[ResourceLoader|hidden|default|targets=desktop,mobile]|Tabs.js
+
+== Patrola ==
+* BrzoPatroliranje[ResourceLoader|default|rights=edit,patrolmarks]|BrzoPatroliranje.js
+
+== Sučelje ==
+* extratoolbarbuttons[ResourceLoader|rights=edit]|extratoolbarbuttons.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api,user|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* stats[ResourceLoader|rights=edit|dependencies=mediawiki.util]|stats.js
+* ToDoList[ResourceLoader]|ToDoList.js
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+
+== Uređivanje ==
+* BrzoBrisanje[ResourceLoader|default|rights=edit,autoconfirmed]|BrzoBrisanje.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* CategoryMaster[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util]|CategoryMaster.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css

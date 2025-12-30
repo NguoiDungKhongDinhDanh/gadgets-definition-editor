@@ -1,0 +1,74 @@
+== Bearbeitungswerkzeuge ==
+* toolserver-integration[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|toolserver-integration.js
+* Vorlagenmeister[ResourceLoader|actions=edit|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|Vorlagenmeister.js
+* wikEd[ResourceLoader|actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,user]|wikEd.js
+* HotCat[ResourceLoader|actions=view]|HotCat.js
+* Einleitung-bearbeiten[ResourceLoader|actions=view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|Einleitung-bearbeiten.js
+* Rechtschreibpruefung[ResourceLoader|actions=view]|Rechtschreibpruefung.js
+* bkl-check[actions=edit,view]|bkl-check.css
+* contribsrange[ResourceLoader|actions=view|namespaces=-1|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* editMenus[ResourceLoader|default|actions=edit|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|editMenus.js
+* editMenusDef[ResourceLoader|hidden|actions=edit|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|editMenusDef.js|editMenusDef.css
+* createNewSection[ResourceLoader|default|actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|namespaces=0,1]|createNewSection.js
+* easyNewSection[ResourceLoader|default|actions=view|namespaces=1,2,3,4,5,7,9,11,13,15,100,101,829|skins=vector,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|easyNewSection.js
+
+== Navigation ==
+* navigation-popups[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,mediawiki.user]|navigation-popups/de.js
+* Suchfokus-Hauptseite[ResourceLoader|actions=view|namespaces=4|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|categories=MediaWiki:Gadget/Suchfokus-Hauptseite]|Suchfokus-Hauptseite.js
+* Pfeil-hoch[ResourceLoader|actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.util]|Pfeil-hoch.css|Pfeil-hoch.js
+* editsection-align-end[actions=view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|editsection-align-end.css
+* revisionjumper[ResourceLoader|actions=history,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|revisionjumper.js
+* PermaPageLink[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|PermaPageLink.js
+* navileisteAutocollapse[ResourceLoader|default|actions=edit,view]|navileisteAutocollapse.js
+* Erweiterte-Navigationsleiste-Quicklinks[actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|Erweiterte-Navigationsleiste-Quicklinks.css
+
+== VeraenderungOberflaeche ==
+* Personendaten[actions=edit,view]|Personendaten.css
+* WikiMiniAtlas[ResourceLoader|default|actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|WikiMiniAtlas.js|WikiMiniAtlas.css
+* OpenStreetMap[ResourceLoader|default|actions=edit,view|skins=vector,vector-2022,monobook,timeless]|OpenStreetMap.js
+* rightsfilter[ResourceLoader|actions=history,view|dependencies=mediawiki.util|skins=vector,vector-2022,monobook,timeless]|rightsfilter.js
+* PrettyLog[ResourceLoader|actions=view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.util]|PrettyLog.js|PrettyLog.css
+* PB[ResourceLoader|actions=view|namespaces=4|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.api,mediawiki.util]|PB.js
+* revisionCounter[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.api,mediawiki.user]|revisionCounter.js
+* markAdmins[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|markAdmins.js
+* CommonsDirekt[ResourceLoader|actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,user.options|default]|Direct-link-to-Commons.js
+
+== Lesehilfen ==
+* Screenreader-Optimierung[ResourceLoader|skins=vector,monobook,timeless,modern,cologneblue]|Screenreader-Optimierung-TOC.js
+* Rot-Gruen-Sehschwaeche|Rot-Gruen-Sehschwaeche.css
+* Doppel-s-Schreibung[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|Doppel-s-Schreibung.js
+* Zeitzonenkonverter[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|Zeitzonenkonverter.js
+* ReferenceTooltips[ResourceLoader|actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== Wiederherstellen ==
+* old-movepage[ResourceLoader|actions=view|namespaces=-1|rights=move|default]|old-movepage.js
+* mediawiki.toolbar[ResourceLoader|hidden|actions=edit|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|mediawiki.toolbar.js
+* LegacyToolbar2006[ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar|actions=edit|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|LegacyToolbar2006.js
+* Extra-Editbuttons[ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar|actions=edit|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|Extra-Editbuttons.js|Extra-Editbuttons.css
+* VectorClassic[skins=vector]|VectorClassic.css
+* old-diff-style[actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|old-diff-style.css
+
+== Administratoren-und-Interna ==
+* importUtility[ResourceLoader|actions=edit,view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|rights=import]|importUtility.js
+
+== Systemgadgets ==
+* annotationPair[ResourceLoader|default|hidden|actions=edit,view|categories=MediaWiki:Gadget/annotationPair]|annotationPair.js
+* citeRef[default|hidden|actions=edit,view]|citeRef.css
+* defaultPlainlinks[default|hidden|actions=edit,view]|defaultPlainlinks.css
+* dewikiCommonHide[default|hidden]|dewikiCommonHide.css
+* dewikiCommonLayout[default|hidden]|dewikiCommonLayout.css
+* dewikiCommonStyle[default|hidden]|dewikiCommonStyle.css
+* dewikiDarkmode[default|hidden|actions=edit,view|skins=vector-2022,minerva]|dewikiDarkmode.css
+* dewikiResponsive[default|hidden|actions=edit,view|skins=vector-2022,minerva]|dewikiResponsive.css
+* Hauptseite[default|hidden|namespaces=4|actions=view|categories=MediaWiki:Gadget/Hauptseite]|Hauptseite.css
+* Hauptseite-Sprachen[ResourceLoader|default|hidden|skins=vector,monobook,timeless|namespaces=4|actions=view|categories=MediaWiki:Gadget/Hauptseite]|Hauptseite-Sprachen.js
+* mailtoURLrecover[ResourceLoader|default|hidden|rights=move|actions=edit,view|categories=MediaWiki:Gadget/mailtoURLrecover]|mailtoURLrecover.js
+* NavFrameLegacy[ResourceLoader|default|hidden|namespaces=1,2,3,4,5]|NavFrameLegacy.js|NavFrameLegacy.css
+* nsCategory[default|hidden|actions=edit,view|namespaces=14]|nsCategory.css
+* prettytableLegacy[default|hidden|namespaces=2]|prettytableLegacy.css
+* sourceEditing[ResourceLoader|default|hidden|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|actions=edit]|sourceEditing.js|sourceEditing.css
+* specialpageLoader[ResourceLoader|default|hidden|namespaces=-1|rights=sendemail]|specialpageLoader.js
+* specialSearch[default|hidden|categories=MediaWiki:Gadget/specialSearch]|specialSearch.css
+* templateGallery[ResourceLoader|default|hidden|actions=view,edit|categories=MediaWiki:Gadget/templateGallery]|templateGallery.js
+* uploadtools[ResourceLoader|hidden|actions=view|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|rights=upload|dependencies=mediawiki.util]|uploadtools.js
+* watchlistMessage[ResourceLoader|hidden]|watchlistMessage.js

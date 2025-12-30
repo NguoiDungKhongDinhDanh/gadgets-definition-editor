@@ -1,0 +1,7 @@
+== editing ==
+* preview[ResourceLoader]|preview.js
+
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+__NOTOC__

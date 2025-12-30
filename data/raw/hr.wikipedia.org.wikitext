@@ -1,0 +1,50 @@
+== sučelje ==
+* normalnebojerazlika[ResourceLoader]|RazlikeNormalnihBoja.css
+* RevisionID[ResourceLoader]|RevisionID.js
+* Preusmjeravanja-Razdvojbe[ResourceLoader|actions=view,edit]|Preusmjeravanja-Razdvojbe.css
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* filterevidencija[ResourceLoader|dependencies=mediawiki.util]|filterevidencija.js
+* jasniji-prikaz-evidencija[ResourceLoader]|jasniji-prikaz-evidencija.js
+* PoboljsanRazgovor[ResourceLoader]|prazno.js|PoboljsanRazgovor.css
+* CleanCache[ResourceLoader|dependencies=mediawiki.util]|CleanCache.js
+* gtrazi[ResourceLoader|dependencies=mediawiki.util]|gtrazi.js
+* novestranice[ResourceLoader]|novestranice.js
+* uredivrh[ResourceLoader|dependencies=user.options,mediawiki.util|actions=view]|uredivrh.js|uredivrh.css
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.js|HideFundraisingNotice.css
+* izvori[ResourceLoader]|izvori.js|izvori.css
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* navigacijski_prozori[ResourceLoader|dependencies=mediawiki.user,mediawiki.util|type=general]|popups.js|navpop.css
+* WikiMiniAtlas[ ResourceLoader|default|categories=Stranice koje prikazuju WikiMiniAtlas]|WikiMiniAtlas.js
+* ToDoList[ResourceLoader]|ToDoList.js
+* Oznaci-blokirane[ResourceLoader]|Oznaci-blokirane.js
+* WikiBlameTool[ResourceLoader]|WikiBlameTool.js
+
+== uređivanje ==
+* wikEd[ResourceLoader|actions=edit]|wikEd.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=autopatrol|actions=view|namespaces=14]|Cat-a-lot.js
+* HotCat[ResourceLoader|rights=edit|actions=view]|HotCat.js
+* charinsert[ResourceLoader|actions=edit]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user|actions=edit]|charinsert-core.js|charinsert-core.css
+* Shortdesc-helper-loader[ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util|skins=vector,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector|actions=view]|Shortdesc-helper.js
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector|actions=view]|Shortdesc-helper-pagestyles-vector.css
+* ProveIt[ResourceLoader|actions=edit]|ProveIt.js
+* Web2Cit[ResourceLoader|default]|Web2Cit.js
+* diffedit[ResourceLoader]|diffedit.js|diffedit.css
+
+== ophoditelji ==
+* patrollinks[ResourceLoader]|patrollinks.js
+* RTRC[ResourceLoader]|RTRC.js
+* neophodjene-promjene-u-doprinosima[ResourceLoader|rights=patrol|actions=view,history]|neophodjene-promjene-u-doprinosima.js
+* Dobrodoslica[ResourceLoader]|Dobrodoslica.js
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+
+== administratori ==
+* PoboljsanoVracanje[ResourceLoader]|PoboljsanoVracanje.js
+* CleanDeleteReasons[ResourceLoader|actions=delete]|CleanDeleteReasons.js
+
+== pomoćno ==
+* ImageStackPopup[ResourceLoader|default|categories=Pages using gadget ImageStackPopup]|ImageStackPopup.js|ImageStackPopup.css
+* switcher[ResourceLoader|default|actions=view,submit]|switcher.js
+* hello-world[ResourceLoader|rights=editsitejs|actions=history,view]|hello-world.js

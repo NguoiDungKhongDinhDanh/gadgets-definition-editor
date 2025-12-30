@@ -1,0 +1,36 @@
+<em>כאן מוגדרת רשימת ה[[{{ns:help}}:גאדג'טים|גאדג'טים]] הזמינים ב[[Special:Preferences#mw-prefsection-gadgets|העדפות]]. ניתן לעיין גם ב[[Special:Gadgets|רשימת התיאורים וההגדרות של הגאדג'טים]] וכן ב[[Special:GadgetUsage|סטטיסטיקת השימוש בגאדג'טים]].</em>
+<pre class="mw-content-ltr">
+== edit ==
+* EditIntro[ResourceLoader]|EditIntro.js
+* RevertSummary[ResourceLoader|dependencies=mediawiki.util]|RevertSummary.js
+* EditToolbar[ResourceLoader|default|dependencies=mediawiki.util]|EditToolbar.js
+* SummariesList[ResourceLoader|default]|SummariesList.js
+* AutoComplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|AutoComplete.js
+
+== design ==
+* MoveVectorMenuToTabs[ResourceLoader|skins=vector]|MoveVectorMenuToTabs.js
+* FixedTabs[ResourceLoader|skins=vector]|FixedTabs.css
+* FixedSidebar[ResourceLoader|skins=vector]|FixedSidebar.css
+* HideExternalLinkIcon[ResourceLoader|default]|HideExternalLinkIcon.css
+* FoldSidebarMenus[ResourceLoader|dependencies=jquery.jStorage]|FoldSidebarMenus.js|FoldSidebarMenus.css
+* MarkRedirect[ResourceLoader]|MarkRedirect.css
+
+== categories ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+
+== patrol ==
+* SysopRequests[ResourceLoader|dependencies=mediawiki.util]|SysopRequests.js
+* rcPatrol[ResourceLoader|rights=patrol|dependencies=mediawiki.util]|rcPatrol.js
+* rcAlarm[ResourceLoader|rights=patrol|dependencies=mediawiki.util]|rcAlarm.js
+* RollbackSummary[ResourceLoader|rights=rollback|dependencies=mediawiki.util]|RollbackSummary.js
+* rcDiff[ResourceLoader|dependencies=jquery.ui,mediawiki.action.history.diff,mediawiki.api]|rcDiff.js|rcDiff.css
+
+== misc ==
+* Dwim[ResourceLoader|skins=vector|dependencies=jquery.suggestions,mediawiki.user,mediawiki.util|default]|Dwim.js
+* ExternalLinkNewTab[ResourceLoader]|ExternalLinkNewTab.js
+* CommonsUpload[ResourceLoader|rights=upload|dependencies=mediawiki.util]|CommonsUpload.js
+* Watchlist[ResourceLoader|dependencies=mediawiki.util]|Watchlist.js
+* RevInfo[ResourceLoader|dependencies=mediawiki.util]|RevInfo.js
+* LastUserEdit[ResourceLoader|dependencies=mediawiki.util]|LastUserEdit.js
+</pre>

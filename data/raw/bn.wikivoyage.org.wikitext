@@ -1,0 +1,36 @@
+== editing-tools ==
+* ListingEditor[ResourceLoader|default|type=general|dependencies=mediawiki.util,jquery.ui|skins=vector,vector-2022,monobook,timeless]|ListingEditor.js|ListingEditor.css
+<!-- * MapFrame সঠিকভাবে কাজ করে না ইংরেজি উইকিভ্রমণেও -->
+* exlinks[ResourceLoader|default|dependencies=mediawiki.util]|exlinks.js
+* edittop[ResourceLoader|skins=vector,vector-2022,monobook,timeless]|edittop.js
+* popups[ResourceLoader]|popups.js|popups.css
+* SmartEdittools[ResourceLoader|default]|SmartEdittools.js
+*HotCat[ResourceLoader|rights=edit]|HotCat.js
+*sompadonasarangsho[ResourceLoader|default|type=general|dependencies=mediawiki.ui.button,mediawiki.util|skins=vector,vector-2022,monobook,timeless]|sompadonasarangsho.js|sompadonasarangsho.css
+*delNominator[ResourceLoader|rights=autoconfirmed]|delNominator.js
+<!--* ArticleContestHelper[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util,oojs-ui-core,oojs-ui-widgets]|contest.js-->
+
+== interface ==
+* BanglaDate[ResourceLoader]|BanglaDate.js
+* UTCLiveClock[ResourceLoader|skins=vector,vector-2022,monobook,timeless]|UTCLiveClock.js
+* historyNumbered [ResourceLoader]|historyNumbered.css
+* PurgeTab[ResourceLoader|default|dependencies=mediawiki.util]|PurgeTab.js
+* dark-mode-toggle[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,vector-2022,minerva,monobook]|dark-mode-toggle-pagestyles.css
+* dark-mode[ResourceLoader|supportsUrlLoad|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css
+
+== development ==
+* RTRC[ResourceLoader|skins=vector,vector-2022,monobook,timeless]|RTRC.js
+* ErrorHighligter[ResourceLoader]|ErrorHighlighter.css
+* vector-headanchor[ResourceLoader|skins=vector,vector-2022]|vector-headanchor.js|vector-headanchor.css
+* URLShortener[ResourceLoader|dependencies=mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|type=general]|URLShortener.js|URLShortener.css
+<!-- * JS toolset নির্ভরশীল টেমপ্লেট বানাতে হবে। তাঁরপর, নতুবা শুধু শুধু যোগ করে লাভ নেই -->
+<!-- * ListingEditor2 আগের উপরেরটির কাজ শেষ করতে হবে। তাঁরপর এটা যোগের চিন্তা করা উচিত। -->
+* mobile-sidebar[ResourceLoader|skins=vector,vector-2022,monobook,timeless]|mobile-sidebar.js
+* ListingEditor2023[ResourceLoader|type=general]|ListingEditor2023.js
+
+== hidden ==
+<!-- the following support ListingEditor2023 -->
+* ListingEditorConfig[ResourceLoader|package|hidden]|ListingEditorConfig.js|ListingEditor.json
+* ListingEditorMain[ResourceLoader|hidden|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor2023Main.js|ListingEditor.css
+* ListingEditorMainBeta[ResourceLoader|hidden|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor2023MainBeta.js|ListingEditor.css

@@ -1,0 +1,16 @@
+== ניסוי ==
+* Dwim[ResourceLoader|skins=vector|dependencies=jquery.suggestions,mediawiki.user,mediawiki.util|default]|Dwim.js
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+== עריכה ==
+* Summarieslist[ResourceLoader|dependencies=mediawiki.util|default]|Summarieslist.js
+* autocomplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|autocomplete.js
+* Checkty[ResourceLoader|dependencies=mediawiki.util,oojs-ui-widgets,mediawiki.util|type=general]|Checkty.js|Checkty.css
+==ניווט וחיפוש==
+* popup[ResourceLoader]|popup.js
+==ניטור==
+* Warnings[ResourceLoader|dependencies=mediawiki.util]|Warnings.js
+* RestoreWarnings[ResourceLoader|dependencies=mediawiki.util]|RestoreWarnings.js
+
+==שונות==
+* Revinfo[ResourceLoader|dependencies=mediawiki.util]|Revinfo.js

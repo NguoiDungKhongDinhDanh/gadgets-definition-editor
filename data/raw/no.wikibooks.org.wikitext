@@ -1,0 +1,11 @@
+== interface ==
+* Perbook[ResourceLoader]|predef.js|Perbook.js
+* Personalper[ResourceLoader]|predef.js|Personalper.js
+
+==navigation-and-edit==
+* Add-purge[ResourceLoader]|Add-purge.js
+
+<div id="kunadmins">
+==administrators==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js
+</div>

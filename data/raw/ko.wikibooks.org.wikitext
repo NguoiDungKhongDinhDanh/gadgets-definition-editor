@@ -1,0 +1,2 @@
+"가젯트"가 무엇인지 알고 싶은 분은 MediaWiki의 '''[[mw:Extension:Gadgets|Gadgets]]'''(영어)를 읽어보세요.
+* 기타 정보는 조만간 제공

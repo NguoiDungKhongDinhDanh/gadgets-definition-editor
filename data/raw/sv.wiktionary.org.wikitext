@@ -1,0 +1,50 @@
+== redigering ==
+* nytt_uppslag [ResourceLoader | default | actions=edit] | nytt_uppslag.js | nytt_uppslag.css
+* summaryreminder [ResourceLoader] | summaryreminder.js
+* translation_editor [ResourceLoader | default | dependencies=mediawiki.api, mediawiki.user | type=general] | silent_fail_storage.js | editor.js | translation_editor.js | translation_editor_add_section.js | translation_editor.css
+* green_links [ResourceLoader | default | dependencies=mediawiki.util] | green_links.js
+* tidy [ResourceLoader | default | package | actions=edit | dependencies=ext.gadget.editorwarnings, ext.gadget.sessionStorageNotify, ext.gadget.data-lang, ext.gadget.data-lang-code-templates, ext.gadget.data-lang-replacements, ext.gadget.data-h3, ext.gadget.data-headings, oojs-ui-core] | tidy.js | tidy-data.js | tidy-on-focus.js | tidy-on-save.js | tidy-on-save-summary.js | tidy-on-keydown.js
+
+== utseende ==
+* redirect_cross-reference [ResourceLoader | default] | redirect_cross-reference.js
+* hide_info [ResourceLoader | dependencies=site] | hide_info.js
+* WikipediaSearchResult [ResourceLoader | default | type=general] | WikipediaSearchResult.js | WikipediaSearchResult.css
+
+== övrigt ==
+* experiments [ResourceLoader | package | dependencies=site | type=general] | experiments.js | experiments.css | experiments.json
+* edit_links [ResourceLoader | dependencies=mediawiki.util] | edit_links.js
+* admin-update-data [ResourceLoader | default | rights=editsitejson | actions=view] | admin-update-data.js
+* accesskey_fix [ResourceLoader] | accesskey_fix.js
+
+== Dolda finesser ==
+
+; Aktiverade för alla
+
+Finesser som alltid är aktiverade, utan möjlighet att stänga av.
+
+* prominent_interwikis [ResourceLoader | hidden | default | actions=view] | prominent_interwikis.js | prominent_interwikis.css
+
+<!-- "sessionStorageNotify" måste alltid vara aktiv, så att andra finesser kan använda den, även om de andra finesserna inte ens har laddats vid aktuell sidvisning -->
+* sessionStorageNotify [ResourceLoader | hidden | default] | sessionStorageNotify.js
+
+; Används i annan JS
+
+Finesser som bara används i annan JS.
+
+* tests [ResourceLoader | hidden | package | dependencies=mediawiki.api] | tests.js | tidy-test.js
+
+<!-- getHeadings är en temporär funktion som förhoppningsvis ska göras till standard nån gång, se T337286 -->
+* getHeadings [ResourceLoader | hidden | package | dependencies=mediawiki.util] | getHeadings.js
+
+<!-- "editorwarnings" används i annan JS för att visa varningar under redigering. -->
+* editorwarnings [ResourceLoader | hidden | package] | editorwarnings.js | editorwarnings.css
+
+; Data
+
+Finesser som bara exponerar JSON-data och används av andra finesser.
+
+* data-h3 [ResourceLoader | hidden | package] | data-h3.js | data-h3.json
+* data-headings [ResourceLoader | hidden | package] | data-headings.js | data-headings.json
+* data-lang [ResourceLoader | hidden | package] | data-lang.js | data-lang.json
+* data-lang-code-templates [ResourceLoader | hidden | package] | data-lang-code-templates.js | data-lang-code-templates.json
+* data-lang-replacements [ResourceLoader | hidden | package] | data-lang-replacements.js | data-lang-replacements.json

@@ -1,0 +1,20 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+* Twinkle[ResourceLoader]|Twinkle.js
+* wikEd[ResourceLoader]|wikEd.js
+
+
+== interface-gadgets ==
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+
+
+== admin-gadgets ==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js
+
+== categories==
+* Hotcat[ResourceLoader]|HotCat.js

@@ -1,0 +1,26 @@
+== browsing ==
+* navpop[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|navpop.js|navpop.css
+* revisionjumper[ResourceLoader]|revisionjumper.js
+
+== editing ==
+* AVIM[ResourceLoader|default]|AVIM.js
+* AVIM_portlet[ResourceLoader|default|dependencies=ext.gadget.AVIM]|AVIM portlet.js|AVIM portlet.css
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection]|charinsert-core.js|charinsert-core.css
+* CharOff[ResourceLoader]|CharOff.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* wiked[ResourceLoader]|wiked.js
+
+== appearance ==
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js|edittop.css
+* JustifyParagraphs[ResourceLoader]|JustifyParagraphs.css
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util|default]|purgetab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+
+== administration ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* confirmationRollback[ResourceLoader|rights=rollback|dependencies=mediawiki.util]|confirmationRollback.js

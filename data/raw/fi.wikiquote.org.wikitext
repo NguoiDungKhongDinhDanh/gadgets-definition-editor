@@ -1,0 +1,11 @@
+== Käyttöliittymä ==
+* frwiki_infobox_v3[ResourceLoader|default|hidden]|frwiki_infobox_v3.css
+* HideCentralNotice[ResourceLoader|type=general|targets=desktop,mobile]|HideCentralNotice.js|HideCentralNotice.css
+
+== Aputyökalut ==
+* HotCat[ResourceLoader]|HotCat.js
+* purge[ResourceLoader|dependencies=mediawiki.util|default]|purge.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* imagelinks[ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* HideInterwikiSearchResults[ResourceLoader|type=styles]|HideInterwikiSearchResults.css

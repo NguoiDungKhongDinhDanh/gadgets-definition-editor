@@ -1,0 +1,24 @@
+== editing-tools ==
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* wikEd[ResourceLoader]|wikEd.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* HotCat[ResourceLoader]|HotCat.js
+* LongEditSummaries[ResourceLoader]|LongEditSummaries.js
+* specialchars[ResourceLoader]|specialchars.js
+
+== interface-tools ==
+* purgetab[ResourceLoader | dependencies=mediawiki.util, mediawiki.api]|purgetab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* exlinks[ResourceLoader]|exlinks.js
+* purgeindex[ResourceLoader | dependencies=mediawiki.util, mediawiki.api]|purgeindex.js
+* seriffonts[ResourceLoader]|seriffonts.css
+* DisplayOptions[ResourceLoader]|DisplayOptions.js|DisplayOptions.css
+
+== admin-tools ==
+* blocktab[ResourceLoader|dependencies=mediawiki.util]|blocktab.js
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+* FastDelete[ResourceLoader|type=general|rights=delete]|FastDelete.js
+
+== editing-tools-for-Page-namespace ==
+* robot[ResourceLoader]|robot.js

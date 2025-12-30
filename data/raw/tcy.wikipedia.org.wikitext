@@ -1,0 +1,21 @@
+== browsing ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* extra-toolbar-buttons[ResourceLoader|default]|extra-toolbar-buttons.js
+* extra-toolbar-buttons-core[ResourceLoader|hidden]|extra-toolbar-buttons-core.js
+* PrintOptions[ResourceLoader]|PrintOptions.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+
+== editing ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* ProveIt [ResourceLoader |namespaces=0, 2, 10, 118] |ProveIt.js
+* refToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== appearance ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+
+== advanced ==
+* script-installer [ResourceLoader |dependencies=mediawiki.ui.button] |script-installer.js

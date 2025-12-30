@@ -1,0 +1,16 @@
+* LegacyScripts[ResourceLoader|default|dependencies=site,mediawiki.util,mediawiki.cookie]|legacy.js|legacy.css|Գլխավոր էջ.css
+== browsing ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.util]|popups.js|navpop.css
+== interface ==
+* Language[ResourceLoader]|language.js
+== editing ==
+* MwToolbar[ResourceLoader|hidden]|MwToolbar.js
+* EditToolbar-menu-page_hyDictionary[ResourceLoader|default|dependencies=ext.gadget.EditToolbar-core]|EditToolbar-menu-page_hyDictionary.js
+* EditToolbar-menu-page_hyWord[ResourceLoader|default|dependencies=ext.gadget.EditToolbar-core]|EditToolbar-menu-page_hyWord.js
+* EditToolbar-menu-page_wikiclub[ResourceLoader|default|dependencies=ext.gadget.EditToolbar-core]|EditToolbar-menu-page_wikiclub.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* editor[ResourceLoader|default]|editor.js
+* welcome[ResourceLoader|default]|welcome.js
+* EditToolbar[ResourceLoader|default]|EditToolbar.js
+* EditToolbar-core[ResourceLoader|hidden|dependencies=mediawiki.user,mediawiki.util]|EditToolbar-core.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js

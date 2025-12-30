@@ -1,0 +1,93 @@
+# Cette page sert à définir les gadgets utilisés dans [[Special:Gadgets]]
+# Avant de la modifier, assurez-vous d'avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]]
+# Ne changez pas le nom d'un gadget existant (il serait alors désactivé pour tous)
+# Si un gadget ne fonctionne pas, on peut le commenter en transformant * en #
+# La version actuelle de MediaWiki ne supporte pas les noms de gadget et section comportant des caractères spéciaux ou accentués
+
+== Présentation ==
+* LeftPaneSwitch[ResourceLoader]|LeftPaneSwitch.js
+* CoinsArrondis|CoinsArrondis.css
+* ListeABordure|ListeABordure.css
+* UnicodeEditRendering|UnicodeEditRendering.css
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* AncreTitres[ResourceLoader]|AncreTitres.js
+* DirectPageLink[ResourceLoader]|Common.js|DirectPageLink.js
+* autonum[ResourceLoader]|autonum.css|autonum.js
+* TitreHierarchique[ResourceLoader]|CommonClass.js|CommonDom.js|TitreHierarchique.js
+* TitreDeluxe[ResourceLoader]|TitreDeluxe.js
+* Logo[ResourceLoader]|Common.js|Logo.js
+* CouleurContributions[ResourceLoader]|CouleurContributions.js
+* extlinks[default|ResourceLoader|dependencies=mediawiki.util]|extlinks.js
+* JournalEnTable[ResourceLoader]|JournalEnTable.css|CommonDom.js|JournalEnTable.js
+
+== Outils ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* LocalLiveClock[ResourceLoader|dependencies=mediawiki.util]|LocalLiveClock.js
+* DeluxeHistory[ResourceLoader|dependencies=user,mediawiki.util]|DeluxeHistory.js
+* SousPages[ResourceLoader|dependencies=mediawiki.util]|SousPages.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* perpagecustomization[ResourceLoader]|perpagecustomization.js
+* LiveRC[ResourceLoader]|LiveRC.js
+* recentchangesbox[ResourceLoader|skins=monobook]|recentchangesbox.js
+* MobileView[ResourceLoader]|CommonDom.js|MobileView.js
+* SkinPreview[ResourceLoader|dependencies=mediawiki.util]|SkinPreview.js
+
+== Onglets ==
+* OngletEditZeroth[ResourceLoader|dependencies=mediawiki.util]|OngletEditZeroth.js
+* OngletPurge[ResourceLoader]|Common.js|CommonDom.js|OngletPurge.js
+* OngletEditCount[ResourceLoader]|CommonDom.js|OngletEditCount.js
+* OngletGoogle[ResourceLoader]|CommonDom.js|OngletGoogle.js
+* SisterProjects[ResourceLoader|dependencies=user,mediawiki.utils]|SisterProjects.js
+* monBrouillon[ResourceLoader|dependencies=mediawiki.util]|monBrouillon.js
+* Smart_patrol [ResourceLoader|rights=patrol] | Smart_patrol.js
+
+== Script ==
+* ScriptToolbar[ResourceLoader]|ScriptToolbar.css|Common.js|CommonEdit.js|ScriptToolbar.js
+* ScriptSidebox[ResourceLoader|dependencies=mediawiki.util]|ScriptSidebox.js
+* CouleursLiens[ResourceLoader]|CouleursLiens.js
+* CategorySeparator[ResourceLoader]|CategorySeparator.js
+
+== Développeurs ==
+* ScriptAutoVersion[ResourceLoader]|Common.js|ScriptAutoVersion.js
+* JournalDebug[ResourceLoader]|CommonDom.js|JournalDebug.js
+* DevTools[ResourceLoader]|Common.js|CommonDom.js|JournalDebug.js|DevTools.css|DevTools.js
+
+== Édition ==
+* Tableau[ResourceLoader|rights=edit]|Tableau.js
+* FixArrayAltLines[ResourceLoader|rights=edit]|Common.js|CommonEdit.js|FixArrayAltLines.js
+* TableUnicode[ResourceLoader|rights=edit]|TableUnicode.js
+* BoutonsLiens[ResourceLoader|rights=edit]|Common.js|CommonEdit.js|ReplaceLink.js|BoutonsLiens.js
+* Emoticons[ResourceLoader|rights=edit]|Common.js|CommonEdit.js|EmoticonsCommon.js|Emoticons.js
+* EmoticonsToolbar[ResourceLoader|rights=edit]|ScriptToolbar.css|Common.js|CommonEdit.js|ScriptToolbar.js|EmoticonsCommon.js|EmoticonsToolbar.js
+* SpaceToolbar[ResourceLoader|rights=edit|dependencies=mediawiki.cookie]|ScriptToolbar.css|Common.js|CommonEdit.js|ScriptToolbar.js|SpaceFormat.js
+* SourceLanguage[ResourceLoader|rights=edit|dependencies=mediawiki.cookie]|ScriptToolbar.css|Common.js|CommonEdit.js|CommonDom.js|ScriptToolbar.js|SourceLanguage.js
+* Barre de luxe[ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar|rights=edit]|Common.js|Barre de luxe.js
+* OptimizedSuivi[ResourceLoader|skins=monobook]|CommonDom.js|OptimizedSuivi.js
+* DeluxeSummary[ResourceLoader|rights=edit]|CommonDom.js|DeluxeSummary.js
+* searchbox[ResourceLoader]|lib-beau.js|searchbox.js
+* WikEd[ResourceLoader|rights=edit]|WikEd.js
+
+== Avancé ==
+* HotCats[ResourceLoader|rights=edit]|Common.js|HotCats.js
+* Popups[ResourceLoader]|Popups.js
+* DeluxeEdit[ResourceLoader]|DeluxeEdit.js
+* DeluxeRename[ResourceLoader|rights=move]|Common.js|DeluxeRename.js
+* RenommageCategorie[ResourceLoader|rights=delete]|Common.js|RenommageCategorie.js
+* DeluxeImport[ResourceLoader|rights=import]|Common.js|DeluxeImport.js
+* DeleteSetup[ResourceLoader|default|rights=delete]|DeleteSetup.js
+* DeluxeAdmin[ResourceLoader|rights=delete]|Common.js|DeluxeAdmin.js
+* RestaurationDeluxe[ResourceLoader|rights=delete]|RestaurationDeluxe.js
+* NavigAdmin[ResourceLoader]|CommonDom.js|NavigAdmin.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* RevertDiff[ResourceLoader|rights=edit]|CommonDom.js|RevertDiff.js
+* FastRevert[ResourceLoader|rights=edit]|CommonDom.js|FastRevert.js
+* massblock[ResourceLoader|rights=block]|CommonDom.js|massblock.js|blockoptions.js
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+
+== Test ==
+* ArchiveLinks[ResourceLoader]|ArchiveLinks.js
+* CategoryAboveAll[ResourceLoader]|CategoryAboveAll.js
+* CollapseSidebox[ResourceLoader|dependencies=mediawiki.cookie]|Common.js|CollapseSidebox.js
+# Importés dans common.js :
+# Wikiwix[ResourceLoader|default]|Wikiwix.js
+# IntersectionCategorie[ResourceLoader|default|dependencies=mediawiki.util]|IntersectionCategorie.js

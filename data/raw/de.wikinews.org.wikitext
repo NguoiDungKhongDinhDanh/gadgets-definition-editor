@@ -1,0 +1,9 @@
+== Benutzer-Gadgets ==
+* Pfeil-hoch[ResourceLoader|dependencies=mediawiki.util]|Pfeil-hoch.js
+* Extra-Editbuttons[ResourceLoader]|Extra-Editbuttons.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util]|contribsrange.js
+* PermaPageLink[ResourceLoader|dependencies=mediawiki.util]|PermaPageLink.js
+* HotCat[ResourceLoader]|HotCat.js
+
+== Admin-Gadgets ==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js

@@ -1,0 +1,45 @@
+== editing-tools ==
+* charinsert[ResourceLoader|default|type=general]|charinsert.js|charinsert.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot-bn[ResourceLoader]|Cat-a-lot-bn.js
+* popups[ResourceLoader]|popups.js|navpop.css
+* RegexMenuFramework[ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* wikEd[ResourceLoader]|wikEd.js
+* button-FI[ResourceLoader|dependencies=ext.wikiEditor|default]|button-FI.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* diacritici[ResourceLoader]|diacritici.js
+* CropTool[ResourceLoader|default|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js
+* autocomplete[ResourceLoader|default|dependencies=jquery.ui,jquery.textSelection]|autocomplete.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* Fill_Index[ResourceLoader]|Fill_Index.js
+* annotator[ResourceLoader]|annotator.js
+
+== interface ==
+* Site[ResourceLoader|default|type=styles|top|dependencies=mediawiki.util]|Site.js|Site.css|boxes.css|lists.css|tweaks.css
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* ContrastReducer[ResourceLoader]|ContrastReducer.js
+* dynamicNavBars[ResourceLoader|default]|dynamicNavBars.js
+* PurgeTab[ResourceLoader|default|dependencies=mediawiki.util]|PurgeTab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* invertColoumn[ResourceLoader]|invertColoumn.css
+* SubPages[ResourceLoader|default|dependencies=mediawiki.util]|SubPages.js
+* ipt[ResourceLoader|default|type=general]|ipt.js
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* ThreadedDiscussions [ResourceLoader|default]|ThreadedDiscussions.css
+* HideCentralNotice[ResourceLoader|default|type=general]|HideCentralNotice.js|HideCentralNotice.css
+* ShortUrl[ResourceLoader|default]|ShortUrl.css|ShortUrl.js
+* RTRC[ResourceLoader]|RTRC.js
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* bookreader[ResourceLoader|default]|bookreader.js|bookreader.css
+* vis[ResourceLoader|dependencies=jquery.ui, mediawiki.util|default|type=general]|common.js|vis.css|vis.js
+* subpagesMenu[ResourceLoader|dependencies=mediawiki.util, mediawiki.api|type=general]|subpagesMenu.js|subpagesMenu.css
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+
+== admin-tools ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js

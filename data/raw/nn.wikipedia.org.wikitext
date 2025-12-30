@@ -1,0 +1,25 @@
+==reading==
+* hidden-cats[ResourceLoader]|hidden-cats.js|hidden-cats.css
+
+== editing ==
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader|rights=edit|dependencies=mediawiki.util]|HotCat.js
+* Koordinatar[ResourceLoader]|Koordinatar.js
+* Sitering[ResourceLoader|dependencies=mediawiki.util]|citations.js
+* new-section[ResourceLoader|type=general|dependencies=mediawiki.util|default]|new-section.js
+
+==tools==
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* Add-purge[ResourceLoader]|Add-purge.js
+* krinkle-patrol[ResourceLoader|dependencies=mediawiki.util]|krinkle-patrol.js
+* luxo-edit-counter[ResourceLoader|dependencies=mediawiki.util]|luxo-edit-counter.js
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+* print-colored-links[ResourceLoader]|print-colored-links.css
+* extsearch[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.api,mediawiki.jqueryMsg,mediawiki.user,mediawiki.util,oojs,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|extsearch.js
+
+==analysis==
+* contributions-summary[ResourceLoader|type=general]|contributions-summary.css|contributions-summary.js
+* history-summary[ResourceLoader|type=general]|history-summary.css|history-summary.js
+
+==experiments==
+* wikidata-list[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|wikidata-list.js|wikidata-list.css

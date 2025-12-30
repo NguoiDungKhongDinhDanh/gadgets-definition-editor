@@ -1,0 +1,4 @@
+* HotCat[ResourceLoader]|HotCat.js
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+<!--* CleanDeleteReasons [ ResourceLoader | rights=delete ]|CleanDeleteReasons.js-->

@@ -1,0 +1,16 @@
+== editing ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=rollback]|Cat-a-lot.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui.dialog,moment|rights=autoconfirmed]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinkleblock.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|friendlytalkback.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+
+== other ==
+* RainbowLinks[ResourceLoader]|RainbowLinks.css
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* mobileDelete[ResourceLoader|dependencies=mediawiki.util|rights=delete]|MobileDelete.js
+* walcome[ResourceLoader|rights=delete]|walcome.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js

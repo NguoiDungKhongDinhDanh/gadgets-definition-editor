@@ -1,0 +1,2 @@
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection,user]|charinsert-core.js|charinsert-core.css

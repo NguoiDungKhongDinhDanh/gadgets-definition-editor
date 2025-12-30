@@ -1,0 +1,2 @@
+== Gadget pi l'editazioni di la wikipedia ==
+* HotCat[ResourceLoader|rights=edit|actions=view,edit]|HotCat.js

@@ -1,0 +1,36 @@
+== pregledanje ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util|type=general]|popups.js|navpop.css
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* JustifyParagraphs[ResourceLoader]|JustifyParagraphs.css
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* Pgnviewer[ResourceLoader|default]|Pgnviewer.js
+* RedirectLinks[ResourceLoader]|RedirectLinks.css
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* switcher[ResourceLoader|default]|switcher.js
+
+== uredjivanje ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* charinsert [ResourceLoader |default |actions=edit] |charinsert.js
+* charinsert-core [ResourceLoader |hidden |dependencies=jquery.textSelection, user, mediawiki.storage] |charinsert-styles.css |charinsert-core.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* Shortdesc-helper-loader[ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util|skins=vector,vector-2022,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector,vector-2022]|Shortdesc-helper-pagestyles-vector.css
+* refToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|refToolbar.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+
+== interfejs ==
+* LiveClock[ResourceLoader]|LiveClock.js
+* NewImageThumb[ResourceLoader|skins=vector]|NewImageThumb.css
+* dark-mode[ResourceLoader|targets=desktop,mobile|skins=vector,monobook,modern,minerva]|dark-mode.css
+* Markadmins[ResourceLoader]|markadmins.js
+* gtrazi[ResourceLoader|dependencies=mediawiki.util]|gtrazi.js
+* edittools-size[ResourceLoader]|edittools-size.js
+* coloresdiscu[ResourceLoader|type=general]|coloresdiscu.js|coloresdiscu.css
+* Main-lang[ResourceLoader|type=general]|Main-lang.js|Main-lang.css
+* checkVoteRights[ResourceLoader|dependencies=mediawiki.util]|checkVoteRights.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+
+== napredno ==
+* CleanDeleteReasons [ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js

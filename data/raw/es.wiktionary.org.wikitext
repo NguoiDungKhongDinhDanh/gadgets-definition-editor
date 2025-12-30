@@ -1,0 +1,25 @@
+* Langcode2name [ ResourceLoader | hidden ] | Langcode2name.js
+* NavFrame [ ResourceLoader | hidden | default ] | NavFrame.css
+* InflectionTable [ ResourceLoader | hidden | default ] | InflectionTable.css
+* AutonumberTable [ ResourceLoader | hidden | default ] | AutonumberTable.css
+* Anagrams [ ResourceLoader | hidden | dependencies = mediawiki.api ] | anagramas.js | anagramas.css
+
+== browsing ==
+* HideFundraisingNotice [ ResourceLoader ] | HideFundraisingNotice.css 
+* WiktSidebarTranslation [ ResourceLoader | dependencies = user.options ] | WiktSidebarTranslation.js
+* HotCat [ ResourceLoader ] | HotCat.js
+* UTCLiveClock [ ResourceLoader ] | UTCLiveClock.js
+* EtymologyFanInOut [ ResourceLoader | namespaces = 14 ] | EtymologyFanInOut.js
+* CollapsibleTOC [ ResourceLoader | default | actions = view | skins = vector, monobook, timeless, modern, cologneblue | dependencies = mediawiki.user, mediawiki.toc | namespaces = 0 ] | CollapsibleTOC.js | CollapsibleTOC.css
+* CollapsibleCombo [ ResourceLoader | default | skins = vector, vector-2022, monobook, timeless, modern, cologneblue | dependencies = mediawiki.util ] | CollapsibleCombo.js
+* HideCategories [ ResourceLoader | default | skins = vector, vector-2022, monobook, modern, cologneblue | dependencies = mediawiki.user ] | HideCategories.js
+<!--* Ejemplos [ ResourceLoader | default | namespaces=0 ] | Ejemplos.js | Ejemplos.css-->
+* SisterProjects [ ResourceLoader | default | skins = vector, vector-2022, monobook, timeless, modern, cologneblue | dependencies = mediawiki.util ] | SisterProjects.js
+* EtymologySectionFragment [ ResourceLoader | default | dependencies = jquery.client | namespaces = 0 ] | EtymologySectionFragment.js
+* ReferenceTooltips [ ResourceLoader | default | skins = vector, vector-2022, monobook, timeless, modern, cologneblue ] | ReferenceTooltips.js | ReferenceTooltips.css
+* CitationTemplatesExtracts [ ResourceLoader | default | skins = vector, vector-2022, monobook, timeless, modern, cologneblue | namespaces = 14 ] | CitationTemplatesExtracts.js
+* CategorySectionLinks [ ResourceLoader | default | namespaces = 14 ] | CategorySectionLinks.js
+* PagePreviews [ ResourceLoader | default | skins = vector, vector-2022, monobook, timeless, modern, cologneblue | dependencies = mediawiki.util, mediawiki.Title ] | PagePreviews.js
+
+== editing ==
+* SpecialcharsDropdown [ ResourceLoader | default | actions = edit | skins = vector, vector-2022, monobook, timeless, modern, cologneblue | dependencies = mediawiki.cookie ] | SpecialcharsDropdown.js

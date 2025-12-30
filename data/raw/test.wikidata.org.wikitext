@@ -1,0 +1,82 @@
+<!--
+== second level headings don't do anything ==
+neither do lines that aren't headings or list items
+-->
+=== testwikidata ===
+* Reply [ResourceLoader | dependencies=jquery.tipsy,oojs-ui,mediawiki.cookie,mediawiki.language,mediawiki.util | rights=edit] | Reply.js
+* Createprop [ResourceLoader | dependencies=jquery.tipsy,oojs-ui,mediawiki.cookie,mediawiki.language,mediawiki.util | rights=edit] | createprop.js
+* InOtherFormats [ ResourceLoader | package | dependencies=jquery.i18n,mediawiki.util] | InOtherFormats.js | InOtherFormats-i18n.json
+* LexemeTranslations [ ResourceLoader | package | requiresES6 | dependencies=jquery.i18n, mediawiki.util ] | LexemeTranslations.js | LexemeTranslations.css | LexemeTranslations-i18n.json
+* NarrowUI [ ResourceLoader | contentModels=wikibase-item,wikibase-property,wikibase-lexeme | skins=vector,vector-2022,monobook,modern,timeless | supportsUrlLoad=true | type=styles ] | NarrowUI.css | NarrowUI-lexemes.css | NarrowUI-misc.css
+* NarrowUI-Vector [ ResourceLoader | dependencies=mediawiki.storage | skins=vector ] | NarrowUI-Vector.js | CollapsibleSidebar.js | CollapsibleSidebar.css
+<!-- from Wikidata -->
+
+=== wikidata-general ===
+* enumItems [ResourceLoader | package | dependencies=jquery.i18n,mediawiki.util] | enumItems.js | enumItems-i18n.json
+* KeyShortcuts [ResourceLoader] | KeyShortcuts.js
+* Merge [ResourceLoader | package | dependencies=jquery.i18n,mediawiki.api,oojs-ui,mediawiki.util,mediawiki.language,oojs-ui-windows,wikibase,wikibase.sites | rights=edit,item-merge,item-redirect] | Merge.js | Merge.css | Merge-i18n.json | EmptyDetect.js
+* ProtectionIndicators [ResourceLoader | package | default | dependencies=jquery.i18n | type=general] | ProtectionIndicators.js | ProtectionIndicators-i18n.json | ProtectionIndicators.css
+* RequestDeletion [ResourceLoader | package | dependencies=jquery.i18n,mediawiki.api,mediawiki.util,jquery.ui,jquery.spinner | rights=edit] | RequestDeletion.js | RequestDeletion-i18n.json
+* SearchAll [ResourceLoader] | SearchAll.js
+
+=== labels ===
+* autoEdit [ResourceLoader | package | dependencies=mediawiki.api,mediawiki.util,jquery.i18n,jquery.ui,wikibase | rights=edit] | autoEdit.js | autoEdit-data.js | autoEdit-i18n.js
+* FindRedirectsForAliases [ResourceLoader | dependencies=mediawiki.api,mediawiki.language,mediawiki.util,wikibase,wikibase.sites | rights=edit | type=general] | FindRedirectsForAliases.js | FindRedirectsForAliases.css
+* labelLister [ResourceLoader | dependencies=jquery.ui,jquery.uls.data,mediawiki.api,mediawiki.cookie,mediawiki.util] | labelLister.js | labelLister.css
+
+=== statements ===
+* AuthorityControl [ResourceLoader | default | dependencies=wikibase.api.RepoApi,wikibase.view.ControllerViewFactory] | AuthorityControl.js
+* compact items [ResourceLoader | type=styles] | compact items.css | gridify.css
+* Descriptions [ResourceLoader | dependencies=wikibase.ui.entityViewInit,mediawiki.api,wikibase.api.RepoApi] | Descriptions.js
+* EasyQuery [ResourceLoader | dependencies=oojs-ui] | EasyQuery.js
+* ImageHeader [ResourceLoader] | ImageHeader.js
+* Panoviewer [ ResourceLoader | dependencies=mediawiki.api ] | Panoviewer.js | Panoviewer.css
+* relateditems [ResourceLoader | dependencies=mediawiki.api] | relateditems.js
+
+=== statements2 ===
+* currentDate [ResourceLoader | rights=edit] | currentDate.js
+* DraggableSitelinks [ResourceLoader | package | dependencies=jquery.i18n, mediawiki.util,mediawiki.api,jquery.ui | rights=edit] | DraggableSitelinks.js | DraggableSitelinks.css | DraggableSitelinks-i18n.json
+* DragNDrop [ResourceLoader | package | dependencies=jquery.i18n,jquery.ui,mediawiki.api,wikibase.api.RepoApi | rights=edit] | DragNDrop.js | DragNDrop.css | DragNDrop-i18n.json
+* DuplicateReferences [ResourceLoader | dependencies=wikibase.ui.entityViewInit | rights=edit | type=general] | DuplicateReferences.js | DuplicateReferences.css
+* moveClaim [ResourceLoader | package | dependencies=jquery.spinner,jquery.ui,mediawiki.util,mediawiki.api,wikibase.api.RepoApi,wikibase.Site | rights=edit | type=general] | moveClaim.js | moveClaim-i18n.json | Move.css
+* RearrangeValues [ ResourceLoader | package | dependencies=jquery.i18n,mediawiki.api,mediawiki.util,oojs-ui | rights=edit ] | RearrangeValues.js | RearrangeValues.css | RearrangeValues-i18n.json
+* CiteTool [ ResourceLoader | package | dependencies=jquery.i18n,wikibase,wikibase.datamodel | rights=edit ] | CiteTool.js | CiteTool.css | CiteTool-config.json | CiteTool-i18n.json
+
+=== sitelinks ===
+* MainLangFirst [ResourceLoader | dependencies=user.options | type=general] | MainLangFirst.js | MainLangFirst.css
+* Move [ResourceLoader | package | dependencies=jquery.i18n,jquery.spinner,jquery.ui,mediawiki.api,mediawiki.util,wikibase.api.RepoApi,wikibase.sites | rights=edit | type=general] | Move.js | Move.css | Move-i18n.json
+* Preview [ResourceLoader | package | dependencies=jquery.i18n,jquery.spinner,mediawiki.api,mediawiki.page.ready,mediawiki.util,wikibase,wikibase.sites | type=general] | Preview.js | Preview.css | Preview-i18n.json
+* Search [ResourceLoader | default | package | dependencies=jquery.i18n,mediawiki.util,wikibase,wikibase.sites,mediawiki.ForeignApi | skins=vector,vector-2022,monobook] | Search.js | Search-i18n.json | Search.css
+* SimpleTransliterate [ResourceLoader] | SimpleTransliterate.js
+* SiteIdToInterwiki [ResourceLoader | package | default | dependencies=jquery.i18n,wikibase.view.ControllerViewFactory] | SiteIdToInterwiki.js | SiteIdToInterwiki-i18n.json
+* SitelinkCheck [ResourceLoader | package | dependencies=mediawiki.util,jquery.i18n,jquery.ui,jquery.spinner,mediawiki.jqueryMsg | type=general] | SitelinkCheck.js | SitelinkCheck.css | wikibase.js | SitelinkCheck-i18n.json
+* slurpInterwiki [ResourceLoader | package | dependencies=jquery.i18n,jquery.spinner,jquery.ui,mediawiki.api,mediawiki.language,mediawiki.util | rights=edit] | slurpInterwiki.js | slurpInterwiki-i18n.json
+
+=== lexemes ===
+* addSenseImage [ResourceLoader | package | dependencies=jquery.i18n,mediawiki.api,mediawiki.widgets.MediaSearch | rights=edit] | addSenseImage.js | addSenseImage.css | addSenseImage-i18n.json
+* lexeme-forms [ ResourceLoader | dependencies=mediawiki.util ] | lexeme-forms.js
+
+=== editing2 ===
+* CoordinateDiffMap [ResourceLoader] | CoordinateDiffMap.js
+* Mark as patrolled [ResourceLoader | dependencies=mediawiki.api | rights=patrol] | Mark_as_patrolled.js
+* UnpatrolledEdits [ResourceLoader | package | dependencies=jquery.i18n,mediawiki.util | rights=patrol] | UnpatrolledEdits.js | UnpatrolledEdits.css | UnpatrolledEdits-i18n.json
+
+=== external ===
+* FamilyAncestors [ ResourceLoader | dependencies=mediawiki.util ] | FamilyAncestors.js
+* MismatchFinder [ ResourceLoader | package | dependencies=jquery.i18n ] | MismatchFinder.js | MismatchFinder-i18n.json | MismatchFinder.css
+* ReasonatorTools [ ResourceLoader | dependencies=mediawiki.util ] | ReasonatorTools.js
+* Recoin [ResourceLoader | package | dependencies=jquery.i18n] | Recoin.js | Recoin.css | Recoin-i18n.json
+
+=== broken ===
+* PrimarySources [ResourceLoader | dependencies=jquery.tipsy,oojs-ui,mediawiki.cookie,mediawiki.language,mediawiki.util | rights=edit | type=general] | PrimarySources-async.js | PrimarySources.js | PrimarySources.css
+
+=== general ===
+
+* mySandbox [ResourceLoader | dependencies=jquery.i18n,mediawiki.util,mediawiki.Title,mediawiki.Uri | rights=createpage,edit] | mySandbox.js
+* InterProjectLinks [ResourceLoader] | InterProjectLinks.css
+
+=== admin-gadgets ===
+
+=== hidden ===
+* extJsNotif [ ResourceLoader | hidden ] | extJsNotif.js | extJsNotif.css
+* AnonymousI18N [ ResourceLoader | hidden | default | dependencies = ext.uls.mediawiki, mediawiki.cookie, mediawiki.user, mediawiki.util ] | AnonymousI18N.js

@@ -1,0 +1,24 @@
+== browsing-gadgets ==
+* Navigation_popups-API[ResourceLoader]|popups.js|navpop.css
+
+== interface-gadgets ==
+* Hotcat[ResourceLoader|rights=edit]|Hotcat.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* TemplateDataEditor[ResourceLoader]|TemplateDataEditor.js
+
+== editing-gadgets ==
+* editdefinition[ResourceLoader]|editdefinition.js
+* creation[ResourceLoader]|creation-disable.js
+* adddefs[ResourceLoader]|adddefs-disable.js
+* FormWizard[ResourceLoader|default|dependencies=jquery.ui] | FormWizard.js
+* FormWizard-core[ResourceLoader|hidden|default|dependencies=mediawiki.api,mediawiki.cookie,mediawiki.ui,mediawiki.user,jquery.chosen,jquery.ui]|FormWizard-core.js|FormWizard.css|relaxed-json.js
+
+== admin-gadgets ==
+* vandalwarner[ResourceLoader|rights=edit]|vandalwarner.js
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed]|morebits.js|morebits.css|Twinkle.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|twinklediff.js|twinkleunlink.js|friendlywelcome.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js
+* userrights[ResourceLoader|rights=delete|dependencies=mediawiki.util]|userrights.js
+* Twinkletest[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,jquery.tipsy,moment]|morebits.js|morebits.css|Twinkletest.js
+
+== Hidden gadgets and utils ==
+* UnsupportedTitles[ResourceLoader|hidden|default|package|targets=desktop,mobile]|UnsupportedTitles.js|UnsupportedTitles.json

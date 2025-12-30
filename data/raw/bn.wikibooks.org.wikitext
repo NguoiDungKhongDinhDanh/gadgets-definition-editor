@@ -1,0 +1,55 @@
+==editing-gadgets==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* FastRevert[ResourceLoader|dependencies=mediawiki.util]|FastRevert.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* AjaxEdit[ResourceLoader|dependencies=mediawiki.util,mediawiki.Uri,mediawiki.user,mediawiki.api]|AjaxEdit.js|AjaxEdit.css
+* wikEd[ResourceLoader]|wikEd.js
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* sompadonasarangsho[ResourceLoader|default|type=general|dependencies=mediawiki.ui.button,mediawiki.util]|sompadonasarangsho.js|sompadonasarangsho.css
+* refToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* DiscussionCloser[ResourceLoader|type=general|rights=autoconfirmed]|DiscussionCloser.js
+* button-status[ResourceLoader|default|dependencies=ext.wikiEditor]|button-status.js
+
+== browse-gadgets ==
+* wikidialog[ResourceLoader|default|targets=desktop,mobile|dependencies=mediawiki.util]|wikidialog.js
+* SpecialSearch[ResourceLoader]|SpecialSearch.js
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+* subject-pages[ResourceLoader]|subjects.css|subjects.js
+* navpop[ResourceLoader]|navpop.js|navpop.css
+* commons-file[ResourceLoader|default|dependencies=mediawiki.util]|commons-file.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+
+==interface-gadgets==
+* BanglaDate[ResourceLoader]|BanglaDate.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* CodeLinks[ResourceLoader|default|dependencies=site,mediawiki.util]|CodeLinks.js
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* userMessages[ResourceLoader|dependencies=mediawiki.util]|UserMessages.js
+* ShortUrl[ResourceLoader]|ShortUrl.css|ShortUrl.js
+* URLShortener[ResourceLoader|default|dependencies=mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|type=general|targets=desktop,mobile]|URLShortener.js|URLShortener.css
+* markAdmins[ResourceLoader|dependencies=mediawiki.util|targets=desktop,mobile]|markAdmins.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+
+==test==
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleprotect.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+
+== Hidden gadgets and utils ==
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title]|catfix.js
+* Edittools[ResourceLoader|hidden|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js|Edittools.css
+* VisibilityToggles[ResourceLoader|hidden|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+<!--
+* AGprefs[ResourceLoader|hidden|dependencies=mediawiki.util]|AGprefs.js
+* column-hacks[Resourceloader|hidden|default]|column-hacks.css 
+-->

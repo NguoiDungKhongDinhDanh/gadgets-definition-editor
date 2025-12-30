@@ -1,0 +1,61 @@
+<noinclude>'''Changes to this page should first be discussed on [[Wikipedia:Gadget/proposals]] or [[Wikipedia_talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikipedia:Gadget#Currently_installed_gadgets]] to make maintenance easier.
+</noinclude>
+
+== browsing-gadgets ==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* searchFocus[ResourceLoader|default]|searchFocus.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+* pageviewstats[ResourceLoader|default|dependencies=mediawiki.util]|pageviewstats.js
+
+== editing-gadgets ==
+* HotCat[ResourceLoader|rights=edit,purge|default]|HotCat.js <!-- purge is a work-around to default-enable only for logged-in users. -->
+* wikEd[ResourceLoader]|wikEd.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* extra-toolbar-buttons[ResourceLoader|default]|extra-toolbar-buttons.js
+* extra-toolbar-buttons-core[ResourceLoader|hidden]|extra-toolbar-buttons-core.js
+
+== watchlist ==
+* watchlist-notice[ResourceLoader|default]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+* WatchlistBase[ResourceLoader|default|rights=viewmywatchlist|skins=vector,monobook,modern]|WatchlistBase.css
+* WatchlistGreenIndicators[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=vector]|WatchlistGreenIndicators.css
+* WatchlistGreenIndicatorsMono[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=monobook,modern]|WatchlistGreenIndicatorsMono.css
+* WatchlistChangesBold[ResourceLoader|peers=WatchlistBase]|WatchlistChangesBold.css
+* SubtleUpdatemarker[ResourceLoader|default|rights=viewmywatchlist|skins=vector,monobook,modern]|SubtleUpdatemarker.css
+
+== interface-gadgets ==
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* MenuToTabs[ResourceLoader]|MenuToTabs.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options]|dropdown-menus.js
+* MenuTabsToggle[ResourceLoader|dependencies=mediawiki.cookie|skins=vector]|MenuTabsToggle.js|MenuTabsToggle.css
+
+== appearance ==
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js|edittop.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* ExternalSearch[ResourceLoader]|externalsearch.js
+* widensearch[ResourceLoader]|widensearch.css
+* topalert[ResourceLoader]|topalert.js|topalert.css
+* metadata[ResourceLoader|dependencies=mediawiki.util]|metadata.js|metadata.css
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* NoAnimations[ResourceLoader]|NoAnimations.js
+* ShortUrl[ResourceLoader|dependencies=user.options]|ShortUrl.css|ShortUrl.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+
+== advanced ==
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* preview[ResourceLoader]|preview.js
+* sysopdectector[ResourceLoader]|sysopdectector.js
+* HistoryNumDiff[ResourceLoader]|HistoryNumDiff.js
+
+== modules ==
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css

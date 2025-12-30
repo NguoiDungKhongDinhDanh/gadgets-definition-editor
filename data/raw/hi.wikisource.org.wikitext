@@ -1,0 +1,62 @@
+== editing-tools ==
+* charinsert[ResourceLoader|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* popups[ResourceLoader|type=general]|popups.js|navpop.css
+* RegexMenuFramework[ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* specialchars[ResourceLoader]|specialchars.js
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* DefaultSummaries[ResourceLoader]|DefaultSummaries.js
+* ContrastReducer[ResourceLoader]|ContrastReducer.js
+* robot[ResourceLoader]|robot.js
+* cropimage[ResourceLoader]|cropimage.js
+
+== display-tools ==
+* Prosesize[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util|rights=edit,purge]|Prosesize.js|Prosesize.css
+== editing-tools-for-Page-namespace ==
+<!-- * ocr[ResourceLoader]|ocr.js  -- Historical/Generic OCR Tool -->
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+* IndicOCR[ResourceLoader]|IndicOCR.js
+* HindiOCR[ResourceLoader]|HindiOCR.js
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* mark-proofread[ResourceLoader|dependencies=mediawiki.util]|mark-proofread.js|mark-proofread.css
+
+== editing-tools-for-Index-namespace ==
+* Fill_Index[ResourceLoader]|Fill_Index.js
+
+== interface ==
+* Site[ResourceLoader|default|dependencies=mediawiki.util|peers=Site-styles]|SiteMessages.js|DisplayFooter.js|ToolbarFixes.js
+* Site-styles[hidden|type=styles]|Site.css|DisplayFooter.css
+* prefill-template-preview[ResourceLoader|hidden|default|actions=edit|namespaces=10,828]|prefill-template-preview.js
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* Visibility[ResourceLoader|dependencies=mediawiki.cookie]|Visibility.js
+
+== compatibility ==
+* Font-Awesome[ResourceLoader|top]|Font-Awesome.css
+
+== development ==
+* ResultListSort[ResourceLoader]|ResultListSort.js
+* WE-framework WS[ResourceLoader]|WE-framework WS.js<!-- 
+* mediawiki.toolbar [ResourceLoader|dependencies=jquery.textSelection] | mediawiki.toolbar.js
+* Legacy-2006toolbar [ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar] | Legacy-2006toolbar.js -->
+
+== maintenance-tools==
+* markblocked[ResourceLoader]|markblocked.js
+
+== admin-tools ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js
+
+== hidden ==
+== hidden ==
+* utils-difference[ResourceLoader|hidden]|utils-difference.js
+* a11y-page-status[ResourceLoader|hidden|default|namespaces=104|actions=edit]|a11y-page-status.js
+
+==Gadget-TranscludedIn==
+* TranscludedIn[ResourceLoader|type=general|default]|TranscludedIn.js

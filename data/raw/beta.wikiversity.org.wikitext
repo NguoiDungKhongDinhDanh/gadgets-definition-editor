@@ -1,0 +1,17 @@
+==General==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+
+== browsing-gadgets ==
+* HideFundraisingNotice[ResourceLoader|type=styles]|HideFundraisingNotice.css
+* popups[ResourceLoader]|popups.js|popups.css
+* EnhancedTalk[ResourceLoader|type=styles]|EnhancedTalk.css
+* Round Corners[ResourceLoader|type=styles]|Round Corners.css
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util]|contribsrange.js
+* HotCat[ResourceLoader]|HotCat.js
+
+== appearance ==
+* ProjectSpecificLogos[ResourceLoader|default]|ProjectSpecificLogos.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js

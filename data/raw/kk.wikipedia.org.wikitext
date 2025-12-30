@@ -1,0 +1,41 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* ReferenceTooltips[ResourceLoader]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== default ==
+* FreezeTopRow[ResourceLoader|default]|FreezeTopRow.css
+* featured-articles-links[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless|type=general]|featured-articles-links.js|featured-articles-links.css
+* externalSearch[ResourceLoader|default|namespaces=-1]|externalSearch.js
+* lastedited[ResourceLoader|default|dependencies=mediawiki.util|rights=autoconfirmed]|lastedited&quickeditcounter.js
+* edittop[ResourceLoader|default|dependencies=user.options,mediawiki.util|skins=vector,vector-2022,monobook,timeless]|edittop.js|edittop.css
+* tagadder[ResourceLoader|default|rights=autoconfirmed]|tagadder.js
+* copySectionLink[ResourceLoader|default||skins=vector,vector-2022,monobook,timeless|rights=autoconfirmed]|copySectionLink.js|copySectionLink.css
+* show-sysop-activity[ResourceLoader|default|namespaces=2, 3, 4,5|type=general|dependencies=mediawiki.util,mediawiki.page.ready]|show-sysop-activity.css|show-sysop-activity.js
+* VectorClassic[ResourceLoader|default|skins=vector]|VectorClassic.css
+
+== interface ==
+* Disable access keys[ResourceLoader]|removeAccessKeys.js
+* LocalLiveClock[ResourceLoader|dependencies=mediawiki.util]|LocalLiveClock.js
+
+== edit ==
+* wikEd[ResourceLoader]|wikEd.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* wikibugs[ResourceLoader|default|dependencies=mediawiki.util, mediawiki.user, jquery.ui|type=general]|JsMwApi.js|wikibugs.js|wikibugs.css
+* QuestionForm[ResourceLoader|default]|QuestionForm.js|QuestionForm.css
+* ToDoLister[ResourceLoader|dependencies=mediawiki.util, mediawiki.user, jquery.ui]|JsMwApi.js|ToDoLister.js
+* HotCat[ResourceLoader|rights=upload|default]|HotCat.js
+* CategoryMaster[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util]|CategoryMaster.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=rollback]|Cat-a-lot.js
+
+== appearance ==
+* CollapsibleNav[ResourceLoader|dependencies=mediawiki.cookie|skins=vector]|CollapsibleNav.js|CollapsibleNav.css
+* dark-mode-toggle[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|skins=vector,monobook]|dark-mode-toggle-pagestyles.css
+
+== advanced ==
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+
+== test ==
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+* dark-mode[ResourceLoader]|dark-mode.css

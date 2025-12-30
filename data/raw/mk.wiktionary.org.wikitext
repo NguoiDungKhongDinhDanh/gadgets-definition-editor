@@ -1,0 +1,19 @@
+<noinclude>'''Промените на оваа страница треба најпрвин да се продискутираат на [[Викиречник:Алатки/предлози]] или [[Разговор_за_Викиречник:Алатки]].'''
+
+За секоја нова алатка додајте ставка во [[Викиречник:Алатки#Моментално_инсталирани_алатки]] за да се олесни одржувањето.
+</noinclude>
+
+== browsing-gadgets ==
+
+*Navigation popups[ResourceLoader]|Navigation popups.js|Navigation popups.css
+*ExpandableTOC[ResourceLoader|default]|ExpandableTOC.js
+
+== editing-gadgets ==
+
+*HotCat[ResourceLoader]|HotCat.js
+*CategoryMaster[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util]|CategoryMaster.js
+
+== interface-gadgets ==
+
+*UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+*dropdown-menus[ResourceLoader]|dropdown-menus.js|dropdown-menus.css

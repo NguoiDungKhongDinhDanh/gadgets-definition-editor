@@ -1,0 +1,1 @@
+* sound-logo-voting[ResourceLoader|default|hidden|targets=desktop,mobile|dependencies=jquery.i18n]|sound-logo-voting.js

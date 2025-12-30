@@ -1,0 +1,60 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|popups.js|navpop.css
+* removeAccessKeys[ResourceLoader|dependencies=user,mediawiki.util]|removeAccessKeys.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* ScrolledReflist[ResourceLoader|type=styles]|ScrolledReflist.css
+* ReferenceTooltips[ResourceLoader|dependencies=mediawiki.cookie,jquery.client|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* searchFocus[ResourceLoader]|searchFocus.js
+* NormalizeCharWidth[ResourceLoader|default]|NormalizeCharWidth.js
+* UsernameReplace[ResourceLoader|default|targets=desktop,mobile|rights=minoredit]|UsernameReplace.js
+* MarkAdmins[ResourceLoader|package|targets=desktop,mobile|dependencies=mediawiki.user,mediawiki.util,mediawiki.api,mediawiki.ForeignApi,mediawiki.notification,oojs-ui-widgets]|MarkAdmins.js|MarkAdmins-data.json|MarkAdmins-updater.js
+* MarkBLocked-core[ResourceLoader|hidden|dependencies=mediawiki.user,mediawiki.api,mediawiki.ForeignApi,mediawiki.storage,mediawiki.util,jquery.ui,oojs-ui,oojs-ui.styles.icons-moderation]|MarkBLocked-core.js|MarkBLocked-core.css
+* MarkBLocked[ResourceLoader|supportsUrlLoad|package|dependencies=mediawiki.user,mediawiki.api,mediawiki.ForeignApi,mediawiki.storage,mediawiki.util,jquery.ui,oojs-ui,oojs-ui.styles.icons-moderation]|MarkBLocked.js|MarkBLocked-core.js|MarkBLocked-core.css
+* ConfirmLogout[ResourceLoader|supportsUrlLoad|package|dependencies=mediawiki.storage,mediawiki.api,oojs-ui|rights=viewmywatchlist]|ConfirmLogout.js|selectorLogoutLink.js
+
+== editing-gadgets ==
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* wikEd[ResourceLoader]|wikEd.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* suppressEnterAtSummaryBox[ResourceLoader|default]|suppressEnterAtSummaryBox.js
+* SummaryEnterPreview[ResourceLoader]|SummaryEnterPreview.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* ForkAPage[ResourceLoader|dependencies=mediawiki.util]|ForkAPage.js
+* vpTagHelper[ResourceLoader|dependencies=mediawiki.util|type=general]|vpTagHelper.js|vpTagHelper.css
+* checkSignature[ResourceLoader|default|dependencies=oojs-ui-core,oojs-ui-windows]|checkSignature.js
+* checkSignature-suppressWhenMinor[ResourceLoader]|checkSignature-suppressWhenMinor.js
+* modifyEditsection[ResourceLoader|dependencies=mediawiki.template,mediawiki.template.mustache,mediawiki.Uri]|modifyEditsection.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* MovePageWarnings[ResourceLoader|default|hidden|rights=move|dependencies=mediawiki.api,mediawiki.Title,mediawiki.util]|MovePageWarnings.js
+
+== appearance-gadgets ==
+* OldDiff[ResourceLoader|type=styles]|OldDiff.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|type=general|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* PDFLinkIcon[ResourceLoader|default|targets=desktop,mobile|type=styles]|PDFLinkIcon.css
+* DisambiguationColors[ResourceLoader|targets=desktop,mobile|type=styles]|DisambiguationColors.css
+* RedirectColor[ResourceLoader|default|targets=desktop,mobile|type=styles]|RedirectColor.css
+* Blackskin[ResourceLoader|type=styles|skins=monobook]|Blackskin.css
+* dark-mode[ResourceLoader|targets=desktop,mobile]|dark-mode.css
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+
+== management-gadgets ==
+* rollbackBot[ResourceLoader|rights=markbotedits|dependencies=mediawiki.util]|rollbackBot.js
+* MassRollback[ResourceLoader|rights=rollback|dependencies=mediawiki.util,mediawiki.api,oojs-ui]|MassRollback.js
+* MassRevisionDelete[ResourceLoader|rights=deleterevision|dependencies=jquery.makeCollapsible|oojs-ui|oojs-ui.styles.icons-movement|mediawiki.api]|MassRevisionDelete.js
+* MassProtect[ResourceLoader|rights=protect|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,jquery.ui]|MassProtect.js
+* AbuseFilterFalsePositiveLink[ResourceLoader|supportsUrlLoad|dependencies=mediawiki.util|rights=autoconfirmed]|AbuseFilterFalsePositiveLink.js
+
+== miscellaneous-gadgets ==
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* WikiMiniAtlas[ResourceLoader|default|rights=read]|WikiMiniAtlas.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* protectionIndicator[ResourceLoader|default]|protectionLog.js|protectionLog.css
+* protectionLog[ResourceLoader]|protectionLog.js/tab.js
+* testPackage[ResourceLoader|hidden]|testPackage.js
+* WpLibExtra[ResourceLoader|hidden]|WpLibExtra.js
+* ip-wiki[ResourceLoader|hidden]|ip-wiki.js
+* selectorLogoutLink[ResourceLoader|hidden]|selectorLogoutLink.js

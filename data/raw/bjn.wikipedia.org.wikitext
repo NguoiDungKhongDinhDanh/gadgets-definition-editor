@@ -1,0 +1,18 @@
+== browsing-gadgets == 
+* GoogleTrans[ResourceLoader|dependencies=mediawiki.util]|GoogleTrans.js
+
+== editing-gadgets == 
+* HotCat[ResourceLoader|rights=edit]|HotCat.js 
+* Edittools[ResourceLoader|default]|Edittools.js
+
+== interface-gadgets ==
+* Purge[ResourceLoader|dependencies=mediawiki.util]|Purge.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+* ExtLinks[ResourceLoader]|ExtLinks.js
+* textareasansserif[ResourceLoader]|textareasansserif.css
+* AdvancedSiteNotices[ResourceLoader|default|dependencies=mediawiki.cookie]|AdvancedSiteNotices.js
+
+== toolbox ==
+* Contributors[ResourceLoader|dependencies=mediawiki.util]|Contributors.js
+* Subpages[ResourceLoader|dependencies=mediawiki.util]|Subpages.js

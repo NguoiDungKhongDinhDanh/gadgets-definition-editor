@@ -1,0 +1,12 @@
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* UTCLiveClock[ResourceLoader |supportsUrlLoad |type=general |dependencies=mediawiki.util, mediawiki.api |peers=UTCLiveClock-pagestyles] |UTCLiveClock.js |UTCLiveClock.css
+* UTCLiveClock-pagestyles [hidden |skins=vector, vector-2022, monobook] |UTCLiveClock-pagestyles.css
+* ShortLink[ResourceLoader]|ShortLink.js
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* Edittools[ResourceLoader]|Edittools.js
+== appearance ==

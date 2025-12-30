@@ -1,0 +1,22 @@
+== Navegación ==
+
+* RevisorOrtografico[ResourceLoader | dependencies=mediawiki.util]|RevisorOrtografico.js
+* DetectorHomonimos[ResourceLoader | dependencies=mediawiki.util,mediawiki.api]|DetectorHomonimos.js|DetectorHomonimos.css
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* ReferenceTooltips[ResourceLoader]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== Edición ==
+
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection]|charinsert-core.js|charinsert-core.css
+
+== Aparencia ==
+
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* contrib-numeradas|contrib-numeradas.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* XustificaParagrafos[ResourceLoader]|XustificaParagrafos.css

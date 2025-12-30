@@ -1,0 +1,43 @@
+<noinclude>'''এই পৃষ্ঠাত কোনো সাল−সলনি কৰাৰ আগতে [[ৱিকিপিডিয়া:ৰাইজৰ চ'ৰা (কাৰিকৰী)]] বা [[ৱিকিপিডিয়া বাৰ্তা:গেজেটসমূহ]]ত আলোচনা কৰা উচিত।'''
+
+অনুগ্ৰহ কৰি নতুন গেজেট সংস্থাপন কৰিলে [[ৱিকিপিডিয়া:গেজেটসমূহ#বৰ্তমান সংস্থাপিত গেজেটসমূহ]]ৰ তালিকাত অন্তৰ্ভূক্ত কৰক, তেতিয়া ইয়াক পৰিচালনা কৰিবলৈ সহজ হ’ব। আপুনি [[Special:Gadgets|গেজেটসমূহ]]ৰ পৃষ্ঠাত কোনো গেজেটৰ বিৱৰণ সম্পাদনা নাইবা সমালোচনা লিখিব পাৰিব।
+</noinclude>
+
+== browsing ==
+
+
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing ==
+
+* citations[ResourceLoader|dependencies=mediawiki.util]|citations.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* ProveIt[ResourceLoader|default]|ProveIt.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection,user]|charinsert-core.js|charinsert-core.css
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* FloatableEditingButton[ResourceLoader]|FloatableEditingButton.js
+
+== appearance ==
+
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js|edittop.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options]|dropdown-menus.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* Wikipatrika[ResourceLoader|default]|Wikipatrika.js
+
+== advanced ==
+
+
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+
+== test ==
+* Numeral converter[ResourceLoader|default|dependencies=mediawiki.util]|Numeral Converter.js
+* ShortUrl[ResourceLoader|default]|ShortUrl.js|ShortUrl.css
+* Myurl[ResourceLoader|default]|Myurl.js
+* BengaliRCheker[ResourceLoader|default]|BengaliRChecker.js

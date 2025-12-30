@@ -1,0 +1,51 @@
+== edit ==
+* specialchars[ResourceLoader]|specialchars.js
+* edit0[ResourceLoader]|edit0.js|edit0.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* PreviewWithVariant[ResourceLoader|dependencies=ext.gadget.site-lib]|PreviewWithVariant.js
+* easy-archive[ResourceLoader]|easy-archive.js
+
+== WikEd ==
+* wikEd[ResourceLoader]|wikEd.js
+* wikEd_intl_hant[ResourceLoader]|wikEd_international_hant.js
+* wikEd_intl_hans[ResourceLoader]|wikEd_international_hans.js
+
+== editbutton ==
+* Edittools-default[ResourceLoader]|Edittools-default.js
+* Edittools-plus[ResourceLoader]|Edittools-plus.js
+* Edittools-user[ResourceLoader]|Edittools-user.js
+* Edittools-admin[ResourceLoader]|Edittools-admin.js
+* Edittools-VFD[ResourceLoader]|Edittools-VFD.js
+* Edittools-ZHC[ResourceLoader]|Edittools-ZHC.js
+* Edittools-cite[ResourceLoader]|Edittools-cite.js
+
+== userif ==
+* AdvancedSiteNotices[ResourceLoader|dependencies=ext.gadget.site-lib,mediawiki.cookie,mediawiki.util|default]|AdvancedSiteNotices.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* blinktalk[ResourceLoader]|blinktalk.js|blinktalk.css
+* hantsect[ResourceLoader]|hantsect.css
+* popupUserLanguage[ResourceLoader]|popupUserLanguage.js|popupUserLanguage.css
+* Blackskin[ResourceLoader]|Blackskin.css
+* contribsrange[ResourceLoader]|contribsrange.js
+* moveEditsection[ResourceLoader]|moveEditsection.js
+* noteTA[ResourceLoader|dependencies=jquery.ui,mediawiki.api,ext.gadget.site-lib,jquery.makeCollapsible|default|type=general]|noteTA.js|noteTA.css
+* internalLinkHelper-redonly[ResourceLoader]|internalLinkHelper-redonly.css
+* internalLinkHelper-redtipsy[ResourceLoader|dependencies=mediawiki.util,jquery.tipsy,ext.gadget.site-lib]|internalLinkHelper-redonly.css|internalLinkHelper-redtipsy.css|internalLinkHelper-redtipsy.js
+* internalLinkHelper-redplain[ResourceLoader|dependencies=mediawiki.util]|internalLinkHelper-redplain.css|internalLinkHelper-redplain.js
+* internalLinkHelper-external[ResourceLoader|dependencies=mediawiki.util]|internalLinkHelper-redonly.css|internalLinkHelper-external.css|internalLinkHelper-external.js
+* internalLinkHelper-suffix[ResourceLoader|dependencies=mediawiki.util]|internalLinkHelper-external.css|internalLinkHelper-suffix.css|internalLinkHelper-external.js|internalLinkHelper-suffix.js
+* internalLinkHelper-cravix[ResourceLoader|dependencies=mediawiki.util,ext.gadget.site-lib]|internalLinkHelper-cravix.css|internalLinkHelper-cravix.js
+* internalLinkHelper-altcolor[ResourceLoader|dependencies=mediawiki.util,ext.gadget.site-lib|type=general]|internalLinkHelper-redonly.css|internalLinkHelper-redtipsy.css|internalLinkHelper-altcolor.css|internalLinkHelper-redtipsy.js
+* internalLinkHelper-ilbluehl[ResourceLoader|dependencies=mediawiki.util,jquery.tipsy,ext.gadget.site-lib|type=general]|internalLinkHelper-redonly.css|internalLinkHelper-redtipsy.css|internalLinkHelper-altcolor.css|internalLinkHelper-ilbluehl.css|internalLinkHelper-redtipsy.js
+
+== compatibility ==
+*site-lib[ResourceLoader|dependencies=mediawiki.util|hidden]|site-lib.js
+*IRC[ResourceLoader|hidden]|IRC.js
+
+== popup ==
+* Navigation_popups[ResourceLoader|dependencies=ext.gadget.site-lib|type=general]|popups.js|popups.css
+
+== sysop ==
+*CleanDeleteReasons[ResourceLoader|rights=delete|default]|CleanDeleteReasons.js

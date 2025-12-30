@@ -1,0 +1,6 @@
+# Definicions de ''Gadgets''
+
+* TemplateScript[ResourceLoader]|TemplateScript.js
+* PossiblesErrors[ResourceLoader|dependencies=mediawiki.util]|PossiblesErrors.js
+* RetallaImatges[ResourceLoader|default]|RetallaImatges.js
+* CropTool[ResourceLoader|default|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js

@@ -1,0 +1,42 @@
+[[Special:Gadgets]] [[Special:GadgetUsage]] [[Special:参数设置#mw-prefsection-gadgets]]
+<div style='font-family:monospace; word-break:break-all;'>
+
+== edit ==
+* edit0[ResourceLoader|dependencies=user.options,mediawiki.util|default|type=general]|edit0.js|edit0.css
+* Navigation_popups[ResourceLoader|dependencies=ext.gadget.site-lib|type=general]|popups.js|popups.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* specialchars[ResourceLoader]|specialchars.js
+* ToolsRedirect[ResourceLoader|dependencies=ext.gadget.site-lib|rights=edit|type=general]|ToolsRedirect.js|ToolsRedirect.css
+* TranslateHelper[ResourceLoader]|TranslateHelper.js
+* AjaxEdit[ResourceLoader]|AjaxEdit.js|morebits.js|morebits.css
+
+== editbutton ==
+* Edittools-vector[ResourceLoader|dependencies=user.options]|Edittools-vector.js
+
+== browser ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Hashcheck [ResourceLoader|default]|Hashcheck.js
+
+== appear ==
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* CommentsinLocalTime[ResourceLoader|dependencies=ext.gadget.site-lib]|CommentsinLocalTime.js
+* VisibilityToggles[ResourceLoader|hidden|dependencies=user,mediawiki.cookie]|morebits.js|morebits.css|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|dependencies=ext.gadget.VisibilityToggles]|morebits.js|morebits.css|defaultVisibilityToggles.js
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title]|catfix.js
+* collapsibleTables[ResourceLoader|dependencies=ext.gadget.site-lib|default]|collapsibleTables.js
+* CodeLinks[ResourceLoader|default|dependencies=site,mediawiki.util]|CodeLinks.js
+* Palette[ResourceLoader|hidden|default]|Palette.css
+* zhDialMap[ResourceLoader|default|dependencies=oojs-ui-core]|morebits.js|morebits.css|zhDialMap.js|zhDialMap.css
+* Site[ResourceLoader|hidden|default|type=styles]|Site.css
+
+== sysop ==
+* Twinkle[ResourceLoader|dependencies=mediawiki.api,jquery.ui,moment|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|morebits.js|morebits.css|Twinkle.js|friendlytag.js|twinklearv.js|twinklebatchdelete.js|twinkleblock.js|twinkleclose.js|twinkleconfig.js|twinklecopyvio.js|twinklediff.js|twinklefluff.js|twinklespeedy.js|twinklexfd.js|Twinkle.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* rollback-summary[ResourceLoader|rights=rollback]|rollback-summary.js
+* CleanDeleteReasons[ResourceLoader|rights=delete|default]|CleanDeleteReasons.js
+
+== compatibility ==
+* site-lib[ResourceLoader|dependencies=mediawiki.util|hidden]|site-lib.js
+
+</div>

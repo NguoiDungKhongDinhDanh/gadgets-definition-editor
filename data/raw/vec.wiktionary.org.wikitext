@@ -1,0 +1,13 @@
+* LegacyScripts[ResourceLoader|default|dependencies=site,mediawiki.util,mediawiki.cookie|type=general]|legacy.js
+
+== editing-gadgets ==
+*FormeFlese[ResourceLoader|dependencies=mediawiki.util]|FormeFlese.js
+*tradusion[ResourceLoader|default|dependencies=site,mediawiki.util]|tradusion.js
+*catalot[ResourceLoader|dependencies=site,mediawiki.util]|catalot.js
+*WiktAccFormCreation[ResourceLoader|dependencies=mediawiki.util]|WiktAccFormCreation.js
+*CreerNouveauMot[ResourceLoader|type=general|default]|CommonWikt.js|CreerNouveauMot.js|CreerNouveauMot.css
+
+== interface-gadgets ==
+*relatedIcons[ResourceLoader|default]|relatedIcons.css
+*NewImageThumb[ResourceLoader|default|skins=vector]|NewImageThumb.js|NewImageThumb.css
+*VectorClassic [ResourceLoader|default] | VectorClassic.css

@@ -1,0 +1,20 @@
+# Cette page sert à définir les gadgets utilisés dans [[Special:Gadgets]]
+# Avant de la modifier, assurez-vous d'avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]]
+# Ne changez pas le nom d'un gadget existant (il serait alors désactivé pour tous)
+# Si un gadget ne fonctionne pas, on peut le commenter en transformant * en #
+
+== Interface ==
+* HotCats[ResourceLoader]|HotCats.js
+* HotCatsMulti [ResourceLoader|dependencies=site,user] | HotCatsMulti.js
+* ResumeDeluxe[ResourceLoader]|ResumeDeluxe.js
+* Popups[ResourceLoader]|Popups.js
+* monBrouillon[ResourceLoader|dependencies=mediawiki.util]|monBrouillon.js
+* searchbox[ResourceLoader]|lib-beau.js|searchbox.js
+
+== Onglets ==
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* OngletGoogle[ResourceLoader|dependencies=mediawiki.util]|OngletGoogle.js
+* RenommageCategorie[ResourceLoader]|RenommageCategorie.js
+
+== Autres ==
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js

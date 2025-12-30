@@ -1,0 +1,2 @@
+* tabbedwindow[ResourceLoader|default]|tabbedwindow.js
+* headanchor[ResourceLoader|default]|headanchor.js|headanchor.css

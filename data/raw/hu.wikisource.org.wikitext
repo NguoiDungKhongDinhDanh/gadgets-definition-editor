@@ -1,0 +1,16 @@
+== Edit ==
+* hotcat[ResourceLoader]|hotcat.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection]|wikEd.js
+* addOButtonsToAdv[ResourceLoader|default|actions=edit|dependecies=user.options]|addOButtonsToAdv.js
+* edittools[ResourceLoader|type=general|default]|edittools.js|edittools.css
+
+== General ==
+* latszer[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js
+* ora[ResourceLoader|dependencies=mediawiki.util]|ora.js
+* keresesUjFulon[ResourceLoader]|keresesUjFulon.js
+* FejlettDiff[ResourceLoader]|FejlettDiff.js
+* interwikiFordito[ResourceLoader]|interwikiFordito.js
+
+== Style ==
+* redirect[default|rights=purge]|redirect.css
+* vitakiemel|vitakiemel.css

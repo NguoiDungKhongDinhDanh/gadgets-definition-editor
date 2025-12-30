@@ -1,0 +1,17 @@
+== Gadgets d'eidiçon ==
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* wikEd[ResourceLoader|dependencies=jquery.client]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* highlightRedirects[ResourceLoader]|highlightRedirects.css
+* Zambiguacon[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|zambiguacon.js|zambiguacon.css
+* EilemientosScundidos[ResourceLoader|default|type=general]|EilemientosScundidos.js|EilemientosScundidos.css
+* charinsert[ResourceLoader|default]|charinsert.js
+* RTRC[ResourceLoader]|RTRC.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+* ScunderCentralNoticeDelMeta[ResourceLoader]|ScunderCentralNoticeDelMeta.js|ScunderCentralNoticeDelMeta.css
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+
+== Módulos ==
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection]|charinsert-core.js|charinsert-core.css

@@ -1,0 +1,5 @@
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== interface ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js

@@ -1,0 +1,26 @@
+== General ==
+* latszer[ResourceLoader]|popups.js
+* ora[ResourceLoader|dependencies=mediawiki.util]|ora.js|ora.css
+* advsearch[ResourceLoader|skins=monobook]|advsearch.js
+* keresesUjFulon[ResourceLoader]|keresesUjFulon.js
+* FejlettDiff[ResourceLoader]|FejlettDiff.js
+* interwikiFordito[ResourceLoader]|interwikiFordito.js
+* oldid[ResourceLoader]|oldid.js
+
+== Edit ==
+* catinsert[ResourceLoader|dependencies=mediawiki.api,jquery.textSelection] |catinsert.js
+* hotcat[ResourceLoader]|hotcat.js
+* wikEd[ResourceLoader]|wikEd.js
+* QPreview[ResourceLoader|dependencies=jquery.textSelection,mediawiki.api,mediawiki.language,mediawiki.util,mediawiki.jqueryMsg,oojs-ui-core] |QPreview.js
+
+== Style ==
+* redirect|redirect.css
+* deluxehistory[ResourceLoader|dependencies=mediawiki.util]|deluxehistory.js
+* fv-szinezo[ResourceLoader]|fv-színező.css|fv-színező.js
+
+== Categories ==
+* katrss[ResourceLoader|dependencies=mediawiki.util]|kategoriarss.js
+
+== Admin ==
+* warning[ResourceLoader]|warning.js
+* rollback[ResourceLoader]|rollback.js

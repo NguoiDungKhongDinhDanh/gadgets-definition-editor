@@ -1,0 +1,15 @@
+* HotCat[ResourceLoader]|HotCat.js
+* VisibilityToggles[ResourceLoader|hidden|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+* purge-tab [ResourceLoader | dependencies=mediawiki.util | type=general] | purge.js | purge.css
+* LanguagesAndScripts[ResourceLoader|default]|LanguagesAndScripts.css
+* TranslationAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data]|TranslationAdder.js
+* TranslationAdder-Data[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.Uri,ext.gadget.LanguageUtils]|TranslationAdder-Data.js
+* LegacyScriptsNewNode[ResourceLoader|hidden]|LegacyScriptsNewNode.js
+* LanguageUtils[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.StorageUtils]|LanguageUtils.js
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* PagePreviews[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|PagePreviews.js
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|namespaces=0,1,10,11,114,828,829|type=general]|DocTabs.js|DocTabs.css
+* Palette[ResourceLoader|hidden|default]|Palette.css
+* Site[ResourceLoader|hidden|default]|Site.css

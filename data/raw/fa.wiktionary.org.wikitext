@@ -1,0 +1,43 @@
+==LanguageSupport==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* googletranslator[ResourceLoader|dependencies=mediawiki.util]|googletranslator.js
+
+==Interface==
+* EnhancedTalk[ResourceLoader]|blank.js|EnhancedTalk.css
+* mySandbox[ResourceLoader|dependencies=mediawiki.util]|mySandbox.js
+* editzero[ResourceLoader|dependencies=mediawiki.util]|editzero.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* TabbedLanguages[default|skins=vector,vector-2022,timeless,monobook|ResourceLoader|dependencies=mediawiki.cookie]|TabbedLanguages.js
+* DefSideBoxes[ResourceLoader|dependencies=mediawiki.util]|DefSideBoxes.js
+* adddefinition[ResourceLoader|dependencies=mediawiki.util]|adddefinition.js
+* defaultsummaries[ResourceLoader]|defaultsummaries.js
+
+==patrol-tools==
+* RTRC[ResourceLoader]|RTRC.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.select2,mediawiki.api,ext.gadget.morebits|rights=editsitejs|type=general|peers=Twinkle-pagestyles]|Twinkle-2020.js|twinkleprod-2020.js|twinkleimage-2020.js|twinklebatchundelete-2020.js|twinklewarn-2020.js|twinklespeedy-2020.js|friendlyshared-2020.js|twinklediff-2020.js|twinkleunlink-2020.js|friendlytag-2020.js|twinkledeprod-2020.js|friendlywelcome-2020.js|twinklexfd-2020.js|twinklebatchdelete-2020.js|twinklebatchprotect-2020.js|twinkleconfig-2020.js|twinklefluff-2020.js|twinkleprotect-2020.js|twinklearv-2020.js|twinkleblock-2020.js|friendlytalkback-2020.js|Twinkle-2020.css
+
+==Extra-Editbuttons==
+* Extra-Editbuttons[ResourceLoader]|Extra-Editbuttons.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-dictionary.js|Extra-Editbuttons-autoed.js|Extra-Editbuttons-botworks.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* UserRights[ResourceLoader|rights=undelete|dependencies=mediawiki.util]|UserRights.js
+* StatLink[ResourceLoader|rights=delete]|StatLink.js
+
+== statistics ==
+* userinfo[ResourceLoader|dependencies=mediawiki.util]|userinfo.js
+
+== Categories ==
+* HotCat[ResourceLoader]|HotCat.js
+
+==editing-gadgets==
+* RTRC[ResourceLoader]|RTRC.js
+
+== beta ==
+* VisibilityToggles[ResourceLoader|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+* TranslationAdder[ResourceLoader|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data]|TranslationAdder.js
+* TranslationAdder-Data[ResourceLoader|dependencies=mediawiki.api,mediawiki.Uri,ext.gadget.LanguageUtils]|TranslationAdder-Data.js

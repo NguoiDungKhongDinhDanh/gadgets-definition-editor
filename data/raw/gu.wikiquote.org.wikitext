@@ -1,0 +1,25 @@
+== browsing ==
+
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|twinkleblock.js|friendlytalkback.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing ==
+
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* ProveIt[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util]|ProveIt.css|ProveIt.js
+* wikEd[ResourceLoader]|wikEd.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== appearance ==
+
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* ExternalSearch[ResourceLoader]|externalsearch.js
+
+== test ==
+
+* Numeral_converter[ResourceLoader|dependencies=mediawiki.util|default]|Numeral_converter.css|Numeral_converter.js
+
+== deprecated ==

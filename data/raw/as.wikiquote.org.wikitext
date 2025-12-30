@@ -1,0 +1,14 @@
+== সম্পাদনা সহায়ক সঁজুলি ==
+* HotCat[ResourceLoader|default]|HotCat.js
+* ProveIt[ResourceLoader|default]|ProveIt.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=mediawiki.toolbar,jquery.textSelection,user]|charinsert-core.js|charinsert-core.css
+
+== ইণ্টাৰফেইচ ==
+* purgetab[ResourceLoader|default]|purgetab.js
+* ShortUrl[ResourceLoader|default]|ShortUrl.js
+* qrCode[ResourceLoader|default]|qrCode.js
+
+== পৰীক্ষামূলক আহিলা ==
+* BengaliRCheker[ResourceLoader|default]|BengaliRChecker.js
+* Rapratisthapan[ResourceLoader|default]|Rapratisthapan.js

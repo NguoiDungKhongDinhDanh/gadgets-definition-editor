@@ -1,0 +1,6 @@
+* AdvancedSiteNotices[ResourceLoader|default|targets=desktop,mobile]|AdvancedSiteNotices.js
+* HotCat[ResourceLoader|default|rights=autoconfirmed]|HotCat.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* Nulisa[ResourceLoader]|Nulisa.js|Nulisa.css
+* PreviewTransliterasi[ResourceLoader]|PreviewWithVariant.js
+* specialchars[ResourceLoader|default]|specialchars.js

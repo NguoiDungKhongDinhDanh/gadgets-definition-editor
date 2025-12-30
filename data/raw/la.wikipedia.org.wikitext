@@ -1,0 +1,18 @@
+== vultus ==
+* vultus-ligaturas-celare[ResourceLoader|namespaces=0,14,100]|vultus-ligaturas-celare.js|vultus.js
+* vultus-ligaturas-monstrar[ResourceLoader|namespaces=0,14,100]|vultus-ligaturas-monstrare.js|vultus.js
+* vultus-j-ad-i[ResourceLoader|namespaces=0,14,100]|vultus-j-ad-i.js|vultus.js
+* vultus-u-ad-v[ResourceLoader|namespaces=0,14,100]|vultus-u-ad-v.js|vultus.js
+* vultus-v-ad-u[ResourceLoader|namespaces=0,14,100]|vultus-v-ad-u.js|vultus.js
+* vultus-lowercase[ResourceLoader|namespaces=0,14,100|peers=vultus-lowercase-pagestyl]|vultus-lowercase.js
+* vultus-lowercase-pagestyl[hidden|namespaces=0,14,100]|vultus-lowercase.css
+* vultus-uppercase[ResourceLoader|namespaces=0,14,100|peers=vultus-uppercase-pagestyl]|vultus-uppercase.js
+* vultus-uppercase-pagestyl[hidden|namespaces=0,14,100]|vultus-uppercase.css
+* vultus-smallcaps[namespaces=0,14,100]|vultus-smallcaps.css
+* vultus-punct[ResourceLoader|namespaces=0,14,100]|vultus-punct.js|vultus.js
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+== editing ==
+* edittools-stickycharsubse[ResourceLoader]|edittools-stickycharsubset.js
+* edittools-magnitudo[ResourceLoader|actions=edit]|edittools-magnitudo.js
+* HotCat[ResourceLoader]|HotCat.js

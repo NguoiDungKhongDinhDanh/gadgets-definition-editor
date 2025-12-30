@@ -1,0 +1,16 @@
+==אלגעמיין==
+* editIntro[ResourceLoader]|editIntro.js
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* Purge-tab[ResourceLoader|dependencies=mediawiki.util]|Purge-tab.js
+* CSS-tab[ResourceLoader|dependencies=mediawiki.util]|CSS-tab.js
+* XHTML-tab[ResourceLoader|dependencies=mediawiki.util]|XHTML-tab.js
+* previousDesign|previousDesign.css
+* UseLangEn[ResourceLoader|dependencies=mediawiki.util]|UseLangEn.js
+
+== קאטעגאריעס ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+
+==פראבע==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* NavigationPopups[ResourceLoader]|NavigationPopups.js|NavigationPopups.css

@@ -1,0 +1,24 @@
+== Darstellung ==
+* setupTitle[ResourceLoader|dependencies=mediawiki.util]|setupTitle.js
+* displayRealTitle[ResourceLoader]|displayRealTitle.js
+* editSectionLink[ResourceLoader]|editSectionLink.js
+* Pfeil-hoch[ResourceLoader]|Pfeil-hoch.js
+* showAnchors[ResourceLoader]|showAnchors.js
+* navigation-popups[ResourceLoader|dependencies=mediawiki.user]|navigation-popups.js
+
+== Bearbeitungswerkzeuge ==
+* extra-editbuttons[ResourceLoader]|extra-editbuttons.js
+* wikEd[ResourceLoader|dependencies=mediawiki.util,user]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* erstelleSammlung[ResourceLoader|dependencies=mediawiki.util]|Sammlungsparser.js
+* addStatisticsLink[ResourceLoader|default|dependencies=mediawiki.util]|addStatisticsLink.js
+* addMediawiki2LatexLink[ResourceLoader|default|dependencies=mediawiki.util]|addMediawiki2LatexLink.js
+
+== Interaktive Elemente ==
+* CollapseElements[ResourceLoader|default]|CollapseElements.js
+* CollapseAll[ResourceLoader]|CollapseAll.js
+
+== Buchspezifische Gadgets ==
+* mfnf-linter[ResourceLoader|dependencies=mediawiki.util|default]|mfnf-linter.js
+* serlo-general[ResourceLoader|dependencies=mediawiki.util|default|hidden]|serlo-general.js
+* serlo-design[ResourceLoader|type=styles|default]|serlo-design.css

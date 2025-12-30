@@ -1,0 +1,22 @@
+== interface-gadgets ==
+
+* HideSectionEditLinks [ ResourceLoader ] | HideSectionEditLinks.css
+* AddIwLinksToTranslations [ ResourceLoader ] | AddIwLinksToTranslations.css | AddIwLinksToTranslations.js
+* VisualModificationOfTranslationBlocks | VisualModificationOfTranslationBlocks.css
+* ReferencePopups [ ResourceLoader | dependencies = jquery.tipsy | default ] | ReferencePopups.css | ReferencePopups.js
+* SeparateSpecialCategories [ ResourceLoader | dependencies = mediawiki.Title, mediawiki.Uri, mediawiki.util | default ] | SeparateSpecialCategories.css | SeparateSpecialCategories.js
+
+== edit-gadgets ==
+
+* AutomaticCosmeticChanges [ ResourceLoader ] | AutomaticCosmeticChanges.js
+
+== maintenance-gadgets ==
+
+* HighlightRedirects | HighlightRedirects.css
+* HighlightTranslationsRedundancy | HighlightTranslationsRedundancy.css
+* NotifyUncategorizedPage [ ResourceLoader | dependencies = mediawiki.util | default ] | NotifyUncategorizedPage.css | NotifyUncategorizedPage.js
+
+== admin-gadgets ==
+
+* CleanDeleteReason [ ResourceLoader | rights = delete | default ] | CleanDeleteReason.js
+* SafeRollback [ ResourceLoader | rights = rollback | default ] | SafeRollback.js

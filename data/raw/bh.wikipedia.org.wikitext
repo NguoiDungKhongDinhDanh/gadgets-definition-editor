@@ -1,0 +1,51 @@
+* common-action-edit[ResourceLoader|hidden|type=general|dependencies=site,mediawiki.util]|common-action-edit.js|common-action-edit.css
+
+== browsing ==
+* ShortUrlPlus[ResourceLoader|default]|ShortUrlPlus.css|ShortUrlPlus.js
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+* WikidataInfo[ResourceLoader|dependencies=mediawiki.jqueryMsg]|WikidataInfo.js
+
+== editing-gadgets ==
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* Edittools[ResourceLoader]|Edittools.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* ProveIt-classic[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util]|ProveIt-classic.css|ProveIt-classic.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js|edittop.css
+* wikEd[ResourceLoader]|wikEd.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js|HotCat.css
+* wikificator[ResourceLoader|hidden|default|type=general|dependencies=user.options,jquery.textSelection]|wikificator.js|wikificator.css
+* summaryButtons[ResourceLoader|hidden|default|type=general|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css
+
+== display-gadgets ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+* CategoryAboveAll[ResourceLoader]|CategoryAboveAll.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* OpenStreetMap[ResourceLoader|dependencies=mediawiki.util,jquery.ui|default]|osm.js
+
+== advanced ==
+* LiveRC [ResourceLoader] | LiveRC.js
+* RTRC[ResourceLoader]|RTRC.js
+* RevertDiff[ResourceLoader]|RevertDiff.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleprod.js|twinklexfd.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinkledeprod.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+
+== beta ==
+* Twinkle-beta[ResourceLoader|dependencies=ext.gadget.morebits-beta,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed,import|type=general|peers=Twinkle-pagestyles-beta]|Twinkle-beta.js|Twinkle-beta.css|twinklearv-beta.js|twinklewarn-beta.js|twinkleblock-beta.js|friendlywelcome-beta.js|friendlyshared-beta.js|friendlytalkback-beta.js|twinklespeedy-beta.js|twinkleprod-beta.js|twinklexfd-beta.js|twinkleimage-beta.js|twinkleprotect-beta.js|friendlytag-beta.js|twinklediff-beta.js|twinkleunlink-beta.js|twinklefluff-beta.js|twinkledeprod-beta.js|twinklebatchdelete-beta.js|twinklebatchprotect-beta.js|twinklebatchundelete-beta.js|twinkleconfig-beta.js
+* morebits-beta[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits-beta.js|morebits-beta.css
+* Twinkle-pagestyles-beta[hidden|skins=vector]|Twinkle-pagestyles-beta.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css<!-- Twinkle ends here -->
+* XFDcloser[ResourceLoader|dependencies=mediawiki.user|rights=import|type=general]|XFDcloser.js
+* XFDcloser-core[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|XFDcloser-core.js|XFDcloser-core.css
+* XFDcloser-core-beta[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|XFDcloser-core-beta.js|XFDcloser-core-beta.css <!-- XFDcloser ends here -->
+* libExtraUtil[ResourceLoader|hidden]|libExtraUtil.js
+* CatScan2-link[ResourceLoader|dependencies=mediawiki.util]|CatScan2-link.js

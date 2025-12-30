@@ -1,0 +1,1 @@
+* Carousel[ResourceLoader|skins=vector,vector-2022,monobook,modern|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css

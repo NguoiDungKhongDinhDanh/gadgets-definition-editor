@@ -1,0 +1,16 @@
+<noinclude>'''Changes to this page should first be discussed on [[Wikibooks:Gadget/proposals]] or [[Wikibooks_talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikibooks:Gadget#Currently_installed_gadgets]] to make maintenance easier.
+</noinclude>
+
+== browsing-gadgets ==
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+*wikEd[ResourceLoader]|wikEd.js
+
+===interface-gadgets-editing===
+* edittop[ResourceLoader]|edittop.js

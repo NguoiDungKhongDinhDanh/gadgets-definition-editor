@@ -1,0 +1,27 @@
+# Tuta strona so wužiwa zo bychu definowali přidate funkcionalnosće, kotrež su listowane na specialnej stronje [[Specialnje:Gadgets]]
+# Prjedy hač so redigować, kontroluj, zo ty derje rozumiš jeho funkcionalnosć, kotraž so wopisa na stronje [[mw:Extension:Gadgets#Usage]]
+# Njezměń mjeno eksistowaceje funkcije (hewak so bychu za wšitkich inaktiwizowali)
+# Jeli dopjelnjenka njefunguje, potom so móže ju wukomentować přez narunanje * z #
+# '''Kedźbu''', zo nadpisy njemóžeja mjezotu měć (po testowanju wužiwarja [[Wužiwar:Tlustulimu|Tlustulimu]])
+
+== Wobdźěłanje ==
+* Edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js|edittop.css
+* WikEd[ResourceLoader]|WikEd.js
+* HotCats[ResourceLoader]|HotCats.js
+* Direct-link-to-Commons[ResourceLoader|dependencies= mediawiki.util,user.options]|Direct-link-to-Commons.js
+
+== Rěčne ==
+* EoMagicalConversion[ResourceLoader]|EoMagicalConversion.js
+# BiDiEditing|BiDiEditing.js
+# rtl|rtl.css
+# ShortLink|ShortLink.js
+
+==Zwobrazowanje==
+*markadmins[ResourceLoader|dependencies=mediawiki.util]|markadmins.js
+*markblocked[ResourceLoader]|markblocked.js
+*markredirects|markredirects.css
+*UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+*mySandbox[ResourceLoader|dependencies=mediawiki.util]|mySandbox.js
+*niceInfoboxes[default]|niceInfoboxes.css
+*niceTaxoboxes[default]|niceTaxoboxes.css
+*ReferenceTooltips[ResourceLoader]|ReferenceTooltips.js|ReferenceTooltips.css

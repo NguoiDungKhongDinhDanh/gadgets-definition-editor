@@ -1,0 +1,4 @@
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+* widensearch[ResourceLoader]|widensearch.css
+* Transtool[ResourceLoader]|transtool.js

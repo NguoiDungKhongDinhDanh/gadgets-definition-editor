@@ -1,0 +1,2 @@
+== appearance ==
+* Headings[ResourceLoader]|default|Headings.js

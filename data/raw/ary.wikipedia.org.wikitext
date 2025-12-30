@@ -1,0 +1,5 @@
+== interface-gadgets ==
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+*HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Shortdesc-helper-loader[ResourceLoader|dependencies=mediawiki.api,mediawiki.notify,user.options,mediawiki.util|skins=vector,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector]|Shortdesc-helper-pagestyles-vector.css

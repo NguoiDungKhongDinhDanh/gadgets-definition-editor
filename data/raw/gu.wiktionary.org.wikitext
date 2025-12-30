@@ -1,0 +1,2 @@
+=={{int:Gadget-section-Editing}}==
+* HotCat[ResourceLoader]|HotCat.js

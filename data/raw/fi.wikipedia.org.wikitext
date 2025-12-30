@@ -1,0 +1,76 @@
+== Käyttöliittymä ==
+* Externaltools[ResourceLoader|dependencies=mediawiki.util]|Externaltools.js
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js
+* Onlyifuploading[ResourceLoader|rights=upload|default|hidden]|Onlyifuploading.js
+<!-- Legacy toolbar from Mediawiki (see T30856) -->
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+* HideCentralNotice[ResourceLoader|type=general|targets=desktop,mobile]|HideCentralNotice.js|HideCentralNotice.css
+
+== Muokkaaminen ==
+* HotCat[ResourceLoader]|HotCat.js
+* HiddenCat[ResourceLoader]|HiddenCat.js
+* wikEd[ResourceLoader]|wikEd.js|wikEd.css
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* segregate-refs[ResourceLoader]|segregate-refs.js
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+* ProveIt[ResourceLoader|dependencies=ext.wikiEditor]|ProveIt.js
+
+== Kuvat ==
+* Tineye[ResourceLoader|dependencies=mediawiki.util]|Tineye.js
+* GoogleImages[ResourceLoader|dependencies=mediawiki.util]|GoogleImages.js
+* publicarttablesort[ResourceLoader|default]| publicarttablesort.js
+
+== Selaus ==
+* HideFundraisingNotice|HideFundraisingNotice.css
+* popups[ResourceLoader|dependencies=mediawiki.user]|popups.js|popups-fi.js
+
+== Seulojat ==
+* MerkitytVersiot3[ResourceLoader]|MerkitytVersiot3.css|MerkitytVersiot3.js
+* poistavarit|poistavarit.css
+* hideUsersButton2[ResourceLoader]|hideUsersButton2.js
+* showPatrollerMarks[ResourceLoader|rights=review]|showPatrollerMarks.css
+* oresRcLink[ResourceLoader|rights=review]|oresRcLink.css
+* pendingChangesDiffs[ResourceLoader]|pendingChangesDiffs.js
+
+== Wikidata ==
+* WE-Framework[ResourceLoader]|WE-Framework.js
+* wikidatafix[ResourceLoader]|WikidataWatchlistLabels.js|WikidataWatchlistFilter.js
+* WikidataDescriptionStyles[ResourceLoader|hidden]|WikidataDescriptionStyles.css
+* WikidataDescription[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,mediawiki.api,mediawiki.ForeignApi,oojs-ui|peers=WikidataDescriptionStyles]|WikidataDescription.js|WikidataDescription.css
+* TietolaatikkoWD|TietolaatikkoWD.css
+
+== Muut ==
+* ViikonKilpailu[ResourceLoader|type=general|dependencies=mediawiki.user,mediawiki.util|default]|ViikonKilpailu.js|ViikonKilpailu.css
+* WikiLovesMonunmets[ResourceLoader|type=general|dependencies=mediawiki.util|default]|WikiLovesMonuments.js
+
+== Ei toimi ==
+* Linkclassifier[ResourceLoader|dependencies=mediawiki.util]|linkclassifier.js|linkclassifier.css
+* historydiff[ResourceLoader]|historydiff.js|historydiff.css|wikEdDiff.css
+
+== Testattavana ==
+* ReferenceTooltips[ResourceLoader|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* YWL[ResourceLoader]|YWL.js
+* OhjaustenLuokat[ResourceLoader|dependencies=mediawiki.util]|OhjaustenLuokat.js
+* MuokkaaJohdantoa[ResourceLoader]|MuokkaaJohdantoa.js
+* summarycheck[ResourceLoader]|summarycheck.js
+* RTRC[ResourceLoader]|RTRC.js|RTRC.css
+* LiveRC[ResourceLoader|dependencies=mediawiki.util]|LiveRC.js
+* rvvStats[ResourceLoader|dependencies=mediawiki.util]|rvvStats.js
+* personalSandbox[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|personalSandbox.js
+* hidePersonalSandboxEdits[default]|hidePersonalSandboxEdits.css
+* ProtectionIndicator[ResourceLoader|default|hidden|type=general]|ProtectionIndicator.js|ProtectionIndicator.css
+* frwiki_infobox_v3[ResourceLoader|default|hidden]|frwiki_infobox_v3.js
+* fiwiki_flaggedrevs_css_rcfix[ResourceLoader|default]|fiwiki_flaggedrevs_css_rcfix.css
+* Slideshow[ResourceLoader|dependencies=mediawiki.cookie,jquery.ui,mediawiki.util,ext.gadget.libUtil|type=general]|GallerySlideshow.js|GallerySlideshow.css
+* refToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* linkeddata[ResourceLoader|default]|linkeddata.js|linkeddata.css
+* perustiedotwikidatassa[ResourceLoader|default]|perustiedotwikidatassa.js|perustiedotwikidatassa.css
+* cssmargincomments[ResourceLoader|dependencies=ext.gadget.cmsearchcursor]|cssmargincomments.js|cssmargincomments.css
+* cmsearchcursor [ResourceLoader|dependencies=ext.wikiEditor]|cmsearchcursor.js
+
+* jwb[ResourceLoader|rights=autoreview]|jwb.js
+
+== Moduulit ==
+* libUtil [ResourceLoader|dependencies=mediawiki.util|hidden]|libUtil.js

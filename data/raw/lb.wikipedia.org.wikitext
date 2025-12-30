@@ -1,0 +1,5 @@
+<noinclude>To add a new gadget just add it below.</noinclude>
+
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+* MiniEdit[ResourceLoader|actions=view]|MiniEdit.js

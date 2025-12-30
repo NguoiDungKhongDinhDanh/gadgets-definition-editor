@@ -1,0 +1,41 @@
+== navegacion-gadgets ==
+* diff-enlaces[ResourceLoader]|diff-enlaces.js
+* ver-subpaginas[ResourceLoader|dependencies=mediawiki.util]|ver-subpaginas.js
+* ColoresEnlaces|ColoresEnlaces.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,user.options]|purgetab.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* traductor-google[ResourceLoader]|traductor-google.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+
+== suites-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|popups-es.js|navpop.css
+
+== edicion-gadgets ==
+* HotCats[ResourceLoader]|HotCat.js
+* botonera[ResourceLoader]|botonera.js
+* wikEd[ResourceLoader]|wikEd.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* mensajes-predefinidos[ResourceLoader|dependencies=mediawiki.util]|mensajes-predefinidos.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=autopatrol]|Cat-a-lot.js|Cat-a-lot.css
+* quickedit[ResourceLoader]|quickedit.js
+* reversion[ResourceLoader|dependencies=mediawiki.util|rights=autoconfirmed]|reversion.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+
+== interfaz-gadgets ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* Hide_sitenotice|HideSitenotice.css
+* markblocked[ResourceLoader]|markblocked.js
+* nuevasec-mas[ResourceLoader]|nuevasec-mas.js
+* CaracteresOff|CaracteresOff.css
+* quickeditcounter[ResourceLoader]|quickeditcounter.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+
+== admin-gadgets ==
+* AjaxSysop[ResourceLoader|dependencies=mediawiki.util|rights=delete]|AjaxSysop.js
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* botRollback[ResourceLoader]|botRollback.js

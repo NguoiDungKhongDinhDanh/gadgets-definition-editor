@@ -1,0 +1,28 @@
+== Görünüm ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js
+* JavascriptHeadings[ResourceLoader|default|dependencies=site]|JavascriptHeadings.js
+
+== Arayüz_araçları ==
+* HizliBilgi[ResourceLoader|default|dependencies=mediawiki.util]|HizliBilgi.js
+* VikisKenarCeviri[ResourceLoader|dependencies=ext.uls.interlanguage]|VikisKenarCeviri.js
+* SekmeliDiller[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,ext.gadget.LegacyScriptsNewNode|type=general]|SekmeliDiller.js|SekmeliDiller.css
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|type=general]|DocTabs.js|DocTabs.css
+* CodeLinks[ResourceLoader|default|dependencies=site,mediawiki.util]|CodeLinks.js
+
+== Düzenleme_araçları ==
+* HotCat[ResourceLoader|default|rights=edit,minoredit]|HotCat.js
+* CeviriEkleyici[ResourceLoader|default|dependencies= oojs-ui-core,ext.gadget.Duzenleyici,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.DilAraclari,mediawiki.util,ext.gadget.CeviriEkleyici-Veri]|CeviriEkleyici.js
+* YeniMadde[ResourceLoader|default|dependencies=oojs-ui-core,mediawiki.api,ext.gadget.YeniMadde-Veri]|YeniMadde.js
+* AjaxEdit[ResourceLoader|dependencies=mediawiki.util,mediawiki.Uri,mediawiki.user,mediawiki.api]|AjaxEdit.js
+
+== Gizli_eklentiler_ve_özellikler ==
+* Duzenleyici[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Duzenleyici.js
+* DepolamaAraclari[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|DepolamaAraclari.js
+* DilAraclari[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.DepolamaAraclari]|DilAraclari.js
+* LegacyScriptsNewNode[ResourceLoader|hidden]|LegacyScriptsNewNode.js
+* CeviriEkleyici-Veri[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.DilAraclari]|CeviriEkleyici-Veri.js
+* YeniMadde-Veri[ResourceLoader|hidden|dependencies=mediawiki.api]|YeniMadde-Veri.js
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title]|catfix.js
+* Edittools[ResourceLoader|hidden|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js
+* AcilipKapananMenuler[ResourceLoader|hidden|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|AcilipKapananMenuler.js
+* varsayilanAcilipKapananMenuler[ResourceLoader|hidden|default|targets=desktop,mobile|dependencies=ext.gadget.AcilipKapananMenuler]|varsayilanAcilipKapananMenuler.js

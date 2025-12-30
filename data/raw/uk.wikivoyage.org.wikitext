@@ -1,0 +1,30 @@
+== navigation ==
+* CurIDLink[ResourceLoader|dependencies=mediawiki.util]|CurIDLink.js
+
+== reading ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* editHysteria[ResourceLoader]|editHysteria.js
+* DisambigHili[ResourceLoader]|DisambigHili.css
+* TalkColoring|TalkColoring.css
+* UTCLiveClock [ResourceLoader]|UTCLiveClock.js
+* exlinks[ResourceLoader|default|dependencies=mediawiki.util]|exlinks.js
+* MarkAdmins[ResourceLoader|dependencies=mediawiki.util]|MarkAdmins.js
+* MapFrame[ResourceLoader|default]|MapFrame.js
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util]|Carousel.js|Carousel.css
+
+
+== editing ==
+* HotCat[ResourceLoader]|HotCat.js
+* ListingEditor[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|dependencies=mediawiki.util,jquery.ui]|ListingEditor.js|ListingEditor.css
+* new-section[ResourceLoader|type=general|dependencies=mediawiki.util|default]|new-section.js
+* edittop[ResourceLoader]|edittop.js
+* ImprovedEditTools[ResourceLoader|dependencies=mediawiki.util]|ImprovedEditTools.js
+
+== patrolling ==
+* NewPagePatrol[ResourceLoader]|NewPagePatrol.js
+
+== interwiki ==
+* WikidataLink[ResourceLoader]|WikidataLink.js
+
+== admin-gadget ==
+* MassRollback[ResourceLoader|rights=block|dependencies=mediawiki.util]|MassRollback.js

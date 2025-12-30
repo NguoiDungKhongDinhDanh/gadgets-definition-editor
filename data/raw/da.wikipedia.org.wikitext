@@ -1,0 +1,30 @@
+== Navigering-og-redigering ==
+* Popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|popups.css
+* Velkomstskabeloner[ResourceLoader]|velkomstskabeloner.js
+* rediger_sektion0[ResourceLoader]|rediger_sektion0.js
+* wikEd[ResourceLoader]|wikEd.js
+* diffedit[ResourceLoader]|diffedit.js
+* HotCat[ResourceLoader|rights=edit|dependencies=mediawiki.util]|HotCat.js
+* refToolbar[ResourceLoader]|refToolbar.js
+* bkl-check[ResourceLoader]|bkl-check.css
+* NewSection[ResourceLoader|dependencies=mediawiki.util|rights=edit|default]|NewSection.js
+
+== Udseende ==
+* purge-cache[ResourceLoader|dependencies=mediawiki.util]|purgetab.js‎
+* nyt_afsnit[ResourceLoader]|addsection-plus.js‎
+* soegeFocus[ResourceLoader]|soegeFocus.js
+* btm-actions[ResourceLoader]|btm-actions.js|btm-actions.css
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* WikiProjektSkjuler[ResourceLoader]|WikiProjektSkjuler.js|WikiProjektSkjuler.css
+
+== Interwiki-sortering ==
+* Main-lang[ResourceLoader]|Main-lang.js|Main-lang.css
+* Nordiske-lang[ResourceLoader]|Nordiske-lang.js|Nordiske-lang.css
+* Gammelnorske-lang[ResourceLoader]|Gammelnorske-lang.js|Gammelnorske-lang.css
+* Nederlands-lang[ResourceLoader]|Nederlands-lang.js|Nederlands-lang.css
+
+== Ekstrafunktioner ==
+* commonsimagelinks[ResourceLoader]|commonsimagelinks.js
+* tineye[ResourceLoader]|tineye.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css

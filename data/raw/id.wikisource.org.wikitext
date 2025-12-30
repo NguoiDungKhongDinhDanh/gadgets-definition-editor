@@ -1,0 +1,26 @@
+== general ==
+* exlinks[ResourceLoader]|exlinks.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* NavPopups[ResourceLoader|dependencies=mediawiki.user]|NavPopups.js
+
+== editing-tools-for-Index-namespace ==
+* Fill_Index[ResourceLoader|targets=desktop,mobile]|Fill_Index.js
+* ImportPagelist[ResourceLoader|dependencies=mediawiki.util|targets=desktop,mobile]|ImportPagelist.js
+
+== editing-tools-for-Page-namespace ==
+* NopInserter[ResourceLoader|default|dependencies=mediawiki.util]|NopInserter.js
+* mark-proofread[ResourceLoader|dependencies=mediawiki.util]|mark-proofread.js|mark-proofread.css
+* ocr[ResourceLoader]|ocr.js
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* ImageUploader[ResourceLoader|dependencies=mediawiki.util]|ImageUploader.js
+* Easy_LST[ResourceLoader]|Easy_LST.js
+* Preload_Page_Images[ResourceLoader]|Preload_Page_Images.js
+
+== interface ==
+* PageNumbers[ResourceLoader]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* Site-styles[hidden|type=styles]|Site.css|SiteHeader.css|enwp-boxes.css|enwp-lists.css|enws-tweaks.css
+
+== development ==
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js

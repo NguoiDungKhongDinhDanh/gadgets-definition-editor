@@ -1,0 +1,60 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== chinesefonts-gadgets ==
+* HanTS-conv[ResourceLoader|dependencies=ext.gadget.HanTS-conv-lib,mediawiki.storage,mediawiki.util|skins=vector,vector-2022,monobook,timeless,modern|actions=view|default]|tradsim-trad2sim.js
+* HanTS-conv-lib[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern|hidden|targets=desktop,mobile]|tradsim-trad2simcore.js|tradsim-src2tradcore.js
+* HanTS-conv-adv[ResourceLoader|dependencies=ext.gadget.HanTS-conv-lib|skins=vector,vector-2022|targets=desktop,mobile]|tradsim-src2trad.js|tradsim-search2trad.js
+
+== editing-gadgets ==
+
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|Cat-a-lot.js|Cat-a-lot.css
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* wikEd[ResourceLoader]|wikEd.js
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+
+== interface-gadgets ==
+
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js|edittop.css
+* ExternalSearch[ResourceLoader]|externalsearch.js
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options]|dropdown-menus.js
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* contribsrange-proxy[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* textareasansserif|textareasansserif.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* Blackskin[ResourceLoader|skins=monobook,vector,vector-2022]|Blackskin.css
+* internalLinkHelper-redonly[ResourceLoader]|internalLinkHelper-redonly.css
+* internalLinkHelper-redtipsy[ResourceLoader|dependencies=mediawiki.util,ext.gadget.tipsyDeprecated]|internalLinkHelper-redonly.css|internalLinkHelper-redtipsy.css|internalLinkHelper-redtipsy.js
+* internalLinkHelper-redplain[ResourceLoader|dependencies=mediawiki.util]|internalLinkHelper-redplain.css|internalLinkHelper-redplain.js
+* internalLinkHelper-external[ResourceLoader|dependencies=mediawiki.util]|internalLinkHelper-redonly.css|internalLinkHelper-external.css|internalLinkHelper-external.js
+* internalLinkHelper-suffix[ResourceLoader|dependencies=mediawiki.util]|internalLinkHelper-external.css|internalLinkHelper-suffix.css|internalLinkHelper-external.js|internalLinkHelper-suffix.js
+* internalLinkHelper-cravix[ResourceLoader|dependencies=mediawiki.util]|internalLinkHelper-cravix.css|internalLinkHelper-cravix.js
+* internalLinkHelper-altcolor[ResourceLoader|dependencies=mediawiki.util,ext.gadget.tipsyDeprecated|default]|internalLinkHelper-redonly.css|internalLinkHelper-redtipsy.css|internalLinkHelper-altcolor.css|internalLinkHelper-redtipsy.js
+
+== library-gadgets ==
+
+* DejaVu_Sans[ResourceLoader]|DejaVu_Sans.css
+* SettingsUI[ResourceLoader|dependencies=jquery.ui,mediawiki.user,ext.gadget.libJQuery|hidden]|SettingsUI.js
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api|hidden]|SettingsManager.js
+* libJQuery[ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* libLua [ResourceLoader|dependencies=mediawiki.api|hidden]|libLua.js
+* libSensitiveIPs [ResourceLoader|dependencies=ext.gadget.libLua|hidden]|libSensitiveIPs.js
+* tipsyDeprecated[ResourceLoader|hidden]|tipsy-deprecated.js

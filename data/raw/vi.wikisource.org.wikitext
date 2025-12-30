@@ -1,0 +1,33 @@
+== navigation ==
+* navpop[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|navpop.js
+
+== interface ==
+* Site[ResourceLoader|default|top|dependencies=mediawiki.util|peers=Site-styles]|SiteMessages.js|DisplayFooter.js|Site.js
+* Site-styles[hidden|type=styles]|Site.css|SiteHeader.css|enwp-boxes.css|enwp-lists.css|viws-tweaks.css
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* MobileSite[ResourceLoader|default|skins=minerva]|SiteMessages.js|MobileDownloadLink.js|SiteHeader.css
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* Subpages[ResourceLoader|dependencies=mediawiki.util]|Subpages.js
+
+== editing ==
+* AVIM[ResourceLoader|default]|AVIM.js
+* AVIM_portlet[ResourceLoader|default|dependencies=ext.gadget.AVIM]|AVIM portlet.js|AVIM portlet.css
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* wiked[ResourceLoader]|wiked.js
+* AutoOldStyleVi[ResourceLoader]|AutoOldStyleVi.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user]|charinsert-core.js|charinsert-core.css
+* QualityButton[ResourceLoader]|QualityButton.js
+
+== editing-for-Page ==
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* mark-proofread[ResourceLoader|dependencies=mediawiki.util]|mark-proofread.js|mark-proofread.css
+* Preload_Page_Images[ResourceLoader]|Preload_Page_Images.js

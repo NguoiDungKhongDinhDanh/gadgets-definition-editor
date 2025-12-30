@@ -1,0 +1,21 @@
+== Guherandin ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|rights=autoconfirmed]|Cat-a-lot.css|Cat-a-lot.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* wikEd[ResourceLoader]|wikEd.js
+* libSettings[ResourceLoader|hidden|dependencies=user.options]|libSettings.js
+* Shortdesc-helper[ResourceLoader|default|dependencies=mediawiki.api,user.options,mediawiki.util,ext.gadget.libSettings|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js|Shortdesc-helper.css
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector,vector-2022]|Shortdesc-helper-pagestyles-vector.css
+* script-installer [ResourceLoader |default |dependencies=mediawiki.ui.button] |script-installer.js
+
+== Nexşe ==
+* OpenStreetMap[ResourceLoader|dependencies=mediawiki.util|default]|Osm.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+
+== Wêne ==
+* uploadtools[ResourceLoader|rights=upload|hidden|dependencies=mediawiki.util,mediawiki.util]|uploadtools.js
+
+== Ceribandin ==
+* rhymesedit[ResourceLoader|dependencies=ext.gadget.editor,mediawiki.util,ext.gadget.LanguageUtils,mediawiki.Uri]|rhymesedit.js

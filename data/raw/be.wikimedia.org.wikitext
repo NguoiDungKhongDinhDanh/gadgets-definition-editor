@@ -1,0 +1,7 @@
+== Categories ==
+* HotCat[ResourceLoader]|HotCat.js|Hotcatcheck.js
+
+== Other ==
+* formWizard[ResourceLoader|default|rights=minoredit]|formWizard.js
+* formWizard-core[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.cookie,mediawiki.ui,mediawiki.user,jquery.chosen,jquery.ui]|formWizard-core.js|formWizard.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js

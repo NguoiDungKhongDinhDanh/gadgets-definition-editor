@@ -1,0 +1,50 @@
+<noinclude><div class="mw-content-ltr small" style="overflow: auto;"></noinclude>
+__NOTOC__
+== editing ==
+* WikEd[ResourceLoader]|WikEd.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* Urdu Keymapper[ResourceLoader]|Urdu Keymapper.js
+* autodel[ResourceLoader|dependencies=mediawiki.util]|autodel.js
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* Summarieslist[ResourceLoader|dependencies=mediawiki.util]|Summarieslist.js
+* saveandedit[ResourceLoader]|saveandedit.js
+* Edittools[ResourceLoader|default]|Edittools.js
+
+==Categories==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|rights=rollback]|Cat-a-lot.css|Cat-a-lot.js
+* subcatContentSummary[ResourceLoader]|subcatContentSummary.js
+* CatMaker[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|CatMaker.js|CatMaker.css
+
+==appearance==
+
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* dropdown-menus[ResourceLoader|skins=vector,monobook,modern]|dropdown-menus.js
+
+
+== browsing==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* referencederoulante[ResourceLoader]|referencederoulante.css
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.util]|popups.js|navpop.css
+
+
+==admin-gadgets==
+* StatLink[ResourceLoader|rights=delete]|StatLink.js
+
+==Interface==
+* HistoryCount[ResourceLoader]|HistoryCount.css|HistoryCount.js
+
+==advanced==
+
+* RTRC[ResourceLoader]|RTRC.js
+
+
+==beta==
+* Extra-Edittools[ResourceLoader]|Extra-Edittools.js
+* autocomplete[ResourceLoader|dependencies=mediawiki.util]|autocomplete.js
+* tagadder[ResourceLoader]|tagadder.js
+
+== test ==
+* livespellcheck[ResourceLoader|dependencies=mediawiki.util]|livespellcheck.js
+<noinclude></div></noinclude>

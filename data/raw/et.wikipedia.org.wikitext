@@ -1,0 +1,23 @@
+* common-action-delete[ResourceLoader|default|hidden|actions=delete]|common-action-delete.js
+
+== kategooriad ==
+* HotCat[ResourceLoader|actions=view]|HotCat.js
+* vCat[ResourceLoader]|vCat.js
+* CategoryMaster[ResourceLoader|rights=autopatrol|namespaces=14|type=general|dependencies=mediawiki.util]|CategoryMaster.js|CategoryMaster.css
+
+== muutmine ==
+* Kriipsud[ResourceLoader|dependencies=mediawiki.util]|Kriipsud.js
+* ProveIt[ResourceLoader|supportsUrlLoad|actions=edit|dependencies=mediawiki.util]|ProveIt.js
+* RefCon[ResourceLoader|dependencies=mediawiki.util]|RefConsolidate_start.js
+
+== ilme ==
+* JustifyParagraphs[ResourceLoader]|JustifyParagraphs.css
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* OpenStreetMap[ResourceLoader|default|actions=edit,view|namespaces=0,2,10,102]|OpenStreetMap.js
+
+== administreerimine ==
+* markblockedlocal[ResourceLoader|dependencies=mediawiki.util]|markblockedlocal.js
+* smart_rollback[ResourceLoader|dependencies=mediawiki.util, jquery.ui, jquery.spinner, mediawiki.api|rights=rollback|actions=view,history|type=general]|smart_rollback.js
+
+== test ==
+* DisplayOldLanguageLinks[ResourceLoader|dependencies=mediawiki.util]|DisplayOldLanguageLinks.js|DisplayOldLanguageLinks.css

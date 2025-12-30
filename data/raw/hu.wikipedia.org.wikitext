@@ -1,0 +1,115 @@
+Lásd: [[Speciális:Segédeszközök]], [[Speciális:Beállításaim#mw-prefsection-gadgets]]
+
+== General ==
+* khivatkozas[ResourceLoader]|extlinks.js
+* ora[ResourceLoader |dependencies=mediawiki.util,mediawiki.api] |ora.js |ora.css
+* advsearch[ResourceLoader|skins=monobook]|advsearch.js
+* keresesUjFulon[ResourceLoader |skins=vector,monobook,modern,timeless]|keresesUjFulon.js|keresesUjFulon.css <!-- Doesn’t work at all on Vector-2022, Minerva and Cologne Blue; barely usable on Timeless. Works as expected on other MonoBook forks. -->
+* wdsearch[ResourceLoader|default]|wdsearch.js
+* ertekelesmutat[ResourceLoader |skins=vector-2022,vector,monobook,modern,timeless]|ertekelesmutat.js <!-- No #siteSub on Cologne Blue and Minerva. Present but hidden by default on Modern and Timeless; can be overridden by the user. Works as expected on both Vectors and MonoBook. -->
+* interwikiFordito[ResourceLoader |skins=vector,monobook,modern,timeless]|interwikiFordito.css|interwikiFordito.js <!-- Minerva, Vector-2022 and Cologne Blue have their own, incompatible language selectors -->
+* oldid[ResourceLoader |skins=vector-2022,vector,monobook,modern,cologneblue,timeless |actions=history]|oldid.js <!-- Minerva broken due to overly general `> *` rule added in [[phab:T229704]] -->
+* filterPageHistory[ResourceLoader |skins=vector-2022,vector,monobook,modern,cologneblue,timeless |actions=history]|filterPageHistory.js <!-- Minerva removes the native form styles, which make the gadget incomprehensible. TODO: use Codex and enable on Minerva. -->
+* prefixindex[ResourceLoader|dependencies=mediawiki.util]|prefixindex.js
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|rightsfilter.js <!-- Minerva has no #contentSub or #topbar, plus would need Codex instead of depending on browser styling -->
+* linkscount[ResourceLoader] |linkscount.js
+* irclogin[ResourceLoader |default |skins=vector-2022,vector,monobook,modern,cologneblue,timeless] |irclogin.js <!-- Minerva removes the native form styles, which make the gadget incomprehensible. TODO: use Codex and enable on Minerva. -->
+* ArticleInfo[ResourceLoader|dependencies=mediawiki.util|actions=view]|ArticleInfo.js
+
+== WikiMenu ==
+* disableWikiMenu[ResourceLoader]|disableWikiMenu.js
+* useCustomMenu[ResourceLoader]|useCustomMenu.js
+
+== Edit ==
+* catinsert[ResourceLoader |dependencies=mediawiki.api,jquery.textSelection |actions=edit] |catinsert.css |catinsert.js
+* hotcat[ResourceLoader]|HotCat.js
+* cikkertekelo[ResourceLoader |dependencies=mediawiki.util,mediawiki.storage |skins=vector-2022,vector,monobook,modern,cologneblue,timeless] |cikkertekelo.js |cikkertekelo.css <!-- no #p-cactions on Minerva + native button styles are unreadable, needs OOUI/Codex -->
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* refToolbar.config[ResourceLoader|hidden|package]|refToolbar.config.js|refToolbar.config.json
+* sablonbesav[ResourceLoader|actions=edit]|sablonbesav.js|sablonbesav.css
+* defaultsummaries[ResourceLoader]|defaultsummaries.js
+* addOButtonsToMain[ResourceLoader]|addOButtonsToMain.js
+* addOButtonsToAdv[ResourceLoader]|addOButtonsToAdv.js
+* copySectionLink[ResourceLoader]|copySectionLink.js|copySectionLink.css
+* edittop [ResourceLoader |dependencies=mediawiki.util |skins=vector-2022,vector,monobook] |edittop.js
+* wikidata-info[ResourceLoader|peers=wikidata-info-styles]|wikidata-info.js
+* wikidata-info-styles[hidden]|wikidata-info.css
+* createredirects[ResourceLoader|actions=edit]|createredirects.js
+
+== Style ==
+* redirect[default|rights=minoredit]|redirect.css
+* egyert-szinezo[default|rights=minoredit]|egyert-szinezo.css
+* deluxehistory[ResourceLoader |dependencies=mediawiki.util] |deluxehistory.js |deluxehistory.css
+* jegyzet|jegyzet.css
+* vitakiemel|vitakiemel.css
+* fv-szinezo[namespaces=-1]|fv-színező.css
+* jogiVacakKi|SzerkablakFigyelmeztetésKi.css
+* oldalsavKapcsolo[ResourceLoader |skins=vector,monobook,modern] |oldalsávKapcsoló.css |oldalsávKapcsoló.js
+* listNumbers|listNumbers.css
+* rovidFulNevek[ResourceLoader |skins=vector,vector-2022,timeless] |rovidFulNevek.js
+* SansSerifDiff|SansSerifDiff.css
+
+== Categories ==
+* katrss[ResourceLoader|dependencies=mediawiki.util|actions=foo]|kategoriarss.js <!-- TODO: does nothing, right now, remove |actions=foo once it does -->
+
+== Pictures ==
+* fist[ResourceLoader |dependencies=mediawiki.util]|fist.js
+* ImageAnnotator.loader[ResourceLoader |dependencies=mediawiki.util |default |actions=view]|ImageAnnotator.loader.js
+* ImageAnnotator [ResourceLoader |dependencies=mediawiki.util |hidden] |ImageAnnotator.LAPI.js |ImageAnnotator.tooltips.js |ImageAnnotator.TextCleaner.js |ImageAnnotator.UIElements.js |ImageAnnotator.js |ImageAnnotator.css
+* DisableImageAnnotator[ResourceLoader]|DisableImageAnnotator.js
+* tineye[ResourceLoader |dependencies=mediawiki.util |skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|tineye.js <!-- no #p-cactions on Minerva -->
+
+== Admin ==
+* modrollback[ResourceLoader |rights=rollback |dependencies=mediawiki.util]|modrollback.js
+* warning[ResourceLoader|dependencies=mediawiki.util]|warning.js|warning.css
+* rollback[ResourceLoader|rights=rollback]|rollback.js
+* provider[rights=autoreview]|provider.css
+* PermissionOTRS[ResourceLoader]|PermissionOTRS.js
+
+== Test ==
+* Adiutor[ResourceLoader|skins=vector,vector-2022,monobook,modern||dependencies=mediawiki.api,mediawiki.user,oojs-ui-core,oojs-ui-windows,oojs-ui-widgets,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-movement,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui-toolbars,oojs-ui.styles.icons-editing-core,oojs-ui.styles.icons-layout,oojs-ui.styles.icons-user,oojs-ui.styles.icons-media,oojs-ui.styles.icons-editing-advanced]|Adiutor.js|Adiutor.css
+* RLdebugMode[ResourceLoader|dependencies=mediawiki.util]|RLdebugMode.js
+* ExtendedCache[ResourceLoader]|ExtendedCache.js|ExtendedCache.css
+* proveIt[ResourceLoader]|proveIt.js <!-- not compatible with either VisualEditor or MobileFrontend’s wikitext editor (only with 2003WTE, WikiEditor and 2017WTE), so makes little sense on mobile -->
+* externalSearchEngines[ResourceLoader]|externalSearchEngines.js
+* externalSearchEngines-monobook[ResourceLoader|default|skins=monobook]|externalSearchEngines.js
+* rollbackConfirm[ResourceLoader|rights=rollback]|rollbackConfirm.js
+* showNonFreeImages[ResourceLoader |dependencies=mediawiki.util] |showNonFreeImages.js |showNonFreeImages.css
+* newpageswatched[ResourceLoader |dependencies=mediawiki.api] |newpageswatched.js |newpageswatched.css
+* Twinkle.hu [ResourceLoader |dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language |rights=autoconfirmed  |skins=vector-2022,vector,monobook,modern,cologneblue,timeless |peers=Twinkle-pagestyles]|TwinkleImport.js <!-- doesn’t work on Minerva, cf. [[en:Wikipedia:Twinkle#Use on mobile devices]] -->
+
+== Deprecated ==
+* egyert-szinezo-old[ResourceLoader]|bkl-check.js|bkl-check.css
+* FejlettDiff[ResourceLoader]|FejlettDiff.js
+* ReferenceTooltips[ResourceLoader |skins=vector,vector-2022,monobook,timeless,modern,cologneblue] |ReferenceTooltips.js |ReferenceTooltips.css
+* QPreview[ResourceLoader |dependencies=mediawiki.api,mediawiki.jqueryMsg,oojs-ui |actions=edit]|QPreview.js
+* latszer[ResourceLoader |dependencies=mediawiki.user,mediawiki.util,user.options,mediawiki.util]|popups.js|popups.strings.js
+* sablonmester[ResourceLoader|actions=edit]|sablonmester.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* dark-mode-toggle[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,vector-2022,minerva,monobook]|dark-mode-toggle-pagestyles.css
+* oldtoolbar[ResourceLoader |dependencies=ext.gadget.mediawiki.toolbar |peers=mediawiki.toolbar.styles |actions=edit]|oldtoolbar.css|oldtoolbar.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* wikEd[ResourceLoader |skins=vector-2022,vector,monobook,modern,cologneblue]|wikEd.js <!-- doesn’t know where to put its icon on Minerva and Timeless, so panics and doesn’t do anything; loading it would be a waste of resources -->
+
+== Modules ==
+* dark-mode[ResourceLoader|supportsUrlLoad|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css
+
+== Hidden ==
+* collapsible[ResourceLoader |default |hidden |skins=vector-2022,vector,monobook,modern,cologneblue,timeless]|collapsible.js <!-- TODO: enable on mobile in accordance with [[phab:T111565]] -->
+* edittools[ResourceLoader|hidden]|edittools.js
+* infobox[default|hidden]|infobox.css
+* kepdia[ResourceLoader|default|hidden]|kepdia.js|kepdia.css
+* kinai[ResourceLoader|default|hidden|dependencies=mediawiki.util,mediawiki.storage]|kinai.js
+* mediawiki.toolbar[ResourceLoader|hidden|peers=mediawiki.toolbar.styles]|mediawiki.toolbar.js
+* mediawiki.toolbar.styles[hidden]|mediawiki.toolbar.styles.css
+* morebits[ResourceLoader|hidden|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui]|morebits.js|morebits.css
+* poziciosTerkep[ResourceLoader|default|hidden]|poziciosTerkep.js|poziciosTerkep.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* uploadpage[ResourceLoader|hidden|dependencies=mediawiki.util]|uploadpage.js
+* userpage-customization[ResourceLoader|hidden]|userpage-customization.js
+* wikiMenu[ResourceLoader|default|dependencies=ext.gadget.wikiMenuDependencies,mediawiki.util|hidden]|wikimenu.js
+* wikiMenuDependencies[ResourceLoader|hidden]|hoverintent.js|supersubs.js|superfish.js|jquery-tools-tabs.js
+* wikiMenuStyles[default|hidden]|wikimenu-styles.css
+* wiwosm[ResourceLoader |default |dependencies=mediawiki.util |hidden |skins=vector-2022,vector,monobook,modern,timeless]|wiwosm.js|wiwosm.css <!-- #coordinates hidden on Minerva – with !important, just in case... Cologne Blue simply broken. -->

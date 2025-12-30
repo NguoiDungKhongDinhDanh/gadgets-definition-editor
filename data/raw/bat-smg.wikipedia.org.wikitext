@@ -1,0 +1,6 @@
+''' Redagavėms '''
+* HotCat[ResourceLoader]|HotCat.js
+* mediawiki.toolbar[ResourceLoader]|mediawiki.toolbar.js
+* wfTypos[ResourceLoader]|wfTypos.js
+* LegacyToolbar2006[ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar]|LegacyToolbar2006.js
+* summaryButtons[ResourceLoader|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css

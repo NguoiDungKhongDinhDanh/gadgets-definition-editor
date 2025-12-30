@@ -1,0 +1,20 @@
+== browsing-gadgets == 
+* NavPopups[ResourceLoader]|NavPopups.js|NavPopups.css
+* ReferenceTooltips[ResourceLoader]|ReferenceTooltips.js|ReferenceTooltips.css
+* GoogleImages[ResourceLoader|dependencies=mediawiki.util]|GoogleImages.js
+* ExtLinks[ResourceLoader|default]|ExtLinks.js
+* HideFundraisingNotice|HideFundraisingNotice.css
+* AdvancedSiteNotices[dependencies=ext.gadget.site-lib|ResourceLoader]|AdvancedSiteNotices.js
+
+== editing-gadgets == 
+* HotCat[ResourceLoader]|HotCat.js
+* wikED[ResourceLoader]|wikED.js
+* EditTop[ResourceLoader]|EditTop.js
+* charinsert[ResourceLoader|default]|charinsert.js|charinsert.css
+
+== toolbox-gadgets ==
+* Contributors[ResourceLoader|dependencies=mediawiki.util]|Contributors.js
+* Subpages[ResourceLoader|dependencies=mediawiki.util]|Subpages.js
+* ArticleTraffic[ResourceLoader|dependencies=mediawiki.util]|ArticleTraffic.js
+* Wikidata[ResourceLoader|default]|Wikidata.js
+* Bagikan[ResourceLoader|default|dependencies=mediawiki.util]|Bagikan.js

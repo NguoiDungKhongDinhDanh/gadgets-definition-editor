@@ -1,0 +1,36 @@
+== browse-gadgets ==
+* Numeral_converter[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,mediawiki.user,mediawiki.util]|Numeral_converter.css|Numeral_converter.js
+* navpop[ResourceLoader|type=general]|popups.js|navpop.css
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* Prosesize[ResourceLoader]|Prosesize.js
+
+== editing-tools ==
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* DefaultSummaries[ResourceLoader]|DefaultSummaries.js
+* RegexMenuFramework[ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+<!-- These are default, thus better be at the bottom -->
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+
+== maintenance-tools==
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+* RevertDiff[ResourceLoader]|RevertDiff.js
+* TwinkleBeta[ResourceLoader|dependencies=ext.gadget.morebitsBeta,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed,import|type=general|peers=Twinkle-pagestyles]|TwinkleBeta.js|Twinkle.css|twinklewarnBeta.js|twinkleblockBeta.js|twinklespeedyBeta.js|twinklexfdBeta.js|twinkleprotectBeta.js|friendlytagBeta.js|twinklediffBeta.js|twinkleunlinkBeta.js|twinklefluffBeta.js|twinklebatchdeleteBeta.js|twinklebatchprotectBeta.js|twinklebatchundeleteBeta.js|twinkleblankuserpageBeta.js|twinkleconfigBeta.js
+* morebitsBeta[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebitsBeta.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+
+<!-- == admin-tools == -->
+<!-- * CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js -->
+<!-- * massdelete[ResourceLoader|rights=delete]|massdelete.js -->
+<!-- * markblocked[ResourceLoader]|markblocked.js -->
+
+<!-- == broken-gadgets == -->
+<!-- edit-gadgets -->

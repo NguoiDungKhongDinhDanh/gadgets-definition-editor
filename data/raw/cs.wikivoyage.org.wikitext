@@ -1,0 +1,3 @@
+* MapTools[ResourceLoader|dependencies=ext.kartographer.box, ext.kartographer.dialog|default|hidden]|MapTools.css|MapTools.js
+* MarkerTooltip[ResourceLoader|default|hidden]|MarkerTooltip.css|MarkerTooltip.js
+* Poi2gpx[ResourceLoader|default|hidden]|Poi2gpx.js

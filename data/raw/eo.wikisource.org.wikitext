@@ -1,0 +1,4 @@
+== editing-tools ==
+* TemplatePreloader[ResourceLoader|actions=edit]|TemplatePreloader.js
+* HotCat[ResourceLoader]|HotCat.js
+* NotMyYellowPages[ResourceLoader]|NotMyYellowPages.js

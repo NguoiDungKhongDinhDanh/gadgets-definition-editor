@@ -1,0 +1,7 @@
+== Edition ==
+
+* specialchars[ResourceLoader]|specialchars.js
+
+== Tools ==
+* HotCats[ResourceLoader]|HotCats.js
+* Popups[ResourceLoader]|Popups.js|navpop.css

@@ -1,0 +1,23 @@
+== editing-tools ==
+* ContrastReducer[ResourceLoader]|ContrastReducer.js
+
+== editing-tools-for-Page-namespace ==
+* cropimage[ResourceLoader|dependencies=user.options]|cropimage.js
+
+== interface ==
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.js|HideFundraisingNotice.css
+* pr_test_layout[ResourceLoader]|pr_test_layout.js
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* FlatSidebar[ResourceLoader|skins=vector]|FlatSidebar.js|FlatSidebar.css
+* CollapsibleNav[ResourceLoader|dependencies=mediawiki.cookie|skins=vector]|CollapsibleNav.js|CollapsibleNav.css
+* bookreader[ResourceLoader|default]|bookreader.js|bookreader.css
+* vis[ResourceLoader|dependencies=jquery.ui, mediawiki.util|default|type=general]|common.js|vis.css|vis.js
+
+== development ==
+* mark-proofread[ResourceLoader|dependencies=mediawiki.util]|mark-proofread.js
+* Fill_Index[ResourceLoader]|Fill_Index.js
+== admin-tools ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js
+
+== hidden ==

@@ -1,0 +1,41 @@
+# Копирано от https://bg.wikipedia.org/wiki/МедияУики:Gadgets-definition
+#
+# Тази страница служи за дефиниране на етикетите, използвани в [[Special:Gadgets]]
+# Специални:Настройки#mw-prefsection-gadgets 
+# Преди да я редактирате, уверете се, че разбирате как фунционира (описание - [[mw:Extension:Gadgets#Usage]])
+# Не променяйте името на вече съществуващите джаджи (това ще ги деактивира за всички потребители)
+# Ако някоя джаджа не работи, тя може да бъде изключена чрез заместване на * с #
+
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* ExternalSearch[ResourceLoader]|externalsearch.js
+
+== editing-gadgets ==
+
+* EditToolbar[ResourceLoader|default]|EditToolbar.js
+* EditToolbar-core[ResourceLoader|hidden|dependencies=mediawiki.util]|EditToolbar-core.js
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* Advisor[ResourceLoader]|Advisor.js
+* CategoryMaster[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util]|CategoryMaster.js
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+
+== interface-gadgets ==
+
+* search-new-tab [ResourceLoader]|search-new-tab.js
+* ReferenceTooltips[ResourceLoader]|ReferenceTooltips.js|ReferenceTooltips.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Blackskin[ResourceLoader|skins=monobook]|Blackskin.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* cats-on-top[ResourceLoader]|cats-on-top.js
+* quicklinks[ResourceLoader|dependencies=mediawiki.util]|quicklinks.js
+* HideFundraisingNotice|HideFundraisingNotice.css
+* quickeditcounter[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|quickeditcounter.js
+
+== patrol-gadgets ==
+* Quick patrol[ResourceLoader|dependencies=mediawiki.util]|Quick patrol.js
+* Quick diff[ResourceLoader|dependencies=mediawiki.util]|Quick diff.js
+* Quick rollback[ResourceLoader]|Quick rollback.js

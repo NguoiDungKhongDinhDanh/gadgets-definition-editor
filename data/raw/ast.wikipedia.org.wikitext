@@ -1,0 +1,8 @@
+== Navegación ==
+* ReferenceTooltips [ResourceLoader] | ReferenceTooltips.js | ReferenceTooltips.css
+* XTools [ResourceLoader] | XTools.js
+
+== Edición ==
+* FastButtons[ResourceLoader|dependencies=mediawiki.util|rights=autoconfirmed]|FastButtons.js
+* HotCat [ResourceLoader] | HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=autopatrol|type=general]|Cat-a-lot.js|Cat-a-lot.css

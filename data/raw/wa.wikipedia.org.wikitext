@@ -1,0 +1,2 @@
+== Candjmint ==
+* HotCat[ResourceLoader]|HotCat.js

@@ -1,0 +1,67 @@
+==content==
+* redirect[ResourceLoader|type=styles]|redirect.css
+* UAAA[ResourceLoader|type=styles]|UAAA.css
+* vdr[ResourceLoader|type=styles]|vdr.css
+* transform-discussion-look[ResourceLoader|type=general]|transform-discussion-look.css|transform-discussion-look.js
+* print-colored-links[ResourceLoader|type=styles]|print-colored-links.css
+* UkensKonkurranse[ResourceLoader|type=general|default|dependencies=mediawiki.util]|UkensKonkurranse.js
+* reducible-infobox-row[ResourceLoader|type=general]|reducible-infobox-row.js|reducible-infobox-row.css
+* commons-text-as-overlay[ResourceLoader|type=general]|commons-text-as-overlay.js|commons-text-as-overlay.css
+* work-in-progress[ResourceLoader|rights=edit|type=general|dependencies=mediawiki.api,mediawiki.Title]|work-in-progress.js
+* verifiable[ResourceLoader|rights=edit|type=general|dependencies=mediawiki.api,mediawiki.Title,mediawiki.util]|verifiable.js
+* InterwikiOrder[ResourceLoader|type=general|dependencies=mediawiki.api|skins=monobook,vector,timeless,minerva]|InterwikiOrder.js
+* findstubs [ ResourceLoader | default | rights = minoredit | actions = view | namespaces = 14 | dependencies = mediawiki.api, mediawiki.jqueryMsg, mediawiki.storage, mediawiki.util, oojs, oojs-ui-core, oojs-ui.styles.icons-content ] | findstubs.js
+
+==edit==
+* wikiEditorKnapper[ResourceLoader|default|rights=edit|actions=edit|type=general|dependencies=ext.wikiEditor]|wikiEditorKnapper.js
+* Koordinatparser[ResourceLoader|rights=edit|type=general|dependencies=mediawiki.util|actions=edit]|Koordinater.js
+* edit-ingres[ResourceLoader|rights=edit|type=general|dependencies=mediawiki.util]|edit-ingres.js
+* HotCat[ResourceLoader|rights=edit|type=general|dependencies=mediawiki.util]|HotCat.js
+* refToolbar[ResourceLoader|actions=edit|rights=edit|type=general|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* link-missing-label[ResourceLoader|type=general|default]|link-missing-label.js|link-missing-label.css
+* collect-references[ResourceLoader|type=general|rights=edit|dependencies=mediawiki.notification]|collect-references.js
+* new-section[ResourceLoader|type=general|dependencies=mediawiki.util|default]|new-section.js
+* Transkripsjon-kyrillisk[ResourceLoader|type=general]|Transkripsjon-kyrillisk.js|Transkripsjon-kyrillisk-wikitext.js
+* ve-autocorrect[ResourceLoader|dependencies=ext.visualEditor.desktopArticleTarget.init|actions=edit]|ve-autocorrect.js
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+
+==tools==
+* WikidataInfo[ResourceLoader|type=general]|WikidataInfo.js
+* extsearch[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.api,mediawiki.jqueryMsg,mediawiki.user,mediawiki.util,oojs,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows|actions=view|supportsUrlLoad=true]|extsearch.js
+* waybackmachine-archive-search[ResourceLoader|type=general|dependencies=mediawiki.util]|waybackmachine-archive-search.js
+* Add-purge[ResourceLoader|type=general|dependencies=mediawiki.api,mediawiki.util]|Add-purge.js
+* logout-helper[ResourceLoader|type=general|dependencies=mediawiki.util]|logout-helper.js
+* Twinkle-slettnom[ResourceLoader|type=general|dependencies=mediawiki.util]|Twinkle-slettnom.js
+* superinterwiki[ResourceLoader|default|type=general|skins=vector-2022|dependencies=mediawiki.util]|superinterwiki.js
+* TodoList[ResourceLoader|type=general]|TodoList.js
+* wdsearch[default|ResourceLoader|type=general|namespaces=-1|dependencies=mediawiki.util]|wdsearch.js
+* BugStatusUpdate [ResourceLoader] |BugStatusUpdate.js
+
+==siste-endringer==
+* graabot[ResourceLoader|type=styles|actions=history]|graabot.css
+* emphasize-talk[ResourceLoader|type=styles]|emphasize-talk.css
+
+== sysop-patrollers ==
+* krinkle-patrol[ResourceLoader|type=general|dependencies=mediawiki.util|rights=patrol]|krinkle-patrol.js
+* hide-rollback[ResourceLoader|type=general|rights=rollback|default]|hide-rollback.js|hide-rollback.css
+* HurtigSlett[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,mediawiki.Uri]|HurtigSlett.js
+* Substubb[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,mediawiki.Uri]|Substubb.js
+* recent-changes-patrol[ResourceLoader|type=general|dependencies=mediawiki.util|rights=patrol]|recent-changes-patrol.js
+* rcp[ResourceLoader|package|rights=patrol|dependencies=mediawiki.api,mediawiki.jqueryMsg,mediawiki.language,mediawiki.user,mediawiki.util,moment,oojs,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-content,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-layout,oojs-ui.styles.icons-user]|rcp.js|rcp.css|rcp-config.json|rcp-i18n.json
+* rollback-summary[ResourceLoader|type=general|rights=rollback|dependencies=mediawiki.util]|rollback-summary.js
+* contribsrange[ResourceLoader|type=general|dependencies=mediawiki.util]|contribsrange.js
+* quickBlock[ResourceLoader|package|rights=block|dependencies=vue,@wikimedia/codex,mediawiki.api,mediawiki.jqueryMsg,mediawiki.language,mediawiki.storage,mediawiki.util]|quickBlock.js|quickBlock/Main.vue|quickBlock/i18n.json
+
+==sidebar==
+* InterProjectLinks[default|ResourceLoader|type=styles]|InterProjectLinks.css
+
+==activity==
+* show-sysop-activity[ResourceLoader|type=general|dependencies=mediawiki.util]|show-sysop-activity.css|show-sysop-activity.js
+* show-bot-activity[ResourceLoader|type=general|dependencies=mediawiki.util]|show-bot-activity.css|show-bot-activity.js
+* show-patrol-activity[ResourceLoader|type=general|dependencies=mediawiki.util]|show-patrol-activity.css|show-patrol-activity.js
+* show-possible-voters[ResourceLoader|type=general|dependencies=mediawiki.util]|show-possible-voters.css|show-possible-voters.js
+
+==hidden==
+* mobile-scroll[ResourceLoader|default|hidden|type=general|skins=minerva]|mobile-scroll.js|mobile-scroll.css
+* multibilde[ResourceLoader|default|hidden|type=general|categories=Sider som bruker tilleggsfunksjonen «multibilde»|dependencies=oojs,oojs-ui-core,oojs-ui.styles.icons-movement,oojs-ui-widgets]|multibilde.js

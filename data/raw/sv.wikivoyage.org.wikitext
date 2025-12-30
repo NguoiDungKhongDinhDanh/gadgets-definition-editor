@@ -1,0 +1,9 @@
+<!--Observera! Denna text får ej översättas eftersom det påverkar gränssnittet! För att ändra underrubrikerna, gå till Special:Finesser och klicka på "Redigera denna sida".-->
+
+* RTRC[ResourceLoader]|RTRC.js
+
+== Redigering ==
+* PulsantiBase[ResourceLoader|dependencies=ext.wikiEditor|default]|PulsantiBase.js
+
+== Tools ==
+* MapFrame[ResourceLoader|default]|MapFrame.js

@@ -1,0 +1,7 @@
+See [[Special:Gadgets]] for documentation of these gadgets, and [[Wiktionary:Gadgets]] for general information about gadgets on Wiktionary. See also [[WT:PREFS]] for other preferences.
+
+
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api]|DocTabs.js|DocTabs.css
+* AGprefs[ResourceLoader|skins=none|dependencies=mediawiki.util]|AGprefs.js
+* HotCat[ResourceLoader]|HotCat.js
+* popups[ResourceLoader]|popups.js

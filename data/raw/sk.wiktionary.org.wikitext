@@ -1,0 +1,7 @@
+== interface-gadgets ==
+
+== edit-gadgets ==
+
+== maintenance-gadgets ==
+
+== admin-gadgets ==

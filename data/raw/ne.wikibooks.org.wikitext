@@ -1,0 +1,10 @@
+==editing-gadgets==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+
+==display-gadgets==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js 
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js 
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js 
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* SocialMedia[ResourceLoader|default]|SocialMedia.js
+* mySandbox[ResourceLoader|rights=createpage|dependencies=mediawiki.util]|mySandbox.js

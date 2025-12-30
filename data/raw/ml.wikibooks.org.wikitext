@@ -1,0 +1,17 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader]|popups.js|popups.css
+
+== editing-gadgets ==
+
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar|refToolbar.js
+
+== interface-gadgets ==
+
+* textareasansserif|textareasansserif.css
+* Blackskin|Blackskin.css
+
+== library-gadgets ==
+
+* DejaVu_Sans||DejaVu_Sans.css

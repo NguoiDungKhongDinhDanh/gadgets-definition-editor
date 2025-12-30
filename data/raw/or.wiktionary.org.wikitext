@@ -1,0 +1,33 @@
+<noinclude>'''Changes to this page should first be discussed on [[Wikipedia:Gadget/proposals]] or [[Wikipedia_talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikipedia:Gadget#Currently_installed_gadgets]] to make maintenance easier.
+
+ଗ୍ୟାଜେଟ ତାଲିକା ଏଠାରୁ ଦେଖନ୍ତୁ - [[ବିଶେଷ:Gadgets]]
+</noinclude>
+
+== appearance ==
+
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+
+
+== interface-gadgets ==
+
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* purgetab[ResourceLoader|position=top|dependencies=mediawiki.util]|purgetab.js
+* WiktPreviewRightTOCs[ResourceLoader]|WiktPreviewRightTOCs.css
+* WiktBlockedNotice[ResourceLoader]|WiktBlockedNotice.js
+* WiktAddProminentInterwiki[ResourceLoader]|WiktAddProminentInterwiki.js
+* WiktSidebarTranslation[ResourceLoader]|WiktSidebarTranslation.js
+* searchFocus[default|ResourceLoader]|searchFocus.js
+* vectorTabs[ResourceLoader]|vectorTabs.js
+* WiktCountryFlags|WiktCountryFlags.css
+* disableTargetedTranslations[ResourceLoader]|disableTargetedTranslations.js
+
+* ଚାଟସଭା[ResourceLoader|dependencies=mediawiki.api,jquery.ui|default]|ଚାଟସଭା.js|ଚାଟସଭା.css
+
+== editing-gadgets ==
+
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* WiktAccFormCreation[ResourceLoader]|WiktAccFormCreation.js
+* disableRhymesEdit[ResourceLoader]|disableRhymesEdit.js
+* HotCat[ResourceLoader|default]|HotCat.js

@@ -1,0 +1,40 @@
+<noinclude>[[위키낱말사전:소도구|소도구]]의 설명은 [[특수:소도구]]에서 보고 고칠 수 있습니다.
+</noinclude>
+
+== browsing-gadgets ==
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|popups-strings-ko.js|navpop.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general]|ReferenceTooltips-ko.js|ReferenceTooltips.css
+* modrollback[ResourceLoader]|modrollback.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|twinkleblock.js|friendlytalkback.js
+
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js
+* wikiEdDiff[ResourceLoader]|wikiEdDiff.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* noSignAlert[ResourceLoader]|noSignAlert.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== interface-gadgets ==
+* SectionFont[ResourceLoader|skins=vector]|SectionFont.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* LiveClock[ResourceLoader]|LiveClock.js
+* editsummary[ResourceLoader]|editsummary.js|editsummary.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* CompareLink[ResourceLoader]|CompareLink.js
+* quickeditcounter[ResourceLoader|dependencies=mediawiki.util]|quickeditcounter.js
+* font-15px|font-15px.css
+* RollbackComment[ResourceLoader]|RollbackComment.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* NoAnimations[ResourceLoader]|NoAnimations.js
+* disablesuggestions[ResourceLoader]|disablesuggestions.js
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* widensearch[ResourceLoader|skins=vector]|widensearch.css
+* RTRC[ResourceLoader]|RTRC.js
+
+== library-gadgets ==

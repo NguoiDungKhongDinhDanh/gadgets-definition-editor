@@ -1,0 +1,38 @@
+==interface-gadgets==
+* Edittop[ResourceLoader]|edittop.js
+
+==browsing==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util|targets=desktop,mobile]|confirmationRollback-mobile.js
+
+==Editing==
+* refToolbar[ResourceLoader|dependencies=user.options,mediawiki.util]|refToolbar.js
+* citations[ResourceLoader|dependencies=mediawiki.util]|citations.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+
+==Watchlist==
+* geonotice[ResourceLoader|default|rights=viewmywatchlist]|geonotice.js
+
+== Navigation ==
+* Gallerypreview[ResourceLoader|dependencies=mediawiki.util]|Gallerypreview.js
+
+== Maintenance ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util, mediawiki.api]|purgetab.js
+
+==advance==
+* DebugMode[ResourceLoader|dependencies=mediawiki.util]|DebugMode.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* RTRC[ResourceLoader]|RTRC.js
+* script-installer[ResourceLoader|dependencies=mediawiki.ui.button]|script-installer.js
+
+==appearance==
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,monobook]|dark-mode-toggle-pagestyles.css
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* responsiveContentTimeless[ResourceLoader|type=general|skins=timeless|default]|responsiveContentTimeless.js
+
+== Categories ==
+* HotCat[ResourceLoader|rights=upload|default]|HotCat.js
+
+==deprecated==
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.css

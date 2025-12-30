@@ -1,0 +1,57 @@
+== interface-gadgets ==
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* HighlightRedirects|HighlightRedirects.css
+* HighlightDisambigs|HighlightDisambigs.css
+* HighlightWikidata|HighlightWikidata.css
+* References-1-col[ResourceLoader]|References-1-col.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* searchFocus[ResourceLoader|namespaces=0]|searchFocus.js
+* specialPagesInterwiki[ResourceLoader|dependencies=mediawiki.util|namespaces=-1]|specialPagesInterwiki.js
+* PortalLinksIcon|PortalLinksIcon.css
+* ShortInterwiki|ShortInterwiki.css
+* WikiMiniAtlas[ResourceLoader|type=general|default]|WikiMiniAtlas.js
+* OSMmapa[ResourceLoader|default|dependencies=mediawiki.util]|OSMmapa.js
+* ShowNavbarInNavbox[ResourceLoader|dependencies=mediawiki.Title|type=general]|ShowNavbarInNavbox.js|ShowNavbarInNavbox.css
+* OldDiff[ResourceLoader]|OldDiff.css
+* direct-links-to-commons[ResourceLoader|dependencies=mediawiki.util|default]|direct-links-to-commons.js
+* HideSandboxlink|HideSandboxlink.css
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* hideCatalot[ResourceLoader]|hideCatalot.js
+* markStudents[ResourceLoader|dependencies=mediawiki.util|type=general]|markStudents-color.js
+* markStudents2[ResourceLoader|dependencies=mediawiki.util|type=general|namespaces=-1]|markStudents-contributions.js|markStudents-userrolesmessage.css
+* courses[ResourceLoader|dependencies=mediawiki.util|type=general|default]|courses.js|courses.css
+* Wdsearch[ResourceLoader|dependencies=mediawiki.util,jquery.ui|default|namespaces=-1]|Wdsearch.js
+* ThreadedDiscussions[ResourceLoader|namespaces=1,3,4,5,7,9,11,13,15,101,103,829]|ThreadedDiscussions.css
+* autonum[ResourceLoader]|autonum.css|autonum.js
+
+== edit-gadgets ==
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* prepareFA[ResourceLoader]|prepareFA.js
+* fancyButtons[ResourceLoader|type=general|actions=edit]|fancyButtons.css|fancyButtons.js
+* ToolbarTocNav[ResourceLoader|dependencies=ext.wikiEditor|actions=edit]|ToolbarTocNav.js
+* summaryButtons[ResourceLoader]|summaryButtons.js
+* catalot[ResourceLoader|dependencies=mediawiki.util|type=general|rights=edit]|catalot.js|catalot.css
+* refToolbar[ResourceLoader|default|actions=edit|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* deleteTags[ResourceLoader|rights=edit]|deleteTags.js
+* mediawiki.toolbar[ResourceLoader|hidden]|mediawiki.toolbar.js
+* LegacyToolbar2006[ResourceLoader|default|actions=edit|dependencies=ext.gadget.mediawiki.toolbar]|LegacyToolbar2006.js
+* edittools[ResourceLoader|default|actions=edit|skins=vector-2022,vector,monobook]|edittools.js
+* AutosuggestSitelink-local[ResourceLoader|dependencies=mediawiki.action.view.postEdit,mediawiki.ForeignApi,mediawiki.Title,oojs-ui-core,oojs-ui-windows]|AutosuggestSitelink-local.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader|actions=delete|rights=delete]|CleanDeleteReasons.js
+* SafeRollback[ResourceLoader|rights=rollback]|SafeRollback.js
+* Mark as patrolled[ResourceLoader|dependencies=mediawiki.api|rights=patrol|namespaces=-1]|Mark_as_patrolled.js
+* patrolRevisions[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,jquery.spinner|rights=patrol]|patrolRevisions.js
+* massPatrol[ResourceLoader|rights=patrol|dependencies=mediawiki.api|namespaces=-1]|massPatrol.js
+* massRollback[ResourceLoader|rights=rollback|dependencies=mediawiki.util|namespaces=-1]|massRollback.js
+* massRevdel[ResourceLoader|rights=deleterevision|dependencies=mediawiki.api|namespaces=-1]|massRevdel.js
+* noredirectSpeedy[ResourceLoader|rights=delete|namespaces=14]|noredirectSpeedy.js
+
+== test-gadgets ==
+* SeparateSpecialCategories [ ResourceLoader | dependencies = mediawiki.Title, mediawiki.Uri, mediawiki.util | type = general ] | SeparateSpecialCategories.css | SeparateSpecialCategories.js
+* StickyTableHeaders[ResourceLoader|type=general]|StickyTableHeaders.js|StickyTableHeaders.css

@@ -1,0 +1,11 @@
+== browse-gadgets ==
+
+== edit-gadgets ==
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* HotCat[ResourceLoader]|HotCat.js
+* wikify[ResourceLoader|default]|wikify.js|wikify.css
+* wiked[ResourceLoader]|wiked.js
+
+== search-gadgets ==
+
+== admin-gadgets ==

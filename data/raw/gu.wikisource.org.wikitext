@@ -1,0 +1,35 @@
+== editing-tools ==
+* charinsert[ResourceLoader|default|type=general]|charinsert.js|charinsert.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* popups[ResourceLoader|type=general]|popups.js|navpop.css
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* IndicOCR[ResourceLoader|default]|IndicOCR.js
+* button-center[ResourceLoader|dependencies=ext.wikiEditor|default]|button-center.js
+* button-right[ResourceLoader|dependencies=ext.wikiEditor|default]|button-right.js
+* button-poem[ResourceLoader|dependencies=ext.wikiEditor|default]|button-poem.js
+* button-cite[ResourceLoader|dependencies=ext.wikiEditor|default]|button-cite.js
+* button-rule[ResourceLoader|dependencies=ext.wikiEditor|default]|button-rule.js
+* CropTool[ResourceLoader|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js
+* Cropimage[ResourceLoader]|Cropimage.js
+
+== editing-tools-for-Page-namespace ==
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+
+== editing-tools-for-Index-namespace ==
+* Fill_Index[ResourceLoader]|Fill_Index.js
+
+== interface ==
+* pr_test_layout[ResourceLoader]|pr_test_layout.js
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* userMessages[ResourceLoader]|UserMessages.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+
+== compatibility ==
+* Font-Awesome[ResourceLoader|top]|Font-Awesome.css
+
+== development ==
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+
+== admin-tools ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js

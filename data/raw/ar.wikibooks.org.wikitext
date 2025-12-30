@@ -1,0 +1,10 @@
+== دعم ==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+
+== التصفح ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* GreenRedirect|GreenRedirect.css
+
+== التحرير ==
+* HotCat[ResourceLoader]|HotCat.js

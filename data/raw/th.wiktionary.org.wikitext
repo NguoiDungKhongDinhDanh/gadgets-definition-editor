@@ -1,0 +1,47 @@
+See [[Special:Gadgets]] for documentation of these gadgets, and [[Wiktionary:Gadgets]] for general information about gadgets on Wiktionary. See also [[WT:PREFS]] for other preferences.
+
+* LegacyScripts[ResourceLoader|default|dependencies=site,mediawiki.util,mediawiki.cookie,ext.gadget.LegacyScriptsNewNode,ext.gadget.StorageUtils|type=general]|legacy.js
+
+== not yet sorted ==
+ EditTools[ResourceLoader]|EditTools.css
+
+== appearance ==
+* LanguagesAndScripts[ResourceLoader|default]|LanguagesAndScripts.css
+* VectorClassic[ResourceLoader|type=styles|skins=vector]|VectorClassic.css
+* HideLogo[ResourceLoader|type=styles]|HideLogo.css
+* JavascriptHeadings[ResourceLoader|default|dependencies=site]|JavascriptHeadings.js
+
+== interface-gadgets ==
+
+* purgetab[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|purgetab.js
+* Navigation_popups[ResourceLoader]|popups.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* WiktSidebarTranslation[ResourceLoader|dependencies=ext.uls.interlanguage]|WiktSidebarTranslation.js
+* TabbedLanguages[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,ext.gadget.LegacyScriptsNewNode|type=general]|TabbedLanguages.js|TabbedLanguages.css
+* AggregateInterprojectLinks[ResourceLoader|dependencies=mediawiki.cookie]|AggregateInterprojectLinks.js
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|type=general]|DocTabs.js|DocTabs.css
+
+== editing-gadgets ==
+
+* TranslationAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data]|TranslationAdder.js
+* HotCat[ResourceLoader]|HotCat.js
+* FastRevert[ResourceLoader|dependencies=mediawiki.util]|FastRevert.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+
+== misc-gadgets ==
+* zhDialMap[ResourceLoader|default|dependencies=oojs-ui-core]|zhDialMap.js|zhDialMap.css
+* NoAutoCaseRedirect[ResourceLoader]|NoAutoCaseRedirect.js
+
+== Hidden gadgets and utils ==
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* LanguageUtils[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.StorageUtils]|LanguageUtils.js
+* LegacyScriptsNewNode[ResourceLoader|hidden|targets=desktop,mobile]|LegacyScriptsNewNode.js
+* TranslationAdder-Data[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.Uri,ext.gadget.LanguageUtils]|TranslationAdder-Data.js
+* catfix[ResourceLoader|hidden|default|dependencies=mediawiki.Title]|catfix.js
+* Edittools[ResourceLoader|hidden|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js|Edittools.css
+* VisibilityToggles[ResourceLoader|hidden|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+* Palette[ResourceLoader|hidden|default]|Palette.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+* Site[ResourceLoader|hidden|default]|Site.css

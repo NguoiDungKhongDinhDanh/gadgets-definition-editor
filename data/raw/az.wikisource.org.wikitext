@@ -1,0 +1,35 @@
+== Əsas ==
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+
+== Redaktə ==
+* HotCat[ResourceLoader]|HotCat.js
+* Katalitik[ResourceLoader]|Katalitik.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* directLinkToCommons[ResourceLoader|default|dependencies=mediawiki.util]|directLinkToCommons.js
+* CategoryMaster[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util]|CategoryMaster.js
+* codePrettifier[ResourceLoader]|codePrettifier.js
+* wikificator[ResourceLoader|default|hidden|type=general|actions=edit|dependencies=ext.gadget.registerTool,jquery.client]|wikificator.js|wikificator.css
+* registerTool[ResourceLoader|hidden|dependencies=mediawiki.util,user.options]|registerTool.js
+
+== İstifadəçilər ==
+* markadmins[ResourceLoader|package|default]|markadmins.js|markadmins.json|markadmins.css
+* userinfo[ResourceLoader|default]|userinfo.js
+
+== İnterfeys ==
+* MoreMenu-local[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,user.options|peers=MoreMenu-local-pagestyles]|MoreMenu-local.js
+* MoreMenu-local-pagestyles[hidden]|MoreMenu-local-pagestyles.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+
+== Məqalələr==
+* purgetab[ResourceLoader]|purgetab.js
+* kirLat[ResourceLoader]|kirLat.js
+
+== Görünüş ==
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+
+== Vikidata ==
+* wikidataHeaderLink[ResourceLoader]|wikidataHeaderLink.js
+
+
+__NOTOC__

@@ -1,0 +1,37 @@
+==General==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* QuickEdit[ResourceLoader]|QuickEdit.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* Purge-tab[ResourceLoader|dependencies=mediawiki.util]|Purge-tab.js
+* CSS-tab[ResourceLoader|dependencies=mediawiki.util]|CSS-tab.js
+* XHTML-tab[ResourceLoader|dependencies=mediawiki.util]|XHTML-tab.js
+==LanguageSupport==
+* UseLangYi[ResourceLoader|dependencies=mediawiki.util]|UseLangYi.js
+* UseLangEn[ResourceLoader|dependencies=mediawiki.util]|UseLangEn.js
+* UseLangHe[ResourceLoader|dependencies=mediawiki.util]|UseLangHe.js
+* UseLangRu[ResourceLoader|dependencies=mediawiki.util]|UseLangRu.js
+* UseLangRo[ResourceLoader|dependencies=mediawiki.util]|UseLangRo.js
+* UseLangPl[ResourceLoader|dependencies=mediawiki.util]|UseLangPl.js
+* UseLangDe[ResourceLoader|dependencies=mediawiki.util]|UseLangDe.js
+* UseLangEs[ResourceLoader|dependencies=mediawiki.util]|UseLangEs.js
+* UseLangFr[ResourceLoader|dependencies=mediawiki.util]|UseLangFr.js
+* UseLangArc[ResourceLoader|dependencies=mediawiki.util]|UseLangArc.js
+* UseLangLad[ResourceLoader|dependencies=mediawiki.util]|UseLangLad.js
+* UseLangEo[ResourceLoader|dependencies=mediawiki.util]|UseLangEo.js
+==AdditionalRTLLanguageSupport==
+* UseLangAr[ResourceLoader|dependencies=mediawiki.util]|UseLangAr.js
+* UseLangDv[ResourceLoader|dependencies=mediawiki.util]|UseLangDv.js
+* UseLangFa[ResourceLoader|dependencies=mediawiki.util]|UseLangFa.js
+* UseLangHa[ResourceLoader|dependencies=mediawiki.util]|UseLangHa.js
+* UseLangKs[ResourceLoader|dependencies=mediawiki.util]|UseLangKs.js
+* UseLangKu[ResourceLoader|dependencies=mediawiki.util]|UseLangKu.js
+* UseLangPa[ResourceLoader|dependencies=mediawiki.util]|UseLangPa.js
+* UseLangPs[ResourceLoader|dependencies=mediawiki.util]|UseLangPs.js
+* UseLangSd[ResourceLoader|dependencies=mediawiki.util]|UseLangSd.js
+* UseLangTg[ResourceLoader|dependencies=mediawiki.util]|UseLangTg.js
+* UseLangUg[ResourceLoader|dependencies=mediawiki.util]|UseLangUg.js
+* UseLangUr[ResourceLoader|dependencies=mediawiki.util]|UseLangUr.js
+==TestMode==
+* EoMagicalConversion[ResourceLoader]|EoMagicalConversion.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* NavigationPopups[ResourceLoader]|NavigationPopups.js|NavigationPopups.css

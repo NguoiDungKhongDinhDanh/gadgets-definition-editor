@@ -1,0 +1,2 @@
+== interface-gadgets ==
+* Gadget-XHTML-tab[ResourceLoader|dependencies=mediawiki.util]|Gadget-XHTML-tab.js

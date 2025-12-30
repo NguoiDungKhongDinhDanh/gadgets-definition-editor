@@ -1,0 +1,33 @@
+* common-action-edit[ResourceLoader|default|hidden|type=general|actions=edit|dependencies=user.options]|common-action-edit.js|common-action-edit.css
+* common-action-history[ResourceLoader|default|hidden|rights=minoredit|actions=history]|common-action-history.js
+* registerTool[ResourceLoader|hidden|dependencies=mediawiki.util,user.options]|registerTool.js
+
+== editing-gadgets ==
+* wikify[ResourceLoader|default|hidden|type=general|actions=edit|dependencies=ext.gadget.registerTool,jquery.client]|wikify.js|wikify.css
+* nt[ResourceLoader]|nt.js
+* HotCat[ResourceLoader]|HotCat.js
+* TemplatesTB[ResourceLoader|dependencies=ext.wikiEditor,mediawiki.api|rights=edit]|templatestb.js
+* blpEditNotice[ResourceLoader|default|dependencies=site,ext.visualEditor.desktopArticleTarget.init]|blpEditNotice.js
+* attribution[ResourceLoader|default|hidden|type=general|actions=edit]|attribution.js
+* SyntaxHighlighterBKP2005[ResourceLoader|actions=edit]|SyntaxHighlighterBKP2005.js
+
+== reading-gadgets ==
+* editHysteria[ResourceLoader|dependencies=mediawiki.api]|editHysteria.js
+
+== browsing-gadgets ==
+* dblclick-collapse[ResourceLoader]|dblclick-collapse.js|dblclick-collapse.css
+* popups[ResourceLoader]|popups.js
+* BKL[ResourceLoader|default|rights=minoredit|dependencies=mediawiki.util]|bkl-check.js
+* mark-redirs[ResourceLoader]|mark-redirs.css
+* ReferenceTooltips[ResourceLoader|default|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== interface-gadgets ==
+* VectorBlueBackground[ResourceLoader]|VectorBlueBackground.css
+* HideCentralNotice[ResourceLoader]|HideCentralNotice.css
+* hitstats[ResourceLoader|dependencies=mediawiki.util]|hitstats.js
+* wikibugs[ResourceLoader|default|hidden]|wikibugs.js
+
+== wikidata-gadgets ==
+* wikidataInfoboxExport[ResourceLoader|dependencies=mediawiki.api,mediawiki.ForeignApi,mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|wikidataInfoboxExport.js
+
+__NOTOC__

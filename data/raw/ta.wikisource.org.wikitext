@@ -1,0 +1,43 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+
+== editing-gadgets ==
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,mediawiki.toolbar,user]|charinsert-core.js|charinsert-core.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* altindex[ResourceLoader]|altindex.js
+* Fill_Index[ResourceLoader]|Fill_Index.js
+* wikilove[ResourceLoader]|wikilove2.js|wikilove2.css
+* ocr[ResourceLoader]|ocr.js
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+* GoogleOCR-Indic-TechCom[ResourceLoader|default]|GoogleOCR-Indic-TechCom.js
+* autocomplete[ResourceLoader]|autocomplete.js
+* ContrastReducer[ResourceLoader]|ContrastReducer.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection]|wikEd.js
+* button-center[ResourceLoader|dependencies=ext.wikiEditor|default]|button-center.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* Cropimage[ResourceLoader]|Cropimage.js
+
+== appearance ==
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* OldDiff[ResourceLoader]|OldDiff.css
+
+== interface-gadgets ==
+* Site[ResourceLoader|default|dependencies=mediawiki.util|peers=Site-styles]|SiteMessages.js|DisplayFooter.js|ToolbarFixes.js
+* Site-styles[hidden|type=styles]|Site.css|DisplayFooter.css
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* SocialMedia[ResourceLoader|default]|SocialMedia.js
+* stockText[ResourceLoader|skin=vector, monobook|default|type=general|dependencies=mediawiki.cookie]|stockText.js|stockText.css
+* hideside[ResourceLoader|dependencies=mediawiki.util]|hideside.js
+* FloatingTemplates[ResourceLoader]|FloatingTemplates.js
+* Floatingbutton[ResourceLoader]|Floatingbutton.js
+* preload-prp-page-image[ResourceLoader]|preload-prp-page-image.js
+* bookreader[ResourceLoader|default]|bookreader.js
+
+== editing-tools-for-Index-namespace ==
+* transclusion-check[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|actions=view|namespaces=252]|transclusion-check.js|transclusion-check.css
+
+==பீட்டா கருவிகள்==
+* dictLookup[ResourceLoader]|dictLookup.js

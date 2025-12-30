@@ -1,0 +1,10 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* talaambagan[ResourceLoader|dependencies=mediawiki.util]|talaambagan.js
+* Prosesize [ResourceLoader |dependencies=mediawiki.api, mediawiki.util] |Prosesize.js |Prosesize.css
+
+== editing-gadgets ==
+
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader|default|rights=edit,minoredit]|HotCat.js <!-- minoredit is a hack to default-enable only for logged-in users. -->

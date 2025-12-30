@@ -1,0 +1,21 @@
+* common-action-delete[ResourceLoader|hidden|type=general]|common-action-delete.js|common-action-delete.css
+* common-special-block[ResourceLoader|hidden|type=general|dependencies=site]|common-special-block.js‎|common-special-block.css
+* common-special-abusefilter[ResourceLoader|hidden]|common-special-abusefilter.js
+== editing ==
+* preview[ResourceLoader|dependencies=mediawiki.util]|preview.js
+* urldecoder[ResourceLoader|dependencies=mediawiki.util]|urldecoder.js
+* HotCat[ResourceLoader]|HotCat.js
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js
+== articles ==
+* popups[ResourceLoader]|popups.js
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+== special-pages ==
+* watchlist[ResourceLoader|dependencies=mediawiki.util]|watchlist.js
+* contribsrange[ResourceLoader]|contribsrange.js
+== interface ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* FlaggedRevs|FlaggedRevs.css
+* dropdown-menus[ResourceLoader]|dropdown-menus.js|dropdown-menus.css
+__NOTOC__

@@ -1,0 +1,35 @@
+== browsing-gadgets ==
+* popups[ResourceLoader]|popups.js
+== mobile ==
+* mobile-common[ResourceLoader|top|skins=minerva|dependencies=mediawiki.util]|mobile-common.js
+
+== LanguageSupport ==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+
+== Interface ==
+* AutoNav[ResourceLoader|dependencies=mediawiki.util|default]|AutoNav.js
+* editzero[ResourceLoader|dependencies=mediawiki.util]|editzero.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* diffswitchdir[ResourceLoader]|diffswitchdir.js
+* localclock[ResourceLoader]|localclock.js
+* defaultsummaries[ResourceLoader]|defaultsummaries.js
+* UserisOnlineOrNo[ResourceLoader|dependencies=mediawiki.util]|UserisOnlineOrNo.js
+
+== Extra-Editbuttons ==
+* Extra-Editbuttons[ResourceLoader|default|actions=edit|rights=minoredit|dependencies=ext.wikiEditor]|Extra-Editbuttons-dictionary.js|Extra-Editbuttons-autoed.js|Extra-Editbuttons-persianwikitools.js|Extra-Editbuttons-persiantools.js|Extra-Editbuttons.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+== Categories ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.css|Cat-a-lot.js
+
+== Statistics==
+* Contributions-report[ResourceLoader|dependencies=mediawiki.util]|Contributions-report.js
+* XTools[ResourceLoader]|XTools.js
+
+== othermod ==
+* GreenRedirect|GreenRedirect.css

@@ -1,0 +1,2 @@
+* HotCat[ResourceLoader]|HotCat.js
+* ShortUrl[ResourceLoader]|ShortUrl.css|ShortUrl.js

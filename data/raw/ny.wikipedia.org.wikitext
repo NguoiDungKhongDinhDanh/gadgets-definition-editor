@@ -1,0 +1,9 @@
+<noinclude>'''Changes to this page should first be discussed on [[Wikipedia:Village pump (technical)]] or [[Wikipedia talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikipedia:Gadget#Currently installed gadgets]] to make maintenance easier. Links to view and manage the gadget descriptions appear on [[Special:Gadgets]].
+</noinclude>
+
+== browsing ==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util]|confirmationRollback-mobile.js
+* searchFocus[ResourceLoader]|searchFocus.js

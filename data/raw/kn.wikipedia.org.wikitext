@@ -1,0 +1,24 @@
+== ವೀಕ್ಷಣೆ ==
+
+* Navigation_popups [ResourceLoader |dependencies=mediawiki.api, mediawiki.user, mediawiki.util, user.options, mediawiki.jqueryMsg |type=general] |popups.js |navpop.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* MapFrame[ResourceLoader]|MapFrame.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* switcher[ResourceLoader|default]|switcher.js
+
+== ಸಂಪಾದನೆ ==
+
+* HotCat[ResourceLoader|rights=autoconfirmed]|HotCat.js
+* Twinkle [ResourceLoader |dependencies=ext.gadget.morebits, ext.gadget.select2, mediawiki.api, mediawiki.language |rights=autoconfirmed |type=general |peers=Twinkle-pagestyles] |Twinkle.js |Twinkle.css |twinklearv.js |twinklewarn.js |twinkleblock.js |twinklewelcome.js |twinkleshared.js |twinkletalkback.js |twinklespeedy.js |twinkleprod.js |twinklexfd.js |twinkleimage.js |twinkleprotect.js |twinkletag.js |twinklediff.js |twinkleunlink.js |twinklerollback.js |twinkledeprod.js |twinklebatchdelete.js |twinklebatchprotect.js |twinklebatchundelete.js |twinkleconfig.js
+* morebits [ResourceLoader |dependencies=mediawiki.user, mediawiki.util, mediawiki.Title, jquery.ui |hidden] |morebits.js |morebits.css
+* Twinkle-pagestyles [hidden |skins=vector, vector-2022] |Twinkle-pagestyles.css
+* Link Edit[ResourceLoader|default]|link-edit.js
+* ProveIt[ResourceLoader|default]|ProveIt.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* citations [ResourceLoader |dependencies=mediawiki.util] |citations.js
+
+==ಮಾಡ್ಯೂಲ್==
+* libSensitiveIPs [ResourceLoader|dependencies=ext.gadget.libLua|hidden]|libSensitiveIPs.js
+* libLua [ResourceLoader|dependencies=mediawiki.api|hidden]|libLua.js

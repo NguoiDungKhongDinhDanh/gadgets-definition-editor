@@ -1,0 +1,71 @@
+== Navigazione ==
+*ReferenceTooltips[ResourceLoader|default|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+*HiddenCat[ResourceLoader|default]|HiddenCat.js
+
+== tb-formattazione ==
+*tb-sott[ResourceLoader]|tb-sott.js
+*tb-barr[ResourceLoader]|tb-barr.js
+*tb-case[ResourceLoader]|tb-case.js
+*tb-noinclude[ResourceLoader]|tb-noinclude.js
+
+== tb-avvisi ==
+*tb-aiutare[ResourceLoader]|tb-aiutare.js
+*tb-controllare[ResourceLoader]|tb-controllare.js
+
+== avanzamenti ==
+*tb-avanzamenti[ResourceLoader|default|dependencies=user.options,ext.wikiEditor]|tb-avanzamenti.js
+*FasiAvanzamento[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title|targets=desktop,mobile]|FasiAvanzamento.css|FasiAvanzamento.js
+
+== tabs ==
+*lastedit[ResourceLoader|dependencies=mediawiki.util]|lastedit.js
+*Purge[ResourceLoader|dependencies=mediawiki.util]|Purge.js
+*section0[ResourceLoader|dependencies=mediawiki.util]|section0.js
+
+== portlet ==
+*BordiArrotondati|BordiArrotondati.css
+*nav-aut[ResourceLoader|dependencies=mediawiki.util]|nav-aut.js
+*nav-cancimm[ResourceLoader|rights=delete|dependencies=mediawiki.util]|nav-cancimm.js
+*nav-blocklist[ResourceLoader|dependencies=mediawiki.util]|nav-blocklist.js
+*nav-log[ResourceLoader|dependencies=mediawiki.util]|nav-log.js
+*nav-css[ResourceLoader|dependencies=mediawiki.util]|nav-css.js
+*nav-js[ResourceLoader|dependencies=mediawiki.util]|nav-js.js
+*nav-canc[ResourceLoader|dependencies=mediawiki.util]|nav-canc.js
+*nav-newpages[ResourceLoader|dependencies=mediawiki.util]|nav-newpages.js
+*nav-rfa[ResourceLoader|dependencies=mediawiki.util]|nav-rfa.js
+*nav-sandbox[ResourceLoader|dependencies=mediawiki.util]|nav-sandbox.js
+*nav-prob[ResourceLoader|dependencies=mediawiki.util]|nav-prob.js
+*nav-vand[ResourceLoader|dependencies=mediawiki.util]|nav-vand.js
+*nav-bot[ResourceLoader|dependencies=mediawiki.util]|nav-bot.js
+*nav-struadmin[ResourceLoader|dependencies=mediawiki.util]|nav-struadmin.js
+*stru-whois[ResourceLoader|dependencies=mediawiki.util]|stru-whois.js
+*UserEditCount[ResourceLoader|dependencies=mediawiki.util]|UserEditCount.js
+
+== patrolling ==
+<!-- * Recent2[ResourceLoader]|recent2.js -->
+* RollbackNascosti [ResourceLoader|rights=markbotedits|dependencies=mediawiki.util]|RollbackNascosti.js
+* MassDelete [ResourceLoader|rights=delete|dependencies=mediawiki.api, mediawiki.Title]|MassDelete.js/Criteri.js|MassDelete.js
+* canctxt [ResourceLoader|rights=delete] | cancTxt.js/Criteri.js | cancTxt.js
+
+== altro ==
+*CatWatch[ResourceLoader|dependencies=mediawiki.util]|CatWatch.js
+*Chat[ResourceLoader|dependencies=mediawiki.util]|Chat.js
+*EDTitle[ResourceLoader|dependencies=mediawiki.util]|EDTitle.js
+*HotCat[ResourceLoader|rights=edit]|HotCat.js
+*LinkComplete[ResourceLoader]|LinkComplete.js
+*MapFrame[ResourceLoader|default]|MapFrame.js
+*NamespaceColorati[ResourceLoader|default]|NamespaceColorati.css
+*NMS[ResourceLoader|skins=monobook]|NMS.js
+*Orologio[ResourceLoader|dependencies=mediawiki.util]|Orologio.js
+*Popup[ResourceLoader|type=general|dependencies=mediawiki.user]||Popup.js|Popup.css
+*QuickEdit[ResourceLoader]|QuickEdit.js
+*Spostamento[ResourceLoader|rights=move] | Spostamento.js
+*strumentivari[ResourceLoader|dependencies=mediawiki.util]|strumentivari.js
+*Toolbar[ResourceLoader|type=general|dependencies=user.options,mediawiki.util]|toolbar.js|toolbar.css|toolbar-buttons.js
+*Unwatch[ResourceLoader]|Unwatch.js
+*Wiked[ResourceLoader]|Wiked.js
+*dictionaryLookupHover[ResourceLoader]|dictionaryLookupHover.js
+*common[ResourceLoader|default|hidden|targets=desktop,mobile]|common.css
+
+== testing ==
+* Ricetta[ResourceLoader|default|dependencies=oojs-ui-windows,oojs-ui-widgets]|Ricetta.js
+* Transclusione[ResourceLoader|default|targets=desktop,mobile]|Transclusione.js

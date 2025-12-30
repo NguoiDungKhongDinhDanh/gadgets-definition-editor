@@ -1,0 +1,13 @@
+== editing-tools ==
+* pr_layout[ResourceLoader]|pr_layout.js
+* pr_headers[ResourceLoader]|pr_headers.js
+* autohinter[ResourceLoader|target=desktop]|autohinter.js
+* maqrich[ResourceLoader|target=desktop]|maqrich.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Typo[ResourceLoader|dependencies=user.options,ext.wikiEditor]|Typo.js
+* Sections[ResourceLoader|dependencies=user.options,ext.wikiEditor]|Sections.js
+
+== interface ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* navigationbar[ResourceLoader|default|target=desktop,mobile]|navigationbar.js
+* zoom[ResourceLoader|dependencies=user.options]|zoom.js

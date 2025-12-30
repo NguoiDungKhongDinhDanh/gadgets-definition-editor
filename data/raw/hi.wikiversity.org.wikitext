@@ -1,0 +1,16 @@
+== editing-gadgets ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* defaultsummaries[ResourceLoader]|defaultsummaries.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|morebits.js|morebits.css|Twinkle.js|twinklefluff.js|twinklediff.js|twinkleunlink.js‎|Twinkle.css
+*refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+*refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== browsing-gadgets ==
+* searchFocus[ResourceLoader]|searchFocus.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+
+== display-gadgets ==
+*Numeral_converter[ResourceLoader|default|dependencies=mediawiki.cookie,mediawiki.util,mediawiki.user,mediawiki.util]|Numeral_converter.css|Numeral_converter.js
+*ShortUrlShare[ResourceLoader]|ShortUrlShare.css|ShortUrlShare.js
+*ShortUrl[ResourceLoader|default]|ShortUrl.css|ShortUrl.js
+*XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js

@@ -1,0 +1,32 @@
+== navigation ==
+* Search[ResourceLoader]|Search.js
+* SubPages[ResourceLoader|dependencies=mediawiki.util]|SubPages.js
+* CurIDLink[ResourceLoader|dependencies=mediawiki.util]|CurIDLink.js
+
+== reading ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* TalkColoring|TalkColoring.css
+* TimeSmall[ResourceLoader]|TimeSmall.js
+* Diffs[ResourceLoader|dependencies=mediawiki.util]|Diffs.js
+* DisambigHili[ResourceLoader|dependencies=mediawiki.util]|DisambigHili.js
+* editHysteria[ResourceLoader]|editHysteria.js
+* ReferenceTooltips[ResourceLoader|default|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* directLinkToCommons[ResourceLoader|dependencies=mediawiki.util]|directLinkToCommons.js
+
+== editing ==
+* edittop[ResourceLoader|dependencies=mediawiki.util|default]|edittop.js
+* ToolbarAtBottom[ResourceLoader]|ToolbarAtBottom.js
+* HotCat[ResourceLoader]|HotCat.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* QpreviewAtBottom[ResourceLoader]|QpreviewAtBottom.js
+
+== external-tools ==
+* Statistics[ResourceLoader|dependencies=mediawiki.util|default]|Statistics.js
+
+<!-- Технічні приховані додатки, прохання не вилучати. Використовуються іншими скриптами -->
+
+== modules ==
+* libAPI[ResourceLoader|dependencies=mediawiki.util,mediawiki.user|hidden]|libAPI.js
+* ReplaceImgs[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,ext.gadget.libAPI|hidden]|ReplaceImgs.js
+* Suggestions[ResourceLoader|dependencies=jquery.suggestions|hidden]|Suggestions.js
+* libWikiDOM [ResourceLoader|hidden]|libWikiDOM.js

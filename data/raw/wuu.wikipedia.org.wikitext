@@ -1,0 +1,6 @@
+* edittop[ResourceLoader|actions=view|contentModels=wikitext]|edittop.js|edittop.css
+* purgetab[ResourceLoader|dependencies=mediawiki.api,mediawiki.util|skins=vector,vector-2022,monobook,timeless]|purgetab.js
+* Difflink[ResourceLoader|dependencies=mediawiki.api|actions=view|skins=vector,vector-2022,monobook,timeless]|Difflink.js
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* HotCat[ResourceLoader]|HotCat.js
+* mirrorsite[ResourceLoader|default|hidden]|mirrorsite.js

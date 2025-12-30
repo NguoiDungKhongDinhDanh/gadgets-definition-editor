@@ -1,0 +1,8 @@
+== editing-gadgets ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+
+== toolbox ==
+* Contributors[ResourceLoader|dependencies=mediawiki.util]|Contributors.js
+* Subpages[ResourceLoader|dependencies=mediawiki.util]|Subpages.js
+* ArticleTraffic[ResourceLoader|dependencies=mediawiki.util]|ArticleTraffic.js
+* CurIDLink[ResourceLoader|default|dependencies=mediawiki.util]|CurIDLink.js

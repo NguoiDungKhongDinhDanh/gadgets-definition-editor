@@ -1,0 +1,3 @@
+* HotCat[ResourceLoader]|HotCat.js
+* Navigoasie-popups[ResourceLoader|type=general]|popups.js|popups.css
+* purgelink[ResourceLoader|dependencies=mediawiki.util, mediawiki.api]|purgelink.js

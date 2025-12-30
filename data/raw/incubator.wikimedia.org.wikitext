@@ -1,0 +1,33 @@
+== default ==
+* addprefix [ ResourceLoader | targets = desktop,mobile | default | dependencies = mediawiki.api, mediawiki.jqueryMsg ] | EditorAPIs.js | AddPrefix.js | AddPrefix.css
+* interwiki [ ResourceLoader | targets = desktop,mobile | dependencies = jquery.uls.data, mediawiki.api, mediawiki.ForeignApi, mediawiki.util, mediawiki.jqueryMsg, mediawiki.language, oojs, oojs-ui-core, oojs-ui-widgets, oojs-ui-windows | peers = interwikiStyles | default ] | interwiki.js
+* interwikiStyles [ hidden | targets = desktop,mobile | type = styles | default ] | interwiki.css
+* ProjectSpecificLogos [ ResourceLoader | default | peers=ProjectSpecificLogosStyles ] | ProjectSpecificLogos.js
+* ProjectSpecificLogosStyles [ hidden ] | ProjectSpecificLogos.css
+* settestwikipreference [ ResourceLoader | targets = desktop,mobile | default | dependencies = ext.uls.mediawiki, mediawiki.api, mediawiki.language.names, mediawiki.user, mediawiki.util ] | SetTestWikiPreference.js
+* direct-link-to-Commons [ ResourceLoader | default | dependencies = mediawiki.util ] | direct-link-to-Commons.js
+* SpaceSavingIOL [ ResourceLoader | default ] | SpaceSavingIOL.css
+* signwriting [default|skins=vector,monobook,timeless,cologneblue,modern|top|ResourceLoader|dependencies=mediawiki.util]|Signwriting.js
+* setlang[ResourceLoader|default|hidden|skins=minerva|rights=editmyuserjson|targets=desktop,mobile|dependencies=jquery.uls.data, mediawiki.api, mediawiki.jqueryMsg, mediawiki.Uri, mediawiki.user, mediawiki.util, oojs, oojs-ui-core, oojs-ui-widgets, oojs-ui-windows]|setlang.js
+* testwikiredirect[ ResourceLoader | hidden | default | targets = desktop,mobile | dependencies = mediawiki.api, mediawiki.util, mediawiki.Uri ] | testwikiredirect.js
+
+== tools ==
+* edittop [ ResourceLoader ] |edittop.js|edittop.css
+* UTCLiveClock [ ResourceLoader ] |UTCLiveClock.js
+* purgetab [ ResourceLoader | dependencies = mediawiki.util | default ] |purgetab.js
+* HotCat [ ResourceLoader ] |HotCat.js
+* HighlightRedirects [ ResourceLoader ] |HighlightRedirects.css
+* wikEd [ ResourceLoader ] |wikEd.js
+
+== languagesupport ==
+* charinsert[ResourceLoader|default|actions=edit]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* BiDiEditing [ ResourceLoader ] |BiDiEditing.js
+* DetectDir [ ResourceLoader ] |DetectDir.js
+* ShortLink [ ResourceLoader ] |ShortLink.js
+* large-font [ ResourceLoader ] |large-font.css
+
+== admin-gadgets ==
+* CleanDeleteReasons [ ResourceLoader | rights = delete ]|CleanDeleteReasons.js
+* massdelete[ ResourceLoader | rights = delete ]|massdelete.js
+* SafeRollback[ ResourceLoader | rights = rollback ] | SafeRollback.js

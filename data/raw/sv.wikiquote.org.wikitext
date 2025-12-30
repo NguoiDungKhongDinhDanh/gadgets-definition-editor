@@ -1,0 +1,6 @@
+== Redigeringsfinesser ==
+*hotcat[ResourceLoader]|hotcat.js
+*editsection0[ResourceLoader]|editsection0.js
+
+== Extrafunktioner ==
+*IP-whois[ResourceLoader]|IP-whois.js

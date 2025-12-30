@@ -1,0 +1,51 @@
+[[Special:Gadgets]] [[Special:GadgetUsage]] [[Special:参数设置#mw-prefsection-gadgets]]
+<div style='font-family:monospace; word-break:break-all;'>
+
+== edit ==
+* edit0[ResourceLoader|dependencies=user.options,mediawiki.util|default|type=general]|edit0.js|edit0.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* specialchars[ResourceLoader]|specialchars.js
+* ToolsRedirect[ResourceLoader|dependencies=ext.gadget.site-lib|rights=edit|type=general]|ToolsRedirect.js|ToolsRedirect.css
+* ToolsRedirect-opt-bolds[ResourceLoader|dependencies=ext.gadget.ToolsRedirect|rights=edit]|ToolsRedirect-opt-bolds.js
+* edit-count[ResourceLoader]|edit-count.js
+* easy-archive[ResourceLoader]|easy-archive.js
+* edit-count[ResourceLoader]|edit-count.js
+
+== editbutton ==
+* Edittools-vector[ResourceLoader|dependencies=user.options|default]|Edittools-vector.js
+* Edittools-vplus[ResourceLoader|dependencies=ext.gadget.site-lib,ext.gadget.Edittools-vector]|Edittools-vplus.js
+* Edittools-vote[ResourceLoader|dependencies=ext.gadget.Edittools-vector]|Edittools-vote.js
+* Edittools-delh[ResourceLoader|dependencies=ext.gadget.site-lib,ext.gadget.Edittools-vector|rights=autoconfirmed]|Edittools-delh.js
+* Edittools-refToolbar[ResourceLoader|dependencies=user.options|default]|refToolbar.js
+
+== browser ==
+* Navigation_popups[ResourceLoader|dependencies=ext.gadget.site-lib|type=general]|popups.js|popups.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* confirm-logout[ResourceLoader]|confirm-logout.js
+* hideConversionTab[default]|hideConversionTab.css
+* shortURL[ResourceLoader|dependencies=mediawiki.util,oojs-ui|default|type=general]|shortURL.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,ext.gadget.site-lib|default|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== appear ==
+* AdvancedSiteNotices[ResourceLoader|dependencies=ext.gadget.site-lib,mediawiki.cookie,mediawiki.util|targets=desktop,mobile|default]|AdvancedSiteNotices.js
+* CommentsinLocalTime[ResourceLoader|dependencies=ext.gadget.site-lib]|CommentsinLocalTime.js
+* large-font[ResourceLoader|skins=vector,monobook]|large-font.css
+* NavFrame[ResourceLoader|dependencies=ext.gadget.site-lib|default|type=general]|NavFrame.js|NavFrame.css
+* collapsibleTables[ResourceLoader|dependencies=ext.gadget.site-lib|default]|collapsibleTables.js
+* OnlineAdmins[ResourceLoader|dependencies=ext.gadget.site-lib,mediawiki.api]|OnlineAdmins.js
+* MarkRights[ResourceLoader|dependencies=mediawiki.api]|MarkRights.js
+
+== sysop ==
+* Twinkle-broken[ResourceLoader|dependencies=ext.gadget.morebits,mediawiki.api,mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|type=general|hidden]|Twinkle.js|twinkleblock.js|twinkleconfig.js|friendlytag.js|twinklediff.js|twinklefluff.js|twinklespeedy.js|twinklexfd.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui|hidden]|morebits.js|morebits.css
+* rollback-summary[ResourceLoader|rights=rollback]|rollback-summary.js
+
+== compatibility ==
+<!-- * JSL[ResourceLoader]|JSL.js -->
+* site-lib[ResourceLoader|dependencies=mediawiki.util|hidden|targets=desktop,mobile]|site-lib.js
+
+== mainpage ==
+* searchFocus[ResourceLoader]|searchFocus.js
+
+</div>

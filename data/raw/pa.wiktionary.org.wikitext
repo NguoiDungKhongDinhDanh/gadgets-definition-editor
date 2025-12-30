@@ -1,0 +1,6 @@
+ਇਹ ਛੋਟੇ ਸੰਦ ਵਿਕਸ਼ਨਰੀ ਦੇ ਵਰਤਣ ਵਾਲ਼ਿਆਂ ਲਈ ਇਸ ’ਤੇ ਕੰਮ ਕਰਨਾ ਅਸਾਨ ਬਣਾਉਂਦੇ ਹਨ। ਮੈਂਬਰ ਆਪਣੀਆਂ ਪਸੰਦਾਂ ਵਿਚ ਜਾ ਕੇ ਲੋੜ ਮੁਤਾਬਕ ਇਹਨਾਂ ਸੰਦਾਂ ਦੀ ਚੋਣ ਕਰ ਸਕਦੇ ਹਨ।
+
+== editing ==
+
+* HotCat[ResourceLoader]|HotCat.js
+* ProveIt[ResourceLoader]|ProveIt.js

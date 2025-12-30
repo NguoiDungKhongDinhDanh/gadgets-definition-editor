@@ -1,0 +1,63 @@
+{{shortcut|WT:GD}}
+Lihat [[Khas:Gadgets]] untuk pendokumenan gajet-gajet tersebut, dan [[:en:Wiktionary:Gadgets|Wikikamus:Gajet (dalam bahasa Inggeris)]] untuk maklumat am berkenaan gajet Wikikamus. Lihat juga [[WT:PREFS]] untuk keutamaan lain.
+
+{{gadgets pages}}
+
+== appearance ==
+* VectorClassic[ResourceLoader|top|skins=vector]|VectorClassic.css
+* LanguagesAndScripts[ResourceLoader|default]|LanguagesAndScripts.css
+* HideLogo[ResourceLoader]|HideLogo.css
+* MonobookSmallerHeadings[ResourceLoader|default|skins=monobook]|MonobookSmallerHeadings.css
+* JavascriptHeadings[ResourceLoader|default|dependencies=site]|JavascriptHeadings.js
+* vectorTabs[ResourceLoader|skins=vector]|vectorTabs.js
+* WiktCountryFlags[ResourceLoader]|WiktCountryFlags.css
+* WiktPreviewRightTOCs[ResourceLoader]|WiktPreviewRightTOCs.css
+* LogoTiles[ResourceLoader]|LogoTiles.css
+* LatnMentionBold[ResourceLoader]|LatnMentionBold.css
+* RoundBullets4Lists[ResourceLoader]|RoundBullets4Lists.css
+* SmallRC[ResourceLoader]|SmallRC.css
+
+== interface-gadgets ==
+
+* TargetedTranslations[ResourceLoader|default|dependencies=site,mediawiki.storage,mediawiki.cookie,ext.gadget.StorageUtils|categories=Entri dengan kotak terjemahan]|TargetedTranslations.js|TargetedTranslations.css
+* purgetab[ResourceLoader|top|dependencies=mediawiki.api,mediawiki.util]|purgetab.js
+* Navigation_popups[ResourceLoader]|popups.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* WiktAddProminentInterwiki[ResourceLoader]|langcode2name.js|WiktAddProminentInterwiki.js
+* WiktSidebarTranslation[ResourceLoader]|langcode2name.js|WiktSidebarTranslation.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* disableTargetedTranslations[ResourceLoader|top]|disableTargetedTranslations.js
+* TabbedLanguages[ResourceLoader|top|dependencies=mediawiki.cookie,mediawiki.util]|TabbedLanguages.js|TabbedLanguages.css
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util]|DocTabs.js|DocTabs.css
+* BlockInfo[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.language.months,mediawiki.util]|BlockInfo.js
+* RevdelInfo[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.Uri,mediawiki.language.months,mediawiki.util]|RevdelInfo.js
+* FastRollback[ResourceLoader|rights=rollback|dependencies=mediawiki.api,mediawiki.Uri]|FastRollback.js
+* OrangeLinks[ResourceLoader|dependencies=site,mediawiki.api,mediawiki.Uri,mediawiki.Title,mediawiki.util]|OrangeLinks.js
+* CodeLinks[ResourceLoader|default|dependencies=site,mediawiki.util]|CodeLinks.js
+* VisibilityToggles[ResourceLoader|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|default|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+
+== editing-gadgets ==
+
+* TranslationAdder[ResourceLoader|default|dependencies=site,ext.gadget.Editor,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data|categories=Perkataan dengan kotak terjemahan]|TranslationAdder.js
+* RhymesAdder[ResourceLoader|default|dependencies=site,ext.gadget.Editor,mediawiki.util,ext.gadget.LanguageUtils|namespaces=102]|RhymesAdder.js
+* HotCat[ResourceLoader]|HotCat.js
+* PatrollingEnhancements[ResourceLoader|rights=patrol|default]|PatrollingEnhancements.js
+* DefSideBoxes[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util]|DefSideBoxes.js|DefSideBoxes.css
+
+== misc-gadgets ==
+* aWa[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,user.options,mediawiki.Uri,mediawiki.Title]|aWa.js|aWa.css
+
+== Gajet dan utiliti tersembunyi ==
+* AGprefs[ResourceLoader|hidden|dependencies=mediawiki.util,oojs-ui-core]|AGprefs.js
+* Site[ResourceLoader|hidden|default]|Site.css
+* SiteJS[ResourceLoader|hidden|default]|Site.js
+* Editor[ResourceLoader|hidden|dependencies=mediawiki.util,mediawiki.api]|Editor.js
+* StorageUtils[ResourceLoader|hidden|dependencies=mediawiki.cookie,mediawiki.storage]|StorageUtils.js
+* LanguageUtils[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.StorageUtils]|LanguageUtils.js
+* DefinitionsAdder[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.util,ext.gadget.Editor]|DefinitionsAdder.js
+* TranslationAdder-Data[ResourceLoader|hidden|dependencies=mediawiki.api,ext.gadget.LanguageUtils|categories=Perkataan dengan kotak terjemahan]|TranslationAdder-Data.js
+* Palette[ResourceLoader|hidden|default]|Palette.css
+* Edittools[ResourceLoader|hidden|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js|Edittools.css
+* WiktGadgetPrefs[ResourceLoader|hidden|default|dependencies=mediawiki.user,user.options]|WiktGadgetPrefs.js

@@ -1,0 +1,42 @@
+# En aquesta pàgina es defineixen els giny usats a [[Especial:Gadgets]]
+# Abans de fer cap modificació, assegureu-vos que heu entès el funcionament descrit a [[mw:Extension:Gadgets#Usage]]
+# No canvieu el nom de cap giny existent, quedaria desactivat per a tothom.
+# Si un giny no funciona, el podeu anul·lar de la llista reemplaçant * per #
+
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|navpop.css|popups-strings-ca.js|popups.js
+* DetectaDesambiguacions[ResourceLoader|dependencies=mediawiki.util]|bkl-check.js
+* ReferenceTooltips[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* modrollback[ResourceLoader]|modrollback.js
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* Wdsearch[ResourceLoader]|Wdsearch.js
+* UkensKonkurranse[ResourceLoader|type=general|default|dependencies=mediawiki.util]|UkensKonkurranse.js
+
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js|wikEd-ca.js
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=autopatrol|type=general]|Cat-a-lot.js
+* SegregaRefs[ResourceLoader]|SegregaRefs.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* resumsperdefecte[ResourceLoader]|resumsperdefecte.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user|type=general]|charinsert-core.js|charinsert-core.css
+* scribe[ResourceLoader|dependencies=ext.visualEditor.core|mediawiki|mediawiki.api]|scribe.js|scribe.css
+
+== interface-gadgets ==
+* Link_carrega_directe[ResourceLoader|dependencies=mediawiki.util]|linkcarrega.js
+* Treure_link_ajuda_a_carregar|foralink.css
+* SousPages[ResourceLoader|dependencies=mediawiki.util]|SousPages.js
+* AltresViccionari[ResourceLoader|default|dependencies=mediawiki.util]|AltresViccionari.js
+* purgetab[default|ResourceLoader|dependencies=mediawiki.util,user.options,mediawiki.api]|purgetab.js
+# wikicheck[ResourceLoader|dependencies=mediawiki.util]|wikicheck.js
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* contrib-numerades | contrib-numerades.css
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+# visualeditor-signature[default|ResourceLoader|dependencies=mediawiki.util]|visualeditor-signature.js
+* DocTabs[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|type=general]|DocTabs.js|DocTabs.css
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+* markAdmins[ResourceLoader|dependencies=mediawiki.util]|markAdmins.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js

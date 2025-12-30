@@ -1,0 +1,4 @@
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== appearance ==

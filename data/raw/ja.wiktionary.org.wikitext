@@ -1,0 +1,21 @@
+== browsing-gadgets ==
+
+* NavFrame[ResourceLoader|default|dependencies=jquery.makeCollapsible]|NavFrame.js
+* NavFrameHideDefault[ResourceLoader|default|dependencies=ext.gadget.NavFrame]|NavFrameHideDefault.js
+* HList[ResourceLoader|default|type=style|peer=true|dependencies=mediawiki.hlist|targets=desktop,mobile]|dummy.css
+* CollapseExpandAll[ResourceLoader|skins=vector|dependencies=jquery.makeCollapsible,mediawiki.util]|CollapseExpandAll.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* SortLanguages[ResourceLoader]|sortlanguages.js
+
+== editing-gadgets ==
+
+* wikEd[ResourceLoader]|wikEd.js
+
+== interface-gadgets ==
+
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Blackskin|Blackskin.css
+* supruby|supruby.css

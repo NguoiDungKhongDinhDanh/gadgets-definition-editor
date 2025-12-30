@@ -1,0 +1,9 @@
+== interface-gadgets ==
+* site[ResourceLoader|default|hidden|targets=desktop,mobile|dependencies=mediawiki.util]|site-deploycal.css|site-deploycal.js|site-loadbyurl.js|site-hideprefix.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user|type=general]|popups.js|navpop.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* responsiveContentBase[ResourceLoader|type=styles|hidden|skins=vector]|responsiveContentBase.css
+* responsiveContent[ResourceLoader|type=general|skins=vector|peers=responsiveContentBase]|responsiveContent.js
+* mobileVectorBase[ResourceLoader|type=styles|hidden|skins=vector]|mobileVectorBase.css
+* mobileVector[ResourceLoader|type=general|skins=vector|peers=mobileVectorBase,oojs-ui.styles.icons-layout|dependencies=mediawiki.util]|mobileVector.js
+* Massblock[ResourceLoader|rights=block|dependencies=mediawiki.util,mediawiki.api]|Massblock.js

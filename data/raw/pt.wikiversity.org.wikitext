@@ -1,0 +1,13 @@
+== interface ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* bottomtabs[ResourceLoader]|bottomtabs.js
+
+== editing ==
+* wiled[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+<!--- precisa ser traduzido para funcionar* LastContrib|LastContrib.js---->
+
+== admin-gadgets ==

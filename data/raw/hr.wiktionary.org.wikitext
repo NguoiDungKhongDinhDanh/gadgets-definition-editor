@@ -1,0 +1,11 @@
+== sučelje ==
+* CleanCache[ResourceLoader|dependencies=mediawiki.util]|CleanCache.js
+
+== uređivanje ==
+* dodatnialati[ResourceLoader]|dodatnialati.js
+* HotCat[ResourceLoader]|HotCat.js
+* extra-toolbar-buttons[ResourceLoader|default]|extra-toolbar-buttons.js
+* extra-toolbar-buttons-core[ResourceLoader|hidden]|extra-toolbar-buttons-core.js
+
+== administratori ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js

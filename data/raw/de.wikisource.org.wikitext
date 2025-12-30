@@ -1,0 +1,22 @@
+== Bearbeitungswerkzeuge ==
+* editMenus[ResourceLoader]|editMenus.js
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+* LegacyToolbar2006 [ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar] | LegacyToolbar2006.js
+* Extra-Editbuttons [ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar]| Extra-Editbuttons.js | Extra-Editbuttons.css
+* wikEd[ResourceLoader|dependencies=mediawiki.util,user]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* PR-ocr[ResourceLoader]|PR-ocr.js
+* PR-Layout[ResourceLoader]|PR-Layout.js
+
+== Lesehilfen ==
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== VeraenderungOberflaeche ==
+* CommonsDirekt[ResourceLoader|dependencies=mediawiki.util|default]|Direct-link-to-Commons.js
+
+== Sonstiges ==
+* PR-robot[ResourceLoader]|PR-robot.js
+* DiffOldStyle[ResourceLoader]|DiffOldStyle.css
+
+== Administratoren-und-Interna ==
+* Sonderzeichenauswahl[ResourceLoader|hidden|dependencies=user]|Sonderzeichenauswahl‎.js

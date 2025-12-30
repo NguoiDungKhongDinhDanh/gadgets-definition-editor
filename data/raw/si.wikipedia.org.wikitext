@@ -1,0 +1,37 @@
+== browsing-gadgets ==
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* HideFundraisingNotice[ResourceLoader]|HideFundraisingNotice.js|HideFundraisingNotice.css
+
+== editing-gadgets ==
+*defaultsummaries[ResourceLoader]|defaultsummaries.js
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* Twinkle [ResourceLoader |dependencies=ext.gadget.morebits, ext.gadget.select2, mediawiki.api, mediawiki.language |rights=autoconfirmed |type=general |peers=Twinkle-pagestyles] |Twinkle.js |Twinkle.css |twinklearv.js |twinklewarn.js |twinkleblock.js |twinklewelcome.js |twinkleshared.js |twinkletalkback.js |twinklespeedy.js |twinkleprod.js |twinklexfd.js |twinkleimage.js |twinkleprotect.js |twinkletag.js |twinklediff.js |twinkleunlink.js |twinklerollback.js |twinkledeprod.js |twinklebatchdelete.js |twinklebatchprotect.js |twinklebatchundelete.js |twinkleconfig.js
+* morebits [ResourceLoader |dependencies=mediawiki.user, mediawiki.util, mediawiki.Title, jquery.ui |hidden] |morebits.js |morebits.css
+* wikEd[ResourceLoader]|wikEd.js
+* ProveIt[ResourceLoader]|ProveIt.js
+
+== interface-gadgets ==
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* contribsrange[ResourceLoader]|contribsrange.js
+
+== language-gadgets ==
+* ShortDiff[ResourceLoader]|ShortDiff.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* EvilUnicodeConverter[ResourceLoader]|EvilUnicodeConverter.js
+
+== admin-gadgets ==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js
+
+
+== library-gadgets ==
+
+* JSL[ResourceLoader]|JSL.js
+* modernskin-thunks[ResourceLoader]|modernskin-thunks.js

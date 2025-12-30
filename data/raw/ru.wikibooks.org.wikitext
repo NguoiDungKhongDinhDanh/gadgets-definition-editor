@@ -1,0 +1,30 @@
+* common-special-block[ResourceLoader|hidden|type=general|dependencies=site]|common-special-block.js‎|common-special-block.css
+* common-action-delete[ResourceLoader|hidden|type=general]|common-action-delete.js|common-action-delete.css
+* common-action-edit[ResourceLoader|hidden|type=general|dependencies=site,mediawiki.util]|common-action-edit.js|common-action-edit.css
+* common-action-history[ResourceLoader|default|hidden|rights=minoredit]|common-action-history.js
+
+== browsing-gadgets ==
+* wikificator[ResourceLoader|hidden|default]|wikificator.js
+* popups[ResourceLoader]|popups.js
+* histcomb[ResourceLoader]|histcomb.js
+* directLinkToCommons[ResourceLoader|dependencies=mediawiki.util]|directLinkToCommons.js
+* referenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|referenceTooltips.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* markadmins[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* extWikiLinksMarker[ResourceLoader|type=styles]|extWikiLinksMarker.css
+
+== editing ==
+* preview[ResourceLoader|dependencies=mediawiki.util]|preview.js
+* HotCat[ResourceLoader]|HotCat.js
+* urldecoder[ResourceLoader|dependencies=mediawiki.util]|urldecoder.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* edittop[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.page.ready]|edittop.js
+* summaryButtons[ResourceLoader|type=general|hidden|dependencies=ext.gadget.common-action-edit,mediawiki.util]|summaryButtons.js‎|summaryButtons.css
+* newTopicOnTop[ResourceLoader|hidden]|newTopicOnTop.js
+
+== search-gadgets ==
+* contribsrange[ResourceLoader]|contribsrange.js
+__NOTOC__

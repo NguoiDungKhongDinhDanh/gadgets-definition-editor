@@ -1,0 +1,34 @@
+== library ==
+*JSL[ResourceLoader]|JSL.js
+
+== edit ==
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js|edittop.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* wikEd[ResourceLoader]|wikEd.js
+* Wikiplus[ResourceLoader|rights=autoconfirmed]|Wikiplus.js
+
+== view ==
+* DisambiguationLinks[ResourceLoader|default]|DisambiguationLinks.css
+* Easy-Archive[ResourceLoader]|Easy-Archive.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* CVNBlackList[ResourceLoader]|CVNBlackList.js
+* WikidataDesc[ResourceLoader]|WikidataDesc.js
+* shortURL[ResourceLoader|dependencies=mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|default|type=general]|shortURL.js
+* MarkRights[ResourceLoader|dependencies=mediawiki.api]|MarkRights.js|MarkRights.css
+
+== sysop ==
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|rights=autoconfirmed|type=general]|morebits.js|morebits.css|Twinkle.js|Twinkle.css|friendlytag.js|twinklebatchdelete.js|twinklebatchundelete.js|twinkleclose.js|twinkleconfig.js|twinklediff.js|twinklefluff.js|twinklespeedy.js|twinkleunlink.js|twinklewarn.js|twinklexfd.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* rollback-summary[ResourceLoader|rights=rollback]|rollback-summary.js
+* AutoUndo[ResourceLoader|rights=rollback]|AutoUndo.js
+
+== test ==
+* templogo[ResourceLoader]|templogo.css
+
+== 非工具 ==
+* libJQuery[ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* SettingsUI [ResourceLoader|dependencies=jquery.ui,mediawiki.user,ext.gadget.libJQuery|hidden]|SettingsUI.js
+* SettingsManager [ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+* IRC[ResourceLoader|hidden|default]|IRC.js
+* collapsibleTables[ResourceLoader|hidden|default]|collapsibleTables.js

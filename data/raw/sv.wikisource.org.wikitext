@@ -1,0 +1,7 @@
+== Korrekturläsning ==
+*proofread-editnext[ResourceLoader]|proofread-editnext.js
+*ocr[ResourceLoader]|ocr.js
+*hocr[ResourceLoader]|hocr.js
+
+== Utseende ==
+*ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general]|ReferenceTooltips.js|ReferenceTooltips.css

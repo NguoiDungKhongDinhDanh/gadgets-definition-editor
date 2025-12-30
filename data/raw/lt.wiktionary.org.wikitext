@@ -1,0 +1,25 @@
+== Perziura ==
+* tables1[ResourceLoader]|tables1.js
+* tables5[ResourceLoader]|tables5.js
+* tables10[ResourceLoader]|tables10.js
+* tables20[ResourceLoader]|tables20.js
+* popups[ResourceLoader]|popups.js|popups.css
+
+== Redagavimas ==
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* transedit[ResourceLoader]|transedit.js
+* Regex[ResourceLoader]|Regex.js|Regex.css
+
+== Butonai ==
+* TemplateLtWikt[ResourceLoader]|TemplateLtWikt.js|TemplateLtWikt.css
+* VertimuLentele[ResourceLoader]|VertTableau.js
+* Prastinimas[ResourceLoader]|Prastinimas.js
+* Lentele[ResourceLoader]|Tableau.js
+
+== Botpriem ==
+* BotPrastinimas[ResourceLoader]|Bot-Prastinimas.js
+
+== library ==
+
+* JSL[ResourceLoader]|JSL.js

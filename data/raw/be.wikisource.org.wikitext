@@ -1,0 +1,27 @@
+== reading-gadgets ==
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing-gadgets ==
+* HotCat[ResourceLoader]|HotCat.js
+
+=== editing-gadgets-indexes ===
+* mark-proofread[ResourceLoader|type=styles|namespaces=106|actions=view]|mark-proofread.css
+
+=== editing-gadgets-pages ===
+* PageCleanUp[ResourceLoader]|PageCleanUp.js
+* wikify[ResourceLoader|default]|wikify.js
+* notext[ResourceLoader|default|namespaces=104|actions=edit|dependencies=ext.proofreadpage.page.edit]|notext.js
+* SyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|SyntaxHighlighter.js
+* Preload_Page_Images[ResourceLoader|namespaces=104]|Preload_Page_Images.js
+
+== interface ==
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+
+== maintenance-gadgets ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* markblocked[ResourceLoader]|markblocked.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader|rights=delete|actions=delete]|CleanDeleteReasons.js
+
+__NOTOC__

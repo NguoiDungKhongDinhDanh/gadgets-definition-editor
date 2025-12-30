@@ -1,0 +1,33 @@
+== reading ==
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util]|PurgeTab.js
+* SubPages[ResourceLoader|dependencies=mediawiki.util]|SubPages.js
+* CurrentIdLink[ResourceLoader|dependencies=mediawiki.util]|CurrentIdLink.js
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* collapseElements[ResourceLoader|default]|collapseElements.js
+* HideTabSource[ResourceLoader|default]|HideTabSource.js
+* Footer[ResourceLoader|default]|Footer.js
+
+== proofreading ==
+* keybLayout[ResourceLoader|dependencies=mediawiki.util]|keybLayout.js|keybLayout.css
+* keybLayout4nsPage[ResourceLoader|default|dependencies=mediawiki.util|namespaces=250]|keybLayout.js|keybLayout.css
+* checkZhelehivka[ResourceLoader|dependencies=mediawiki.util]|checkZhelehivka.js|checkZhelehivka.css
+* Non-breakingSpace[ResourceLoader|dependencies=mediawiki.util]|Non-breakingSpace.js|Non-breakingSpace.css
+* presenceLatinLetter[ResourceLoader|dependencies=mediawiki.util]|presenceLatinLetter.js|presenceLatinLetter.css
+* LineBreakandTab[ResourceLoader|dependencies=mediawiki.util]|LineBreakandTab.js|LineBreakandTab.css
+* Score[ResourceLoader|dependencies=mediawiki.util]|Score.js
+* transclusion-check[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|actions=view|namespaces=252]|transclusion-check.js|transclusion-check.css
+
+== editing ==
+* charinsert[ResourceLoader|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* TemplatePreloader[ResourceLoader|default]|TemplatePreloader.js
+* HotCat[ResourceLoader]|HotCat.js
+* ToolbarAtBottom[ResourceLoader]|ToolbarAtBottom.js
+* Easy_LST[ResourceLoader]|Easy_LST.js
+
+== dictionary ==
+* WordLinksHere[ResourceLoader|default|dependencies=mediawiki.util]|WordLinksHere.js
+
+== external-tools ==
+* Statistics[ResourceLoader|dependencies=mediawiki.util]|Statistics.js

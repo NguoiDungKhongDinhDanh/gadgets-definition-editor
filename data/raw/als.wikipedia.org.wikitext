@@ -1,0 +1,47 @@
+== Bearbeitigswärchzyyg ==
+* toolserver-integration[ResourceLoader|dependencies=mediawiki.util]|toolserver-integration.js
+* Vorlagenmeister[ResourceLoader|dependencies=mediawiki.util]|Vorlagenmeister.js
+* wikEd[ResourceLoader|dependencies=mediawiki.util,user]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* Einleitung-bearbeiten[ResourceLoader]|Einleitung-bearbeiten.js
+* bkl-check|bkl-check.css
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* editMenus[ResourceLoader|default]|editMenus.js
+* editMenusDef[ResourceLoader|hidden]|editMenusDef.js|editMenusDef.css
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+* LegacyToolbar2006 [ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar] | LegacyToolbar2006.js
+* Extra-Editbuttons [ResourceLoader|dependencies=ext.gadget.mediawiki.toolbar]| Extra-Editbuttons.js | Extra-Editbuttons.css
+
+== Navigation ==
+* navigation-popups[ResourceLoader|dependencies=mediawiki.util,mediawiki.user]|navigation-popups.js
+* Suchfokus-Hauptseite[ResourceLoader]|Suchfokus-Hauptseite.js
+* Pfeil-hoch[ResourceLoader|type=general|dependencies=mediawiki.util]|Pfeil-hoch.css|Pfeil-hoch.js
+* editsection-align-end|editsection-align-end.css
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* PermaPageLink[ResourceLoader|dependencies=mediawiki.util]|PermaPageLink.js
+* Erweiterte-Navigationsleiste-Quicklinks|Erweiterte-Navigationsleiste-Quicklinks.css
+
+== VeraenderungOberflaeche ==
+* WikiMiniAtlas[ResourceLoader|type=general|default]|WikiMiniAtlas.js|WikiMiniAtlas.css
+* OpenStreetMap[ResourceLoader|default|dependencies=mediawiki.util|skins=vector,monobook,modern]|OpenStreetMap.js
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util|skins=vector,monobook]|rightsfilter.js
+* PrettyLog[ResourceLoader|type=general|dependencies=mediawiki.util]|PrettyLog.js|PrettyLog.css
+* revisionCounter[ResourceLoader|dependencies=mediawiki.api,mediawiki.user]|revisionCounter.js
+* markAdmins[ResourceLoader|dependencies=mediawiki.util]|markAdmins.js
+* old-movepage[ResourceLoader|rights=move|default]|old-movepage.js
+* CommonsDirekt[ResourceLoader|dependencies=mediawiki.util,user.options|default]|Direct-link-to-Commons.js
+* VectorClassic[ResourceLoader|type=styles|skins=vector|top]|VectorClassic.css
+
+== Lesehilfen ==
+* Screenreader-Optimierung[ResourceLoader]|Screenreader-Optimierung-TOC.js
+* Rot-Gruen-Sehschwaeche|Rot-Gruen-Sehschwaeche.css
+* old-diff-style|old-diff-style.css
+* Doppel-s-Schreibung[ResourceLoader]|Doppel-s-Schreibung.js
+* Zeitzonenkonverter[ResourceLoader|dependencies=mediawiki.util]|Zeitzonenkonverter.js
+* ReferenceTooltips[ResourceLoader|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== Administratoren-und-Interna ==
+* uploadtools[ResourceLoader|rights=upload|hidden|dependencies=mediawiki.util,mediawiki.util]|uploadtools.js
+
+== Sunschtigs ==
+* HideFundraisingNotice|HideFundraisingNotice.css

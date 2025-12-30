@@ -1,0 +1,3 @@
+== Redigering ==
+* Hotcat[ResourceLoader|rights=edit|dependencies=mediawiki.util]|hotcat.js
+* translation_editor[ResourceLoader|dependencies=mediawiki.api,mediawiki.user|type=general]|silent_fail_storage.js|editor.js|translation_editor.js|translation_editor.css

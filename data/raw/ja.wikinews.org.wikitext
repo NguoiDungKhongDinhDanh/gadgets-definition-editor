@@ -1,0 +1,20 @@
+便利な JavaScript を集めています。問題があった場合や新しいスクリプトを追加したい場合には、[[Project:管理者連絡帳]]までご相談ください。
+
+==General==
+* Navigation popups[ResourceLoader]|popups.js|navpop.css
+* ExtWindow[ResourceLoader]|extlinks.js
+* Blackskin[ResourceLoader|skins=monobook]|Blackskin.css
+* dictionaryLookupHover[ResourceLoader]|dictionaryLookupHover.js
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+==Edit==
+* edittop[ResourceLoader]|edittop.js
+* WikiEd[ResourceLoader]|wikied.js
+* SummaryEnterSave[ResourceLoader]|SummaryEnterSave.js
+* SummaryEnterPreview[ResourceLoader]|SummaryEnterPreview.js
+
+==Advance==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* extUserInfoTabs[ResourceLoader|dependencies=mediawiki.util]|extUserInfoTabs.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* protectionLog[ResourceLoader]|protectionLog.js

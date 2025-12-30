@@ -1,0 +1,25 @@
+== editing ==
+* urldecoder[ResourceLoader|dependencies=mediawiki.util]|urldecoder.js
+* preview[ResourceLoader|dependencies=mediawiki.util]|preview.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Wikilinker[ResourceLoader|default]|wikilinker.js
+
+==interface-gadgets==
+* CurIDLink[ResourceLoader|default|dependencies=mediawiki.util]|CurIDLink.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* referenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general|dependencies=jquery.client,mediawiki.cookie]|referenceTooltips.js|referenceTooltips.css
+
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markadmins.js
+
+== articles ==
+* HighlightRedirects[ResourceLoader|dependencies=mediawiki.util]|Highlightredirects.js
+
+== categories ==
+* newsfeed[ResourceLoader|default]|categorynewsfeed.js
+
+== interwiki ==
+* relatedIcons|relatedIcons.css
+
+== experimental ==
+* quickaddnews[ResourceLoader]|quickaddnews.js

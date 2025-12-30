@@ -1,0 +1,1 @@
+* mobilemenu[ ResourceLoader | default | hidden | skins = minerva | dependencies = mediawiki.api, mediawiki.jqueryMsg, mediawiki.util ] | mobilemenu.js

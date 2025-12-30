@@ -1,0 +1,9 @@
+== Käyttöliittymä ==
+* <!-- Legacy toolbar from Mediawiki (see T30856) -->
+* mediawiki.toolbar [ResourceLoader|hidden] | mediawiki.toolbar.js
+
+== Aputyökalut ==
+* navigation-popups[ResourceLoader]|navigation-popups.js
+* HotCat[ResourceLoader]|HotCat.js
+* frwiki_infobox_v3[ResourceLoader|default|hidden]|frwiki_infobox_v3.css
+* ProveIt[ResourceLoader]|ProveIt.js

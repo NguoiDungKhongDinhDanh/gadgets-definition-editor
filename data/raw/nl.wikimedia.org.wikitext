@@ -1,0 +1,3 @@
+== Hulpmiddelen ==
+* HotCat[ResourceLoader]|HotCat.js
+* editnotice[ResourceLoader]|editnotice.css

@@ -1,0 +1,64 @@
+== tahrir ==
+* HotCat[ResourceLoader]|HotCat.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleprod.js|twinklexfd.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinkledeprod.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* Adiutor[ResourceLoader|skins=vector,vector-2022,monobook,modern||dependencies=mediawiki.api,mediawiki.user,oojs-ui-core,oojs-ui-windows,oojs-ui-widgets,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-movement,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation]|Adiutor.js|Adiutor.css
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+* GoogleTrans [ResourceLoader] |GoogleTrans.js
+* Antivandal[ResourceLoader]|Antivandal.js
+* PageCreator[ResourceLoader]|PageCreator.js
+* VizualTahrir[ResourceLoader]|VizualTahrir.js
+
+== koʻrinish ==
+* BKL[ResourceLoader|default|type=general|rights=minoredit|dependencies=site]|disambiguationLinks.js|disambiguationLinks.css
+* ReferenceTooltips[ResourceLoader|default|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* UTCLiveClock[ResourceLoader|supportsUrlLoad|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* HizliBilgi[ResourceLoader|default|dependencies=mediawiki.util]|HizliBilgi.js
+*MoreMenu[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=MoreMenu-pagestyles]|MoreMenu.js
+*MoreMenu-pagestyles[hidden]|MoreMenu-pagestyles.css
+* wikidataInfoboxExport[ResourceLoader|dependencies=mediawiki.api,mediawiki.ForeignApi,mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|wikidataInfoboxExport.js
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|targets=desktop,mobile|skins=vector,vector-2022,minerva,monobook]|dark-mode-toggle-pagestyles.css
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|popups.js|popups-uz.js|popups.css
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* XTools-ArticleInfo [ResourceLoader] |XTools-ArticleInfo.js
+
+== foydalanuvchilar ==
+* markadmins[ResourceLoader |package] |markadmins.js |markadmins.json |markadmins.css
+* markothers[ResourceLoader |package|dependencies=ext.gadget.markadmins] |markothers.js |markothers.json
+* markblocked[ResourceLoader |dependencies=mediawiki.api, mediawiki.util] |markblocked.js
+
+== tillararo havola ==
+* iwlocalnames[ResourceLoader]|iwlocalnames.js
+
+=== tillararo havola ===
+* iwen[ResourceLoader]|iwen.js
+
+== loyihalar ==
+* articleStats[ResourceLoader|dependencies=mediawiki.api, mediawiki.util]|articleStats.js
+
+== modullar ==
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css
+
+== yaxshilangan gadjetlar ==
+* script-installer[ResourceLoader|dependencies=mediawiki.ui.button]|script-installer.js
+== test ==
+* mobile-sidebar [ResourceLoader|skins=vector, vector-2022]|mobile-sidebar.js|mobile-sidebar.css
+
+== hidden ==
+* wikibugs[ResourceLoader |default |hidden |dependencies=mediawiki.util] |wikibugs.js
+* wikibugs-core[ResourceLoader |hidden |package |dependencies=mediawiki.util, mediawiki.api, mediawiki.Title, oojs-ui-core, oojs-ui.styles.icons-editing-core, oojs-ui-widgets, oojs-ui-windows] |wikibugs-core.js |wikibugs.css |wikibugs-ignoreList.json
+* wikificator[ResourceLoader |default |hidden |type=general |actions=edit |dependencies=ext.gadget.registerTool, jquery.client] |wikificator.js |wikificator.css
+* summaryButtons[ResourceLoader |default |hidden |type=general |actions=edit |dependencies=mediawiki.ui.button, mediawiki.util] |summaryButtons.js |summaryButtons.css
+* newTopicOnTop[ResourceLoader |hidden|dependencies=jquery.textSelection] |newTopicOnTop.js
+* ActivateGadget[ResourceLoader |hidden|supportsUrlLoad|dependencies=jquery.ui, mediawiki.user, mediawiki.util, ext.gadget.libJQuery, ext.gadget.SettingsManager] |ActivateGadget.js
+* libJQuery[ResourceLoader |hidden] |libJQuery.js |libJQuery.css
+* SettingsManager[ResourceLoader |hidden|dependencies=mediawiki.user, user.options, mediawiki.api, mediawiki.util] |SettingsManager.js
+* blpEditNotice[ResourceLoader |hidden |skins=vector, vector-2022, monobook, timeless, modern, cologneblue |dependencies=site, ext.visualEditor.desktopArticleTarget.init, mediawiki.util] |blpEditNotice.js

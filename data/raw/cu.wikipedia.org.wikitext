@@ -1,0 +1,1 @@
+*spellingstyle[default|ResourceLoader]|spellingstyle.js

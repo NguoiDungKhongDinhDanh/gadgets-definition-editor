@@ -1,0 +1,16 @@
+== Επιφάνεια ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* EnhancedTalk[ResourceLoader]|blank.js|EnhancedTalk.css
+* extlinks[ResourceLoader]|extlinks.js
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js
+* AddInformation[ResourceLoader]|AddInformation.js
+
+== Γενικά ==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* searchbox[ResourceLoader]|searchbox.js
+* Gallerypreview[ResourceLoader]|Gallerypreview.js
+
+== Συσκευές επεξεργασίας ==
+* wikEd[ResourceLoader]|wikEd.js
+* HotCats[ResourceLoader]|HotCats.js

@@ -1,0 +1,28 @@
+== nabigazio-gadgetak ==
+* ErrefAurrebista[default]|[ResourceLoader|default|type=general|dependencies=mediawiki.cookie,jquery.client]|ErrefAurrebista.js|ErrefAurrebista.css
+* UkensKonkurranse[ResourceLoader|type=general|default|dependencies=mediawiki.util]|UkensKonkurranse.js
+* TxikipediaTab[ResourceLoader|default|dependencies=site,mediawiki.api,mediawiki.util|type=general]|TxikipediaTab.js|TxikipediaTab.css
+* ArtikuluenKalitatea[ResourceLoader|default]|ArticleQuality.js
+
+== aldatzeko-gadgetak ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+
+== itxura-gadgetak ==
+* ArgipenBila[ResourceLoader]|ArgipenBila.css
+* UTCLiveClock [ResourceLoader |supportsUrlLoad |type=general |dependencies=mediawiki.util, mediawiki.api |peers=UTCLiveClock-pagestyles] |UTCLiveClock.js |UTCLiveClock.css
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* ekarpen-zenbakituak|ekarpen-zenbakituak.css
+* switcher[ResourceLoader|default]|switcher.js
+
+== template-gadgets ==
+* Vivarium[ResourceLoader|hidden|default|categories=Vivarium.js]|Vivarium.js
+* OWIDPopup[ResourceLoader|hidden|default|categories=OWIDPopup.js]|OWIDPopup.js
+* ImageStackPopup[ResourceLoader|default]|ImageStack-popup.js
+* ImageStack [ResourceLoader|dependencies=ext.gadget.jquery.mousewheel|hidden]|ImageStack.js
+* owidslider [ResourceLoader|default|categories=Pages using gadget owidslider]|owidslider.js|owidslider.css
+* azala[ResourceLoader|hidden|default|categories=Azala|dependencies=@wikimedia/codex,vue]|otd.js|cards.js|otd.css
+* Ikusgela-css-gadget[ResourceLoader|default|type=styles|categories=Ikusgela]|ikusgela.css
+* txikipedia[ResourceLoader|default|hidden|namespaces=14,104]|txikipedia.js|txikipedia.css
+* Calculator[ResourceLoader|default|categories=Calculator gadgeta erabiltzen duten orrialdeak]|calculator.js|calculator.css

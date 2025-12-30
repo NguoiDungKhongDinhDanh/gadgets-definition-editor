@@ -1,0 +1,36 @@
+本頁面定義了可供用戶使用的小工具。標題不直接用於顯示，而是以"MediaWiki:Gadget-section-標題"引用。
+See [[Special:Gadgets]] [[Special:GadgetUsage]] [[Special:参数设置#mw-prefsection-gadgets]]
+<div style='font-family:monospace; word-break:break-all;'>
+
+== edit ==
+*HotCat[ResourceLoader|rights=edit]|HotCat.js
+*edit0[ResourceLoader|dependencies=user.options|default|rights=edit]|edit0.js|edit0.css
+*Wikiplus[ResourceLoader|rights=autoconfirmed]|Wikiplus.js
+*wikEd[ResourceLoader|rights=autoconfirmed]|wikEd.js
+
+== userif ==
+
+*UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+*WikiMiniAtlas[ResourceLoader]|WikiMiniAtlas.js
+*noteTA[ResourceLoader|dependencies=jquery.ui,mediawiki.api,ext.gadget.site-lib,jquery.makeCollapsible|default|type=general]|noteTA.js|noteTA.css
+*hantsect|hantsect.css
+*removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* shareTool[ResourceLoader|dependencies=ext.gadget.site-lib]|shareTool.js|shareTool.css
+* NavFrame[ResourceLoader|dependencies=ext.gadget.site-lib|targets=desktop,mobile|default|type=general]|NavFrame.js|NavFrame.css
+* collapsibleTables[ResourceLoader|dependencies=ext.gadget.site-lib|targets=desktop,mobile|default]|collapsibleTables.js
+* AdvancedSiteNotices[ResourceLoader|dependencies=ext.gadget.site-lib,mediawiki.cookie,mediawiki.util|targets=desktop,mobile|default]|AdvancedSiteNotices.js
+* shortURL[ResourceLoader|dependencies=ext.gadget.site-lib,mediawiki.util,oojs-ui-windows,mediawiki.widgets,mediawiki.ForeignApi|type=general]|shortURL.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css
+
+== admin ==
+*rollback-summary[ResourceLoader|rights=rollback]|rollback-summary.js
+*CleanDeleteReasons[ResourceLoader|rights=delete|targets=desktop,mobile|default]|CleanDeleteReasons.js
+<!--*contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner,ext.gadget.site-lib]|contribsrange.js
+看似不正常工作...-->
+
+== other ==
+* site-lib[ResourceLoader|dependencies=mediawiki.util|hidden|targets=desktop,mobile]|site-lib.js
+* easyPeerReview[ResourceLoader]|easyPeerReview.js
+</div>

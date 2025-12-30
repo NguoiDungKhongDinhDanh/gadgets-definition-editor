@@ -1,0 +1,32 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js
+* imagelinks[ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+* ReferenceTooltips[ResourceLoader|default|type=general|dependencies=mediawiki.cookie,jquery.client|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js
+* checksitelinks[ResourceLoader]|checksitelinks.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== categories ==
+* HotCat[ResourceLoader]|HotCat.js
+
+== appearance ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* Blackskin|Blackskin.css
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* autonum[ResourceLoader]|autonum.css|autonum.js
+
+== advanced ==
+* RTRC[ResourceLoader]|RTRC.js
+* modrollback [ResourceLoader|dependencies=mediawiki.util|rights=rollback]|modrollback.js
+* botRollback[ResourceLoader|dependencies=mediawiki.util|rights=markbotedits]|botRollback.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js

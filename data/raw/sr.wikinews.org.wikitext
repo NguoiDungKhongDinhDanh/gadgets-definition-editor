@@ -1,0 +1,37 @@
+==browsing-gadgets== 
+* wikidialog[ResourceLoader|default|targets=desktop,mobile|dependencies=mediawiki.util]|wikidialog.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options,mediawiki.util|type=general]|popups.js|navpop.css
+* dictHover[ResourceLoader]|dictionaryLookupHover.js
+* secureAllLinks[ResourceLoader]|secureAllLinks.js
+
+==editing-gadgets==
+* HotCat[ResourceLoader|default|rights=edit,minoredit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* autosight[ResourceLoader|rights=review]|butMommyILoveItMyAutosight.js
+
+==review-gadgets==
+* readyAlert[ResourceLoader]|readyAlert.js
+* progress-review[ResourceLoader]|progress-review.js
+* charCount[ResourceLoader|dependencies=mediawiki.util]|articleCharacterCount.js
+
+==interface-gadgets==
+* ExtWindow[ResourceLoader]|extlinks.js
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* quizPostScore[ResourceLoader]|quizScorePost.js
+* CtoF[ResourceLoader]|weatherConvert.js
+* userMessages[ResourceLoader]|UserMessages.js
+* talkblinker[ResourceLoader]|talkblinker.js
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* showAccessKeys|showAccessKeys.css
+
+==Opinion==
+* AutoWatchAdd[ResourceLoader]|CommentWatch.js
+* talkHighlighting|talkSeperate.css
+* retrocommentpage[ResourceLoader]|liquidnormtalk.css|liquidnormtalk.js
+<!-- do alt styles-->

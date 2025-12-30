@@ -1,0 +1,32 @@
+* lib-toolbar [ResourceLoader | dependencies=mediawiki.user, user.options | hidden] | lib-toolbar.js
+* style-summary-buttons [ResourceLoader | hidden] | summary-buttons.css
+
+== browsing ==
+* Navigation popups [ResourceLoader] | Popups-local.js
+* hideSidebar [ResourceLoader] | hideSidebar.js
+* edithysteria [ResourceLoader | dependencies=mediawiki.util] | edithysteria.js
+* quickeditcounter [ResourceLoader | dependencies=mediawiki.util] | quickeditcounter.js
+* iw-links [ResourceLoader | dependencies=mediawiki.util] | iw-links.js
+* hide-rollback [ResourceLoader | rights=rollback ] | hide-rollback.css
+
+== editing ==
+* HotCat [ResourceLoader] | HotCat.js
+* wikEd [ResourceLoader] | wikEd.js
+* QuickEdit [ResourceLoader] | QuickEdit.js
+* sk [ResourceLoader | dependencies=ext.gadget.lib-toolbar, jquery.textSelection, mediawiki.user, mediawiki.util ] | sk.js | sk-local.js
+* autoformat [ResourceLoader | dependencies=ext.gadget.lib-toolbar, jquery.textSelection] | formatuj.js
+* searchbox [ResourceLoader | dependencies=ext.gadget.lib-toolbar ] | searchbox.js
+* replylinks [ResourceLoader] | replylinks-local.js
+* edit-summaries [ResourceLoader | dependencies=ext.gadget.style-summary-buttons | default] | edit-summaries-local.js | edit-summaries-core.js
+* save-preview-buttons [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | save-preview-buttons.js
+* insert-category [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | insert-category.js
+* insert-image [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | insert-image.js
+
+== appearance ==
+* colored-nicknames [ResourceLoader | dependencies=mediawiki.util] | colored-nicknames.js
+* colored-new-in-rc [ResourceLoader] | colored-new-in-rc.js
+* disable-animations [ResourceLoader] | disable-animations.js
+
+== admin ==
+* dynamic-ips [ResourceLoader] | dynamic-ips.js
+* delete [ResourceLoader | dependencies=mediawiki.util, ext.gadget.style-summary-buttons | rights=delete] | delete-local.js

@@ -1,0 +1,41 @@
+== navegacion ==
+* CorrectorOrtografico [ResourceLoader|dependencies=mediawiki.util] | CorrectorOrtografico.js
+* DetectaDesambiguaciones [ResourceLoader|dependencies=mediawiki.util] | DetectaDesambiguaciones.js
+* a-commons-directo [ResourceLoader | dependencies=mediawiki.util | default] | a-commons-directo.js
+* reversion [ResourceLoader | dependencies=mediawiki.util | rights=autoconfirmed] | reversion.js
+* contrib-numeradas | contrib-numeradas.css
+* rightsfilter [ResourceLoader|dependencies=mediawiki.util] | rightsfilter.js
+* RTRC [ResourceLoader] | RTRC.js
+* DeleteBot [ResourceLoader | rights=delete] | DeleteBot.js
+
+== edicion==
+* serena [ResourceLoader] | serena.js
+<!-- * ListingEditor[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|dependencies=mediawiki.util,jquery.ui|type=general]|ListingEditor.js|ListingEditor.css -->
+* HotCat [ResourceLoader] | HotCat.js
+* botonera [ResourceLoader] | botonera.js
+* mensajes-predefinidos [ResourceLoader|dependencies=mediawiki.util] | mensajes-predefinidos.js
+* editHysteria [ResourceLoader | rights=autoconfirmed] | editHysteria.js
+* edittop [ResourceLoader] | edittop.js
+* patrollinks [ResourceLoader|dependencies=mediawiki.util | rights=patrol] | patrollinks.js
+
+== apariencia ==
+* Carousel[ResourceLoader|default|type=general|dependencies=mediawiki.util|position=top]|Carousel.js|Carousel.css
+* CaracteresOff | CaracteresOff.css
+* deluxe-history [ResourceLoader] | Objects.js | DeluxeHistory.js | DeluxeHistory.css
+* boton-purgar [ResourceLoader | dependencies=mediawiki.util] | boton-purgar.js
+* corchete-refs | corchete-refs.css
+* UTCLiveClock [ResourceLoader] | UTCLiveClock.js
+* popups[ResourceLoader]|popups.js|popups.css
+* wikilimpia | wikilimpia.css
+* quickeditcounter [ResourceLoader|dependencies=mediawiki.util] |quickeditcounter.js
+* typographyrefreshoverride [ResourceLoader]|typographyrefreshoverride.css
+* coloresdiscu [ResourceLoader] | coloresdiscu.js | coloresdiscu.css
+
+== admin-gadgets ==
+* AjaxSysop[ResourceLoader|rights=delete] | AjaxSysop.js
+
+== Experimental ==
+* ListingInfo[ResourceLoader|dependencies=ext.kartographer.box, ext.kartographer.dialog|default|hidden]|ListingInfo.css|ListingInfo.js
+* MapTools[ResourceLoader|dependencies=ext.kartographer.box, ext.kartographer.dialog|default|hidden]|MapTools.css|MapTools.js
+* MarkerTooltip[ResourceLoader|default|hidden]|MarkerTooltip.css|MarkerTooltip.js
+* MarkerUtilities[ResourceLoader|default|hidden]|MarkerUtilities.js

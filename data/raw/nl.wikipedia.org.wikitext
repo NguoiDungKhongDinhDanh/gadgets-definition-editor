@@ -1,0 +1,50 @@
+==Weergave==
+* Externe links[ResourceLoader]|exlinks.js
+* Diffkleuren[ResourceLoader]|Diffkleuren.css
+* OldDiff[ResourceLoader]|OldDiff.css
+* VectorSearchNav[ResourceLoader]|VectorSearchNav.js
+* WhatLeavesHere[ResourceLoader]|WhatLeavesHere.js
+* Achtergrondkleur[ResourceLoader]|Achtergrondkleur.css
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Berichtbalk[ResourceLoader]|Berichtbalk.css
+* HideFundraiser[ResourceLoader]|HideFundraiser.css
+* Direct-link-to-Commons[ResourceLoader|default|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* Uitleg verwijderlijst[ResourceLoader]|UitlegVerwijderlijst.css
+* ProtectionTemplates[ResourceLoader|default|dependencies=mediawiki.util]|ProtectionTemplates.js
+* InterProjectLinks[ResourceLoader|default|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|InterProjectLinks.js|InterProjectLinks.css
+* labelfilter[ResourceLoader|dependencies=mediawiki.util]|labelfilter.js
+* hoofdbetekenis-titelwijziging[ResourceLoader|default]|hoofdbetekenis-titelwijziging.js
+* fixhoofdbetekenis[ResourceLoader|dependencies=mediawiki.util]|fixhoofdbetekenis.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* CategoryAboveAll[ResourceLoader]|CategoryAboveAll.js
+* Wdsearch[ResourceLoader]|Wdsearch.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* appendix[ResourceLoader]|appendix.js|appendix.css
+
+== Hulpmiddelen ==
+* OpenStreetMapFrame[ResourceLoader|default]|OpenStreetMapFrame.js
+* Extra bewerkingsknoppen[ResourceLoader|type=general]|extrabewerkingsknoppen.js|extrabewerkingsknoppen.css
+* Navigatie popups[ResourceLoader|type=general]|popups.js|popups.css
+* purgelink[ResourceLoader|dependencies=mediawiki.util, mediawiki.api]|purgelink.js
+* subpages[ResourceLoader|dependencies=mediawiki.util|default]|subpages.js
+* HotCat[ResourceLoader]|HotCat.js
+* updatemarker|updatemarker.css
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* SettingsUI[ResourceLoader|dependencies=jquery.ui,mediawiki.user,ext.gadget.libJQuery|hidden]|SettingsUI.js
+* SettingsManager[ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+* ArtikelKwaliteit[ResourceLoader|type=general]|ArtikelKwaliteit.js|ArtikelKwaliteit.css
+* markAdmins[ResourceLoader|package|dependencies=mediawiki.util]|markAdmins.js|markAdmins-data.json
+
+== Onderhoud ==
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|type=general|rights=autoconfirmed|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinkleunlink.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|twinklespeedy.js|twinklexfd.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinklefluff.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector,vector-2022]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* TBxManager[ResourceLoader|dependencies=mediawiki.user|rights=delete|type=general]|TBxManager.js
+* TBxManager-core[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|TBxManager-core.js|TBxManager-core.css
+* TBxManager-core-beta[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|TBxManager-core-beta.js|TBxManager-core-beta.css
+* Zeusmodus[ResourceLoader|dependencies=mediawiki.util]|zeus.js
+* Geavanceerde bijdragen[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* RTRC[ResourceLoader]|RTRC.js

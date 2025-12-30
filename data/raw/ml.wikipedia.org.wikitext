@@ -1,0 +1,26 @@
+<noinclude>
+</noinclude>
+== browsing-gadgets ==
+
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+== editing-gadgets ==
+
+*  HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui|rights=autoconfirmed]|moment.js|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|twinkledelimages.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|friendlytalkback.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* UserMessages [ResourceLoader|dependencies=mediawiki.util]|UserMessages.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* ProveIt[ResourceLoader]|ProveIt.js
+
+== interface-gadgets ==
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js|edittop.css
+* mySandbox[ResourceLoader|dependencies=mediawiki.util]|mySandbox.js
+* RTRC[ResourceLoader]|RTRC.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+== modules ==
+* libUtil [ResourceLoader|dependencies=mediawiki.util|rights=hidden|hidden]|libUtil.js
+* libJQuery [ResourceLoader|rights=hidden|hidden|dependencies=mediawiki.util]|libJQuery.js|libJQuery.css

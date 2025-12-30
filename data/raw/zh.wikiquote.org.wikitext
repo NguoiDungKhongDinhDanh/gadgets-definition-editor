@@ -1,0 +1,34 @@
+[[Special:Gadgets]] [[Special:GadgetUsage]] [[Special:参数设置#mw-prefsection-gadgets]]
+
+==edit==
+*edit0[ResourceLoader|dependencies=user.options,mediawiki.util|default]|edit0.js|edit0.css
+*HotCat[ResourceLoader]|HotCat.js
+*wikEd[ResourceLoader]|wikEd.js
+*PreviewWithVariant[ResourceLoader|dependencies=ext.gadget.site-lib]|PreviewWithVariant.js
+*Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+*Wikiplus[ResourceLoader|rights=autoconfirmed]|Wikiplus.js
+*LinkToWikidata[ResourceLoader]|LinkToWikidata.js
+*ToolsRedirect[ResourceLoader|dependencies=ext.gadget.site-lib|rights=edit|type=general]|ToolsRedirect.js|ToolsRedirect.css
+
+== browser ==
+*Navigation_popups[ResourceLoader|dependencies=ext.gadget.site-lib]|popups.js|popups.css
+*ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== sysop ==
+*Easy-Archive[ResourceLoader]|Easy-Archive.js
+*cleandeletereason[ResourceLoader|rights=delete]|cleandeletereason.js
+
+== appear ==
+* hideConversionTab[default]|hideConversionTab.css
+* internalLinkHelper-altcolor[ResourceLoader|dependencies=mediawiki.util,ext.gadget.site-lib|type=general]|internalLinkHelper-redonly.css|internalLinkHelper-redtipsy.css|internalLinkHelper-altcolor.css|internalLinkHelper-redtipsy.js
+* NavFrame[ResourceLoader|dependencies=ext.gadget.site-lib|default|type=general]|NavFrame.js|NavFrame.css
+* collapsibleTables[ResourceLoader|dependencies=ext.gadget.site-lib|default]|collapsibleTables.js
+* CommentsinLocalTime[ResourceLoader|dependencies=ext.gadget.site-lib]|CommentsinLocalTime.js
+* noteTA[ResourceLoader|dependencies=jquery.ui,mediawiki.api,ext.gadget.site-lib,jquery.makeCollapsible|default|type=general]|noteTA.js|noteTA.css
+* noteTAvector[ResourceLoader|dependencies=site,ext.gadget.site-lib|skins=vector,vector-2022|default|type=general]|noteTAvector.js|noteTAvector.css
+
+== modules ==
+* SettingsUI [ResourceLoader|dependencies=jquery.ui,mediawiki.user,ext.gadget.libJQuery|hidden]|SettingsUI.js
+* SettingsManager [ResourceLoader|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util|hidden]|SettingsManager.js
+* libJQuery [ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* site-lib[ResourceLoader|hidden|default]|site-lib.js

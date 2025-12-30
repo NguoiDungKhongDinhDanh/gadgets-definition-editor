@@ -1,0 +1,39 @@
+== interface ==
+* popups[ResourceLoader]|popups.js
+* TabbedLanguages[ResourceLoader|top|dependencies=mediawiki.cookie,mediawiki.util,ext.gadget.LegacyScriptsNewNode|type=general]|TabbedLanguages.js|TabbedLanguages.css
+* HideEmptyness[ResourceLoader|dependencies=mediawiki.cookie|peers=HideEmptyness-pagestyles]|HideEmptyness.js
+* HideEmptyness-pagestyles[hidden]|HideEmptyness.css
+* AlphabetNavigation[ResourceLoader]|AlphabetNavigation.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* GotoTop[ResourceLoader|type=general|dependencies=mediawiki.cookie]|Goto-top.js|Goto-top.css
+* dropdown-menus[ResourceLoader]|dropdown-menus.js|dropdown-menus.css
+* DisplayOffensive[ResourceLoader]|DisplayOffensive.css
+
+== editing ==
+* preview[ResourceLoader|top|dependencies=mediawiki.cookie]|preview.js
+* urldecoder[ResourceLoader]|urldecoder.js
+* HotCat[ResourceLoader]|HotCat.js
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* Wikify[ResourceLoader|dependencies=mediawiki.util]|Wikify.js
+* TranslationsFromIwiki[ResourceLoader]|TranslationsFromIwiki.js
+* wikificator[ResourceLoader|hidden]|wikificator.js
+* Edittools[ResourceLoader|hidden]|Edittools.js
+* summaryButtons[ResourceLoader|hidden|type=general|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css
+
+== users ==
+* markadmins[ResourceLoader|dependencies=mediawiki.util]|markadmins.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+
+== special-pages ==
+* watchlist[ResourceLoader]|watchlist.js
+
+== interwiki ==
+* iwcore[ResourceLoader|hidden|type=general]|iwcore.js|iwcore.css
+* iwhints[ResourceLoader|dependencies=ext.gadget.iwcore]|iwhints.js
+* iwlocalnames[ResourceLoader|dependencies=ext.gadget.iwcore]|iwlocalnames.js
+
+== Hidden gadgets and utils ==
+* LegacyScriptsNewNode[ResourceLoader|hidden]|LegacyScriptsNewNode.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* Palette[ResourceLoader|hidden|default]|Palette.css

@@ -1,0 +1,17 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|popups-strings-ko.js|navpop.css
+
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js|wikEd-config.js
+* refToolbar[ResourceLoader]|refToolbar.js
+* HotCat[ResourceLoader]|HotCat.js
+
+== interface-gadgets ==
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+* editsummary[ResourceLoader]|editsummary.js|editsummary.css
+* LiveClock [ResourceLoader|dependencies=mediawiki.util]|LiveClock.js
+* UTCLiveClock [ResourceLoader]|UTCLiveClock.js
+* moveEditsection[ResourceLoader|default]|moveEditsection.js
+
+== library-gadgets ==

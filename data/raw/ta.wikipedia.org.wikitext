@@ -1,0 +1,37 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+*Pageviewstats[ResourceLoader]|Pageviewstats.js
+*ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default]|ReferenceTooltips.js|ReferenceTooltips.css
+== editing-gadgets ==
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinkleblock.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|friendlytalkback.js
+* wikEd[ResourceLoader]|wikEd.js
+* Friendly[ResourceLoader]|Friendly.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* tagadder[ResourceLoader]|tagadder.js
+* EditSummary[ResourceLoader]|EditSummary.js
+* wikilove[ResourceLoader]|wikilove2.js|wikilove2.css
+* Wiktionarylookup[ResourceLoader]|Wiktionarylookup.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* Shortdesc-helper[ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util,ext.gadget.libSettings|skins=vector,vector-2022,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js|Shortdesc-helper.css
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector,vector-2022]|Shortdesc-helper-pagestyles-vector.css
+
+== interface-gadgets ==
+
+*TwoColumn[ResourceLoader]|TwoColumn.js
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* Blackskin[ResourceLoader]|Blackskin.css
+* searchFocus[ResourceLoader]|searchFocus.js
+* SocialMedia[ResourceLoader|default]|SocialMedia.js
+* hideside[ResourceLoader|dependencies=mediawiki.util]|hideside.js
+
+== appearance ==
+* edittop[ResourceLoader|dependencies=user.options]|edittop.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* switcher[ResourceLoader|default]|switcher.js

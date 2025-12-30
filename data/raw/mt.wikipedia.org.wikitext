@@ -1,0 +1,7 @@
+== Kategoriji ==
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* HotCat [ResourceLoader|rights=editsemiprotected|default] | HotCat.js | Hotcatcheck.js
+
+== Dehra ==
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,vector-2022,monobook]|UTCLiveClock-pagestyles.css

@@ -1,0 +1,11 @@
+==edit==
+* move-edit-links[ResourceLoader|default|dependencies=mediawiki.util]|move-edit-links.js|move-edit-links.css
+* HotCat[ResourceLoader|dependencies=jquery.ui]|HotCat.js
+* template-wizzard[ResourceLoader|rights=edit|type=general]|template-wizzard.js
+* ProveIt[ResourceLoader|dependencies=ext.wikiEditor]|ProveIt.js
+
+==analyze==
+* page-contributors[ResourceLoader|dependencies=mediawiki.util,jquery.ui,jquery.spinner]|page-contributors.js
+
+==other==
+* WikidataInfo[ResourceLoader|dependencies=jquery.ui]|WikidataInfo.js

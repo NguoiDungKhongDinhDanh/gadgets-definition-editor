@@ -1,0 +1,1 @@
+* HotCat[ResourceLoader|dependencies=mediawiki.user|rights=upload|default|targets=desktop,mobile]|HotCat.js|Hotcatcheck.js

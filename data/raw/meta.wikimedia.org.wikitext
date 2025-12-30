@@ -1,0 +1,101 @@
+== interface ==
+* autolink[ResourceLoader]|autolink.js
+* CentralAuthInterlinkFixer[ResourceLoader|default|namespaces=-1]|CentralAuthInterlinkFixer.js
+* Coloredlinks|Coloredlinks.css
+* contribsrange[ResourceLoader]|contribsrange.js
+* dictionaryLookupHover[ResourceLoader]|dictionaryLookupHover.js
+* diffGreenBlue[ResourceLoader]|diffGreenBlue.css
+* edittop[ResourceLoader]|edittop.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* hidden-catlinks|hidden-catlinks.css
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* predefined-summaries[ResourceLoader|dependencies=mediawiki.util]|predefined-summaries.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* rightsfilter[ResourceLoader]|rightsfilter.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* wikEd[ResourceLoader]|wikEd.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+* common-special-search[ResourceLoader]|common-special-search.js|common-special-search.css
+* dark-mode-toggle[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|skins=vector,vector-2022,minerva,monobook]|dark-mode-toggle-pagestyles.css
+
+== admin-gadgets ==
+* autodel[ResourceLoader|rights=delete]|autodel.js
+* blocktab[ResourceLoader|rights=block]|blocktab.js
+* ForceEditLinks[ResourceLoader]|ForceEditLinks.js
+* massblock[ResourceLoader|dependencies=mediawiki.api|rights=block]|massblock.js
+* SBHandler[ResourceLoader|rights=editinterface]|SBHandler.js
+* patrolRevisions[ResourceLoader|rights=patrol]|patrolRevisions.js
+* EditRequest [ResourceLoader|rights=delete]|EditRequest.js
+
+== editing-gadgets ==
+* Edittools[ResourceLoader]|Edittools.js
+* AddTopic[ResourceLoader|default|dependencies=mediawiki.util]|AddTopic.js
+* AutosuggestSitelink[ResourceLoader|dependencies=mediawiki.action.view.postEdit,mediawiki.ForeignApi,mediawiki.Title,oojs-ui-core,oojs-ui-windows]|AutosuggestSitelink.js
+* CharInsertButtons[ResourceLoader|default|actions=edit]|CharInsertButtons.css
+
+== categories ==
+* Hotcat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=autopatrol]|Cat-a-lot.js|Cat-a-lot.css
+
+== steward-gadgets ==
+* globalsuppress[ResourceLoader|rights=centralauth-suppress|dependencies=mediawiki.ForeignApi|default]|globalSuppress.js
+* renamequeuelogreason[ResourceLoader|rights=centralauth-rename|default]|renameQueueReason.js
+* GlobalRenameQueueCheckAntiSpoof[ResourceLoader|rights=centralauth-rename|dependencies=mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows|default]|GlobalRenameQueueCheckAntiSpoof.js
+* GlobalRenameQueueCheckAntiSpoof-variable-leaveByDialogCancel[ResourceLoader|rights=centralauth-rename|dependencies=mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|GlobalRenameQueueCheckAntiSpoof-variable-leaveByDialogCancel.js
+* GlobalRenameQueueHomewikiHelper[ResourceLoader|dependencies=mediawiki.api|rights=centralauth-rename|default]|GlobalRenameQueueHomewikiHelper.js
+* ReportStuckRenames[ResourceLoader|rights=centralauth-rename|default]|ReportStuckRenames.js
+* GlobalRenameChecks[ResourceLoader|dependencies=mediawiki.api,mediawiki.ForeignApi,oojs-ui-core,oojs-ui-widgets|rights=centralauth-rename|default]|GlobalRenameChecks.js
+
+== browsing-gadgets ==
+<!--* susaresources[ResourceLoader|default]|susaresources.js-->
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* modrollback[ResourceLoader]|modrollback.js
+* teahouse[ResourceLoader|dependencies=mediawiki.api,jquery.ui|type=general]|teahouse.js|teahouse.css
+* addMe[ResourceLoader|default|type=general|dependencies=ext.gadget.relaxedjson|categories=Pages using Probox]|addMe.js|addMe.css
+* addMe-wrapper[ResourceLoader|hidden]|addMe-wrapper.js
+* addMe-v2[ResourceLoader|default|dependencies=oojs-ui,mediawiki.api,mediawiki.util,mediawiki.jqueryMsg]|addMe-v2.js
+* formWizard[ResourceLoader|default|dependencies=ext.gadget.relaxedjson]|formWizard.js|formWizard-core.js|formWizard.css
+* SousPages[ResourceLoader|dependencies=mediawiki.util,mediawiki.jqueryMsg,mediawiki.api]|SousPages.js
+* Direct-link-to-Commons[ResourceLoader|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* confirmationRollback-mobile[ResourceLoader|rights=rollback|dependencies=mediawiki.util]|confirmationRollback-mobile.js
+* MoreMenu[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=MoreMenu-pagestyles]|MoreMenu.messages.en.js|MoreMenu.user.js|MoreMenu.page.js|MoreMenu.js
+* MoreMenu-pagestyles[hidden]|MoreMenu-pagestyles.css
+* aaq[ResourceLoader|default|dependencies=mediawiki.api|categories=Ask a question]|aaq.js
+* wrcEditor[ResourceLoader|default|categories=Wikimedia Resource Center,Wikimedia Resource Center/Translations]|wrcEditor.js
+* wrcCollapsible[ResourceLoader|default|categories=Wikimedia Resource Center,Wikimedia Resource Center/Translations]|wrcCollapsible.js
+* ReferenceTooltips[ResourceLoader|default|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+* wrcAddNewIndividual[ResourceLoader|default|categories=Connect member lists,Connect groups,Connect]|wrcAddNewIndividual.js
+* wrcAddNewGroup[ResourceLoader|default|categories=Connect member lists,Connect groups,Connect]|wrcAddNewGroup.js
+* wadpGadgetsLoader[ResourceLoader|default|categories=Wikimedia Affiliates Data Portal,Wikimedia Affiliates Data Portal/Translations]|wadpGadgetsLoader.js|wadpEditor.css
+* markAdmins [ResourceLoader|package|dependencies=mediawiki.util]|markAdmins.js|markAdmins-data.json
+* campaignEventPages [ResourceLoader]|campaignEventPages.js|cepAddGadgetsLoader.js|campaignEventPagesAdd.js
+
+== LanguageSupport ==
+* BiDiEditing[ResourceLoader]|BiDiEditing.js
+* ShortLink[ResourceLoader]|ShortLink.js
+* CurIDLink[ResourceLoader|dependencies=mediawiki.util,mediawiki.jqueryMsg,mediawiki.api]|CurIDLink.js
+
+== internal ==
+* dark-mode[ResourceLoader]|dark-mode.css
+
+<!--
+== Hidden gadgets ==
+These are gadgets not intended for use by users directly, but are stored here
+as utility gadgets. Either they are "meta-gadgets" (like meta templates are to templates)
+to use as bade for a common gadget structure. Or they are as end-user modules but not for delivery
+within MediaWiki to users, but outside (e.g. [[Project portals]] on meta.wikimedia.org)
+
+You can use [hidden] to hide the gadget.
+-->
+* luaparse[ResourceLoader|hidden]|luaparse.js
+* relaxedjson[ResourceLoader|hidden]|relaxed-json.js
+* wrcEditor-core[ResourceLoader|hidden]|wrcEditor-core.js
+* wadpOrgInfoForm[ResourceLoader|hidden]|reportOrgInfoForm.js
+* wadpGrantReportForm[ResourceLoader|hidden]|wadpGrantReportForm.js
+* wadpFinancialReportForm[ResourceLoader|hidden]|wadpFinancialReportForm.js
+* wadpActivitiesReportForm[ResourceLoader|hidden]|wadpActivitiesReportForm.js
+* wadpQueryForm[ResourceLoader|hidden]|wadpQueryForm.js
+* wadpAIUForm[ResourceLoader|hidden]|wadpAIUForm.js
+* wadpOutOfComplianceChecker[ResourceLoader|hidden]|wadpOutOfComplianceChecker.js

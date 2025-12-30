@@ -1,0 +1,127 @@
+<noinclude>
+{{רשימה אופקית|1=
+* [[Special:Gadgets|רשימה קריאה]]
+* [[Special:GadgetUsage|סטטיסטיקת שימוש]]
+* [[mw:Extension:Gadgets|תיעוד]]
+* [[Special:Preferences#mw-prefsection-gadgets|העדפות]]
+}}
+</noinclude>
+== עריכה ==
+* editIntro[ResourceLoader]|editIntro.js
+* Checkty[ResourceLoader|dependencies=mediawiki.util,oojs-ui-widgets,oojs-ui-windows,mediawiki.util|type=general]|Checkty.js|Checkty.css
+* SubsetMenu[ResourceLoader|dependencies=mediawiki.api]|SubsetMenu.js
+* wikied[ResourceLoader]|wikied.js
+* wikEdDiff[ResourceLoader|dependencies=mediawiki.util,mediawiki.user]|wikEdDiff.js
+* OrphanCheck[ResourceLoader|dependencies=mediawiki.api]|OrphanCheck.js
+* Revert[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|Revert.js
+* autocomplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|autocomplete.js
+* EditToolbar[ResourceLoader|default|dependencies=mediawiki.util]|EditToolbar.js
+* TemplateParamWizard[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util|default]|TemplateParamWizard.js|TemplateParamWizard.css
+* TemplatesExternalLinks[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|TemplatesExternalLinks.js
+* Summarieslist[ResourceLoader|dependencies=mediawiki.util|default]|Summarieslist.js
+* ReferencesWarn[ResourceLoader|dependencies=mediawiki.util]|ReferencesWarn.js
+* Rechtschreibpruefung[ResourceLoader|dependencies=mediawiki.util,mediawiki.cookie]|Rechtschreibpruefung.js
+* refsToLeft[ResourceLoader|default]|refsToLeft.js
+
+==עורך_חזותי==
+* VeExtendedBar[ResourceLoader|dependencies=ext.visualEditor.desktopArticleTarget.init]|VeExtendedBar.js
+
+== קישורים ==
+* quickLinker[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|quickLinker.js
+* disambig[ResourceLoader|default|rights=minoredit]|disambig.css
+* redirect[ResourceLoader]|redirect.css
+
+== ניווט_וחיפוש ==
+* CustomSideBarLinks[ResourceLoader|dependencies=mediawiki.util,mediawiki.Title]|CustomSideBarLinks.js
+* InterwikiOrder[ResourceLoader|dependencies=mediawiki.api]|InterwikiOrder.js
+* customCommonsLink[ResourceLoader]|customCommonsLink.js
+* directlink-to-commons[ResourceLoader|dependencies=mediawiki.util]|directlink-to-commons.js
+* Dwim[ResourceLoader|skins=vector|dependencies=jquery.suggestions,mediawiki.user,mediawiki.util|default]|Dwim.js
+* popup[ResourceLoader]|popup.js
+* WikidataTab[ResourceLoader]|WikidataTab.js
+* Wdsearch[ResourceLoader|dependencies=mediawiki.util|default]|Wdsearch.js
+
+== עיצוב ==
+* moveVectorMenuToTabs[ResourceLoader|skins=vector]|moveVectorMenuToTabs.js
+* FixedMenu[ResourceLoader|skins=vector]|FixedMenu.css|FixedMenu.js
+* FixedSidebar[ResourceLoader|skins=vector]|FixedSidebar.css
+* refStyle[ResourceLoader|dependencies=mediawiki.util,mediawiki.cookie]|refStyle.js
+* ExternalLinkIcon[ResourceLoader|default]|ExternalLinkIcon.css
+* foldPortalMenus[ResourceLoader|type=general]|foldPortalMenus.js|foldPortalMenus.css
+* hideRollback[ResourceLoader|rights=patrol]|hideRollback.css
+* NotifCountTitle[ResourceLoader|dependencies=mediawiki.language]|NotifCountTitle.js
+* rcfilters[ResourceLoader|dependencies=mediawiki.util]|rcfilters.js
+* FlowDeluxeLocal[ResourceLoader]|FlowDeluxeLocal.js|FlowDeluxeLocal.css
+* HideRelatedArticles[ResourceLoader|skins=vector|default]|HideRelatedArticles.css
+* browsertab[ResourceLoader]|browsertab.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+
+== קטגוריות ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|rights=autopatrol]|Cat-a-lot.js
+* catSexSelector[ResourceLoader|default|dependencies=mediawiki.ForeignApi]|catSexSelector.js
+
+== רשימת_המעקב ==
+* watchlistMark[ResourceLoader|dependencies=mediawiki.util]|watchlistMark.js
+* Watchlist[ResourceLoader|dependencies=mediawiki.util,mediawiki.user]|Watchlist.js
+* watchlistWatcher[ResourceLoader|dependencies=mediawiki.util]|watchlistWatcher.js
+* WLM[ResourceLoader|package|type=general|dependencies=mediawiki.user,mediawiki.api,mediawiki.jqueryMsg,mediawiki.util,oojs-ui-core|rights=minoredit]|WLM.js|WLM.css|WLM.json
+
+== ניטור ==
+* RestoreWarnings[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user,user.options]|RestoreWarnings.js
+* Warnings[ResourceLoader|dependencies=mediawiki.util]|Warnings.js
+* DeleteRequest[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|DeleteRequest.js
+* rollBackSummary[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,oojs-ui-windows|rights=rollback]|rollBackSummary.js
+* UserMessages[ResourceLoader|dependencies=mediawiki.util,mediawiki.user]|UserMessages.js
+* RTRC[ResourceLoader]|RTRC.js
+* rcPatrol[ResourceLoader|rights=patrol|dependencies=mediawiki.util]|rcPatrol.js
+* toggleRCOptions[ResourceLoader|dependencies=jquery.makeCollapsible]|toggleRCOptions.js
+* patrolAlarm[ResourceLoader|rights=patrol|dependencies=mediawiki.util,user]|patrolAlarm.js
+* QuickRCDiff[ResourceLoader|dependencies=jquery.spinner,jquery.ui,mediawiki.diff.styles,mediawiki.api|peers=QuickRCDiffStyle]|QuickRCDiff.js
+* QuickRCDiffStyle[hidden]|QuickRCDiff.css
+* RCDesign[ResourceLoader]|RCDesign.css
+* IsBlock[ResourceLoader|rights=move|dependencies=mediawiki.util,mediawiki.api]|IsBlock.js
+* validate-template-params[ResourceLoader]|validate-template-params.css|validate-template-params.js
+* rollbackConfirm[ResourceLoader|dependencies=jquery.confirmable|rights=patrol]|rollbackConfirm.js
+* wikibugs-patrol[ResourceLoader|dependencies=mediawiki.api,mediawiki.Title]|wikibugs-patrol.js
+
+== שונות ==
+* feedback[ResourceLoader|dependencies=mediawiki.util|type=general|default]|feedback.js|feedback.css
+* ExternalLinkNewTab[ResourceLoader]|ExternalLinkNewTab.js
+* microblog[ResourceLoader]|microblog.js
+* Revinfo[ResourceLoader|dependencies=mediawiki.util]|Revinfo.js
+* checkVoteRights[ResourceLoader|dependencies=mediawiki.util,mediawiki.notification, jquery.ui|type=general]|checkVoteRights.js|checkVoteRights.css
+* ExtendedFileOptions[ResourceLoader|dependencies=mediawiki.util]|ExtendedFileOptions.js
+* wikibugs [ResourceLoader | default | dependencies=mediawiki.util, mediawiki.user, jquery.ui | type=general] | wikibugs.js | wikibugs.css
+* CommonsUpload[ResourceLoader|default|dependencies=mediawiki.util|rights=upload]|CommonsUpload.js
+* VeDirectionMarkTool[ResourceLoader|hidden|dependencies=ext.visualEditor.core]|VeDirectionMarkTool.js|VeDirectionMarkTool.css
+* tasks[ResourceLoader|dependencies=mediawiki.util]|tasks.js
+* WdHeader[ResourceLoader|dependencies=mediawiki.jqueryMsg,mediawiki.user]|WdHeader.js
+* tocMobile[ResourceLoader|skins=minerva]|tocMobile.css
+* linkscount[ResourceLoader]|linkscount.js
+
+== גאדג'טים_ניסיוניים ==
+* paramerror-warn-on save[ResourceLoader]|paramerror-warn-on save.js
+* tracking-category[ResourceLoader]|tracking-category.css
+* WLM-draft[ResourceLoader|dependencies=mediawiki.user,mediawiki.api,mediawiki.jqueryMsg,mediawiki.util|hidden]|WLM-draft.js|WLM.css
+* mobile-sidebar[ResourceLoader|dependencies=mediawiki.util]|mobile-sidebar.js
+* wikibugs-patrol-clone[ResourceLoader|dependencies=mediawiki.api,mediawiki.Title]|wikibugs-patrol-clone.js
+* GlobalWatchlist[ResourceLoader|rights=minoredit|dependencies=mediawiki.util]|GlobalWatchlist.js
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css
+
+<!--
+hidden: those gadgets are loaded with "hidden" rights, which no user has. this means nobody sees them in the menu, and they are not loaded for anyone. however, the gadget "ext.gadgets-XXXX" is created, and can be loaded by calling mw.loader.load() or mw.loader.using(). all the RL features such as dependencies are handled by RL like any other gadget
+To be used with {{טען סקריפט}}, the gadget's name should begin with "ondemand-"
+-->
+* ime[ResourceLoader|hidden]|ime.js
+* ondemand-pgnViewer[ResourceLoader|hidden|targets=desktop,mobile]|pgnviewer.js
+* ondemand-Tabs[ResourceLoader|hidden]|ondemand-Tabs.js
+* ondemand-ImgToggle[ResourceLoader|hidden]|ImgToggle.js
+* ondemand-Imagemap-Highlight[ResourceLoader|hidden]|ondemand-Imagemap-Highlight.js
+* ondemand-LoadingContent[ResourceLoader|hidden]|LoadingContent.js
+* ondemand-Collapsetables[ResourceLoader|hidden|dependencies=jquery.makeCollapsible|hidden]|Collapsetables.js
+* ondemand-purple[ResourceLoader|hidden|dependencies=mediawiki.util]|purple.js
+* ondemand-bottom[ResourceLoader|hidden]|bottom.js
+* ondemand-uls[ResourceLoader|type=general|hidden|dependencies=ext.uls.mediawiki,mediawiki.api,mediawiki.util]|uls.js|uls.css
+*ondemand-archive[ResourceLoader|hidden]|ondemand-archive.css

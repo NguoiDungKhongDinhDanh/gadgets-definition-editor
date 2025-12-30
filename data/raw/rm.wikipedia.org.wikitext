@@ -1,0 +1,1 @@
+* OpenStreetMap[ResourceLoader|default|dependencies=mediawiki.util|skins=vector,monobook,modern]|OpenStreetMap.js

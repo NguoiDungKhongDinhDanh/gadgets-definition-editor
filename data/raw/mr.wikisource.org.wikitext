@@ -1,0 +1,55 @@
+== OCR tools ==
+* IndicOCR[ResourceLoader]|IndicOCR.js
+* ocr[ResourceLoader]|ocr.js
+
+== Mix ==
+* button-poem[ResourceLoader|dependencies=ext.wikiEditor|default]|button-poem.js
+* vis[ResourceLoader|dependencies=jquery.ui, mediawiki.util|default|type=general]|vis.css|vis.js
+* SocialMedia[ResourceLoader|default]|SocialMedia.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* RTRC[ResourceLoader]|RTRC.js
+* CropTool[ResourceLoader|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js
+* ProtectionIndicators[ResourceLoader|default|type=general]|ProtectionIndicators.js|ProtectionIndicators.css
+* AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js
+* redirect[default|rights=autoconfirmed]|redirect.css
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* specialchars[ResourceLoader]|specialchars.js
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* Fill_Index[ResourceLoader]|Fill_Index.js
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* WSexport[ResourceLoader|dependencies=mediawiki.util|default]|WSexport.js
+* DefaultSummaries[ResourceLoader]|DefaultSummaries.js
+* ContrastReducer[ResourceLoader]|ContrastReducer.js
+* robot[ResourceLoader]|robot.js
+* ShortUrl[ResourceLoader|default]|ShortUrl.css|ShortUrl.js
+* wikEd[ResourceLoader]|wikEd.js
+* button-vote[ResourceLoader|dependencies=ext.wikiEditor]|button-vote.js
+
+==Alinement==
+* button-center[ResourceLoader|dependencies=ext.wikiEditor|default]|button-center.js
+
+== Category ==
+* HotCat[ResourceLoader]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+
+== editing-tools-for-Page-namespace ==
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* mark-proofread[ResourceLoader|dependencies=mediawiki.util]|mark-proofread.js|mark-proofread.css
+* Preload_Page_Images[ResourceLoader]|Preload_Page_Images.js
+* autocomplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|autocomplete.js
+
+== Wikidata tools ==
+* WE-framework WS[ResourceLoader]|WE-framework WS.js
+* WikidataInfo [ResourceLoader|dependencies=mediawiki.jqueryMsg] | WikidataInfo.js
+
+== maintenance-tools==
+* markblocked[ResourceLoader]|markblocked.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js
+* MiniTwinkle[ResourceLoader]MiniTwinkle.js
+* QuickDelete[ResourceLoader|dependencies=ext.gadget.AjaxQuickDelete]|QuickDelete.js
+* UserMessages [ResourceLoader]|UserMessages.js

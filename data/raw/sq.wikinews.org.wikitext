@@ -1,0 +1,12 @@
+== browsing-gadgets ==
+* popup[ResourceLoader]||navpop.js|navpop.css
+
+
+== editing-gadgets ==
+* wikEd[ResourceLoader]||wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* ExtWindow[ResourceLoader]||extlinks.js
+* addsection-plus[ResourceLoader]||addsection-plus.js
+* userMessages[ResourceLoader]||UserMessages.js
+* underlinePedia[ResourceLoader]||underlinePedia.css
+* welcomer[ResourceLoader|dependencies=mediawiki.util]|welcomer.js

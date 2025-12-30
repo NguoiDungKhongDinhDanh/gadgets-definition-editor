@@ -1,0 +1,9 @@
+<noinclude>'''Changes to this page should be discussed on [[Wikipedia:Хурал]]'''
+Links to view and manage the gadget descriptions appear on [[Special:Gadgets]].
+</noinclude>
+
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+
+== editing ==
+
+* HotCat[ResourceLoader|rights=edit]|HotCat.js

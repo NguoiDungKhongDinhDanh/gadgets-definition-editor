@@ -1,0 +1,68 @@
+== Reading ==
+* site[ResourceLoader|default|hidden]|site-scrollGallery.js|site-rwdImageMaps.js
+* desktopSiteStyles[ResourceLoader|default|hidden|type=styles]|site-scrollGallery.css|PhrasebookStyles-common.css|HideTitleStyles-common.css|PagebannerStyles-common.css|ListingMapStyles-common.css
+* siteStyles[ResourceLoader|default|hidden|type=styles|targets=desktop,mobile]|QuickbarStyles-common.css|TabelleStyles-common.css|AvvisoStyles-common.css
+* mobileSiteStyles[ResourceLoader|default|hidden|type=styles|skins=minerva]|Pagebanner.mobileStyles-common.css|ListingMap.mobileStyles-common.css
+* ListingEditor2023Styles[ResourceLoader|default|hidden|type=general]|ListingEditor2023.css
+* IconeLinkEsterni[ResourceLoader|default|type=styles|targets=desktop,mobile]|IconeLinkEsterni.css
+* InterWikiLinkIcons[ResourceLoader|default|type=styles|targets=desktop,mobile]|InterWikiLinkIcons.css
+* IndentazioneColorata[ResourceLoader|default|type=styles|targets=desktop,mobile]|IndentazioneColorata.css
+* NamespaceColorati[ResourceLoader|type=styles|targets=desktop,mobile]|NamespaceColorati.css
+* ReferenceTooltip[ResourceLoader]|ReferenceTooltip.js|ReferenceTooltip.css
+* HideCentralNotice[ResourceLoader|default|targets=desktop,mobile]|HideCentralNotice.js|HideCentralNotice.css
+* HideSiteNotice[ResourceLoader|type=styles|targets=desktop,mobile]|HideSiteNotice.css
+* Popup[ResourceLoader|type=general|dependencies=mediawiki.user,mediawiki.util,user.options]||Popup.js|Popup-traduzioni.js|Popup.css
+
+== Editing ==
+* PulsantiBase[ResourceLoader|dependencies=ext.wikiEditor|default]|PulsantiBase.js
+* SmartEdittools[ResourceLoader|default]|SmartEdittools.js
+* Specialchars[ResourceLoader|type=styles]|Specialchars.css
+* LinkComplete[ResourceLoader]|LinkComplete.js
+* wikEd[ResourceLoader]|wikEd.js
+
+== Search ==
+* CIDR[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|CIDR.js
+* RicercheAvanzate[ResourceLoader]|RicercheAvanzate.js
+* AutofocusRicerca[ResourceLoader|default]|AutofocusRicerca.js
+
+== Tools ==
+* ListingEditorConfig[ResourceLoader|package|hidden]|ListingEditorConfig.js|ListingEditor.json
+* ListingEditor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=ext.gadget.ListingEditor2023Styles]|ListingEditor2023.js
+* EsconoDaQui[ResourceLoader]|EsconoDaQui.js
+* Sandbox[ResourceLoader|default|dependencies=mediawiki.util]|Sandbox.js
+* MapFrame[ResourceLoader|default]|MapFrame.js
+* ImageMap[ResourceLoader]|ImageMap.js
+* Purga[ResourceLoader|dependencies=mediawiki.util]|Purga.js
+* edittop[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util]|edittop.js
+* SideSistersIcons[ResourceLoader|default|type=styles]|SideSistersIcons.css
+* mobile-sidebar[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|mobile-sidebar.js
+
+== Maintenance ==
+* Hiddencat[ResourceLoader|default]|Hiddencat.js
+* HotCat[ResourceLoader]|HotCat.js
+* HotCatMulti[ResourceLoader]|HotCatMulti.js
+* RivelatoreDisambigua[ResourceLoader|type=styles|targets=desktop,mobile]|RivelatoreDisambigua.css
+* RivelatoreRedirect[ResourceLoader|type=styles|targets=desktop,mobile]|RivelatoreRedirect.css
+* updateinfo[ResourceLoader|type=styles|targets=desktop,mobile]|updateinfo.css
+* debuginfo[ResourceLoader|type=styles|targets=desktop,mobile]|debuginfo.css
+* phoneinfo[ResourceLoader|type=styles|targets=desktop,mobile]|phoneinfo.css
+* mailinfo[ResourceLoader|type=styles|targets=desktop,mobile]|mailinfo.css
+* imageinfo[ResourceLoader|type=styles|targets=desktop,mobile]|imageinfo.css
+* unicodeinfo[ResourceLoader|type=styles|targets=desktop,mobile]|unicodeinfo.css
+* linkinfo[ResourceLoader|type=styles|targets=desktop,mobile]|linkinfo.css
+* WikidataInfo[ResourceLoader|targets=desktop,mobile]|WikidataInfo.js
+
+== Patrolling ==
+* UMTR[ResourceLoader|dependencies=mediawiki.util]|UMTR.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.api,mediawiki.language,mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|morebits.js|morebits.css|select2.min.js|select2.min.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|twinkleblock.js|friendlytalkback.js|Twinkle.css
+* Twinkle-pagestyles[skins=vector]|Twinkle-pagestyles.css
+
+== Meta ==
+* UTCLiveClock[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|UTCLiveClock.js
+* popups[ResourceLoader]|popups.js|popups.css
+
+== Gruppi ==
+* RollbackSummary[ResourceLoader|rights=rollback|dependencies=mediawiki.util]|RollbackSummary.js
+* SureSureSure[ResourceLoader|rights=rollback]|SureSureSure.js
+* AjaxMassRB[ResourceLoader|rights=rollback]| AjaxMassRB.js
+* ListingEditorBeta[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ListingEditorBeta.js

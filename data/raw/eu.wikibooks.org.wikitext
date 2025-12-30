@@ -1,0 +1,3 @@
+== Kategoria ==
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* HotCat[ResourceLoader]|HotCat.js

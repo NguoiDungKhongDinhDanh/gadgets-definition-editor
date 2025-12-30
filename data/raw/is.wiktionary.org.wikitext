@@ -1,0 +1,8 @@
+== skil ==
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* LiveClock[ResourceLoader|dependencies=mediawiki.util]|LiveClock.js
+* contribsrange[ResourceLoader]|contribsrange.js
+<!--
+== admin-gadgets ==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js
+-->

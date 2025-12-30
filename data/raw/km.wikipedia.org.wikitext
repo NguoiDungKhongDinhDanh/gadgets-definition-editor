@@ -1,0 +1,23 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+== editing-gadgets ==
+
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+
+== interface-gadgets ==
+
+* exlinks[ResourceLoader]|exlinks.js
+* Refreshtab[ResourceLoader|dependencies=mediawiki.util]|Refreshtab.js
+* edittop[ResourceLoader]|edittop.js
+* editsection[ResourceLoader]|editsection.js
+* Blackskin|Blackskin.css
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+
+== library-gadgets ==
+
+* JSL[ResourceLoader]|JSL.js
+* modernskin-thunks[ResourceLoader]|modernskin-thunks.js

@@ -1,0 +1,79 @@
+== editing-tools ==
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js|charinsert-core.css
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* popups[ResourceLoader|type=general]|popups.js|navpop.css
+* RegexMenuFramework[ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* TemplatePreloader[ResourceLoader|actions=edit]|TemplatePreloader.js
+* wikEd[ResourceLoader]|wikEd.js
+* button-FI[ResourceLoader|dependencies=ext.wikiEditor|default]|button-FI.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* diacritici[ResourceLoader]|diacritici.js
+* button-center[ResourceLoader|dependencies=ext.wikiEditor|default]|button-center.js
+* autocomplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection]|autocomplete.js
+* button-center[ResourceLoader|dependencies=ext.wikiEditor|default]|button-center.js
+* button-right[ResourceLoader|dependencies=ext.wikiEditor|default]|button-right.js
+* button-poem[ResourceLoader|dependencies=ext.wikiEditor|default]|button-poem.js
+* button-cite[ResourceLoader|dependencies=ext.wikiEditor|default]|button-cite.js
+* button-rule[ResourceLoader|dependencies=ext.wikiEditor|default]|button-rule.js
+* TranscludedIn[ResourceLoader]|TranscludedIn.js
+* Cropimage[ResourceLoader|default|type=general]|Cropimage.js
+* CropTool[ResourceLoader|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js
+* QualityButton[ResourceLoader]|QualityButton.js
+* FloatingTemplates[ResourceLoader]|FloatingTemplates.js
+* contrast-reducer[ResourceLoader|type=styles|actions=edit]|contrast-reducer.css
+* robot[ResourceLoader]|robot.js
+
+== editing-tools-for-Page-namespace ==
+* nsPage[ResourceLoader|default|hidden|namespaces=104|type=styles]|Page_namespace.css
+* notext[ResourceLoader|default|namespaces=104|actions=edit|dependencies=ext.proofreadpage.page.edit]|notext.js
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+
+== editing-tools-for-Index-namespace ==
+* Fill_Index[ResourceLoader|default]|Fill_Index.js
+* ImportPagelist[ResourceLoader|dependencies=mediawiki.util]|ImportPagelist.js
+* transclusion-check[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|actions=view|namespaces=106]|transclusion-check.js|transclusion-check.css
+* mark-proofread[ResourceLoader|type=styles|namespaces=106|actions=view]|mark-proofread.css
+
+== interface ==
+* Site[ResourceLoader|default|dependencies=mediawiki.util|peers=Site-styles]|SiteMessages.js|DisplayFooter.js|ToolbarFixes.js
+* Site-styles[hidden|type=styles]|Site.css|DisplayFooter.css
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* MobileSite[ResourceLoader|default|skins=minerva|namespaces=0,114]|MobileDownloadLink.js
+* MoreMenu-local[ResourceLoader|default|dependencies=mediawiki.api,mediawiki.util,user.options|peers=MoreMenu-local-pagestyles]|MoreMenu-local.js
+* MoreMenu-local-pagestyles[hidden]|MoreMenu-local-pagestyles.css
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* userMessages[ResourceLoader]|UserMessages.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,user|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,vector-2022,monobook]|UTCLiveClock-pagestyles.css
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* BanglaDate[ResourceLoader]|BanglaDate.js
+* altindex[ResourceLoader]|altindex.js
+* collapseElements[ResourceLoader]|collapseElements.js
+* collapsibleTables[ResourceLoader|default]|collapsibleTables.js
+* dynamicNavBars[ResourceLoader|default]|dynamicNavBars.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* IngrandisciCarattere[ResourceLoader|default]|IngrandisciCarattere.js
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* invertColoumn[ResourceLoader]|invertColoumn.css
+* stockText[ResourceLoader|skin=vector, monobook|default|type=general]|stockText.js|stockText.css
+* ipt[ResourceLoader|default|type=general]|ipt.js
+* TogglePanel[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.cookie]|TogglePanel.js
+* bookreader[ResourceLoader|default]|bookreader.js
+* SocialMedia[ResourceLoader|default|rights=edit,autoconfirmed]|SocialMedia.js
+* ShortUrl[ResourceLoader]|ShortUrl.css|ShortUrl.js
+
+== development ==
+* WE-framework WS[ResourceLoader]|WE-framework WS.js
+* WikidataInfo [ResourceLoader|dependencies=mediawiki.jqueryMsg] | WikidataInfo.js|WikidataInfo.css
+* pr_test_layout[ResourceLoader]|pr_test_layout.js|pr_test_layout.css
+
+== admin-tools ==
+* CleanDeleteReasons[ResourceLoader|rights=delete|actions=delete]|CleanDeleteReasons.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js

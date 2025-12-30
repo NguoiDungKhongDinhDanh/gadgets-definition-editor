@@ -1,0 +1,63 @@
+<noinclude>[[특수:환경설정#mw-prefsection-gadgets|사용자 환경 설정]]에서 설정할 수 있는 소도구의 정의입니다.</noinclude>
+
+== browsing ==
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|popups-strings-ko.js|navpop.css
+* Compare[ResourceLoader]|Compare.js
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* searchFocus[ResourceLoader]|searchFocus.js
+
+== editing ==
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js|charinsert-core.css
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* editsummary[ResourceLoader]|editsummary.js|editsummary.css
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* TemplatePreloader[ResourceLoader|actions=edit]|TemplatePreloader.js
+
+== editing-tools-for-Page-namespace ==
+* nsPage[ResourceLoader|default|hidden|namespaces=250|type=styles]|Page_namespace.css
+* notext[ResourceLoader|default|namespaces=250|actions=edit|dependencies=ext.proofreadpage.page.edit]|notext.js
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* Preload_Page_Images[ResourceLoader|namespaces=250]|Preload_Page_Images.js
+* RunningHeader[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|RunningHeader.js
+* ImageUploader[ResourceLoader|dependencies=mediawiki.util]|ImageUploader.js
+
+== editing-tools-for-Index-namespace ==
+* nsIndex[ResourceLoader|default|hidden|namespaces=252|type=styles]|Index_namespace.css
+* Fill_Index[ResourceLoader|default]|Fill_Index.js
+* transclusion-check[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|actions=view|namespaces=252]|transclusion-check.js|transclusion-check.css
+
+== interface ==
+* Site[ResourceLoader|default|dependencies=mediawiki.util|peers=Site-styles]|SiteMessages.js|ToolbarFixes.js
+* Site-styles[hidden|type=styles]|Site.css
+* Site-styles-old[default|type=styles]|Site-old.css
+* Haeseok-withoutlink[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default|namespaces=0,116]|Haeseok-withoutlink.js
+* Haeseok[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|namespaces=0,116]|Haeseok.js
+* PageNumbers[ResourceLoader|default|namespaces=0,2,4,114,116,118]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie|namespaces=0,2,4,114,116,118]|PageNumbers-core.js|PageNumbers-core.css
+* MobileSite[ResourceLoader|default|skins=minerva|namespaces=0,114,116]|MobileDownloadLink.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|PurgeTab.js
+* PurgeTab2[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|PurgeTab2.js
+* UTCLiveClock[ResourceLoader|supportsUrlLoad|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,vector-2022,monobook]|UTCLiveClock-pagestyles.css
+* WhatLeavesHere[ResourceLoader|dependencies=mediawiki.util]|WhatLeavesHere.js
+* interwiki-transclusion[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api]|interwiki-transclusion.js
+* markblocked[ResourceLoader]|markblocked.js
+
+== advanced ==
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* DebugMode[ResourceLoader|dependencies=mediawiki.util]|DebugMode.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+
+== development ==
+* DisplayFooter[ResourceLoader|dependencies=mediawiki.util|peers=DisplayFooter-styles]|DisplayFooter.js
+* DisplayFooter-styles[hidden|type=styles]|DisplayFooter.css
+* dynamicNavBars[ResourceLoader]|dynamicNavBars.js
+* IndexFormTools[ResourceLoader|dependencies=oojs-ui-core]|IndexFormTools.js

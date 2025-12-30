@@ -1,0 +1,2 @@
+== display-gadgets ==
+* transliterator[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,mediawiki.storage]|transliterator.js

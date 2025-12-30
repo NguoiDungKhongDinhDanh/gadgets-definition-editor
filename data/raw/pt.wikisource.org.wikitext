@@ -1,0 +1,40 @@
+== interface ==
+* Site[ResourceLoader|default|type=styles|top|dependencies=mediawiki.util]|Site.js|Site.css|enwp-boxes.css|enwp-lists.css|enws-tweaks.css
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|popups.js|navpop.css
+* UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api]|UTCLiveClock.js|UTCLiveClock.css
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* bottomtabs[ResourceLoader]|bottomtabs.js|bottomtabs.css
+* TitleRewrite[ResourceLoader|default]|TitleRewrite.js
+* dictLookup[ResourceLoader]|dictLookup.js
+
+== proofreadpagetools ==
+* OcultaBoxE106[ResourceLoader]|OcultaBoxE106.css
+* Fill_Index[ResourceLoader]|Fill_Index.js 
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* GoogleOCR[ResourceLoader]|GoogleOCR.js
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* mark-proofread[ResourceLoader|dependencies=mediawiki.util]|mark-proofread.js|mark-proofread.css
+* robot[ResourceLoader]|robot.js
+* RetallaImatges[ResourceLoader|default]|RetallaImatges.js
+* CropTool[ResourceLoader|dependencies=mediawiki.util]|CropTool.js
+
+== editing ==
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* Extra toolbar[ResourceLoader|rights=edit|default]|Extra toolbar.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* specialchars[ResourceLoader]|specialchars.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Typo[ResourceLoader|dependencies=user.options,ext.wikiEditor]|Typo.js
+
+== browsing ==
+* CoresNS[ResourceLoader|default]|CoresNS.css
+* linkclassifier[ResourceLoader|dependencies=mediawiki.util]|linkclassifier.js|linkclassifier.css
+* FeedbackHighlight[ResourceLoader|default]|FeedbackHighlight.js|FeedbackHighlight.css
+* Modernizacao[ResourceLoader|default]|Modernizacao.js|LanguageConverter.css
+* Correlatos[ResourceLoader|dependencies=mediawiki.util]|Correlatos.js
+
+== wikidata ==
+* WEF[ResourceLoader]|WEF.js

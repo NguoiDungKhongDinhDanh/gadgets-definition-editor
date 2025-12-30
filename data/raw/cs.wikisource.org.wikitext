@@ -1,0 +1,18 @@
+== interface-gadgets ==
+* HighlightRedirects | HighlightRedirects.css
+* MarkDisambiguations | MarkDisambiguations.css
+* HideSectionEditLinks [ ResourceLoader ] | HideSectionEditLinks.css
+* ReferencePopups [ ResourceLoader | dependencies = jquery.tipsy | default ] | ReferencePopups.css | ReferencePopups.js
+* Pomoc-pri-dyschromatopsii|Pomoc-pri-dyschromatopsii.css
+* DuplicateSourceNavigation [ ResourceLoader | default ] | DuplicateSourceNavigation.js
+* OSNlist [ ResourceLoader | default ] | OSNlist.css
+* SeparateSpecialCategories [ ResourceLoader | dependencies = mediawiki.Title, mediawiki.Uri, mediawiki.util | default ] | SeparateSpecialCategories.css | SeparateSpecialCategories.js
+* AllowOCR [ ResourceLoader ] | AllowOCR.js
+* NarrowContent [ ResourceLoader | default ] | NarrowContent.css
+
+== admin-gadgets ==
+* SafeRollback [ ResourceLoader | rights = rollback ] | SafeRollback.js
+
+== test-gadgets ==
+* InterwikiExtra [ ResourceLoader | default ] | InterwikiExtra.js
+* CropTool [ResourceLoader|default|dependencies=mediawiki.Uri,mediawiki.util] | CropTool.js

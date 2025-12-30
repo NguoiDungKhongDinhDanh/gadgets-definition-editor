@@ -1,0 +1,42 @@
+[[Special:Gadgets]] [[Special:GadgetUsage]] [[Special:参数设置#mw-prefsection-gadgets]]
+<div style='word-break:break-all;'>
+
+=== general ===
+* ListingEditor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.api,mediawiki.util,jquery.ui,ext.gadget.site-lib]|ListingEditor.js|ListingEditor.css
+* MapFrame[ResourceLoader|default]|MapFrame.js
+* noteTA[ResourceLoader|dependencies=mediawiki.api,ext.gadget.HanAssist,oojs-ui,oojs-ui-windows,jquery.makeCollapsible|default|type=general|actions=view,submit]|noteTA.js|noteTA.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* large-font[ResourceLoader|skins=vector,monobook]|large-font.css
+* wikEd[ResourceLoader]|wikEd.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.site-lib,ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|friendlywelcome.js|friendlytalkback.js|twinklespeedy.js|twinklecopyvio.js|twinklexfd.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=ext.gadget.site-lib,mediawiki.user,mediawiki.util,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector,vector-2022|type=styles]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* ArticleShare[ResourceLoader|dependencies=mediawiki.util,mediawiki.Uri|default]|ArticleShare.js
+* shortURL[ResourceLoader|dependencies=mediawiki.util,oojs-ui,ext.gadget.site-lib|default|type=general]|shortURL.js
+* rollback-summary[ResourceLoader|rights=rollback]|rollback-summary.js
+* CleanDeleteReasons[ResourceLoader|rights=delete|targets=desktop,mobile|default]|CleanDeleteReasons.js
+
+=== experimental ===
+* mp[ResourceLoader]|mp.js
+
+=== appear ===
+* AdvancedSiteNotices[ResourceLoader|dependencies=ext.gadget.HanAssist,mediawiki.api,mediawiki.cookie,mediawiki.util|default]|AdvancedSiteNotices.js
+* markblocked[ResourceLoader|dependencies=mediawiki.util]|markblocked.js
+* CollapsibleSidebar[ResourceLoader|default|dependencies=mediawiki.cookie|skins=vector]|CollapsibleSidebar.js
+* scrollUpButton[ResourceLoader|default|targets=desktop,mobile]|scrollUpButton.js
+* MarkRights[ResourceLoader|dependencies=mediawiki.api]|MarkRights.js|MarkRights.css
+
+=== hidden ===
+* site-lib[ResourceLoader|dependencies=mediawiki.util|hidden]|site-lib.js
+* HanAssist[ResourceLoader|package|hidden|dependencies=user.options]|HanAssist.js
+
+=== mainpage ===
+* searchFocus[ResourceLoader]|searchFocus.js
+* mainpage-customization[ResourceLoader]|mainpage-customization.js|mainpage-customization.css
+* mainpage-style-2012[ResourceLoader]|mainpage-style-2012.js
+* mainpage-style-2013[ResourceLoader]|mainpage-style-2013.js
+* mainpage-style-2014[ResourceLoader]|mainpage-style-2014.js
+* mainpage-style-mystyle[ResourceLoader]|mainpage-style-mystyle.js
+</div>

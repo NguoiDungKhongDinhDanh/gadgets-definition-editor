@@ -1,0 +1,5 @@
+==editing-gadgets==
+*HotCat[ResourceLoader]|HotCat.js
+
+== Hidden gadgets and utils ==
+* Edittools[ResourceLoader|hidden|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js

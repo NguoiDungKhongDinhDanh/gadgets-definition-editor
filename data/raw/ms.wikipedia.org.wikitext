@@ -1,0 +1,106 @@
+{{pp-semi-indef|small=yes}}
+==gajet-semakimbas==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util]|confirmationRollback-mobile.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util|type=general]|popups.js|navpop.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* search-new-tab[ResourceLoader]|search-new-tab.js
+* PrintOptions[ResourceLoader]|PrintOptions.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* SorokNotisKutipDerma[ResourceLoader]|SorokNotisKutipDerma.css
+* GoogleImages[ResourceLoader|dependencies=mediawiki.util]|GoogleImages.js
+* Sorok18sx[ResourceLoader]|Sorok18sx.js
+* PerubahanLangsung[ResourceLoader]|PerubahanLangsung.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleprod.js|twinklexfd.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinkledeprod.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* HideCentralNotice[ResourceLoader]|HideCentralNotice.js|HideCentralNotice.css
+* teahouse[ResourceLoader|default|type=general]|teahouse.js|teahouse.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* formWizard[ResourceLoader|default|rights=minoredit]|formWizard.js
+* formWizard-core[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.cookie,mediawiki.ui,mediawiki.user,jquery.chosen,jquery.ui]|formWizard-core.js|formWizard.css
+* DisambiguationsDetector[ResourceLoader]|DisambiguationsDetector.js
+
+== gajet-senaraipantau ==
+
+* geonotice[ResourceLoader|default|rights=viewmywatchlist]|geonotice.js
+* geonotice-core[ResourceLoader|dependencies=mediawiki.util|hidden]|geonotice-list.js|geonotice-core.js|geonotice-core.css
+* watchlist-notice[ResourceLoader|default]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|hidden]|watchlist-notice-core.js
+* WatchlistBase[ResourceLoader|default|rights=viewmywatchlist|skins=vector,monobook,modern]|WatchlistBase.css
+* WatchlistGreenIndicators[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=vector]|WatchlistGreenIndicators.css
+* WatchlistGreenIndicatorsMono[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=monobook,modern]|WatchlistGreenIndicatorsMono.css
+* WatchlistChangesBold[ResourceLoader|top|peers=WatchlistBase]|WatchlistChangesBold.css
+
+==gajet-sunting==
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* citations[ResourceLoader|dependencies=mediawiki.util]|citations.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* ProveIt-classic[ResourceLoader|type=general|dependencies=jquery.ui,jquery.textSelection,mediawiki.util]|ProveIt-classic.css|ProveIt-classic.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* afchelper[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user,jquery.chosen]|afchelper.js
+* DRN-wizard[ResourceLoader|default]|DRN-wizard-loader.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* legacyToolbar[ResourceLoader]|legacyToolbar.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* extra-toolbar-buttons[ResourceLoader|default]|extra-toolbar-buttons.js
+* extra-toolbar-buttons-core[ResourceLoader|hidden]|extra-toolbar-buttons-core.js
+
+==gajet-antaramuka==
+* MenuKedaiKopi[ResourceLoader|default|type=general]|MenuKedaiKopi.js|MenuKedaiKopi.css
+* mySandbox[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.Title,mediawiki.Uri]|mySandbox.js
+* AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js
+* edittop[ResourceLoader|dependencies=user.options|type=general]|edittop.js|edittop.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* CategoryAboveAll[ResourceLoader|skins=monobook]|CategoryAboveAll.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* NoAnimations[ResourceLoader]|NoAnimations.js
+* disablesuggestions[ResourceLoader]|disablesuggestions.js
+* NoSmallFonts[ResourceLoader]|NoSmallFonts.css
+* topalert[ResourceLoader]|topalert.js|topalert.css
+* metadata[ResourceLoader|dependencies=mediawiki.util|type=general]|metadata.js|metadata.css
+* JustifyParagraphs[ResourceLoader]|JustifyParagraphs.css
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* PrettyLog[ResourceLoader|dependencies=mediawiki.util|type=general]|PrettyLog.js|PrettyLog.css
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* SidebarTranslate[ResourceLoader|type=general]|SidebarTranslate.js|SidebarTranslate.css
+* Blackskin[ResourceLoader|skins=monobook]|Blackskin.css
+* VectorClassic[ResourceLoader|skins=vector]|VectorClassic.css
+* widensearch[ResourceLoader|skins=vector]|widensearch.css
+* featured-articles-links[ResourceLoader|default|type=general]|featured-articles-links.js|featured-articles-links.css
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+
+== gajet-maju ==
+
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* DebugMode[ResourceLoader|dependencies=mediawiki.util]|DebugMode.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* RTRC[ResourceLoader]|RTRC.js
+
+== gajet-uji ==
+
+* mobile-sidebar[ResourceLoader]|mobile-sidebar.js
+* addMe[ResourceLoader]|addMe.js|addMe.css
+
+== gajet-modul ==
+* libLua [ResourceLoader|dependencies=mediawiki.api|hidden]|libLua.js
+* libSensitiveIPs [ResourceLoader|dependencies=ext.gadget.libLua|hidden]|libSensitiveIPs.js
+
+== gajet-lapuk ==

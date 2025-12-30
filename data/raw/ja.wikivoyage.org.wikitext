@@ -1,0 +1,17 @@
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* ListingInfo[ResourceLoader|dependencies=ext.kartographer.box, ext.kartographer.dialog]|ListingInfo.css|ListingInfo.js
+
+== editing-gadgets ==
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* wikEd[ResourceLoader]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+
+== interface-gadgets ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* protectionIndicator[ResourceLoader|default]|protectionLog.js|protectionLog.css
+* protectionLog[ResourceLoader]|protectionLog.js/tab.js
+* TocFixed[ResourceLoader|skins=vector,timeless,cologneblue,monobook,minerva]|TocFixed.js|TocFixed.css
+
+== hidden ==
+* InitListingTools[ResourceLoader|hidden]|InitListingTools.js

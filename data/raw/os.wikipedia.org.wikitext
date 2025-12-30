@@ -1,0 +1,5 @@
+== editing ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Ossetian-alphabet-support[ResourceLoader|default]|Ossetian-alphabet-support.js
+* Cyrillic-ae-to-Latin-ae[ResourceLoader]|Cyrillic-ae-to-Latin-ae.js
+* Ae-to-Aelig[ResourceLoader]|Ae-to-Aelig.js

@@ -1,0 +1,10 @@
+== suites-gadgets ==
+* FastButtons[ResourceLoader|dependencies=mediawiki.util|rights=autoconfirmed]|FastButtons.js
+* Monobook-Suite[ResourceLoader]|monobook-suite.js|monobook-suite.css
+
+==navegacion==
+* botonpurgar[ResourceLoader|dependencies=mediawiki.util]|botonpurgar.js
+* Navigation_popups[ResourceLoader]|popups.js|popups-es.js
+
+==edicion==
+* HotCat[ResourceLoader]|HotCat.js

@@ -1,0 +1,74 @@
+== editing-tools ==
+
+
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* popups[ResourceLoader|type=general]|popups.js|navpop.css
+* RegexMenuFramework[ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* specialchars[ResourceLoader]|specialchars.js
+* TemplatePreloader[ResourceLoader]|TemplatePreloader.js
+* DefaultSummaries[ResourceLoader]|DefaultSummaries.js
+* ContrastReducer[ResourceLoader]|ContrastReducer.js
+* robot[ResourceLoader]|robot.js
+
+== editing-tools-for-Page-namespace ==
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* mark-proofread[ResourceLoader|dependencies=mediawiki.util]|mark-proofread.js|mark-proofread.css
+* Preload_Page_Images[ResourceLoader]|Preload_Page_Images.js
+* Cropimage[ResourceLoader|default]|Cropimage.js
+
+== editing-tools-for-Index-namespace ==
+* Fill_Index[ResourceLoader]|Fill_Index.js
+
+== interface ==
+* Site[ResourceLoader|default|top|dependencies=mediawiki.util|peers=Site-styles]|DisplayFooter.js
+* Site-styles[hidden|type=styles]|Site.css|enwp-boxes.css|enwp-lists.css|enws-tweaks.css
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* HideFundraisingNotice[ResourceLoader|type=general]|HideFundraisingNotice.js|HideFundraisingNotice.css
+* pr_test_layout[ResourceLoader]|pr_test_layout.js
+* dynamicLayoutOverrides[ResourceLoader|default]|dynamicLayoutOverrides.js
+* FlatSidebar[ResourceLoader|top|dependencies=mediawiki.cookie|skins=vector]|FlatSidebar.js|FlatSidebar.css
+* CollapsibleNav[ResourceLoader|top|dependencies=mediawiki.cookie|skins=vector|type=general]|CollapsibleNav.js|CollapsibleNav.css
+* collapsibleTables[ResourceLoader|default]|collapsibleTables.js
+* collapseElements[ResourceLoader]|collapseElements.js
+* dynamicNavBars[ResourceLoader]|dynamicNavBars.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* altindex[ResourceLoader]|altindex.js
+* WSexport[ResourceLoader|dependencies=mediawiki.util|default]|WSexport.js
+* userMessages[ResourceLoader]|UserMessages.js
+* PurgeTab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|default]|PurgeTab.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* WhatLeavesHere[ResourceLoader|dependencies=mediawiki.util]|WhatLeavesHere.js
+* dictLookup[ResourceLoader]|dictLookup.js
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* PopCategoryDisplay[ResourceLoader]|PopCategoryDisplay.js
+* BookMaker[ResourceLoader|dependencies=mediawiki.util]|BookMakerLoader.js
+* DebugMode[ResourceLoader|dependencies=mediawiki.util]|DebugMode.js
+* CurIDLink[ResourceLoader|dependencies=mediawiki.util]|CurIDLink.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+
+== compatibility ==
+* Font-Awesome[ResourceLoader|top]|Font-Awesome.css
+
+== development ==
+* ResultListSort[ResourceLoader]|ResultListSort.js
+* WE-framework WS[ResourceLoader]|WE-framework WS.js
+* WikidataInfo [ResourceLoader|dependencies=mediawiki.jqueryMsg] | WikidataInfo.js
+* ImportPagelist[ResourceLoader|dependencies=mediawiki.util]|ImportPagelist.js
+* sandbox[ResourceLoader|dependencies=mediawiki.util]|sandbox.js|sandbox.css
+
+== maintenance-tools==
+* markblocked[ResourceLoader]|markblocked.js
+
+== admin-tools ==
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* massdelete[ResourceLoader|rights=delete]|massdelete.js
+
+== hidden ==

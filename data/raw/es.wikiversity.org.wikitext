@@ -1,0 +1,5 @@
+==navegacion==
+* reversion [ResourceLoader | dependencies=mediawiki.util | rights=autoconfirmed] | reversion.js
+
+==edicion==
+* HotCat [ResourceLoader] | HotCat.js

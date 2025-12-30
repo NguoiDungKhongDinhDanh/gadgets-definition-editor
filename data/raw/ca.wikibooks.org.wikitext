@@ -1,0 +1,3 @@
+* HotCat[ResourceLoader]|HotCat.js
+* wikicheck[ResourceLoader|dependencies=mediawiki.util]|wikicheck.js
+* visualeditor-signature[ResourceLoader|default|dependencies=mediawiki.util]|visualeditor-signature.js

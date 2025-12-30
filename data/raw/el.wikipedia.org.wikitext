@@ -1,0 +1,48 @@
+===interface===
+* disambigradar[ResourceLoader|type-styles]|disambigradar.css
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* TabGoogle[ResourceLoader]|TabGoogle.js
+* TabDuckDuckGo[ResourceLoader]|TabDuckDuckGo.js
+* nosandboxlink[ResourceLoader|type-styles]|nosanboxlink.css
+* nobetalink[ResourceLoader|type-styles]|nobetalink.css
+* ShortLink[ResourceLoader]|ShortLink.js
+* exlinks[ResourceLoader]|exlinks.js
+* WikidataInfo[ResourceLoader]|WikidataInfo.js
+* ReasonatorTools[ResourceLoader|dependencies=mediawiki.util]|ReasonatorTools.js
+* imagelinks[ResourceLoader|default|dependencies=mediawiki.util]|imagelinks.js
+* NoAnimations[ResourceLoader]|NoAnimations.js
+* wikibugs [ResourceLoader | default | type=general| dependencies=mediawiki.util, mediawiki.user, jquery.ui] | wikibugs.js | wikibugs.css
+* popupdelay[ResourceLoader]|popupdelay.js
+* narrowcolumns[ResourceLoader|type-styles]|narrowcolumns.css
+* wikitablerowhover[ResourceLoader|type-styles]|wikitablerowhover.css
+* Tomorrow[ResourceLoader]|Tomorrow.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* switcher [ResourceLoader|default]|switcher.js
+
+===edit===
+* refToolbar [ResourceLoader | dependencies=mediawiki.util |actions=edit| default] | refToolbar.js
+* ProveIt[ResourceLoader|actions=edit]|ProveIt.js
+* patrolling[ResourceLoader|rights=edit]||patrolling.js
+* edittop[ResourceLoader|type=general|dependencies=user.options]|edittop.js|edittop.css
+* fist[ResourceLoader|rights=edit|dependencies=mediawiki.util]|fist.js
+* HotCats[ResourceLoader|rights=edit]|HotCats.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client|rights=edit|actions=edit]|DotsSyntaxHighlighter.js
+* Shortdesc-helper-loader[ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util|skins=vector,vector-2022,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector,vector-2022]|Shortdesc-helper-pagestyles-vector.css
+* MiniEdit[ResourceLoader|actions=view]|MiniEdit.js
+
+===lab===
+Τα παρακάτω εργαλεία υπάρχουν για να δοκιμαστούν πριν εφαρμοστούν ως εργαλεία ή μόνιμες λειτουργίες της Βικιπαίδειας. Η λειτουργία και τα χαρακτηριστικά τους μπορεί να αλλάζουν ή ακόμη και να εξαφανιστούν.
+* WikidataEditor[ResourceLoader]|WikidataEditor.js
+* Metadata[ResourceLoader]|Metadata.js
+* highlightwikidata[ResourceLoader|type=styles]|highlightwikidata.css
+* wd edit[ResourceLoader]|wd edit.js
+
+===template-gadgets===
+* calculator[ResourceLoader|default|categories=Σελίδες που χρησιμοποιούν το gadget Calculator]|calculator.js|calculator.css
+
+===modules===
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css

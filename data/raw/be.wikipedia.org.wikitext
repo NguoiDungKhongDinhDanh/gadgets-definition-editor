@@ -1,0 +1,57 @@
+* common-action-edit[ResourceLoader|default|hidden|type=general|actions=edit|dependencies=user.options]|common-action-edit.js|common-action-edit.css
+* common-action-history[ResourceLoader|default|hidden|rights=minoredit|actions=history]|common-action-history.js
+* common-special-movepage[ResourceLoader|hidden]|common-special-movepage.js
+* common-special-newpages[ResourceLoader|hidden|type=general|dependencies=mediawiki.util]|common-special-newpages.js|common-special-newpages.css
+* common-special-upload[ResourceLoader|hidden|type=general|dependencies=mediawiki.util]|common-special-upload.js|common-special-upload.css
+* libJQuery[ResourceLoader|hidden]|libJQuery.js|libJQuery.css
+* SettingsManager[ResourceLoader|hidden|dependencies=mediawiki.user,user.options,mediawiki.api,mediawiki.util]|SettingsManager.js
+* registerTool[ResourceLoader|hidden|dependencies=mediawiki.util,user.options]|registerTool.js
+
+== editing ==
+* edittop[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=site,mediawiki.util]|edittop.js
+* HotCat[ResourceLoader]|HotCat.js
+* GoogleTrans[ResourceLoader|dependencies=mediawiki.util]|GoogleTrans.js
+* wikificator[ResourceLoader|default|hidden|type=general|actions=edit|dependencies=ext.gadget.registerTool,jquery.client]|wikificator.js|wikificator.css
+* wfTypos[ResourceLoader]|wfTypos.js
+* wfTyposUpdate[ResourceLoader|hidden|supportsUrlLoad]|wfTyposUpdate.js
+* refToolbar[ResourceLoader|actions=edit|dependencies=user.options,mediawiki.util]|refToolbar.js
+* wikilinker[ResourceLoader|dependencies=ext.gadget.registerTool]|wikilinker.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js
+* summaryButtons[ResourceLoader|default|hidden|type=general|actions=edit|dependencies=mediawiki.ui.button,mediawiki.util]|summaryButtons.js|summaryButtons.css
+* attribution[ResourceLoader|default|hidden|type=general|actions=edit]|attribution.js
+
+== patrolling ==
+* NewPagePatrol[ResourceLoader]|NewPagePatrol.js
+
+== reading ==
+* BKL[ResourceLoader|default|type=general|rights=minoredit|dependencies=site]|disambiguationLinks.js|disambiguationLinks.css
+* collapserefs[ResourceLoader|default|type=general|dependencies=mediawiki.storage,mediawiki.util]|collapserefs.js|collapserefs.css
+* shiftrefs[ResourceLoader]|shiftrefs.js
+
+== users ==
+* markadmins[ResourceLoader|package]|markadmins.js|markadmins.json|markadmins.css
+* markblocked[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|markblocked.js
+
+== wikidata ==
+* wikidataInfoboxExport[ResourceLoader|dependencies=mediawiki.util]|wikidataInfoboxExport.js
+* StructuredCategories[ResourceLoader]|StructuredCategories.js
+
+== interface ==
+* HighlightRedirects[ResourceLoader]|Highlightredirects.css
+* popups[ResourceLoader|dependencies=mediawiki.util]|popups.js
+* ReferenceTooltips[ResourceLoader|type=general|skins=vector,vector-2022,monobook,timeless,modern,cologneblue |dependencies=jquery.client,mediawiki.cookie,mediawiki.util]|ReferenceTooltips.js|ReferenceTooltips.css
+* osm[ResourceLoader|dependencies=mediawiki.util]|osm.js
+* wikibugs[ResourceLoader|default|hidden]|Wikibugs.js
+* navboxNavigation[ResourceLoader|default|dependencies=site,mediawiki.util]|navboxNavigation.js|navboxNavigation.css
+* directLinkToCommons[ResourceLoader|default|dependencies=mediawiki.util]|directLinkToCommons.js
+* navboxFeaturedArticles[ResourceLoader|dependencies=site,mediawiki.util,mediawiki.ForeignApi,jquery.makeCollapsible] |navboxFeaturedArticles.js|navboxFeaturedArticles.css
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden| skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css
+
+== external-tools ==
+* Statistics[ResourceLoader|default|dependencies=mediawiki.util]|Statistics.js
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js

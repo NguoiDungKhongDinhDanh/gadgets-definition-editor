@@ -1,0 +1,10 @@
+== editing-gadgets ==
+
+* TranslationAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,ext.gadget.LegacyScriptsNewNode,mediawiki.cookie,ext.gadget.LanguageUtils,mediawiki.util,ext.gadget.TranslationAdder-Data|categories=Entries with translation boxes]|TranslationAdder.js
+* RhymesAdder[ResourceLoader|default|dependencies=ext.gadget.Editor,mediawiki.util,ext.gadget.LanguageUtils,mediawiki.Uri|namespaces=106]|RhymesAdder.js
+* PatrollingEnhancements[ResourceLoader|default|rights=patrol|dependencies=ext.gadget.LegacyScriptsNewNode]|PatrollingEnhancements.js
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* AcceleratedFormCreation[ResourceLoader|dependencies=mediawiki.util]|AcceleratedFormCreation.css|AcceleratedFormCreation.js
+* HotCat[ResourceLoader]|HotCat.js
+* FastRevert[ResourceLoader|dependencies=mediawiki.util]|FastRevert.js
+* ChangesByLanguage[ResourceLoader]|ChangesByLanguage.js

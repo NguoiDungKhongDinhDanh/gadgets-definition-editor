@@ -1,0 +1,10 @@
+== interface-gadgets ==
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* HotCat[ResourceLoader]|HotCat.js
+* mark-disambigs[ResourceLoader]|lib-beau.js|mark-disambigs.js|mark-disambigs.css
+
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js
+
+== admin-gadgets ==
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js

@@ -1,0 +1,18 @@
+# Definiciones de [[:Ayuda:Gadgets|Gadgets]].
+
+=== gadgets-edición ===
+* ocr[ResourceLoader|default]|ocr.js
+* newLST[ResourceLoader]|newLST.js
+* TemplateScript[ResourceLoader]|TemplateScript.js
+* Botonera[ResourceLoader|default]|Botonera.js
+* EIS[ResourceLoader|dependency=mediawiki.util]|EIS.js
+* HotCat[ResourceLoader]|HotCat.js
+* LivePreview[ResourceLoader]|LivePreview.js
+* PantallaCompleta[ResourceLoader]|PantallaCompleta.js
+* CropTool[ResourceLoader|dependencies=mediawiki.Uri,mediawiki.util]|CropTool.js
+* DetectaDesambiguaciones[ResourceLoader | dependencies=mediawiki.util] | DetectaDesambiguaciones.js| DetectaDesambiguaciones.css
+* Fill_Index[ResourceLoader|default]|Fill_Index.js
+* robot[ResourceLoader]|robot.js
+
+=== gadgets-enpruebas === 
+* GoogleOCR[ResourceLoader]|GoogleOCR.js

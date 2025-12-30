@@ -1,0 +1,39 @@
+== Käyttöliittymä ==
+* purge[ResourceLoader|dependencies=mediawiki.util]|purge.js
+* Interwikihaku[ResourceLoader|dependencies=mediawiki.cookie]|Interwikihaku.js
+* Luokan kielilinkit[ResourceLoader|default]|Luokan-kielilinkit.js
+* Luokkaselain[ResourceLoader|default]|Luokkaselain.js
+* Interwikilinkki kieliotsikkoon[ResourceLoader]|Interwikilinkki_kieliotsikkoon.js
+* VisibilityToggles[ResourceLoader|hidden|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|default|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js|defaultVisibilityToggles.css
+
+== Artikkelin luonti ==
+* nytt uppslag[ResourceLoader|dependencies=mediawiki.cookie|default]|nytt uppslag.js|nytt uppslag.css
+* Luolinkit[ResourceLoader|default]|Luolinkit.js|Luolinkit.css
+* Luo-nappi-plus[ResourceLoader]|Luo-nappi-plus.js
+
+== Muokkaus ==
+* HotCat[ResourceLoader]|HotCat.js
+* Otsikot[ResourceLoader|default|dependencies=jquery.textSelection]|Otsikot.js
+* Muokkauslinkit[ResourceLoader|default|dependencies=jquery.textSelection]|Muokkauslinkit.js
+* Tekstileikkeet[ResourceLoader|dependencies=jquery.textSelection,jquery.ui,mediawiki.util]|Tekstileikkeet.js|Tekstileikkeet.css
+* NyttUppslag2[ResourceLoader|dependencies=mediawiki.cookie,oojs-ui-core,oojs-ui-widgets]|NyttUppslag2.js|NyttUppslag2.css
+* Kaannokset[ResourceLoader|default]|Kaannokset.js
+* Kaannokset2[ResourceLoader|dependencies=mediawiki.cookie,oojs-ui-core,oojs-ui-widgets]|Kaannokset2.js|Kaannokset2.css
+* SubstitutisSubstituendis[ResourceLoader|dependencies=jquery.textSelection]|SubstitutisSubstituendis.js
+* OmaLomake[ResourceLoader]|OmaLomake.js
+
+== Ulkoasu ==
+* Tekstityylit[ResourceLoader|default]|Tekstityylit.css
+* Otsikkokuvakkeet[ResourceLoader|default]|Otsikkokuvakkeet.css
+* Kohdeosion korostus[ResourceLoader]|Kielilinkki-korostus.js|Kielilinkki-korostus.css
+
+== Apuohjelmat ==
+* Artikkeliyhdistaja[ResourceLoader]|Artikkeliyhdistaja.js
+
+Korjattavat
+* Lomakkeet[ResourceLoader|dependencies=mediawiki.cookie|hidden]|Lomakkeet.js
+* frwiki_infobox_v3[ResourceLoader|default|hidden]|frwiki_infobox_v3.css
+
+Kehitysversiot
+* nytt uppslag-tyo[ResourceLoader|hidden]|nytt uppslag-tyo.js

@@ -1,0 +1,2 @@
+== interface ==
+* HotCat[ResourceLoader]|HotCat.js

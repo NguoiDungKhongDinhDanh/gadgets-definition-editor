@@ -1,0 +1,75 @@
+* common-action-edit[ResourceLoader|hidden|type=general|dependencies=user.options]|common-action-edit.js|common-action-edit.css
+* registerTool[ResourceLoader|hidden|dependencies=mediawiki.util,user.options]|registerTool.js
+* ondemand-pgn[ResourceLoader|default|hidden]|ondemand-pgn.js
+
+== browsing ==
+* ArmSpelling[ResourceLoader|default]|ArmSpelling.js
+* randomNonBotArticle[ResourceLoader]|randomNonBotArticle.js
+* ReferenceTooltips[ResourceLoader|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* collapserefs[ResourceLoader]|collapserefs.js|collapserefs.css
+* articleStats[ResourceLoader|dependencies=mediawiki.api, mediawiki.util]|articleStats.js
+* HTTPIcon|HTTPIcon.css
+
+== editing ==
+* MwToolbar[ResourceLoader|hidden]|MwToolbar.js
+* HotCat[ResourceLoader|default|rights=edit,purge]|HotCat.js<!-- purge is a work-around to default-enable only for logged-in users. -->
+* catSuggest[ResourceLoader|dependencies=mediawiki.api]|catSuggest.js
+* catCompleter[ResourceLoader|dependencies=mediawiki.util]|catCompleter.js
+* DotsSyntaxHighlighter[ResourceLoader|dependencies=jquery.client]|DotsSyntaxHighlighter.js
+* Edittools[ResourceLoader]|Edittools.js
+* CategoryMaster[ResourceLoader|dependencies=mediawiki.util]|CategoryMaster.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* Provelt[ResourceLoader|default]|Provelt.js
+* easyTranslate[ResourceLoader|default]|easyTranslate.js
+* Wikilinker[ResourceLoader|dependencies=ext.gadget.registerTool]|wikilinker.js
+* EditSummaryTools[ResourceLoader|dependencies=mediawiki.util]|EditSummaryTools.js
+* newTopicOnTop[ResourceLoader|hidden|dependencies=jquery.textSelection]|newTopicOnTop.js
+
+=== EditToolbar ===
+* EditToolbar[ResourceLoader]|EditToolbar.js
+* EditToolbar-menu-page_elements[ResourceLoader|dependencies=ext.gadget.EditToolbar-core]|EditToolbar-menu-page_elements.js
+* EditToolbar_infobox_person_short[ResourceLoader|dependencies=ext.gadget.EditToolbar-core]|EditToolbar_infobox_person_short.js
+* EditToolbar_infobox_person_long[ResourceLoader|dependencies=ext.gadget.EditToolbar-core]|EditToolbar_infobox_person_long.js
+* EditToolbar_infobox_geography_short[ResourceLoader|dependencies=ext.gadget.EditToolbar-core]|EditToolbar_infobox_geography_short.js
+* EditToolbar_infobox_geography_long[ResourceLoader|dependencies=ext.gadget.EditToolbar-core]|EditToolbar_infobox_geography_long.js
+* EditToolbar_infobox_buildings-structures_short[ResourceLoader|dependencies=ext.gadget.EditToolbar-core]|EditToolbar_infobox_buildings-structures_short.js
+* EditToolbar_infobox_buildings-structures_long[ResourceLoader|dependencies=ext.gadget.EditToolbar-core]|EditToolbar_infobox_buildings-structures_long.js
+
+== appearance ==
+* ArticleAlignJustify[ResourceLoader]|ArticleAlignJustify.css
+* ParagraphIndent[ResourceLoader]|ParagraphIndent.css
+* edittop[ResourceLoader|default|dependencies=mediawiki.util]|edittop.js|edittop.css
+* RTRC[ResourceLoader]|RTRC.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* NewImageThumb[ResourceLoader|skins=vector]|NewImageThumb.js|NewImageThumb.css
+* SousPages[ResourceLoader|dependencies=mediawiki.util]|SousPages.js
+* DeluxeHistory[ResourceLoader|dependencies=user]|DeluxeHistory.js|DeluxeHistory.css
+* prosize[ResourceLoader|dependencies=user,mediawiki.util]|prosize.js
+* DisambigHighlighter[ResourceLoader|default|rights=minoredit]|DisambigHighlighter.css
+* relatedIcons[ResourceLoader|default]|relatedIcons.css
+* Wdsearch[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|Wdsearch.js
+
+== wikidata ==
+* wikidata-matit[ResourceLoader]|wikidata-matit.js
+* wikidataInfoboxExport[ResourceLoader|dependencies=mediawiki.util]|wikidataInfoboxExport.js
+* wefcore[ResourceLoader|type=general|dependencies=jquery.ui,jquery.uls.data,mediawiki.ForeignApi]|wefcore.js
+* wikidataHeaderLink[ResourceLoader]|wikidataHeaderLink.js
+
+== interwiki ==
+*iw[ResourceLoader]|iw.js
+*TranslateInterwikis[ResourceLoader]|TranslateInterwikis.js
+
+== experimental ==
+* missingLabels[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.ForeignApi]|missingLabels.js
+* OldSpellEdit[ResourceLoader]|OldSpellEdit.js
+* closeDiscussion[ResourceLoader]|closeDiscussion.js
+* markadmins[ResourceLoader|dependencies=mediawiki.util]|markadmins.js
+* UTCLiveClock[ResourceLoader|peers=UTCLiveClockHelperCSS]|UTCLiveClock.js
+* Welcome[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|Welcome.js
+* Delete[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.ForeignApi]|Delete.js
+* ArticleTranslator[ResourceLoader]|ArticleTranslator.js
+* Countdown[ResourceLoader]|Countdown.js
+* EditToolbar-core[ResourceLoader|hidden|dependencies=mediawiki.user,mediawiki.util]|EditToolbar-core.js
+* confirmationRollback[ResourceLoader|rights=rollback]|confirmationRollback.js
+* langComp[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|langComp.js

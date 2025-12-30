@@ -1,0 +1,147 @@
+* lib-toolbar [ResourceLoader | dependencies=mediawiki.user, user.options | hidden] | lib-toolbar.js
+* style-summary-buttons [ResourceLoader | hidden] | summary-buttons.css
+* mark-disambigs-core [ResourceLoader | dependencies=mediawiki.util | hidden] | mark-disambigs.js
+* lib-sel_t [ResourceLoader | hidden] | sel_t.js
+* gConfig [ResourceLoader | dependencies=mediawiki.cookie, mediawiki.api, mediawiki.jqueryMsg | type = general |hidden] | gConfig.js | gConfig.css
+* bioindex-editor [ResourceLoader | dependencies=jquery.spinner, mediawiki.api, jquery.wikibase.linkitem, mediawiki.util | type = general | hidden] | bioindex-editor.js | bioindex-editor.css
+* ll-script-loader [ResourceLoader | default | hidden] | ll-script-loader.js
+* ll-script-userbox-thanks [ResourceLoader | dependencies=mediawiki.api, mediawiki.jqueryMsg | hidden] | ll-script-userbox-thanks.js
+* ll-script-dl-hlist [ResourceLoader | hidden] | ll-script-dl-hlist.js
+* ll-script-uwagi [ResourceLoader | hidden] | ll-script-uwagi.js
+* ll-script-last-seen [ResourceLoader | dependencies=mediawiki.api, mediawiki.jqueryMsg | hidden] | ll-script-last-seen.js
+* ll-script-permalink-reason [ResourceLoader | hidden] | ll-script-permalink-reason.js
+* veKeepParameters [ResourceLoader | hidden | default] | veKeepParameters.js
+* lib-wikiprojects [ResourceLoader | hidden] | lib-wikiprojects.js
+* szablon-galeria [ResourceLoader | hidden | default] | szablon-galeria.js
+* wikiflex [ResourceLoader | hidden | default] | wikiflex.css
+* NavFrame [ResourceLoader | hidden | default] | NavFrame.js | NavFrame.css
+* infobox [ResourceLoader | hidden | default] | infobox.css
+* hlist [ResourceLoader | hidden | default] | hlist.css
+* lib-localforage [ResourceLoader | hidden] | lib-localforage.js
+* darkmode-overrides [ResourceLoader | hidden | default |skins=vector-2022,minerva] | darkmode-overrides.css
+* citoid-overrides [ResourceLoader | hidden | default] | citoid-overrides.js
+* SettingsUI [ResourceLoader | dependencies = jquery.ui, mediawiki.user, ext.gadget.libJQuery | hidden] | SettingsUI.js
+* SettingsManager [ResourceLoader | dependencies = mediawiki.user, user.options, mediawiki.api, mediawiki.util | hidden] | SettingsManager.js
+* libJQuery [ResourceLoader | hidden] | libJQuery-ui.js | libJQuery.css
+
+== browsing ==
+* Navigation popups [ResourceLoader|dependencies=mediawiki.user,mediawiki.util | type = general ] | Popups-loader.js | Popups.css | Popups-strings.js
+* hideSidebar [ResourceLoader | skins=vector,monobook ] | hideSidebar.js
+* edithysteria [ResourceLoader | dependencies=mediawiki.util] | edithysteria.js
+* quickeditcounter [ResourceLoader | dependencies=mediawiki.util] | quickeditcounter.js
+* maps [ResourceLoader | default] | maps.js | maps.css
+* btm-actions [ResourceLoader | type = general ] | btm-actions.js | btm-actions.css
+* enhanced-search [ResourceLoader | dependencies=mediawiki.util, jquery.textSelection | type = general ] | enhanced-search.js | enhanced-search.css
+* iw-links [ResourceLoader | dependencies=mediawiki.util] | iw-links.js
+* hide-rollback [ResourceLoader | rights=rollback ] | hide-rollback.css | hide-rollback.js
+* modrollback [ResourceLoader | rights=rollback ] | modrollback.js
+* padlock-indicators [ResourceLoader | default | dependencies=mediawiki.util] | padlock-indicators.js
+* purge-tab [ResourceLoader | dependencies=mediawiki.util] | purge.js
+* VectorClassic [ResourceLoader] | VectorClassic.css
+* minih2 [ResourceLoader | dependencies=ext.gadget.gConfig] | minih2.js
+* testbox [ResourceLoader] | testbox.css
+* Kontrola-autorytatywna [ResourceLoader] | Kontrola-autorytatywna.js
+* interwiki-langlist [ResourceLoader | default] | interwiki-langlist.js | interwiki-langlist.css
+<!-- editmyuserjs itp. mają tylko zalogowani użytkownicy; niezalogowani nie mają podstron skryptów -->
+* skin-redir [ResourceLoader | default | namespaces=2 | actions=view | rights=editmyuserjs] | skin-redir.js
+* problemy-w-odn [ResourceLoader | namespaces=0,2 |dependencies=mediawiki.util] | problemy-w-odn.js
+
+== editing ==
+* HotCat [ResourceLoader | dependencies=mediawiki.api, mediawiki.user, mediawiki.language ] | HotCat.js
+* Cat-a-lot [ResourceLoader | dependencies = mediawiki.util | rights = review ] | Cat-a-lot.js | Cat-a-lot.css
+* disFixer [ResourceLoader | requiresES6 | dependencies=ext.gadget.gConfig, ext.gadget.mark-disambigs-core, mediawiki.util, oojs-ui-core] | disFixer.js | disFixer.css
+* wp_sk [ResourceLoader | dependencies=mediawiki.util | type = general ] | sk-loader.js
+* wikEd [ResourceLoader | actions=edit] | wikEd.js
+* searchbox [ResourceLoader | dependencies=ext.gadget.lib-toolbar, ext.gadget.lib-sel_t | type = general | actions=edit ] | searchbox.css | searchbox.js
+* refToolbar [ResourceLoader | default | dependencies=ext.gadget.lib-toolbar, ext.gadget.lib-sel_t, jquery.textSelection | actions=edit ] | refToolbar.js | refToolbar.css
+* refToolbar2 [ResourceLoader | dependencies=user.options,mediawiki.util | actions=edit ] | refToolbar2.js
+* refToolbarBase [ResourceLoader | hidden | actions=edit ] | refToolbar2-base.js
+* ref-klawiatura [ResourceLoader] | ref-klawiatura.js
+* edit-summaries [ResourceLoader | dependencies=ext.gadget.style-summary-buttons | default] | edit-summaries-local.js | edit-summaries-core.js
+* edit-first-section [ResourceLoader | default] | edit-first-section.js
+* edit-summary-warning [ResourceLoader | default | type = general | actions=edit ] | edit-summary-warning.js | edit-summary-warning.css
+* wikibugs [ResourceLoader | default | namespaces=4, 0, 5, 6, 10, 14| dependencies=mediawiki.util ] | wikibugs-loader.js
+* wikibugs-core-lib [ResourceLoader | hidden | dependencies=mediawiki.util ] | wikibugs-core.js
+* nuxTBKeys [ResourceLoader | default | actions=edit | dependencies=mediawiki.user, user.options, ext.gadget.lib-sel_t ] | nuxTBKeys.js
+* veAutocorrect [ResourceLoader] | veAutocorrect.js
+* NAC [ResourceLoader | requiresES6 ] | NAC.js | NAC-extras.js
+* enhanced-upload [ResourceLoader | default | namespaces=-1 | dependencies=mediawiki.util] | enhanced-upload.js
+* edittools-enhanced [ResourceLoader | dependencies=ext.gadget.gConfig] | edittools-enhanced.js
+* editform-ui-fixes [ResourceLoader | dependencies=ext.gadget.gConfig, ext.gadget.edittools-enhanced] | editform-ui-fixes.css
+* mw-toolbar [ResourceLoader | dependencies=mediawiki.user, jquery.textSelection | type=general] | mediawiki.toolbar.js | LegacyToolbar2006.js | mediawiki.toolbar.css
+* edit-buttons [ResourceLoader | dependencies=ext.gadget.lib-toolbar, jquery.textSelection | actions=edit ] | edit-buttons.js
+* wstaw-link-interwiki [ResourceLoader | dependencies=mediawiki.util, mediawiki.storage] | wstaw-link-interwiki.js | wstaw-link-interwiki.css
+
+== appearance ==
+* vector4monobookies [ResourceLoader | skins=vector | type=general] | vector4monobookies.css | vector4monobookies.js
+* colored-discussion [ResourceLoader] | colored-discussion.css
+* mark-redirs [ResourceLoader] | mark-redirs.css
+* mark-disambigs [ResourceLoader | dependencies=ext.gadget.mark-disambigs-core] | mark-disambigs.css
+* disable-animations [ResourceLoader] | disable-animations.js
+* small-sections  [ResourceLoader | hidden | dependencies=mediawiki.user,user.options] | small-sections.js
+* small-bibliography [ResourceLoader | dependencies=ext.gadget.small-sections | type=general] | small-bibliography.css
+* small-external-links [ResourceLoader | dependencies=ext.gadget.small-sections | type=general] | small-external-links.css
+* small-references [ResourceLoader | default] | small-references.css
+* OldDiff [ResourceLoader] | OldDiff.css
+* map-toggler [ResourceLoader | default|dependencies=mediawiki.util]|map-toggler.js
+* Direct-link-to-Commons [ResourceLoader|dependencies=mediawiki.util] | Direct-link-to-Commons.js
+* ReferenceTooltips [ResourceLoader|dependencies=mediawiki.cookie,jquery.client | skins=vector,vector-2022,monobook,timeless,modern,cologneblue] | ReferenceTooltips-local.js
+* mylanguages [ResourceLoader | dependencies=ext.gadget.gConfig |skins=vector,vector-2022,monobook,timeless,modern,cologneblue] | mylanguages.js
+* topalert [ResourceLoader | type = general ] | topalert.js | topalert.css
+* MiniNormdaten [ResourceLoader] | MiniNormdaten.js
+* allinterwiki [ResourceLoader |skins=monobook,vector,timeless] | allinterwiki.css
+* Blackskin[ResourceLoader|skins=monobook]|Blackskin.css
+* narrowFootnoteColumns [ResourceLoader|default|type=general] | narrowFootnoteColumns.js | narrowFootnoteColumns.css
+* HideAmbox [ResourceLoader] | HideAmbox.css
+* citation-access-info [ResourceLoader | default] | citation-access-info.css
+* vector-dark [ResourceLoader | skins=vector,vector-2022,minerva |dependencies=mediawiki.util, mediawiki.api, user.options] | vector-dark.js
+* autonum [ResourceLoader | type=general] | autonum.css | autonum.js
+* vector-toc-num [ResourceLoader | skins=vector-2022 | type=general] | vector-toc-num.css
+* lang-on-top [ResourceLoader | skins=vector-2022] | lang-on-top.js | lang-on-top.css
+* ally-enhance [ResourceLoader | skins=vector-2022 | default ] | ally-enhance.js | ally-enhance.css
+
+== editor ==
+* EditReview [ResourceLoader | dependencies=mediawiki.util, mediawiki.api, mediawiki.jqueryMsg, oojs-ui-core] | EditsReview.js
+* diffhistory [ResourceLoader] | diffhistory.js
+* pendingChangesHelper [ResourceLoader | requiresES6 | dependencies=mediawiki.util, mediawiki.api, ext.gadget.gConfig ] | pendingChangesHelper.js
+
+== patrol ==
+* liverc [ResourceLoader|dependencies=mediawiki.util] | liverc.js
+* dynamic-ips [ResourceLoader] | dynamic-ips.js
+* colored-nicknames [ResourceLoader | dependencies=mediawiki.util, mediawiki.api | type = general ] | colored-nicknames.js | colored-nicknames.css
+* move-to-sandbox [ResourceLoader | dependencies=mediawiki.util | rights=move | type = general ] | move-to-sandbox.css | move-to-sandbox.js
+* RTRC [ResourceLoader] | RTRC.js
+* diffedit [ResourceLoader | dependencies=oojs-ui-core, oojs-ui.styles.icons-editing-core, oojs-ui.styles.icons-interactions, oojs-ui.styles.icons-layout ] | diffedit.js | diffedit.css
+* markblocked [ResourceLoader | dependencies = mediawiki.util, mediawiki.page.ready] | markblocked.js
+
+== wikidata ==
+* WikidataInfo [ResourceLoader | dependencies=mediawiki.util] | WikidataInfo.js
+* wdlink [ResourceLoader] | wdlink.css
+* pct [ResourceLoader | type = general ] | pct.css | pct.js
+* wdpl [ResourceLoader | dependencies=mediawiki.api, mediawiki.ForeignApi | type = general ] | wdpl.js | wdpl.css
+* wdbox [ResourceLoader | dependencies=mediawiki.api,ext.gadget.gConfig] | wdbox.js
+* WDsearch [ResourceLoader | default] | WDsearch.js
+* checksitelinks [ResourceLoader] | checksitelinks.js
+
+== other ==
+* replylinks [ResourceLoader | requiresES6 | dependencies=ext.gadget.gConfig] | replylinks.js
+* QuickDelete [ResourceLoader | dependencies=mediawiki.util] | QuickDelete.js
+* AjaxQuickDelete [ResourceLoader | type = general | dependencies=mediawiki.util, mediawiki.api, ext.gadget.lib-wikiprojects, oojs-ui-core | skins=vector,vector-2022,monobook,timeless,modern,cologneblue] | AjaxQuickDelete.js
+* CzyWiesz [ResourceLoader | dependencies=mediawiki.util, jquery.ui, ext.gadget.lib-wikiprojects, jquery.textSelection, oojs-ui-core, oojs-ui-windows | namespaces=0,2,4,102] | CzyWiesz.css | CzyWiesz-loader.js
+* zglos-do-wyroznienia [ResourceLoader | dependencies=ext.gadget.lib-wikiprojects, oojs-ui-core, mediawiki.util] | zglos-do-wyroznienia.js | zglos-do-wyroznienia-wzw.js | zglos-do-wyroznienia.css
+* wikidebug [ResourceLoader | dependencies=mediawiki.util] | wikidebug.js
+* rightsfilter [ResourceLoader | dependencies=mediawiki.util | supportsUrlLoad=true] | rightsfilter.js
+* contribsrange [ResourceLoader] | contribsrange.js
+* old-movepage [ResourceLoader | rights=move] | old-movepage.js
+* main-page-js [ResourceLoader | default | hidden | namespaces=4 | dependencies=mediawiki.util] | main-page.js
+<!-- Nie może być ukryty, bo wtedy nie będzie się dało go przełączać -->
+* vector-dark-styles [ResourceLoader | skins=vector,vector-2022,minerva] | vector-dark-styles.css
+* sprawdz-problemy-szablony [ResourceLoader | default] | sprawdz-problemy-szablony.css
+
+== admin ==
+* block [ResourceLoader | dependencies=ext.gadget.style-summary-buttons | rights=block | namespaces=-1] | block-local.js | block.js
+* protect [ResourceLoader | dependencies=ext.gadget.style-summary-buttons | rights=protect | actions=protect] | protect-local.js | protect.js
+* delete [ResourceLoader | dependencies=mediawiki.util, ext.gadget.style-summary-buttons | rights=delete | actions=delete] | delete-local.js | delete.js
+* revisiondelete [ResourceLoader | dependencies=mediawiki.util | rights=deleterevision | type = general ] | revisiondelete.js | revisiondelete.css
+* DelReqHandler [ResourceLoader | dependencies=mediawiki.util, mediawiki.api, oojs-ui-core, oojs-ui-windows | rights=rollback | namespaces=4 ] | DelReqHandler.js
+* wiadomosci-o-blokadzie [ResourceLoader | rights=block | package | namespaces=-1] | wiadomosci-o-blokadzie.js | wiadomosci-o-blokadzie.json | wiadomosci-o-blokadzie.css

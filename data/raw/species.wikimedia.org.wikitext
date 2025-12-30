@@ -1,0 +1,24 @@
+== Navigation ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* TemplateTab[ResourceLoader]|TemplateTab.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options|type=general]|popups.js|navpop.css
+* linkscount[ResourceLoader]|linkscount.js
+
+==RTRC==
+* RTRC[ResourceLoader]|RTRC.js 
+
+==Twinkle==
+* Twinkle[ResourceLoader]|Twinkle.js
+
+== Admins ==
+* CleanDeleteReasons[ResourceLoader|default|rights=delete]|CleanDeleteReasons.js
+* autodel[ResourceLoader|rights=delete]|autodel.js
+
+== MoreMenu ==
+
+* MoreMenu-local[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options]|MoreMenu-local.js
+
+== Categories ==
+
+*HotCat[ResourceLoader]|HotCat.js
+*Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js

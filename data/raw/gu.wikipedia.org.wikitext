@@ -1,0 +1,17 @@
+* libCommons[ResourceLoader|hidden]|libJQuery.js
+* libJQuery[ResourceLoader|hidden]|libCommons.js
+* libUtil[ResourceLoader|hidden]|libUtil.js
+
+== Maintenance ==
+* AjaxQuickDelete[ResourceLoader|dependencies=mediawiki.util,mediawiki.user,ext.gadget.libCommons,ext.gadget.libJQuery,ext.gadget.libUtil|type=general|default]|AjaxQuickDelete.js|AjaxQuickDelete.css
+* QuickDelete[ResourceLoader|dependencies=ext.gadget.AjaxQuickDelete]|QuickDelete.js
+*
+
+==Editing==
+* wikEd[ResourceLoader]|wikEd.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+==Categories==
+* HotCat[ResourceLoader]|HotCat.js|Hotcatcheck.js

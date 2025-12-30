@@ -1,0 +1,138 @@
+== tabs ==
+*lockUpperBars[ResourceLoader|skins=vector]|lockUpperBars.css
+*Purge[ResourceLoader|dependencies=mediawiki.util]|Purge.js
+*section0[ResourceLoader|dependencies=mediawiki.util]|section0.js
+*lastedit[ResourceLoader|dependencies=mediawiki.util]|lastedit.js
+
+== portlet ==
+*collegamentipersonali[ResourceLoader|dependencies=mediawiki.util]|collegamentipersonali.js
+*InterProject[ResourceLoader|default|hidden|skins=vector|actions=view,edit]|InterProject.js
+*InterProject-core[ResourceLoader|hidden]|InterProject-core.js
+*MainPageWikiList[ResourceLoader|default|dependencies=mediawiki.util|actions=view|namespaces=0,1]|MainPageWikiList.js
+*nav-aut[ResourceLoader|dependencies=mediawiki.util]|nav-aut.js
+*nav-cancimm[ResourceLoader|dependencies=mediawiki.util]|nav-cancimm.js
+*nav-blocklist[ResourceLoader|dependencies=mediawiki.util]|nav-blocklist.js
+*nav-log[ResourceLoader|dependencies=mediawiki.util]|nav-log.js
+*nav-css[ResourceLoader|dependencies=mediawiki.util]|nav-css.js
+*nav-js[ResourceLoader|dependencies=mediawiki.util]|nav-js.js
+*nav-canc[ResourceLoader|dependencies=mediawiki.util]|nav-canc.js
+*nav-newpages[ResourceLoader|dependencies=mediawiki.util]|nav-newpages.js
+*nav-pendingsubmissions[ResourceLoader|dependencies=mediawiki.util]|nav-pendingsubmissions.js
+*nav-newdrafts[ResourceLoader|dependencies=mediawiki.util]|nav-newdrafts.js
+*nav-cancimages[ResourceLoader|dependencies=mediawiki.util]|nav-cancimages.js
+*nav-newusers[ResourceLoader|dependencies=mediawiki.util]|nav-newusers.js
+*nav-rfa[ResourceLoader|dependencies=mediawiki.util]|nav-rfa.js
+*nav-rfp[ResourceLoader|dependencies=mediawiki.util]|nav-rfp.js
+*nav-sandbox[ResourceLoader|dependencies=mediawiki.util]|nav-sandbox.js
+*nav-struadmin[ResourceLoader|dependencies=mediawiki.util]|nav-struadmin.js
+*nav-stub[ResourceLoader|dependencies=mediawiki.util]|nav-stub.js
+*nav-sysop-it[ResourceLoader|dependencies=mediawiki.util]|nav-sysop-it.js
+*nav-prob[ResourceLoader|dependencies=mediawiki.util]|nav-prob.js
+*nav-vand[ResourceLoader|dependencies=mediawiki.util]|nav-vand.js
+*nav-bot[ResourceLoader|dependencies=mediawiki.util]|nav-bot.js
+*nav-qual[ResourceLoader|dependencies=mediawiki.util]|nav-qual.js
+*nav-requisiti[ResourceLoader|dependencies=mediawiki.util]|nav-requisiti.js
+*nav-invert[ResourceLoader|dependencies=mediawiki.util]|nav-invert.js
+*nav-allpages[ResourceLoader|dependencies=mediawiki.util]|nav-allpages.js
+*stru-whois[ResourceLoader|dependencies=mediawiki.util]|stru-whois.js
+*UserEditCount[ResourceLoader|dependencies=mediawiki.util]|UserEditCount.js
+*stru-commonsupload[ResourceLoader|default|dependencies=mediawiki.util]|stru-commonsupload.js
+*stru-contavisite[ResourceLoader|dependencies=mediawiki.util]|stru-contavisite.js
+*stru-cercaredirectdisambigua[ResourceLoader|dependencies=mediawiki.util|actions=edit]|stru-cercaredirectdisambigua.js
+*stru-ricercacategorie[ResourceLoader|dependencies=mediawiki.util|namespaces=14,15]|stru-ricercacategorie.js
+*stru-petscan[ResourceLoader|dependencies=mediawiki.util|namespaces=14,15]|stru-petscan.js
+*stru-vcat[ResourceLoader|dependencies=mediawiki.util|namespaces=14,15]|stru-vcat.js
+*stru-ricercatemplate[ResourceLoader|dependencies=mediawiki.util|namespaces=10,11]|stru-ricercatemplate.js
+
+== patrolling ==
+*AvvisoRiduzioneBozza[ResourceLoader|rights=delete|dependencies=oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,mediawiki.api,mediawiki.ui|namespaces=-1]|AvvisoRiduzioneBozza.js
+*Azioni-dopo-blocco[ResourceLoader|rights=block|namespaces=-1]|Azioni-dopo-blocco.js
+*Massblock[ResourceLoader|rights=block|dependencies=mediawiki.util,mediawiki.api]|Massblock.js|Massblock-it.js
+*LiveRC 1.x[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|LiveRC 1x.js
+*autopadlock[ResourceLoader|rights=protect|actions=view|namespaces=0]|autopadlock.js
+*Quick-Responses[ResourceLoader|actions=view|namespaces=4]|QuickResponses.js
+*RipristinoRapido[ResourceLoader|package|dependencies=mediawiki.util|rights=rollback|actions=view,history]|RipristinoRapido.js|RipristinoRapido-Config.json
+*RTRC[ResourceLoader]|RTRC.js
+*RollbackNascosti[ResourceLoader|dependencies=mediawiki.util,mediawiki.user|rights=markbotedits|namespaces=-1]|RollbackNascosti.js
+*SmartRollback[ResourceLoader|dependencies=mediawiki.util|rights=markbotedits]|SmartRollback.js
+*ScoredRevisions[ResourceLoader]|ScoredRevisions.js
+*VFonLine[ResourceLoader|dependencies=mediawiki.util]|VFonLine.js
+
+== navigazione ==
+*BordiArrotondati[ResourceLoader|skins=monobook]|BordiArrotondati.css
+*vector-headanchor[ResourceLoader|actions=view,edit]|vector-headanchor.js
+*HiddenCat[ResourceLoader|default|actions=view,edit]|HiddenCat.js
+*HiddenCat-core[ResourceLoader|hidden]|HiddenCat-core.js
+*HideCentralNotice[ResourceLoader]|HideCentralNotice.css
+*HideYourEditWasSaved[ResourceLoader]|HideYourEditWasSaved.css
+*dark-mode-toggle [ResourceLoader |dependencies=mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage |peers=dark-mode-toggle-pagestyles] |dark-mode-toggle.js
+*dark-mode-toggle-pagestyles [hidden |skins=vector, vector-2022, minerva, monobook] |dark-mode-toggle-pagestyles.css
+*NamespaceColorati[ResourceLoader|skins=vector-2022]|NamespaceColorati.css
+*AutohidePanel[ResourceLoader|skins=vector]|AutohidePanel.css
+*autonum[ResourceLoader|actions=view,edit]|autonum.css|autonum.js
+*ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.cookie,jquery.client|actions=view,edit]|ReferenceTooltips.js|ReferenceTooltips.css
+*Switcher[ResourceLoader|default|hidden|categories=Pagine che utilizzano Switcher]|switcher.js
+*TitoloErrato[ResourceLoader|default|actions=view]|TitoloErrato.js
+*coloriDarkMode-ns0[ResourceLoader|skins=vector-2022, minerva|actions=view|namespaces=0]|coloriDarkMode.css
+*coloriDarkMode[ResourceLoader|skins=vector-2022, minerva|actions=view]|coloriDarkMode.css
+
+== editarea ==
+*DotsSyntaxHighlighter[ResourceLoader|actions=edit]|DotsSyntaxHighlighter.js
+*CompletaTemplate[ResourceLoader|actions=edit]|CompletaTemplate.js
+*LinkComplete[ResourceLoader|dependencies=mediawiki.util|actions=edit]|LinkComplete.js
+*ProveIt[ResourceLoader|actions=view,edit|namespaces=0,2,118]|ProveIt.js
+*Toolbar[ResourceLoader|dependencies=user.options,mediawiki.util|actions=edit]|toolbar.js|toolbar.css|toolbar-buttons.js
+*pulsantipersonali[ResourceLoader|dependencies=user.options,mediawiki.util]|pulsantipersonali.js
+*ClassicToolbar[ResourceLoader|dependencies=user.options|actions=edit]|2006-toolbar.js
+*tradLink[ResourceLoader|dependencies=mediawiki.util,mediawiki.cookie,mediawiki.ForeignApi|actions=edit]|tradLink.js
+*WikEd[ResourceLoader|dependencies=user.options]|WikEd.js
+*PingInSummary[ResourceLoader|dependencies=mediawiki.util]|PingInSummary.js
+
+== altro ==
+*AdvancedSearchHelper[ResourceLoader|dependencies=mediawiki.util|namespaces=-1]|AdvancedSearchHelper.js
+*cambusa[ResourceLoader|dependencies=mediawiki.util|actions=view|namespaces=1,3,4,5,7,9,11,12,13,15,101,103,119,711,829]|cambusa.js
+*CatWatch[ResourceLoader|namespaces=-1]|CatWatch.js
+*Chat[ResourceLoader|dependencies=mediawiki.util]|Chat.js
+*CollegamentoWikidata[ResourceLoader|actions=view|dependencies=mediawiki.util|namespaces=0,10,14]|CollegamentoWikidata.js
+*CommentWidget[ResourceLoader|hidden|dependencies=ext.discussionTools.init,ext.discussionTools.ReplyWidget,ext.visualEditor.core.desktop,ext.visualEditor.mobileArticleTarget,mediawiki.api,mediawiki.storage,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,user.options|actions=view,edit]|CommentWidget.js
+*CreditiTraduzione[ResourceLoader|dependencies=mediawiki.Title,mediawiki.util]|CreditiTraduzione.js
+*DeleteSection[ResourceLoader|actions=view|namespaces=0,2,4,12,118]|DeleteSection.js
+*MultiDiffConsecutive[ResourceLoader|dependencies=mediawiki.util,mediawiki.api|actions=view]|MultiDiffConsecutive.js
+*DiscutiRevisioneBlocco[ResourceLoader|default|package|dependencies=ext.gadget.CommentWidget,ext.gadget.ProgressDialog,mediawiki.api,mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows|rights=block|actions=view,edit|namespaces=2,3|categories=Richieste di revisione del blocco aperte]|DiscutiRevisioneBlocco.js|DiscutiRevisioneBlocco-Messages.json
+*EDTitle[ResourceLoader|dependencies=mediawiki.util]|EDTitle.js
+*ExternalSearch[ResourceLoader|namespaces=-1]|ExternalSearch.js
+*Categoryfilters[ResourceLoader|namespaces=14]|Categoryfilters.js
+*Form-valutazione-enc[ResourceLoader|default|actions=view,edit|namespaces=102]|Form-valutazione-enc.js
+*Form-valutazione-enc-core[ResourceLoader|hidden]|Form-valutazione-enc-core.js
+*HotCat[ResourceLoader|rights=edit|actions=view,edit]|HotCat.js
+*JWB[ResourceLoader|rights=autopatrol]|JWB.js
+*markAdmins[ResourceLoader|dependencies=mediawiki.util]|markAdmins.js
+*markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+*ClearDeleteReason[ResourceLoader|rights=delete|actions=delete]|ClearDeleteReason.js
+*NMS[ResourceLoader|skins=monobook]|NMS.js
+*Since[ResourceLoader|dependencies=mediawiki.util]|Since.js
+*NuclearColors[ResourceLoader]|NuclearColors.css
+*NewSection[ResourceLoader|dependencies=mediawiki.util|default|rights=edit|actions=view]|NewSection.js
+*Orologio[ResourceLoader|dependencies=mediawiki.util]|Orologio.js
+*PDCStriker[ResourceLoader|default|actions=view,edit|namespaces=4]|PDCStriker.css
+*Popup[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,user.options]|Popup.js|Popup-traduzioni.js|Popup.css
+*PrendiInCaricoRichiestaVAR[ResourceLoader|hidden|package|dependencies=ext.gadget.ProgressDialog,mediawiki.api,mediawiki.util,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows]|PrendiInCaricoRichiestaVAR.js|PrendiInCaricoRichiestaVAR-Messages.json
+*QuickDelete[ResourceLoader|dependencies=mediawiki.util|namespaces=3,6]|QuickDelete.js
+*DraftReview[ResourceLoader|package|rights=move|actions=view|namespaces=118]|DraftReview.js|DraftReview-MenuDialog.js|DraftReview-Draggable.js|DraftReview-DefaultComments.json
+*dictionaryLookupHover[ResourceLoader]|dictionaryLookupHover.js
+*ProgressDialog[ResourceLoader|hidden|dependencies=oojs-ui-core,oojs-ui-widgets,oojs-ui-windows|actions=view,edit]|ProgressDialog.js
+*RivelatoreDisambigua[ResourceLoader]|RivelatoreDisambigua.css
+*RivelatoreRedirect[ResourceLoader]|RivelatoreRedirect.css
+*RichiediRevisioneBozza[ResourceLoader|default|hidden|actions=view]|SubmitDraftForReview.js
+*RichiediRevisioneBozza-core[ResourceLoader|hidden|namespaces=118]|SubmitDraftForReview-core.js
+*SureSureSure[ResourceLoader|rights=rollback]|SureSureSure.js
+*SimilarTitles[ResourceLoader|default|actions=edit|namespaces=0]|SimilarTitles.js
+*SimilarTitles-core[ResourceLoader|hidden]|SimilarTitles-core.js
+*StructuredCategories[ResourceLoader|actions=view,edit|namespaces=14]|StructuredCategories.js
+*TurnBackAnchors[ResourceLoader|dependencies=mediawiki.util|namespaces=1,3,5,7,9,11,13,15,101,103,119,711,829]|TurnBackAnchors.js
+*unpatrolledarticle[ResourceLoader|rights=autopatrol|dependencies=mediawiki.util|actions=view,edit|namespaces=0]|unpatrolledarticle.js
+*VisualFileChangeLocal[ResourceLoader|rights=autopatrol]|VisualFileChange.js
+*WikidataInfo[ResourceLoader|dependencies=mediawiki.util]|WikidataInfo.js
+*dark-mode [ResourceLoader] | dark-mode.css
+*Requests-Wizard[ResourceLoader|default|hidden|actions=view|namespaces=4,12]|Requests-Wizard.js
+*Requests-Wizard-core[ResourceLoader|hidden|package]|Requests-Wizard-core.js|Requests-Wizard-Config.js

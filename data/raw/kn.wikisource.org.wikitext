@@ -1,0 +1,53 @@
+== edittools char insert ==
+* charinsert [ResourceLoader |default |actions=edit] |charinsert.js
+* charinsert-core [ResourceLoader |hidden |dependencies=jquery.textSelection, user, mediawiki.storage] |charinsert-styles.css |charinsert-core.js
+
+== editing-tools ==
+* WikiEditorTools[ResourceLoader]|WikiEditor-Tools-loader.js
+* WikiEditor-CssTools[ResourceLoader|hidden]|WikiEditor-CssTools.js
+* WikiEditor-ModuleTools[ResourceLoader|hidden]|WikiEditor-ModuleTools.js
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* popups[ResourceLoader|type=general]|popups.js|navpop.css
+* RegexMenuFramework[ResourceLoader|dependencies=mediawiki.util]|RegexMenuFramework.js
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+* TemplatePreloader[ResourceLoader|actions=edit]|TemplatePreloader.js
+* contrast-reducer[ResourceLoader|type=styles|actions=edit]|contrast-reducer.css
+* robot[ResourceLoader]|robot.js
+
+== editing-tools-for-Page-namespace ==
+* nsPage[ResourceLoader|default|hidden|namespaces=104|type=styles]|Page_namespace.css
+* notext[ResourceLoader|default|namespaces=104|actions=edit|dependencies=ext.proofreadpage.page.edit]|notext.js
+* ocr[ResourceLoader]|ocr.js
+* Easy_LST[ResourceLoader|default]|Easy_LST.js
+* NopInserter[ResourceLoader|dependencies=mediawiki.util]|NopInserter.js
+* pilcrowMarkers[ResourceLoader]|pilcrowMarkers.css
+* RunningHeader[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|RunningHeader.js
+
+== editing-tools-for-Index-namespace ==
+* nsIndex[ResourceLoader|default|hidden|namespaces=106|type=styles]|Index_namespace.css
+* Fill_Index[ResourceLoader|default]|Fill_Index.js
+* IndexFormTools[ResourceLoader|default|dependencies=oojs-ui-core]|IndexFormTools.js
+* ImportPagelist[ResourceLoader|dependencies=mediawiki.util]|ImportPagelist.js
+* transclusion-check[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api|actions=view|namespaces=106]|transclusion-check.js|transclusion-check.css
+* mark-proofread[ResourceLoader|type=styles|namespaces=106|actions=view]|mark-proofread.css
+
+== interface ==
+* Site[ResourceLoader|default|dependencies=mediawiki.util|peers=Site-styles]|SiteMessages.js|DisplayFooter.js|ToolbarFixes.js
+* Site-styles[hidden|type=styles]|Site.css|DisplayFooter.css
+* prefill-template-preview[ResourceLoader|hidden|default|actions=edit|namespaces=10,828]|prefill-template-preview.js
+* PageNumbers[ResourceLoader|default]|PageNumbers.js
+* PageNumbers-core[ResourceLoader|hidden|dependencies=mediawiki.util,user,mediawiki.cookie]|PageNumbers-core.js|PageNumbers-core.css
+* Visibility[ResourceLoader|dependencies=mediawiki.cookie]|Visibility.js
+* interwiki-transclusion[ResourceLoader|default|dependencies=mediawiki.util,mediawiki.api]|interwiki-transclusion.js
+
+== development ==
+* WE-framework WS[ResourceLoader]|WE-framework WS.js
+* WikidataInfo [ResourceLoader|dependencies=mediawiki.jqueryMsg] | WikidataInfo.js|WikidataInfo.css
+* legacyToolbar[ResourceLoader]|legacyToolbar.js
+* extra-toolbar-buttons[ResourceLoader|default]|extra-toolbar-buttons.js
+* extra-toolbar-buttons-core[ResourceLoader|hidden]|extra-toolbar-buttons-core.js
+
+== hidden ==
+* utils-difference[ResourceLoader|hidden]|utils-difference.js
+* a11y-page-status[ResourceLoader|hidden|default|namespaces=104|actions=edit]|a11y-page-status.js

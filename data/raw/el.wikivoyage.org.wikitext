@@ -1,0 +1,5 @@
+=== general ===
+* ListingEditor[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|dependencies=mediawiki.util,jquery.ui]|ListingEditor.js|ListingEditor.css
+* MapFrame[ResourceLoader|default]|MapFrame.js
+* RTRC[ResourceLoader]|RTRC.js
+* popups[ResourceLoader]|popups.js

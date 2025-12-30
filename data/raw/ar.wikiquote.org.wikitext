@@ -1,0 +1,6 @@
+== التصفح ==
+* teahouse[ResourceLoader|dependencies=mediawiki.api,jquery.ui|default]|teahouse.js|teahouse.css
+
+== التحرير ==
+* HotCat[ResourceLoader]|HotCat.js
+*CatMaker[ResourceLoader|dependencies=mediawiki.util]|CatMaker.js

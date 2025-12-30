@@ -1,0 +1,4 @@
+== editing-tools ==
+* ocr[ResourceLoader]|ocr.js
+* wikEd[ResourceLoader]|wikEd.js
+* lightScan[ResourceLoader]|lightScan.js

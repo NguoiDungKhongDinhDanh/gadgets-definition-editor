@@ -1,0 +1,16 @@
+__NOTOC__
+== Кабарландыруу ==
+* XTools-Barakmaalimati[ResourceLoader]|XTools-ArticleInfo.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* HizliBilgi[ResourceLoader|dependencies=mediawiki.util]|HizliBilgi.js
+* whoisactive[ResourceLoader||skins=vector,vector-2022,monobook,modern|dependencies=mediawiki.api]|whoisactive.js|whoisactive.css
+
+== Түзөтүү ==
+
+== Көрүнүш ==
+* Font-Amiri[ResourceLoader|default|hidden|type=styles]|Font-Amiri.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+
+== Категориялар ==
+* HotCat[ResourceLoader]|HotCat.js
+* Katalitik[ResourceLoader|dependencies=mediawiki.util|type=general]|Katalitik.js|Katalitik.css

@@ -1,0 +1,13 @@
+== Redigeringsfinesser ==
+* hotcat[default|ResourceLoader]|hotcat.js
+* editsection0[default|ResourceLoader]|editsection0.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* AutoSave[ResourceLoader|dependencies=mediawiki.cookie,mediawiki.util,jquery.ui]|AutoSave.js|AutoSave.css
+
+== Utseende ==
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+
+== Extrafunktioner ==
+* subpages[default|ResourceLoader|dependencies=mediawiki.util]|subpages.js
+* subpagesMenu[default|ResourceLoader|dependencies=mediawiki.util, mediawiki.api|type=general]|subpagesMenu.js|subpagesMenu.css
+* Wikispeech[ResourceLoader|supportsUrlLoad=true]|wikispeech.js

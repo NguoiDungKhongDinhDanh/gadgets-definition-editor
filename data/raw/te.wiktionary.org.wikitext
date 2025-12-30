@@ -1,0 +1,8 @@
+== editing-gadgets ==
+* wikEd[ResourceLoader]|wikEd.js
+*HotCat[ResourceLoader]|HotCat.js
+
+
+== browsing-gadgets ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+*Twinkle[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|morebits.js|morebits.css|Twinkle.js

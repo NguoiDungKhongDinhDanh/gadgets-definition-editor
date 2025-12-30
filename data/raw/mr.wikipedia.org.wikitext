@@ -1,0 +1,20 @@
+== संपादन-उपयोगी ==
+
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util]|edittop.js|edittop.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+
+== संदर्भ-उपकरण ==
+
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* HotCat[ResourceLoader]|HotCat.js
+* ProveIt[ResourceLoader]|ProveIt.js
+
+== स्वरूप ==
+
+* NoSmallFonts[ResourceLoader]|NoSmallFonts.css
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util]|popups.js|navpop.css
+* RTRC[ResourceLoader]|RTRC.js
+* ProtectionIndicators[ResourceLoader|default|type=general]|ProtectionIndicators.js|ProtectionIndicators.css
+* AdvancedSiteNotices[ResourceLoader|default]|AdvancedSiteNotices.js
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js

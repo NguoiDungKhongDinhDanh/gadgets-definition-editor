@@ -1,0 +1,8 @@
+== browsen ==
+* WiktSidebarTranslation[ResourceLoader]|WiktSidebarTranslation.js
+* HideFundraisingNotice|HideFundraisingNotice.css
+
+== bijdragen ==
+* HotCat[ResourceLoader]|HotCat.js
+* Woordenlijst[ResourceLoader|dependencies=mediawiki.util]|Woordenlijst.js
+* verwijderreden[ResourceLoader]|verwijderreden.js

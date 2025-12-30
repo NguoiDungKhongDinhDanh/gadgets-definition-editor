@@ -1,0 +1,15 @@
+=== wikifunctions ===
+<!-- * duplicate[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,oojs-ui|rights=wikilambda-create]|duplicate.js -->
+
+=== general ===
+* UTCLiveClock[ResourceLoader|supportsUrlLoad|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,vector-2022,monobook]|UTCLiveClock-pagestyles.css
+* CleanDeleteReasons[ResourceLoader|rights=delete]|CleanDeleteReasons.js
+* MoreMenu-local[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,user.options]|MoreMenu-local.js
+* RTRC[ResourceLoader]|RTRC.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+* popups [ResourceLoader]|popups.js|navpop.css
+
+=== ignore ===
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css

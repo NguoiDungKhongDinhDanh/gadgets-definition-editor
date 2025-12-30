@@ -1,0 +1,61 @@
+# Cette page sert à définir les gadgets utilisés dans la [[Special:Preferences#preftab-8|page de préférences]]
+# Avant de la modifier, assurez-vous d’avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]]
+# Ne changez pas le nom d’un gadget existant (il serait alors désactivé pour tous)
+# Si un gadget ne fonctionne pas, on peut le commenter en transformant * en #
+# Voir [[Spécial:Gadgets]] pour la liste des gadgets avec les liens vers le code.
+
+# Section sans nom, ici viennent les gadgets ou les librairies javascripts utilisés par d'autre gadget, et invisible aux utilisateurs.
+
+# Utilisés par le gadget correct_long_s
+* correct_long_s_data[ResourceLoader|hidden]|correct_long_s_data_1.js|correct_long_s_data_2.js|correct_long_s_data_3.js|correct_long_s_data_4.js|correct_long_s_data_5.js|correct_long_s_data_last.js
+# Utilisés par des scripts divers.
+* InsertButton[ResourceLoader|hidden]|InsertButton.js
+
+===Rendu===
+* AffMasLiens [ResourceLoader|dependencies=mediawiki.util,oojs-ui-widgets]|AffMasLiens.js
+<!--* MasquerNotes[ResourceLoader]|MasquerNotes.css-->
+* mod[ResourceLoader]|mod.js
+* dictionaryLookupHover[ResourceLoader]|dictionaryLookupHover.js
+* Popups[ResourceLoader]|Popups.js|Popups.css
+* TogglePanel[ResourceLoader|dependencies=mediawiki.util,mediawiki.cookie]|TogglePanel.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* SousPages[ResourceLoader|dependencies=mediawiki.util]|SousPages.js
+* modernisation[ResourceLoader|default|dependencies=mediawiki.util]|modernisation.js
+* citeBox [ ResourceLoader | skin = vector, monobook | default | type = general | dependencies = jquery.ui, mediawiki.util ] | citeBox.js
+
+===Edition===
+* DeluxeHistory[ResourceLoader|dependencies=mediawiki.util]|DeluxeHistory.js
+* WikEd[ResourceLoader]|WikEd.js
+* specialchars[ResourceLoader]|specialchars.js
+* robot[ResourceLoader]|robot.js
+* oldLST[ResourceLoader]|oldLST.js
+* Erreurs-communes[ResourceLoader|default|dependencies=mediawiki.util]|Erreurs-communes.js|Erreurs-communes.css
+* MiseEnPage [ResourceLoader | default | dependencies = ext.gadget.InsertButton, mediawiki.util | namespaces = 104 | actions = edit] | MiseEnPage.js
+* wikiEditor[ResourceLoader|dependencies=user.options,ext.wikiEditor]|wikiEditor.js
+* Typo[ResourceLoader|default|dependencies=user.options,ext.wikiEditor]|Typo.js
+* QualityButton [ResourceLoader | default | dependencies = mediawiki.util, mediawiki.user | actions = edit | namespaces = 0] | QualityButton.js
+* Accessibility[ResourceLoader]|Accessibility.js
+* Template-lang[ResourceLoader|dependencies=ext.wikiEditor]|Template-lang.js
+* BandeauxPortails[ResourceLoader]|BandeauxPortails.js
+* correct_long_s [ResourceLoader | dependencies = ext.wikiEditor | namespaces = 2, 3, 104 | actions = edit] | correct_long_s.js
+* Encyclo [ResourceLoader|dependencies=ext.gadget.InsertButton] | Encyclo.js
+# A réparer ! * TextLayer [ResourceLoader|dependencies=ext.gadget.InsertButton] | TextLayer.js
+* ReplaceTextLayer[ResourceLoader]|ReplaceTextLayer.js
+* Edittools[ResourceLoader|hidden|default]|Edittools.js
+* CropToolWikisource [ResourceLoader | dependencies = mediawiki.util, mediawiki.Uri | actions = edit | namespaces = 104] | CropToolWikisource.js
+
+===Auteur===
+* ListeEditions[ResourceLoader]|ListeEditions.js|ListeEditions.css
+
+===Livre===
+* Fill_Index[ResourceLoader]|Fill_Index.js
+* ExtractTextLayer[ResourceLoader]|ExtractTextLayer.js
+* QualityRibbon [ResourceLoader | dependencies = mediawiki.util | namespaces = 112] | QualityRibbon.js
+
+===Categorie===
+* HotCats[ResourceLoader]|HotCats.js
+* RenommageCategorie[ResourceLoader]|RenommageCategorie.js
+* ChangeCategorie[ResourceLoader|dependencies=jquery.ui,mediawiki.util,mediawiki.cookie]|ChangeCategorie.js
+
+===Recherche===
+* CatScan2-link[ResourceLoader|dependencies=mediawiki.util]|CatScan2-link.js

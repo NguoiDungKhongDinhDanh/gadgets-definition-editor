@@ -1,0 +1,2 @@
+* new-word-gadget[ResourceLoader|dependencies=mediawiki.user|rights=autoconfirmed|default|targets=desktop,mobile]|NewWordGadget.js
+* HotCat[ResourceLoader|dependencies=mediawiki.user|rights=autoconfirmed|default|targets=desktop,mobile]|HotCat.js|Hotcatcheck.js

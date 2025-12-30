@@ -1,0 +1,2 @@
+=== Edit ===
+* HotCat[ResourceLoader]|HotCat.js

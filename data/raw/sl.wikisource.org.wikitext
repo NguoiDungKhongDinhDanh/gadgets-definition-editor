@@ -1,0 +1,32 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.user,mediawiki.util|type=general]|popups.js|navpop.css
+
+== editing-gadgets ==
+<noinclude>* Friendly[ResourceLoader]|Friendly.js</noinclude>
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* refToolbar[ResourceLoader]|refToolbar.js
+<noinclude>* Twinkle|Twinkle.js</noinclude>
+* wikEd[ResourceLoader]|wikEd.js
+* SearchBox[ResourceLoader]|SearchBox.js
+
+== interface-gadgets ==
+
+<noinclude>* Dostopnost[ResourceLoader]|Dostopnost.js</noinclude>
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+<noinclude>* UTCLiveClock|UTCLiveClock.js</noinclude>
+* edittop[ResourceLoader|dependencies=mediawiki.util]|edittop.js
+<noinclude>* contribsrange|contribsrange.js</noinclude>
+<noinclude>* LongEditSummaries|LongEditSummaries.js</noinclude>
+<noinclude>* addsection-plus|addsection-plus.js</noinclude>
+<noinclude>* CommentsInLocalTime|CommentsInLocalTime.js</noinclude>
+<noinclude>* removeAccessKeys|removeAccessKeys.js</noinclude>
+<noinclude>* metadata|metadata.js</noinclude>
+<noinclude>* searchFocus|searchFocus.js</noinclude>
+<noinclude>* Blackskin|Blackskin.css</noinclude>
+* CommonsDirekt[ResourceLoader|dependencies=mediawiki.util,user.options|default]|Direct-link-to-Commons.js
+
+== library-gadgets ==
+
+* JSL[ResourceLoader]|JSL.js

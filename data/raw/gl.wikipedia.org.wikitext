@@ -1,0 +1,39 @@
+== Navegación ==
+
+* RevisorOrtografico[ResourceLoader | dependencies=mediawiki.util]|RevisorOrtografico.js
+* DetectorHomonimos[ResourceLoader]|DetectorHomonimos.css
+* Navigation_popups[ResourceLoader]|popups.js|popups-gl.js|navpop.css
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* exlinks[ResourceLoader]|exlinks.js
+* removeAccessKeys[ResourceLoader|dependencies=mediawiki.util]|removeAccessKeys.js
+* CalidadeArtigos[ResourceLoader]|ArticleQuality.js
+
+== Edición ==
+
+* HotCat[ResourceLoader]|HotCat.js
+* wikEd[ResourceLoader]|wikEd.js
+* refToolbar[ResourceLoader|default|dependencies=user.options]|refToolbar.js
+* charinsert[ResourceLoader|default|peers=charinsert-styles]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-core.js
+* charinsert-styles[ResourceLoader|hidden|type=styles]|charinsert-styles.css
+* Marcadorcurtos[ResourceLoader|dependencies=mediawiki.util]|Marcadorcurtos.js
+
+== Aparencia ==
+
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+* contrib-numeradas|contrib-numeradas.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+<!-- * SenLiberdadePanorama[ResourceLoader]|SenLiberdadedePanorama.js|SenLiberdadedePanorama.css -->
+* XustificaParagrafos[ResourceLoader]|XustificaParagrafos.css
+* ThreadedDiscussions[ResourceLoader]|ThreadedDiscussions.css
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* red-verde|red-verde.css
+* NewImageThumb[ResourceLoader|skins=vector]|NewImageThumb.js|NewImageThumb.css
+* PortalClass[ResourceLoader|hidden|default]|PortalClass.css
+
+== Avanzado ==
+
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* RTRC[ResourceLoader]|RTRC.js

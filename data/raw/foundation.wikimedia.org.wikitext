@@ -1,0 +1,22 @@
+==LanguageSupport==
+*BiDiEditing [ResourceLoader] | BiDiEditing.js
+*ShortLink [ResourceLoader] | ShortLink.js
+*rtl [ResourceLoader] | rtl.css
+
+== browsing-gadgets ==
+* Navigation_popups [ResourceLoader|dependencies=mediawiki.user] | popups.js|navpop.css
+* EditSection | EditSection.css
+* collapsibleTables [ResourceLoader|default] | collapsibleTables.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+
+== editing-gadgets ==
+* ForceEditLinks [ResourceLoader] | ForceEditLinks.js
+* Hotcat [ResourceLoader] | HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js|Cat-a-lot.css
+* AddInformation[ResourceLoader|dependencies=mediawiki.util]|AddInformation.js
+* Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui.dialog,moment|rights=autoconfirmed]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinkleblock.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|friendlytalkback.js
+
+<!-- hidden modules -->
+* SettingsUI [ResourceLoader|dependencies=jquery.ui.dialog,jquery.ui.slider,jquery.ui.button,mediawiki.user,ext.gadget.libJQuery|hidden]|SettingsUI.js
+* SettingsManager [ResourceLoader|dependencies=mediawiki.user,user.options,user.tokens,mediawiki.api|hidden]|SettingsManager.js
+* libJQuery [ResourceLoader|hidden]|libJQuery.js|libJQuery.css

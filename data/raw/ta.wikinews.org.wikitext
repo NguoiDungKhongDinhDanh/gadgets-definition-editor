@@ -1,0 +1,8 @@
+These are little pieces of JS that do cool stuff. If there is a problem with any of them, or you want something new, please ask at [[விக்கிசெய்தி:Water cooler/technical]] or find a friendly javascripting admin.
+
+==editing-gadgets==
+* HotCat[ResourceLoader]|HotCat.js
+* WikiEd[ResourceLoader]|WikEd.js
+
+== interface-gadgets ==
+*UTCLiveClock[ResourceLoader]|UTCLiveClock.js

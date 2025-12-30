@@ -1,0 +1,53 @@
+== browsing ==
+* modrollback [ResourceLoader |rights=rollback] |modrollback.js
+* ReferenceTooltips [ResourceLoader |default |skins=vector, vector-2022, monobook, timeless, modern, cologneblue |type=general |dependencies=mediawiki.cookie, jquery.client] |ReferenceTooltips.js |ReferenceTooltips.css
+* SocialMedia [ResourceLoader |default |rights=edit,autoconfirmed] |SocialMedia.js
+* Twinkle [ResourceLoader |dependencies=ext.gadget.morebits, ext.gadget.select2, mediawiki.api, mediawiki.language |rights=autoconfirmed |type=general |peers=Twinkle-pagestyles |requiresES6] |Twinkle.js |Twinkle.css |twinklearv.js |twinklewarn.js |twinkleblock.js |friendlywelcome.js |friendlyshared.js |friendlytalkback.js |twinklespeedy.js |twinkleprod.js |twinklexfd.js |twinkleimage.js |twinkleprotect.js |friendlytag.js |twinklediff.js |twinkleunlink.js |twinklefluff.js |twinkledeprod.js |twinklebatchdelete.js |twinklebatchprotect.js |twinklebatchundelete.js |twinkleconfig.js
+* morebits [ResourceLoader |dependencies=mediawiki.user, mediawiki.util, mediawiki.Title, jquery.ui |hidden |requiresES6] |morebits.js |morebits.css
+* Twinkle-pagestyles [hidden |skins=vector, vector-2022] |Twinkle-pagestyles.css
+* select2 [ResourceLoader |hidden] |select2.min.js |select2.min.css
+* responsiveContentBase [ResourceLoader |type=styles |hidden |skins=vector] |responsiveContentBase.css
+* responsiveContentBaseTimeless [ResourceLoader |type=styles |hidden |skins=timeless] |responsiveContentBaseTimeless.css
+* PrintOptions [ResourceLoader] |PrintOptions.js
+
+== editing ==
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* HotCat [ResourceLoader |rights=edit, minoredit] |HotCat.js
+* ProveIt [ResourceLoader] |ProveIt.js
+* RTRC [ResourceLoader] |RTRC.js
+* charinsert [ResourceLoader |default |actions=edit] |charinsert.js
+* charinsert-core [ResourceLoader |hidden |dependencies=jquery.textSelection, user, mediawiki.storage] |charinsert-styles.css |charinsert-core.js
+* wikEd [ResourceLoader |dependencies=jquery.textSelection, user.options] |wikEd.js
+* defaultsummaries [ResourceLoader |dependencies=oojs-ui-core] |defaultsummaries.js
+
+== appearance ==
+* purgetab [ResourceLoader |dependencies=mediawiki.util, mediawiki.api] |purgetab.js
+* DisambiguationLinks [ResourceLoader] |DisambiguationLinks.css
+* switcher [ResourceLoader |default] |switcher.js
+* edittop [ResourceLoader |dependencies=user.options, mediawiki.util |type=general] |edittop.js |edittop.css
+* ExternalSearch [ResourceLoader |namespaces=-1] |externalsearch.js
+* addsection-plus [ResourceLoader] |addsection-plus.js
+* WikidataInfo [ResourceLoader] |WikidataInfo.js
+* Numeral_converter [ResourceLoader |default |dependencies=mediawiki.util] |Numeral_converter.css |Numeral_converter.js
+* dark-mode-toggle [ResourceLoader |dependencies=mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage |peers=dark-mode-toggle-pagestyles] |dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden |skins=vector, vector-2022, minerva, monobook] |dark-mode-toggle-pagestyles.css
+* XTools-ArticleInfo [ResourceLoader] |XTools-ArticleInfo.js
+* NoAnimations [ResourceLoader] |NoAnimations.js
+* responsiveContent [ResourceLoader |type=general |skins=vector, vector-2022 |peers=responsiveContentBase] |responsiveContent.js
+* responsiveContentTimeless [ResourceLoader |type=general |skins=timeless |default |peers=responsiveContentBaseTimeless] |responsiveContentTimeless.js
+* MoreMenu-local[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,user.options]|MoreMenu-local.js
+
+== test ==
+* mobile-sidebar [ResourceLoader |skins=vector, vector-2022] |mobile-sidebar.js |mobile-sidebar.css
+* MobileMaps [ResourceLoader |skins=minerva] |mobilemaps.js
+
+== template-gadgets ==
+* Vivarium[ResourceLoader|default|categories=Pages using gadget Vivarium]|Vivarium.js|Vivarium.css
+* WikiMiniAtlas [ ResourceLoader | default | categories = Pages using gadget WikiMiniAtlas] | WikiMiniAtlas.js
+* ImageStackPopup [ ResourceLoader | default | categories = Pages using gadget ImageStackPopup ] | ImageStackPopup.js | ImageStackPopup.css
+* Calculator [ResourceLoader | default | categories = Pages using gadget Calculator ] | calculator.js |calculator.css
+
+== modules ==
+* libLua  [ResourceLoader |dependencies=mediawiki.api |hidden] |libLua.js
+* libSensitiveIPs  [ResourceLoader |dependencies=ext.gadget.libLua |hidden] |libSensitiveIPs.js
+* dark-mode [ResourceLoader |supportsUrlLoad |skins=vector, vector-2022, monobook, modern, minerva, timeless] |dark-mode.css

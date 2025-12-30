@@ -1,0 +1,148 @@
+# Cette page sert à définir les gadgets utilisés dans [[Spécial:Gadgets]]
+# Avant de la modifier, assurez-vous d'avoir compris son fonctionnement décrit sur [[mw:Extension:Gadgets#Usage]]
+# Ne changez pas le nom d'un gadget existant (il serait alors désactivé pour tous)
+# Si un gadget ne fonctionne pas, on peut le délister en remplaçant * par #
+
+== Apparence ==
+
+=== Pages ===
+* AffMasLiens [ResourceLoader|dependencies=mediawiki.storage,mediawiki.util,oojs-ui-widgets|actions=view|namespaces=0] | AffMasLiens.js
+* AncreTitres [ResourceLoader|dependencies=ext.gadget.HeadingsTweaker,mediawiki.util,user|actions=view,edit] | AncreTitres.js
+* dictionaryLookupHover [ResourceLoader] | dictionaryLookupHover.js
+* EbauchesOff [ResourceLoader] | EbauchesOff.css
+* LabelsOff [ResourceLoader] | LabelsOff.css
+* ArchiveLinks [ResourceLoader|dependencies=user.options|actions=view,edit|default] | ArchiveLinks.js
+* ExtendedCache [ResourceLoader|dependencies=ext.gadget.ArchiveLinks|actions=view,edit] | ExtendedArchiveLinks.js
+* FlecheHaut [ResourceLoader|dependencies=ext.gadget.HeadingsTweaker,user|actions=view,edit] | FlecheHaut.js
+* HomonymiesEnCouleur [ResourceLoader] | HomonymiesEnCouleur.css
+* RedirectionsEnCouleur [ResourceLoader] | RedirectionsEnCouleur.css
+* LastContrib [ResourceLoader] | LastContrib.js
+* LiensExternes [ResourceLoader|dependencies=mediawiki.util] | LiensExternes.js
+* Popups [ResourceLoader] | Popups.js
+* referencederoulante [ResourceLoader] | referencederoulante.css
+* tooltipRef [ResourceLoader|dependencies=user] | tooltipRef.js | tooltipRef.css
+* ZoomOnThumb [ResourceLoader] | ZoomOnThumb.js
+* VectorClassic [ResourceLoader] | VectorClassic.css
+
+=== Leftmenu ===
+* LeftPaneSwitch [ResourceLoader|dependencies=mediawiki.storage|skins=vector] | LeftPaneSwitch.js
+* NavigAdmin [ResourceLoader|dependencies=mediawiki.util] | NavigAdmin.js
+* SousPages [ResourceLoader|dependencies=mediawiki.util] | SousPages.js
+* verifEbauche [ResourceLoader|dependencies=mediawiki.util|actions=view,edit] | verifEbauche.js
+* CustomSidebar [ResourceLoader|dependencies=mediawiki.util,oojs-ui.styles.icons-interactions] | CustomSidebar.css | CustomSidebar.js
+
+=== Onglets ===
+* EditZeroth [ResourceLoader|dependencies=user,mediawiki.util] | EditZeroth.js
+* OngletGoogle [ResourceLoader|dependencies=mediawiki.util,user] | OngletGoogle.js
+* OngletJournal [ResourceLoader|dependencies=mediawiki.util] | OngletJournal.js
+* OngletPurge [ResourceLoader|dependencies=mediawiki.util,mediawiki.api] | OngletPurge.js
+* PublierBrouillonInit [ResourceLoader|namespaces=2|default] | PublierBrouillonInit.js
+* PublierBrouillon [ResourceLoader|dependencies=mediawiki.util,mediawiki.api,oojs-ui|hidden] | PublierBrouillon.js
+* UTCLiveClock [ResourceLoader|dependencies=mediawiki.util] | UTCLiveClock.js
+
+== Modification ==
+
+=== Editeur ===
+* DotsSyntaxHighlighter [ResourceLoader|actions=edit] | DotsSyntaxHighlighter.js
+* MagnusEditBox [ResourceLoader|actions=edit] | MagnusEditBox.js
+* ResumeDeluxe [ResourceLoader|dependencies=user] | ResumeDeluxe.js | ResumeDeluxe.css
+* searchbox [ResourceLoader|actions=edit] | searchbox.js
+* TiretSignature [ResourceLoader|actions=edit] | TiretSignature.js
+* WikEd [ResourceLoader|dependencies=jquery.textSelection] | WikEd.js
+<!-- (broken)
+* refToolbar [ResourceLoader|dependencies=user.options] | refToolbar.js
+* refToolbarBase [ResourceLoader|hidden] | refToolbarBase.js
+-->
+* ProveIt [ResourceLoader] | ProveIt.js
+
+=== Boutons ===
+<!--
+ne pas ajouter "actions=edit" à mediawiki.toolbar et MonobookToolbar,
+pour que leurs fonctions soient toujours définies (même si elles sont non-op) dans les scripts qui chargent ces modules
+-->
+* mediawiki.toolbar [ResourceLoader|dependencies=jquery.textSelection|hidden] | mediawiki.toolbar.js | mediawiki.toolbar.css <!-- Legacy toolbar from Mediawiki (see T30856) -->
+* ForceMonobookToolbar [ResourceLoader] | ForceMonobookToolbar.js
+* MonobookToolbar [ResourceLoader|dependencies=user.options,jquery.textSelection|hidden] | MonobookToolbar.js | mediawiki.toolbar.css
+* MonobookToolbarStandard [ResourceLoader|dependencies=ext.gadget.MonobookToolbar|actions=edit|default] | MonobookToolbarStandard.js
+* MonobookToolbarSources [ResourceLoader|dependencies=ext.gadget.MonobookToolbar|actions=edit] | MonobookToolbarSources.js
+* MonobookToolbarPatrouille [ResourceLoader|dependencies=ext.gadget.MonobookToolbar|actions=edit] | MonobookToolbarPatrouille.js
+* MonobookToolbarNotif [ResourceLoader|dependencies=ext.gadget.MonobookToolbar|actions=edit] | MonobookToolbarNotif.js
+* MonobookToolbarSmiliesAlien [ResourceLoader|dependencies=ext.gadget.MonobookToolbar|actions=edit] | MonobookToolbarSmiliesAlien.js
+* MonobookToolbarChangeCase [ResourceLoader|dependencies=ext.gadget.MonobookToolbar,jquery.textSelection|actions=edit] | MonobookToolbarChangeCase.js
+* MonobookToolbarDiacritiques [ResourceLoader|dependencies=ext.gadget.MonobookToolbar,jquery.textSelection|actions=edit] | MonobookToolbarDiacritiques.js
+* MonobookToolbarLang [ResourceLoader|dependencies=ext.gadget.MonobookToolbar,user.options|actions=edit] | MonobookToolbarLang.js
+
+=== Caracteres ===
+* CaracteresHTML [ResourceLoader|actions=edit] | CaracteresHTML.js
+* CaracteresMagic [ResourceLoader|actions=edit] | CaracteresMagic.js
+* CaracteresParser [ResourceLoader|actions=edit] | CaracteresParser.js
+* specialchars [ResourceLoader|actions=edit] | specialchars.js
+
+=== AjoutRapide ===
+* BandeauxEbauches [ResourceLoader|dependencies=mediawiki.util|actions=view|namespaces=0,2] | BandeauxEbauches.js
+* BandeauxPortails [ResourceLoader|actions=view|namespaces=0] | BandeauxPortails.js
+* HotCatsMulti [ResourceLoader|dependencies=site,user] | HotCatsMulti.js
+* Shortdesc-helper-loader [ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util|skins=vector,vector-2022,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector] | Shortdesc-helper.js
+* Shortdesc-helper-pagestyles-vector [hidden|skins=vector,vector-2022] | Shortdesc-helper-pagestyles-vector.css
+
+== RecentChanges ==
+
+=== Contributions ===
+* AdvancedContribs [ResourceLoader] | AdvancedContribs.js
+* ContribColors [ResourceLoader] | ContribColors.css
+* contribsrange [ResourceLoader] | contribsrange.js
+* FusionContribs [ResourceLoader|rights=browsearchive] | FusionContribs.js
+
+=== Historique ===
+* DeluxeHistory [ResourceLoader|dependencies=user,user.options,mediawiki.api,mediawiki.storage] | DeluxeHistory.js | DeluxeHistory.css
+
+=== Suivi ===
+* LiveRC [ResourceLoader] | LiveRC.js
+* SuiviSimple [ResourceLoader|namespaces=-1] | SuiviSimple.css
+* GlobalWatchlist [ResourceLoader] | GlobalWatchlist.js
+* WatchlistNotice [ResourceLoader|rights=viewmywatchlist|namespaces=-1|default] | WatchlistNotice.js
+* WatchlistNoticeCore [ResourceLoader|dependencies=mediawiki.storage|hidden] | WatchlistNoticeCore.js
+
+=== Annulation ===
+* ConfirmRollback [ResourceLoader|rights=rollback|actions=history] | ConfirmRollback.js
+* RevertDiff [ResourceLoader] | RevertDiff.js
+
+== Search ==
+* ExternalSearch [ResourceLoader|namespaces=-1] | ExternalSearch.js
+* AdvancedResearch [ResourceLoader] | AdvancedResearch.js
+* Wdsearch [ResourceLoader|namespaces=-1|default] | Wdsearch.js
+
+== Cartographie ==
+* WhereWikimediansLive [ResourceLoader|dependencies=ext.kartographer.box,oojs-ui,mediawiki.api] | WhereWikimediansLive.js | WhereWikimediansLive.css
+* CarteInteractive [ResourceLoader|dependencies=ext.kartographer.box] | CarteInteractive.js
+* KartoLayer [ResourceLoader|dependencies=ext.kartographer.box] | KartoLayer.js
+
+== Maintenance ==
+* Accessibility [ResourceLoader|dependencies=mediawiki.storage,oojs-ui] | Accessibility.js
+* Adiutor [ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.user,oojs-ui,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-movement,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-editing-core,oojs-ui.styles.icons-layout,oojs-ui.styles.icons-user,oojs-ui.styles.icons-media,oojs-ui.styles.icons-editing-advanced] | Adiutor.js | Adiutor.css
+* AvertissementImage [ResourceLoader|namespaces=6] | AvertissementImage.js
+* Evaluation [ResourceLoader|actions=view|namespaces=0,1] | Evaluation.js | Evaluation.css
+* OptimizedShort [ResourceLoader] | OptimizedShort.js
+* PaStec [ResourceLoader|dependencies=mediawiki.util] | PaStec.js | PaStec.css
+* AllmessagesDeluxe [ResourceLoader|namespaces=-1] | AllmessagesDeluxe.js
+* C_helper [ResourceLoader|dependencies=mediawiki.util,mediawiki.api,jquery.ui] | C_helper.js | C_helper_util.js | C_helper_si.js | C_helper_tag.js | C_helper_purge.js | C_helper_dph.js | C_helper_message.js
+* CatRename [ResourceLoader|dependencies=mediawiki.util|rights=move|namespaces=14] | CatRename.js
+
+== Admin ==
+* BlockMessage [ResourceLoader|package|dependencies=vue,@wikimedia/codex|rights=block] | BlockMessage.js | BlockMessage/Main.vue | BlockMessage/config.json | BlockMessage/i18n.json
+* SuppressionDeluxe [ResourceLoader|rights=delete|actions=delete] | SuppressionDeluxe.js
+
+== Modules ==
+
+=== Chargés nativement ===
+* CommonEdit [ResourceLoader|dependencies=mediawiki.util,mediawiki.storage,ext.gadget.MonobookToolbar|hidden] | CommonEdit.js
+* Diaporama [ResourceLoader|hidden|categories=Page utilisant le modèle Animation|default] | Diaporama.js
+* CadreOnglets [ResourceLoader|hidden|categories=Page utilisant le modèle Cadre à onglets|namespaces=2|actions=view,edit|default] | CadreOnglets.js
+* EspaceReference [ResourceLoader|hidden|actions=view,edit|namespaces=104|default] | EspaceReference.js
+
+=== Dépendances ===
+* GadgetsPreferences [ResourceLoader|dependencies=mediawiki.util,mediawiki.api|hidden] | GadgetsPreferences.css | GadgetsPreferences.js
+* HeadingsTweaker [ResourceLoader|hidden] | HeadingsTweaker.js
+
+== Mobile ==
+* Mobile [ResourceLoader|hidden|skins=minerva|default] | Mobile.css

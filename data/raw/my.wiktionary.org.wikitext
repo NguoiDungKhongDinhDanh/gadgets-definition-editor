@@ -1,0 +1,8 @@
+==editing-gadgets==
+*HotCat[ResourceLoader]|HotCat.js
+
+== Hidden gadgets and utils ==
+* Edittools[ResourceLoader|hidden|default|dependencies=mediawiki.cookie,jquery.textSelection]|Edittools.js
+* VisibilityToggles[ResourceLoader|hidden|targets=desktop,mobile|dependencies=user,mediawiki.cookie]|VisibilityToggles.js
+* defaultVisibilityToggles[ResourceLoader|hidden|default|targets=desktop,mobile|dependencies=ext.gadget.VisibilityToggles]|defaultVisibilityToggles.js
+* UnsupportedTitles[ResourceLoader|hidden|default|package]|UnsupportedTitles.js|UnsupportedTitles.json

@@ -1,0 +1,28 @@
+==Genel==
+*Pratik_menu[ResourceLoader]|Pratik_menu.js
+*Twinkle[ResourceLoader]|Twinkle.js
+*wikEd[ResourceLoader]|wikEd.js
+*Eni yazi listasi[ResourceLoader]|YMK.js
+*Navigation_popups[ResourceLoader]|popups.js|popups-tr.js
+* Deneyim[ResourceLoader]|Deneyim.js
+* Sabyar[ResourceLoader]|Sabyar.js
+* UTCLiveClock[ResourceLoader|dependencies=mediawiki.util]|UTCLiveClock.js
+* Ekfonksiyonlar[ResourceLoader]|Ekfonksiyonlar.js
+* Interviki[ResourceLoader]|Interviki.js
+* BDK[ResourceLoader]|BDK.js
+
+
+==kategoriya==
+*Eni kategoriya ekli[ResourceLoader]|HotCat.js
+==Öndercilerler==
+*Silme[ResourceLoader]|Silme.js
+* RegexMenuFramework[ResourceLoader]|RegexMenuFramework.js
+* contribsrange[ResourceLoader]|contribsrange.js
+* CleanDeleteReasons[ResourceLoader]|CleanDeleteReasons.js
+* autodel[ResourceLoader|dependencies=mediawiki.util]|autodel.js
+
+==patrol-tools==
+* popups[ResourceLoader]|popups.js
+
+==Bürokratlar==
+*Haklar[ResourceLoader|dependencies=mediawiki.util]|Haklar.js

@@ -1,0 +1,18 @@
+== interface ==
+* Navigation_popups[ResourceLoader]|popups.js
+* UTCLiveClock[ResourceLoader]|UTCLiveClock.js
+* OngletPurge[ResourceLoader|dependencies=mediawiki.util]|OngletPurge.js
+* FlecheHaut[ResourceLoader]|FlecheHaut.js
+* bottomtabs[ResourceLoader]|bottomtabs.js
+* removeAccessKeys[ResourceLoader]|removeAccessKeys.js
+* exlinks[ResourceLoader]|exlinks.js
+* edittop[ResourceLoader]|edittop.js
+* Extra-Editbuttons[ResourceLoader]|Extra-Editbuttons.js
+* lastdiff[ResourceLoader|dependencies=mediawiki.util]|lastdiff.js
+* HotCat[ResourceLoader]|HotCat.js
+
+== admin-gadgets ==
+* EnhancedUndelete[ResourceLoader]|EnhancedUndelete.js
+* blocktab[ResourceLoader|dependencies=mediawiki.util]|blocktab.js
+* userrights[ResourceLoader|dependencies=mediawiki.util]|userrights.js
+* rightsfilter[ResourceLoader|dependencies=mediawiki.util]|rightsfilter.js

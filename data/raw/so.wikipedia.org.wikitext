@@ -1,0 +1,2 @@
+
+*AdvancedSiteNotices[default | ResourceLoader]|AdvancedSiteNotices.js|AdvancedSiteNotices.css

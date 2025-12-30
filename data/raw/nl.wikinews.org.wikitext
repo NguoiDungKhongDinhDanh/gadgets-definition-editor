@@ -1,0 +1,9 @@
+==Weergave==
+* HideFundraiser[ResourceLoader]|HideFundraiser.css
+* Direct-link-to-Commons[ResourceLoader|default|dependencies=mediawiki.util]|Direct-link-to-Commons.js
+* LocalLiveClock[ResourceLoader]|LocalLiveClock.js
+
+== Hulpmiddelen ==
+* Navigatie popups[ResourceLoader|type=general]|popups.js|popups.css
+* purgelink[ResourceLoader|dependencies=mediawiki.util, mediawiki.api]|purgelink.js
+* HotCat[ResourceLoader]|HotCat.js

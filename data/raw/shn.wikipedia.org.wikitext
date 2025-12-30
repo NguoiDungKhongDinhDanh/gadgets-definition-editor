@@ -1,0 +1,131 @@
+<noinclude>'''Changes to this page should first be discussed on [[Wikipedia:Village pump (technical)]] or [[Wikipedia talk:Gadget]].'''
+
+Please add an entry for any new gadget to the table at [[Wikipedia:Gadget#Currently installed gadgets]] to make maintenance easier. Links to view and manage the gadget descriptions appear on [[Special:Gadgets]].
+</noinclude>
+
+== browsing ==
+* modrollback[ResourceLoader|rights=rollback]|modrollback.js
+* confirmationRollback-mobile[ResourceLoader|default|rights=rollback|dependencies=mediawiki.util|targets=desktop,mobile]|confirmationRollback-mobile.js
+* removeAccessKeys[ResourceLoader|dependencies=user,mediawiki.util]|removeAccessKeys.js
+* searchFocus[ResourceLoader]|searchFocus.js
+* GoogleTrans[ResourceLoader]|GoogleTrans.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* imagelinks[ResourceLoader|dependencies=mediawiki.util]|imagelinks.js
+* Navigation_popups[ResourceLoader|dependencies=mediawiki.api,mediawiki.user,mediawiki.util,user.options,mediawiki.jqueryMsg|type=general]|popups.js|navpop.css
+* exlinks[ResourceLoader|dependencies=mediawiki.util]|exlinks.js
+* search-new-tab[ResourceLoader]|search-new-tab.js
+* PrintOptions[ResourceLoader]|PrintOptions.js
+* revisionjumper[ResourceLoader]|revisionjumper.js
+* Twinkle[ResourceLoader|dependencies=ext.gadget.morebits,ext.gadget.select2,mediawiki.api,mediawiki.language|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|Twinkle.js|Twinkle.css|twinklearv.js|twinklewarn.js|twinkleblock.js|friendlywelcome.js|friendlyshared.js|friendlytalkback.js|twinklespeedy.js|twinkleprod.js|twinklexfd.js|twinkleimage.js|twinkleprotect.js|friendlytag.js|twinklediff.js|twinkleunlink.js|twinklefluff.js|twinkledeprod.js|twinklebatchdelete.js|twinklebatchprotect.js|twinklebatchundelete.js|twinkleconfig.js
+* morebits[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,mediawiki.Title,jquery.ui|hidden]|morebits.js|morebits.css
+* Twinkle-pagestyles[hidden|skins=vector,vector-2022]|Twinkle-pagestyles.css
+* select2[ResourceLoader|hidden]|select2.min.js|select2.min.css
+* HideCentralNotice[ResourceLoader|type=general]|HideCentralNotice.js|HideCentralNotice.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|type=general|dependencies=mediawiki.cookie,jquery.client]|ReferenceTooltips.js|ReferenceTooltips.css
+* formWizard[ResourceLoader|default|rights=minoredit]|formWizard.js
+* formWizard-core[ResourceLoader|hidden|dependencies=mediawiki.api,mediawiki.cookie,mediawiki.ui,mediawiki.user,jquery.chosen,jquery.ui,user.options]|formWizard-core.js|formWizard.css
+* responsiveContentBase[ResourceLoader|type=styles|hidden|skins=vector]|responsiveContentBase.css
+* responsiveContentBaseTimeless[ResourceLoader|type=styles|hidden|skins=timeless]|responsiveContentBaseTimeless.css
+* Prosesize[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|Prosesize.js|Prosesize.css
+* find-archived-section[ResourceLoader]|find-archived-section.js
+
+== watchlist ==
+
+* geonotice[ResourceLoader|default|rights=viewmywatchlist]|geonotice.js
+* geonotice-core[ResourceLoader|dependencies=mediawiki.util,mediawiki.storage|hidden]|geonotice-list.js|geonotice-core.js|geonotice-core.css
+* watchlist-notice[ResourceLoader|default|rights=viewmywatchlist]|watchlist-notice.js
+* watchlist-notice-core[ResourceLoader|dependencies=mediawiki.storage|hidden]|watchlist-notice-core.js
+* WatchlistBase[ResourceLoader|default|rights=viewmywatchlist|skins=vector,vector-2022,monobook,modern]|WatchlistBase.css
+* WatchlistGreenIndicators[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=vector,vector-2022]|WatchlistGreenIndicators.css
+* WatchlistGreenIndicatorsMono[ResourceLoader|default|rights=viewmywatchlist|peers=WatchlistBase|skins=monobook,modern]|WatchlistGreenIndicatorsMono.css
+* WatchlistChangesBold[ResourceLoader|peers=WatchlistBase]|WatchlistChangesBold.css
+* SubtleUpdatemarker[ResourceLoader|default|rights=viewmywatchlist|skins=vector,vector-2022,monobook,modern]|SubtleUpdatemarker.css
+
+== editing ==
+
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* citations[ResourceLoader|dependencies=mediawiki.util]|citations.js
+* DotsSyntaxHighlighter[ResourceLoader|actions=edit]|DotsSyntaxHighlighter.js
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* wikEdDiff[ResourceLoader]|wikEdDiff.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* ProveIt-classic[ResourceLoader|type=general|dependencies=jquery.ui,jquery.textSelection,mediawiki.util|actions=edit]|ProveIt-classic.css|ProveIt-classic.js
+* Shortdesc-helper[ResourceLoader|dependencies=mediawiki.api,user.options,mediawiki.util,ext.gadget.libSettings|skins=vector,vector-2022,monobook,modern,timeless|peers=Shortdesc-helper-pagestyles-vector]|Shortdesc-helper.js|Shortdesc-helper.css
+* Shortdesc-helper-pagestyles-vector[hidden|skins=vector,vector-2022]|Shortdesc-helper-pagestyles-vector.css
+* libSettings[ResourceLoader|hidden|dependencies=user.options]|libSettings.js
+* wikEd[ResourceLoader|dependencies=jquery.textSelection,user.options]|wikEd.js
+* afchelper[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.user,jquery.chosen,jquery.spinner,jquery.ui]|afchelper.js|afchelper.css
+* charinsert[ResourceLoader|default]|charinsert.js
+* charinsert-core[ResourceLoader|hidden|dependencies=jquery.textSelection,user,mediawiki.storage]|charinsert-styles.css|charinsert-core.js
+* legacyToolbar[ResourceLoader]|legacyToolbar.js
+* extra-toolbar-buttons[ResourceLoader|default]|extra-toolbar-buttons.js
+* extra-toolbar-buttons-core[ResourceLoader|hidden]|extra-toolbar-buttons-core.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util|actions=edit]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+
+== appearance ==
+* edittop[ResourceLoader|dependencies=user.options,mediawiki.util|type=general]|edittop.js|edittop.css
+* UTCLiveClock[ResourceLoader|supportsUrlLoad|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+* UTCLiveClock-pagestyles[hidden|skins=vector,vector-2022,monobook]|UTCLiveClock-pagestyles.css
+* purgetab[ResourceLoader|dependencies=mediawiki.util,mediawiki.api]|purgetab.js
+* ExternalSearch[ResourceLoader]|externalsearch.js
+* CollapsibleNav[ResourceLoader|dependencies=jquery.makeCollapsible,mediawiki.storage|skins=vector,vector-2022]|CollapsibleNav.js|CollapsibleNav.css
+* MenuTabsToggle[ResourceLoader|dependencies=mediawiki.cookie|skins=vector,vector-2022|type=general]|MenuTabsToggle.js|MenuTabsToggle.css
+* dropdown-menus[ResourceLoader|dependencies=mediawiki.api,mediawiki.util,mediawiki.Title,user.options|peers=dropdown-menus-pagestyles]|MoreMenu.enwiki.js|dropdown-menus.js
+* dropdown-menus-pagestyles[hidden]|dropdown-menus-pagestyles.css
+* CategoryAboveAll[ResourceLoader|skins=monobook]|CategoryAboveAll.js
+* addsection-plus[ResourceLoader]|addsection-plus.js
+* CommentsInLocalTime[ResourceLoader]|CommentsInLocalTime.js
+* OldDiff[ResourceLoader]|OldDiff.css
+* NoAnimations[ResourceLoader]|NoAnimations.js
+* disablesuggestions[ResourceLoader]|disablesuggestions.js
+* NoSmallFonts[ResourceLoader]|NoSmallFonts.css
+* topalert[ResourceLoader|type=general]|topalert.js|topalert.css
+* metadata[ResourceLoader|dependencies=mediawiki.util|type=general]|metadata.js|metadata.css
+* JustifyParagraphs[ResourceLoader]|JustifyParagraphs.css
+* righteditlinks[ResourceLoader]|righteditlinks.css
+* PrettyLog[ResourceLoader|dependencies=mediawiki.util|type=general]|PrettyLog.js|PrettyLog.css
+* switcher[ResourceLoader|default|targets=desktop,mobile]|switcher.js
+* SidebarTranslate[ResourceLoader|type=general]|SidebarTranslate.js|SidebarTranslate.css
+* Blackskin[ResourceLoader|skins=monobook,vector,vector-2022]|Blackskin.css
+* dark-mode-toggle[ResourceLoader|targets=desktop,mobile|dependencies=mediawiki.util,mediawiki.api,mediawiki.Uri,mediawiki.storage|peers=dark-mode-toggle-pagestyles]|dark-mode-toggle.js
+* dark-mode-toggle-pagestyles[hidden|targets=desktop,mobile|skins=vector,vector-2022,minerva,monobook]|dark-mode-toggle-pagestyles.css
+* VectorClassic[ResourceLoader|skins=vector,vector-2022]|VectorClassic.css
+* widensearch[ResourceLoader|skins=vector,vector-2022]|widensearch.css
+* DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+* markblocked[ResourceLoader|dependencies=mediawiki.util,mediawiki.page.ready]|markblocked.js
+* responsiveContent[ResourceLoader|type=general|skins=vector,vector-2022|peers=responsiveContentBase]|responsiveContent.js
+* responsiveContentTimeless[ResourceLoader|type=general|skins=timeless|default|peers=responsiveContentBaseTimeless]|responsiveContentTimeless.js
+* HideInterwikiSearchResults[ResourceLoader|type=styles]|HideInterwikiSearchResults.css
+* XTools-ArticleInfo[ResourceLoader]|XTools-ArticleInfo.js
+
+== advanced ==
+* RegexMenuFramework[ResourceLoader|hidden]|RegexMenuFramework.js
+* ShowMessageNames[ResourceLoader|dependencies=mediawiki.util]|ShowMessageNames.js
+* DebugMode[ResourceLoader|dependencies=mediawiki.util]|DebugMode.js
+* contribsrange[ResourceLoader|dependencies=mediawiki.util,jquery.spinner]|contribsrange.js
+* BugStatusUpdate[ResourceLoader]|BugStatusUpdate.js
+* RTRC[ResourceLoader]|RTRC.js
+* script-installer[ResourceLoader|dependencies=mediawiki.ui.button]|script-installer.js
+
+== maintenance ==
+* XFDcloser[ResourceLoader|dependencies=mediawiki.user|rights=extendedconfirmed|type=general]|XFDcloser.js
+* XFDcloser-core[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|XFDcloser-core.js|XFDcloser-core.css
+* XFDcloser-core-beta[ResourceLoader|dependencies=mediawiki.util,mediawiki.api,mediawiki.Title,oojs-ui-core,oojs-ui-widgets,oojs-ui-windows,oojs-ui.styles.icons-interactions,oojs-ui.styles.icons-content,oojs-ui.styles.icons-moderation,oojs-ui.styles.icons-alerts|hidden|type=general]|XFDcloser-core-beta.js|XFDcloser-core-beta.css
+* libExtraUtil[ResourceLoader|hidden]|libExtraUtil.js
+
+== test ==
+* mobile-sidebar[ResourceLoader|skins=vector,vector-2022]|mobile-sidebar.js|mobile-sidebar.css
+* addMe[ResourceLoader]|addMe.js|addMe.css
+* NewImageThumb[ResourceLoader|skins=vector,vector-2022]|NewImageThumb.js|NewImageThumb.css
+* StickyTableHeaders[ResourceLoader|type=general]|StickyTableHeaders.js|StickyTableHeaders.css
+* MobileMaps[ResourceLoader|skins=minerva]|mobilemaps.js
+* ShowJavascriptErrors[ResourceLoader|type=general]|ShowJavascriptErrors.js
+* PageDescriptions[ResourceLoader|type=general|dependencies=mediawiki.api|skins=vector,vector-2022,monobook,modern]|Page_descriptions.js
+* autonum[ResourceLoader]|autonum.css|autonum.js
+* wide-vector-2022[ResourceLoader|type=styles|supportsUrlLoad|skins=vector-2022]|wide-vector-2022.css
+
+== modules ==
+* libLua [ResourceLoader|dependencies=mediawiki.api|hidden]|libLua.js
+* libSensitiveIPs [ResourceLoader|dependencies=ext.gadget.libLua|hidden]|libSensitiveIPs.js
+* dark-mode[ResourceLoader|supportsUrlLoad|targets=desktop,mobile|skins=vector,vector-2022,monobook,modern,minerva,timeless]|dark-mode.css

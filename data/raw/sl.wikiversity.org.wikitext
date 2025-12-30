@@ -1,0 +1,35 @@
+== browsing-gadgets ==
+
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+
+== editing-gadgets ==
+<noinclude>* Friendly|Friendly.js</noinclude>
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+<noinclude>* Twinkle|Twinkle.js</noinclude>
+* SearchBox|SearchBox.js
+* edittools-velikost[ResourceLoader]|edittools-velikost.js
+
+== interface-gadgets ==
+
+<noinclude>* Dostopnost|Dostopnost.js</noinclude>
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+
+<noinclude>* UTCLiveClock|UTCLiveClock.js</noinclude>
+* edittop|edittop.js
+* Drop-down menus|Drop-down menus.js
+<noinclude>* contribsrange|contribsrange.js</noinclude>
+<noinclude>* LongEditSummaries|LongEditSummaries.js</noinclude>
+<noinclude>* addsection-plus|addsection-plus.js</noinclude>
+<noinclude>* CommentsInLocalTime|CommentsInLocalTime.js</noinclude>
+<noinclude>* removeAccessKeys|removeAccessKeys.js</noinclude>
+<noinclude>* metadata|metadata.js</noinclude>
+<noinclude>* searchFocus|searchFocus.js</noinclude>
+* textareasansserif|textareasansserif.css
+* exlinks|exlinks.js
+<noinclude>* Blackskin|Blackskin.css</noinclude>
+
+== library-gadgets ==
+
+* modernskin-thunks|modernskin-thunks.js
+* DejaVu_Sans||DejaVu_Sans.css
+* JSL|JSL.js

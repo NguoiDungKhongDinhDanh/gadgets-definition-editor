@@ -1,0 +1,4 @@
+== editing-gadgets ==
+
+* HotCat[ResourceLoader]|HotCat.js
+* purgetab[ResourceLoader|dependencies=mediawiki.api,mediawiki.util]|purgetab.js

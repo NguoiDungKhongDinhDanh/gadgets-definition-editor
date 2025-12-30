@@ -1,0 +1,9 @@
+== ምድህሳስ ==
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* ReferenceTooltips[ResourceLoader|default|skins=vector,vector-2022,monobook,timeless,modern,cologneblue]|ReferenceTooltips.js|ReferenceTooltips.css
+
+== ምምዕርራይ ==
+* refToolbar[ResourceLoader|dependencies=user.options]|refToolbar.js
+
+== መልክዕ ==
+* nocoords | nocoords.css

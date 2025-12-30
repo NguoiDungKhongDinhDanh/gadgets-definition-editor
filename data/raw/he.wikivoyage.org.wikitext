@@ -1,0 +1,30 @@
+== עריכה ==
+*QPreview[ResourceLoader]|QPreview.js
+*Checkty[ResourceLoader|dependencies=jquery.ui,mediawiki.util]|Checkty.js|Checkty.css
+*OrphanCheck[ResourceLoader]|OrphanCheck.js
+*autocomplete[ResourceLoader|dependencies=jquery.ui,jquery.textSelection,mediawiki.util]|autocomplete.js
+*Summarieslist[ResourceLoader|default|dependencies=mediawiki.util]|Summarieslist.js
+
+== עיצוב ==
+* ExternalLinkIcon|ExternalLinkIcon.css
+
+== קטגוריות ==
+*HotCat[ResourceLoader]|HotCat.js
+
+== ניטור ==
+*Warnings[ResourceLoader|dependencies=mediawiki.util]|Warnings.js
+*DeleteRequest[ResourceLoader|dependencies=mediawiki.util]|DeleteRequest.js
+*rcPatrol[ResourceLoader|dependencies=mediawiki.util]|rcPatrol.js
+*QuickRCDiff[ResourceLoader|dependencies=jquery.ui,mediawiki.action.history.diff,mediawiki.api]|QuickRCDiff.js|QuickRCDiff.css
+
+== ניווט_וחיפוש ==
+* Dwim[ResourceLoader|skins=vector|dependencies=jquery.suggestions,mediawiki.user,mediawiki.util|default]|Dwim.js
+
+== שונות ==
+*Lamp connected[ResourceLoader|dependencies=mediawiki.util]|Lamp connected.js
+*microblog[ResourceLoader]|microblog.js
+*Contributions[ResourceLoader|default]|Contributions.js
+*WikidataTab[ResourceLoader]|WikidataTab.js
+*ListingEditor[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general|dependencies=mediawiki.util,jquery.ui]|ListingEditor.js|ListingEditor.css
+*feedback[ResourceLoader|dependencies=mediawiki.util|type=general|default]|feedback.js|feedback.css
+*microblog[ResourceLoader|default]|microblog.js

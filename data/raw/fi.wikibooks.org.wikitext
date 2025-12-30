@@ -1,0 +1,3 @@
+* frwiki_infobox_v3[ResourceLoader|default|hidden]|frwiki_infobox_v3.css
+* HotCat[ResourceLoader]|HotCat.js
+* ProveIt[ResourceLoader]|ProveIt.js

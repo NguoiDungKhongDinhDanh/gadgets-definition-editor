@@ -1,0 +1,39 @@
+<noinclude>'''هن صفحي تي ترميم کان اڳ بحث ڪرڻ ضروري آهي، هتي [[وڪيپيڊيا بحث:نياتي باب]] وڃي بحث ڪيو.'''
+</noinclude>
+
+==  browsing ==
+*searchFocus[ResourceLoader]|searchFocus.js
+*GoogleTrans[ResourceLoader]|GoogleTrans.js
+*Twinkle[ResourceLoader|dependencies=mediawiki.user,mediawiki.util,jquery.ui,moment|rights=autoconfirmed|type=general|peers=Twinkle-pagestyles]|morebits.js|morebits.css|Twinkle.js|twinkleprod.js|twinkleimage.js|twinklebatchundelete.js|twinklewarn.js|twinklespeedy.js|friendlyshared.js|twinklediff.js|twinkleunlink.js|friendlytag.js|twinkledeprod.js|friendlywelcome.js|twinklexfd.js|twinklebatchdelete.js|twinklebatchprotect.js|twinkleconfig.js|twinklefluff.js|twinkleprotect.js|twinklearv.js|twinkleblock.js|friendlytalkback.js|Twinkle.css
+*Twinkle-pagestyles[hidden|skins=vector]|Twinkle-pagestyles.css
+*search-new-tab[ResourceLoader]|search-new-tab.js
+
+== watchlist ==
+
+== editing ==
+
+* defaultsummaries[ResourceLoader|dependencies=oojs-ui-core]|defaultsummaries.js
+* refToolbar[ResourceLoader|default|dependencies=user.options,mediawiki.util]|refToolbar.js
+* refToolbarBase[ResourceLoader|hidden]|refToolbarBase.js
+* HotCatsMulti[ResourceLoader]|HotCatsMulti.js
+*decodesummary[ResourceLoader|default|targets=desktop,mobile]|decodesummary.js
+* ProveIt[ResourceLoader]|ProveIt.js
+* MufidAlaat[ResourceLoader]|MufidAlaat.js
+
+== Categories ==
+*CatMaker[ResourceLoader|dependencies=mediawiki.util,jquery.ui]|CatMaker.js|CatMaker.css
+* CatRename[ResourceLoader|default|rights=move|namespaces=14]|CatRename.js
+
+== appearance==
+*DisambiguationLinks[ResourceLoader]|DisambiguationLinks.css
+*UTCLiveClock[ResourceLoader|type=general|dependencies=mediawiki.util,mediawiki.api|peers=UTCLiveClock-pagestyles]|UTCLiveClock.js|UTCLiveClock.css
+*UTCLiveClock-pagestyles[hidden|skins=vector,monobook]|UTCLiveClock-pagestyles.css
+
+== advanced ==
+
+== test ==
+* MobileMaps[ResourceLoader|skins=minerva]|mobilemaps.js
+
+== extra ==
+* morebits[ResourceLoader|dependencies=mediawiki.util|hidden]|morebits.js|morebits.css
+<noinclude></div></noinclude>

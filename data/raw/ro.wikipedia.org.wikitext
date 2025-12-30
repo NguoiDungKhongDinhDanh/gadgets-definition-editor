@@ -1,0 +1,32 @@
+==diacritice==
+* diacritice-vechi[ResourceLoader]|diacritice-vechi.js
+* diacritice-nemodificate[ResourceLoader]|diacritice-nemodificate.js
+
+==editor==
+* Web2Cit[ResourceLoader]|web2cit.js
+* HotCat[ResourceLoader]|HotCat.js
+* twinkle[ResourceLoader|dependencies=mediawiki.util,jquery.ui|rights=autoconfirmed|type=general]|morebits.js|morebits.css|twinkle.js
+* ImageAnnotator[ResourceLoader]|ImageAnnotator.js
+* popups[ResourceLoader]|popups.js
+* EditZeroth[ResourceLoader|dependencies=mediawiki.util]|EditZeroth.js
+* wikEd[ResourceLoader]|wikEd.js
+
+==interfață==
+* tineye[ResourceLoader|dependencies=mediawiki.util]|tineye.js
+* Cache-Archive.org[ResourceLoader]|Cache-Archive.org.js
+* cache[ResourceLoader]|cache.js
+*Cat-a-lot[ResourceLoader|dependencies=mediawiki.util]|Cat-a-lot.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* wikidata-id[ResourceLoader]|wikidata-id.js
+* wikidata-description[ResourceLoader]|wikidata-description.js
+* one-click-patrol[ResourceLoader]|one-click-patrol.js
+* metadata[ResourceLoader|dependencies=mediawiki.util|type=general]|metadata.js|metadata.css
+* wikiproject-classify[ResourceLoader]|morebits.js|morebits.css|wikiproject-classify.js
+* dark-mode-toggle [ResourceLoader | targets = desktop, mobile | dependencies = mediawiki.util, mediawiki.api, mediawiki.Uri, mediawiki.storage | peers = dark-mode-toggle-pagestyles] | dark-mode-toggle.js
+* dark-mode-toggle-pagestyles [hidden|targets=desktop,mobile | skins=vector,vector-2022,minerva,monobook] | dark-mode-toggle-pagestyles.css
+
+==avansat==
+* sidebar[ResourceLoader]|morebits.js|sidebar.js
+* RTRC[ResourceLoader]|RTRC.js
+* ShowMessageNames [ResourceLoader |dependencies=mediawiki.util] |ShowMessageNames.js
+* dark-mode [ResourceLoader | targets = desktop, mobile] | dark-mode.css

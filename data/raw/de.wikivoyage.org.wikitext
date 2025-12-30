@@ -1,0 +1,61 @@
+__NOTOC__
+== Bearbeitungswerkzeuge ==
+
+* Vorlagenmeister[ResourceLoader|dependencies=mediawiki.util]|Vorlagenmeister.js
+* wikEd[ResourceLoader|dependencies=mediawiki.util,user]|wikEd.js
+* HotCat[ResourceLoader]|HotCat.js
+* bkl-check|bkl-check.css
+* WikivoyageTools[ResourceLoader]|WikivoyageTools.js
+* Einleitung-bearbeiten[ResourceLoader]|Einleitung-bearbeiten.js
+* No-Listing-Editor[ResourceLoader]|No-Listing-Editor.js
+
+== Navigation ==
+
+* Pfeil-hoch[ResourceLoader|dependencies=mediawiki.util]|Pfeil-hoch.css|Pfeil-hoch.js
+* editsection-left[ResourceLoader]|editsection-left.css|editsection-left.js
+* editsection-right[ResourceLoader]|editsection-right.css|editsection-right.js
+
+== VeraenderungOberflaeche ==
+
+* markAdmins[ResourceLoader|dependencies=mediawiki.util]|markAdmins.js
+* CommonsDirekt[ResourceLoader|dependencies=mediawiki.util|default]|Direct-link-to-Commons.js
+* Wdsearch[ResourceLoader|default]|Wdsearch.js<!-- Banner-helferlein ausgeblendet, da nicht eingesetzt
+* Banner ausblenden|banner-ausblenden.css
+Quickbaranpassungen für Smartphones und Kiwix lieber ohne Alternativbild
+* Quickbar ausblenden|No-Quickbar.css -->
+* nicht zuruecksetzen|nicht-zuruecksetzen.css
+* WikivoyageErrorTools[ResourceLoader]|WikivoyageErrorTools.js
+* Inhalte von Wikidata markieren|Wikidata-Content.css
+* Anzeige von vCard-Pruefempfehlungen[ResourceLoader]|vCards-Recommendations.css
+
+== Lesehilfen ==
+
+* Doppel-s-Schreibung[ResourceLoader]|Doppel-s-Schreibung.js
+* Verstecke vCard-Koordinate|HideVcardCoord.css
+* Serifen|Serifen.css
+* Kontrast|Kontrast.css<!--
+* GoogleTrans[ResourceLoader]|GoogleTrans.js -->
+
+== Druck ==
+
+* Keine externen Links|noExternalLinks.css
+
+== Beta-Funktionen ==
+
+* SisterWeblinks[ResourceLoader]|SisterWeblinks.js
+* VoyageData[ResourceLoader|dependencies=mediawiki.notification, mediawiki.util]|VoyageData.js
+* Zukunft[ResourceLoader|dependencies=mw.html, mw.util]|Zukunft.js
+
+== StaendigVerfügbareHelferlein ==
+
+* BreadcrumbTrail[ResourceLoader|default|hidden|skins=minerva]|BreadcrumbTrail.css|BreadcrumbTrail.js
+* DeleteRequestsTally[ResourceLoader|actions=submit,view|default|hidden]|DeleteRequestsTally.js
+* Edittools[ResourceLoader|skins=vector,vector-2022,monobook,timeless|actions=edit|default|hidden]|Edittools.css|Edittools.js
+* ListingInfo[ResourceLoader|dependencies=ext.kartographer.box, ext.kartographer.dialog|default|hidden]|ListingInfo.css|ListingInfo.js
+* MapTools[ResourceLoader|dependencies=ext.kartographer.box, ext.kartographer.dialog|default|hidden]|MapTools.css|MapTools.js
+* MarkerTooltip[ResourceLoader|default|hidden]|MarkerTooltip.css|MarkerTooltip.js
+* MarkerUtilities[ResourceLoader|default|hidden]|MarkerUtilities.js
+* Poi2gpx[ResourceLoader|default|hidden]|Poi2gpx.js
+* ScrollGallery[ResourceLoader|default|hidden]|ScrollGallery.js
+* TabsSelection[ResourceLoader|default|hidden]|TabsSelection.js
+* Upload[ResourceLoader|skins=vector,vector-2022,monobook,timeless|default|hidden]|Upload.js

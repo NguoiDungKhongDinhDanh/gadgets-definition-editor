@@ -1,0 +1,8 @@
+[[Special:Gadgets]] [[Special:GadgetUsage]] [[Special:Preferences#mw-prefsection-gadgets]]
+<div style='font-family:monospace; word-break:break-all;'>
+
+== edit ==
+* HotCat[ResourceLoader|rights=edit]|HotCat.js
+* Cat-a-lot[ResourceLoader|dependencies=mediawiki.util|type=general]|Cat-a-lot.js|Cat-a-lot.css
+* CX-Template_Translated_page[ResourceLoader|dependencies=mediawiki.Title,mediawiki.api]|CX-Template_Translated_page.js
+* DotsSyntaxHighlighter[ResourceLoader]|DotsSyntaxHighlighter.js

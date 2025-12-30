@@ -1,0 +1,29 @@
+== Interface ==
+
+=== Reading ===
+* site[ResourceLoader|default|type=general]|site.js|site.css
+* ReferenceTooltips[ResourceLoader|skins=vector,vector-2022,monobook,timeless,modern,cologneblue|default|type=general]|ReferenceTooltips.js|ReferenceTooltips.css
+* IconeLinkEsterni[ResourceLoader]|IconeLinkEsterni.css
+* IndentazioneColorata[ResourceLoader]|IndentazioneColorata.css
+
+=== Editing ===
+* PulsantiBase[ResourceLoader|dependencies=ext.wikiEditor]|PulsantiBase.js
+
+== Search ==
+* CIDR[ResourceLoader]|CIDR.js
+* RicercheAvanzate[ResourceLoader]|RicercheAvanzate.js
+
+== Tools ==
+* HiddenCat[ResourceLoader|default]|HiddenCat.js
+* HotCat[ResourceLoader]|HotCat.js
+* HotCatMulti[ResourceLoader]|HotCatMulti.js
+* EsconoDaQui[ResourceLoader]|EsconoDaQui.js
+
+== Tabs ==
+* Purga[ResourceLoader|dependencies=mediawiki.util]|Purga.js
+
+== Patrolling ==
+* UMTR[ResourceLoader|dependencies=mediawiki.util]|UMTR.js
+
+== Files ==
+* ImageMap[ResourceLoader]|ImageMap.js

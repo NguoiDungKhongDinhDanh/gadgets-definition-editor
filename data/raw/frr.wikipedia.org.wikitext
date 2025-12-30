@@ -1,0 +1,6 @@
+== edittools ==
+* HotCat[ResourceLoader]|HotCat.js
+* PR-ocr[ResourceLoader]|PR-ocr.js
+<!-- funktioniert nicht
+* ocr[ResourceLoader]|ocr.js
+-->

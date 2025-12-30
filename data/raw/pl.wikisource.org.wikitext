@@ -1,0 +1,62 @@
+* lib-toolbar [ResourceLoader | dependencies=mediawiki.user, user.options | hidden] | lib-toolbar.js
+* style-summary-buttons [ResourceLoader | hidden | type=styles] | summary-buttons.css
+* gConfig [ResourceLoader | dependencies=mediawiki.cookie, mediawiki.api, mediawiki.jqueryMsg | hidden | type=general] | gConfig.js | gConfig.css
+* com-typo-pl [ResourceLoader | dependencies=mediawiki.user, user.options | hidden] | Typo-pl-common.js
+* mediawiki.toolbar [ResourceLoader | dependencies=user.options | hidden] | mediawiki.toolbar.js
+* lib-sel_t [ResourceLoader | hidden] | sel t.js
+* lib-sel_t3 [ResourceLoader | hidden] | sel t3.js
+* lib-localforage [ResourceLoader | hidden] | lib-localforage.js
+
+== browsing ==
+* Navigation popups [ResourceLoader|dependencies=mediawiki.user,mediawiki.util] | Popups-local.js
+* hideSidebar [ResourceLoader] | hideSidebar.js
+* edithysteria [ResourceLoader | dependencies=mediawiki.util] | edithysteria.js
+* quickeditcounter [ResourceLoader | dependencies=mediawiki.util] | quickeditcounter.js
+* QuickHistory [ResourceLoader | dependencies=mediawiki.util] | QuickHistory.js
+* proofread-history [ResourceLoader | dependencies=mediawiki.util] | proofread-history.js
+* enhanced-search [ResourceLoader | default | dependencies=mediawiki.util, jquery.textSelection | type=general] | enhanced-search.js | enhanced-search.css
+* iw-links [ResourceLoader | dependencies=mediawiki.util] | iw-links.js
+* iw-links-aut [ResourceLoader | dependencies=mediawiki.util] | iw-links-aut.js
+* hide-rollback  [ResourceLoader | rights=rollback | type=styles] | hide-rollback.css
+* oldreviewedpages [ResourceLoader | dependencies=mediawiki.util] | oldreviewedpages.js
+* page-numbers [ResourceLoader | default] | page-numbers.js
+* page-file-description [ResourceLoader | default | dependencies=mediawiki.util] | page-file-description.js
+* pagepurgetab [ResourceLoader | dependencies=mediawiki.util, mediawiki.api] | pagepurgetab.js
+
+== editing ==
+* OCR [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | ocr.js
+* GoogleOCR [ResourceLoader | default | rights=sendemail] | GoogleOCR.js
+* HotCat [ResourceLoader] | HotCat.js
+* QuickEdit [ResourceLoader] | QuickEdit.js
+* sk [ResourceLoader | default | dependencies=ext.gadget.lib-toolbar, mediawiki.util, ext.gadget.lib-sel_t ] | sk.js | sk-local.js
+* Typo-pl [ResourceLoader | default | dependencies=ext.gadget.lib-toolbar, ext.gadget.com-typo-pl, mediawiki.user, user.options] | Typo-pl.js
+* Typo-pl-poem [ResourceLoader | dependencies=ext.gadget.lib-toolbar, ext.gadget.com-typo-pl, mediawiki.user, user.options] | Typo-pl-poem.js
+* disFixer [ResourceLoader | dependencies=ext.gadget.gConfig, ext.gadget.mark-disambigs, mediawiki.util] | disFixer.js
+* indexGen [ResourceLoader | dependencies=mediawiki.util] | indexGen.js
+* searchbox [ResourceLoader | dependencies=ext.gadget.lib-toolbar ] | searchbox.js
+* replylinks [ResourceLoader] | replylinks-local.js
+* shortcuts [ResourceLoader | dependencies=ext.gadget.lib-sel_t3 ] | lib-shortcuts.js | shortcuts.js
+* shortcuts-dev [ResourceLoader | hidden | dependencies=ext.gadget.lib-sel_t3 ] | lib-shortcuts.js | shortcuts-dev.js
+* insert-section [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | insert-section.js
+* edit-summaries [ResourceLoader | dependencies=ext.gadget.style-summary-buttons | default] | edit-summaries.js
+* edittools [ResourceLoader | dependencies=ext.gadget.lib-toolbar] | edittools.js
+* mark-proofread [ResourceLoader | dependencies=mediawiki.util | type=general] | mark-proofread.js | mark-proofread.css
+* proofsect-to-main [ResourceLoader | dependencies=user.options | type=general] | proofsect-to-main.js
+* LegacyToolbar2006 [ResourceLoader | dependencies=ext.gadget.mediawiki.toolbar, user.options | default] | LegacyToolbar2006.js
+* DisableZoomPersistance [ResourceLoader | actions=edit] | DisableZoomPersistance.js
+* EditNext [ResourceLoader | dependencies=mediawiki.util] | EditNext.js | EditNext.css
+
+== appearance ==
+* mark-disambigs [ResourceLoader | dependencies=mediawiki.util | type=general] | mark-disambigs.js | mark-disambigs.css
+* colored-nicknames [ResourceLoader | dependencies=mediawiki.util] | colored-nicknames.js
+* newHelp [ResourceLoader | type=styles] | newHelp.css
+* colored-new-in-rc [ResourceLoader] | colored-new-in-rc.js
+* disable-animations [ResourceLoader] | disable-animations.js
+
+== admin ==
+* dynamic-ips [ResourceLoader] | dynamic-ips.js
+* delete [ResourceLoader | dependencies=mediawiki.util, ext.gadget.style-summary-buttons | rights=delete] | delete-local.js
+* revisiondelete [ResourceLoader | dependencies=mediawiki.util | rights=deleterevision | type=general] | revisiondelete.js | revisiondelete.css
+* block [ResourceLoader | dependencies=ext.gadget.style-summary-buttons | rights=block] | block-local.js
+* protect [ResourceLoader | dependencies=ext.gadget.style-summary-buttons | rights=protect] | protect-local.js
+* hide-block [ResourceLoader | rights=block | type=styles] | hide-block.css

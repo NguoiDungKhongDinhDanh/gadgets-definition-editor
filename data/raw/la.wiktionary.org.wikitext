@@ -1,0 +1,7 @@
+== Basis Victionarii ==
+
+== Aspectus paginarum ==
+* NewLook[ResourceLoader|default]|newlook.css
+
+== Adiutrices ==
+* resultListSort[ResourceLoader|dependencies=user,user.options,mediawiki.user,mediawiki.util]|resultListSort.js

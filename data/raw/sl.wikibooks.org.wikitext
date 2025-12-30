@@ -1,0 +1,10 @@
+<noinclude>'''O spremembah te strani, se prosimo najprej pogovorite [[wikiknjige:Pod lipo|Pod lipo]].'''
+
+</noinclude>
+* Navigation_popups[ResourceLoader]|popups.js|navpop.css
+* HotCat[ResourceLoader]|HotCat.js
+* purgetab[ResourceLoader|dependencies=mediawiki.util]|purgetab.js
+* wikEd[ResourceLoader]|wikEd.js
+* SearchBox[ResourceLoader]|SearchBox.js
+* edittop[ResourceLoader]|edittop.js
+* JSL[ResourceLoader]|JSL.js
